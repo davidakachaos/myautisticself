@@ -22,10 +22,13 @@ baseurl: "/myautisticself" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  davidakachaos
+logo: false
+permalink: /:year/:month/:title.html
+
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
