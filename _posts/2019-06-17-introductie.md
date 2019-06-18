@@ -2,6 +2,7 @@
 layout: post
 title: Introductie
 date: 2019-06-17 14:37 +0200
+tags: persoonlijk
 ---
 Welkom op mijn nieuwe blog. Mijn naam is David, ik ben 35 jaar oud en heb het syndroom van Asperger.
 

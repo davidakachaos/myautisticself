@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Ondergevoeligheid en autisme
+tags: persoonlijk dit-is-autisme autisme ondergevoeligheid
+date: 2019-06-18 11:33 +0200
 ---
 Sinds een jaar of vijf weet ik nu dat ik autisme heb, syndroom van Asperger. Sindsdien veel aan het zoeken geweest naar mezelf. Veel nagedacht en gesproken met mensen om me heen, experts, lotgenoten, gelijkgestemde, sceptici en begeleiders. Een van de dingen waar ik achter ben gekomen is dat een deel van mijn autisme behoorlijk onderbelicht is, namelijk ondergevoeligheid. Er is (relatief) veel bekend over overgevoeligheid, maar ondergevoeligheid moest ik zelfs aan het woordenboek toevoegen van mijn editor. 
 
@@ -33,3 +35,7 @@ Dit zijn allemaal dingen die voor buitenstaanders te herkennen zijn. Zelf ervaar
 Dit is een lastige. Anders dan mensen om me heen ervaar ik de tijd op een passieve manier. Voor mij gaat de tijd snel. Voor mij gaan uren snel over in dagen en dagen in maanden. Dit maakt het lastig om in te schatten hoelang iets al duurt of zal duren. Een tijdsplanning maken voor een dag is geen probleem, maar ik moet hier heel bewust mee bezig zijn. Daarom dat ik verschillende alarmen in mijn telefoon heb staan om mij te herinneren aan dingen. Dingen zoals avond eten, douchen en halen/brengen van de kinderen bijvoorbeeld. Ook hoelang het geleden is dat ik iemand heb gesproken ervaar ik niet als een probleem.
 
 Ik zeg vaak tegen mensen die ontmoet "Pas op, ik ben een sociale kneus. Ik kan je maanden niet spreken en dan gewoon doorgaan waar we gebleven waren!". Dat bedoel ik ook precies zo. Ik merk dat NTers (neuro-typische/"gewone" mensen) hier een zekere waarde aan hechten. Als ik iemand een aantal weken niet spreek, denken ze dat de vriendschap of het contact minder waard is geworden. Of dat ze denken dat ik minder waarde hecht aan het contact. Voor mij is dit een vreemd concept. Zoals ik er naar kijk is de waarde van het contact of de hechtheid van de vriendschap niet verminderd. Voor mij is dit hetzelfde gebleven.
+
+##Dit is mijn ondergevoeligheid
+
+Dus ondergevoeligheid en autisme. Onderbelicht en onbekend bij vele mensen. Dit is mijn kijk op het onderwerp. Het is soms moeilijk, maar zoals bij veel dingen van autisme, er is prima mee te leven. Ik ben benieuwd naar jullie ervaringen! Zijn er dingen hierin die je herkent? Zijn er vragen die je hebt naar aanleiding van deze post? Ik hoor ze graag!

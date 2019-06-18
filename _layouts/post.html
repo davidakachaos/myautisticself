@@ -17,6 +17,14 @@ layout: default
     <div class="ui horizontal divider">
         Bedankt Voor Het Lezen
     </div>
+    <div>
+        <span class="tags">Tags:
+          {% for tag in page.tags %}
+            {% capture tag_name %}{{ tag }}{% endcapture %}
+            <a href="{{site.baseurl}}/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+          {% endfor %}
+        </span>
+    </div>
     {% include author.html %}
     {% include disqus.html %}
 </div>
