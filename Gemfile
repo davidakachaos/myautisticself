@@ -23,6 +23,9 @@ group :jekyll_plugins do
   gem "github-pages"
   gem 'jekyll-compose'
   gem 'jekyll-seo-tag'
+  gem 'jemoji'
+  gem 'jekyll-email-protect'
+  gem 'jekyll-analytics'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

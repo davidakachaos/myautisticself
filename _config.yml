@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Mijn blog over mezelf als autist en mijn ervaringen met autisme. 
   Informatie en uitleg voor mensen zonder autisme, een kijk op de wereld vanuit iemand met autisme.
 baseurl: "/myautisticself" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://davidakachaos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  davidakachaos
 logo: false
@@ -33,6 +33,10 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-email-protect
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-analytics
 
 github: [metadata]
 encoding: UTF-8
@@ -44,14 +48,7 @@ jailed: false
 # theme: jekyll-theme-primer
 gfm_quirks: paragraph_end
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-429677-9         # Required - replace with your tracking id
+    anonymizeIp: false      # Optional - Default: false - set to true for anonymized tracking
