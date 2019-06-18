@@ -47,6 +47,8 @@ future: true
 jailed: false
 # theme: jekyll-theme-primer
 gfm_quirks: paragraph_end
+google_site_verification: WHeMLVU_8p80z-fEGUMt0A3fc-NVCLfFxqZX2NktdfE
+lang: nl_NL
 
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics
