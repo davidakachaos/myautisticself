@@ -36,6 +36,6 @@ Dit is een lastige. Anders dan mensen om me heen ervaar ik de tijd op een passie
 
 Ik zeg vaak tegen mensen die ontmoet "Pas op, ik ben een sociale kneus. Ik kan je maanden niet spreken en dan gewoon doorgaan waar we gebleven waren!". Dat bedoel ik ook precies zo. Ik merk dat NTers (neuro-typische/"gewone" mensen) hier een zekere waarde aan hechten. Als ik iemand een aantal weken niet spreek, denken ze dat de vriendschap of het contact minder waard is geworden. Of dat ze denken dat ik minder waarde hecht aan het contact. Voor mij is dit een vreemd concept. Zoals ik er naar kijk is de waarde van het contact of de hechtheid van de vriendschap niet verminderd. Voor mij is dit hetzelfde gebleven.
 
-##Dit is mijn ondergevoeligheid
+## Dit is mijn ondergevoeligheid
 
 Dus ondergevoeligheid en autisme. Onderbelicht en onbekend bij vele mensen. Dit is mijn kijk op het onderwerp. Het is soms moeilijk, maar zoals bij veel dingen van autisme, er is prima mee te leven. Ik ben benieuwd naar jullie ervaringen! Zijn er dingen hierin die je herkent? Zijn er vragen die je hebt naar aanleiding van deze post? Ik hoor ze graag!
