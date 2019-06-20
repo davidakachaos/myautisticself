@@ -18,6 +18,9 @@ email: davidakachaos+blog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Mijn blog over mezelf als autist en mijn ervaringen met autisme. 
   Informatie en uitleg voor mensen zonder autisme, een kijk op de wereld vanuit iemand met autisme.
+description_en: >- # this means to ignore newlines until "baseurl:"
+  My blog about myself as an autist and my experiences with autism.
+  Information and explanation for people without autism, a view of the world from someone with autism.
 baseurl: "/myautisticself" # the subpath of your site, e.g. /blog
 url: "https://davidakachaos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: WesterinkDavid
@@ -48,6 +51,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-analytics
 
+defaults:
+  -
+    scope:
+      path:            "en/**/*"
+    values:
+      sitemap:         false
+
 github: [metadata]
 encoding: UTF-8
 kramdown:
@@ -71,3 +81,4 @@ exclude:
   - Gemfile 
   - Gemfile.lock 
   - README.md
+  - Rakefile

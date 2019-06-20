@@ -23,6 +23,11 @@ img, video, iframe {
     max-width: 100%;
 }
 
+.i18nlink{
+	font-size: 0.8em;
+	font-style: oblique;
+}
+
 /* header */
 
 .header-wrapper {

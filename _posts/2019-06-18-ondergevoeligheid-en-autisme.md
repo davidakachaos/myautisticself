@@ -2,6 +2,7 @@
 layout: post
 title: Ondergevoeligheid en autisme
 tags: persoonlijk dit-is-autisme autisme ondergevoeligheid
+lang: nl
 date: 2019-06-18 11:33 +0200
 ---
 Sinds een jaar of vijf weet ik nu dat ik autisme heb, syndroom van Asperger. Sindsdien veel aan het zoeken geweest naar mezelf. Veel nagedacht en gesproken met mensen om me heen, experts, lotgenoten, gelijkgestemde, sceptici en begeleiders. Een van de dingen waar ik achter ben gekomen is dat een deel van mijn autisme behoorlijk onderbelicht is, namelijk ondergevoeligheid. Er is (relatief) veel bekend over overgevoeligheid, maar ondergevoeligheid moest ik zelfs aan het woordenboek toevoegen van mijn editor. 
