@@ -51,12 +51,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-analytics
 
-defaults:
-  -
-    scope:
-      path:            "en/**/*"
-    values:
-      sitemap:         false
+#defaults:
+#  -
+#    scope:
+#      path:            "en/**/*"
+#    values:
+#      sitemap:         false
 
 github: [metadata]
 encoding: UTF-8
