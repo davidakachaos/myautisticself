@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vermeld je tijdens een sollicitatie dat je ASS hebt?
+title: Vermeldt je tijdens een sollicitatie dat je ASS hebt?
 tags: autisme werk solliciteren
 ---
 Een vraag die wel eens gesteld wordt is of je moet vermelden tijdens het solliciteren of je meld dat je ASS hebt.
