@@ -47,6 +47,7 @@ plugins:
   - jemoji
   - jekyll-sitemap
   - jekyll-analytics
+  - liquid_reading_time
 
 github: [metadata]
 encoding: UTF-8

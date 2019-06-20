@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% capture time %}{{ content | reading_time }}{% endcapture %}
 
 <div class="post-container">
     <center>
@@ -8,7 +9,11 @@ layout: default
             {{ page.date | date_to_string }} 
             {% if page.category %} 
                 in <i>{{ page.categories }}</i>
-            {% endif %} 
+            {% endif %}
+            <br>
+            <small style="font-style: italic; font-size: 0.7em;">
+                  Het kost ongeveer {{ time }} {% if time == '1' %}minuut{% else %}minuten{% endif %} om deze post te lezen.</p>
+            </small>
         </span>
         <h1 class="post-title">{{ page.title }}</h1>
     </center>
@@ -26,5 +31,6 @@ layout: default
         </span>
     </div>
     {% include author.html %}
+    {% include related_posts.html %}
     {% include disqus.html %}
 </div>
