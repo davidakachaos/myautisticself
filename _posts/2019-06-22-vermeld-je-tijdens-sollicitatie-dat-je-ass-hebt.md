@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vermeldt je tijdens een sollicitatie dat je ASS hebt?
+title: Vermeld je tijdens een sollicitatie dat je ASS hebt?
 tags: autisme werk solliciteren
 date: 2019-06-22 12:20 +0200
 ---
