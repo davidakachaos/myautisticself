@@ -1,4 +1,4 @@
 ---
-layout: archive_en
+layout: archive
 title: Archive
 ---

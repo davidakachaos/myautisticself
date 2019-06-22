@@ -1,5 +1,5 @@
 ---
-layout: page_en
+layout: page
 title: About me
 ---
 <p> My name is David Westerink. I was born in 1984 and have Asperger's syndrome. I am also the father of two children, divorced and a software developer. </p>
