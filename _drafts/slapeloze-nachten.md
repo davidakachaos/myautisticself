@@ -34,4 +34,4 @@ Na een periode van verwerken komt er voor mij echt rust. Dan is de dag verwerkt 
 ## Orde van de nacht - Ochtendgloren
 
 Na de periode van bezinken en verwerken komt het moment van rust. Ergens in de nacht dus, voor mij dan. Als ik slaap die nacht word ik gewekt door een van mijn vele wekkers. Als ik wakker ben zie ik de zon opkomen. Tijd om koffie te zetten en aan de nieuwe dag te beginnen. Ik probeer altijd mijn dag te beginnen in een goede gemoedstoestand. En dit lukt me steeds beter.
-
+Natuurlijk zijn er momenten dat dat even niet zo goed lukt, maar ook die kan ik steeds beter accepteren. Het mag er allemaal zijn nu. Acceptatie is de eerste stap naar een gelukkiger leven.
