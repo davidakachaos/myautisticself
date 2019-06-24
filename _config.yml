@@ -42,6 +42,8 @@ jekyll_compose:
 
 # Build settings
 markdown: kramdown
+# default to safe mode, like github pages
+safe: true
 # theme: minima
 plugins:
   - jekyll-feed
