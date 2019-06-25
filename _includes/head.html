@@ -10,8 +10,8 @@
 
     <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/assets/img/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-    {% include icons.html %}
-    {% seo %}
+    {%- include icons.html -%}
+    {%- seo -%}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-429677-9"></script>
     <script>
@@ -21,8 +21,8 @@
 
       gtag('config', 'UA-429677-9');
     </script>
-    {% if site.tags != "" %}
-      {% include collecttags.html %}
-    {% endif %}
-    {% include googleadsense.html %}
+    {%- if site.tags != "" -%}
+      {%- include collecttags.html -%}
+    {%- endif -%}
+    {%- include googleadsense.html -%}
 </head>

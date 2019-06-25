@@ -25,13 +25,22 @@ baseurl: "/myautisticself" # the subpath of your site, e.g. /blog
 url: "https://davidakachaos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: WesterinkDavid
 github_username:  davidakachaos
-logo: false
+logo: /myautisticself/assets/img/logo.png
 permalink: /:year/:month/:title.html
 timezone: Europe/Amsterdam
 
 twitter:
   username: WesterinkDavid
   card: summary
+
+facebook:
+  publisher: https://www.facebook.com/myautisticself/
+
+social:
+  name: David Westerink
+  links:
+    - https://www.facebook.com/DavidWesterink1984
+    - https://www.twitter.com/WesterinkDavid
 
 author:
   name: David Westerink
