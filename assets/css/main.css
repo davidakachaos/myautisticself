@@ -139,3 +139,13 @@ main {
     font-size: 0.8em;
     font-style: italic;
 }
+
+.post-image-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.post-image-right {
+    float: right;
+    margin-left: 10px;
+}

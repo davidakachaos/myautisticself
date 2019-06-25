@@ -1,22 +1,22 @@
 <div class="ui card">
 
-<!--     {% assign foundImage = 0 %}
+    {% assign foundImage = 0 %}
     {% assign images = post.content | split:"<img" %}
     {% for image in images %}
         {% if image contains 'src' %}
             {% if foundImage == 0 %}
                 {% assign html = image | split:">" | first %}
-                <div class="image">
-                    <img {{ html }} />
-                </div> 
+                <a class="image" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | truncatewords: 15 }}">
+                    <img {{ html | replace: '"post-image-left"', '"image"' | replace: '"post-image-right"', '"image"' }} />
+                </a> 
                 {% assign foundImage = 1 %}
                 {% break %}
             {% endif %}
         {% endif %}
-    {% endfor %} -->
+    {% endfor %}
 
     <div class="content">
-        <a class="header" href="{{ site.baseurl }}{{ post.url }}">{{ post.title | strip_html | truncatewords: 15 }}</a>
+        <a class="header" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | truncatewords: 15 }}">{{ post.title | strip_html | truncatewords: 15 }}</a>
         <div class="meta">
             <span class="date">{{ post.date | date_to_string }} 
             {% if post.category %} 

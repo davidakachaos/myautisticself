@@ -2,7 +2,10 @@
 layout: post
 title: Sociale camouflage
 tags: autisme dit-is-autisme sociaal-gedrag
+date: 2019-06-25 12:01 +0200
 ---
+![Je bent veel te sociaal]({{site.baseurl}}/assets/img/je-bent-sociaal.jpg){: class="post-image-right"}
+
 "Ik merk helemaal niet dat je autisme hebt!" Klopt, als je me ontmoet herken je misschien niet meteen dat ik ASS heb. Dat heb ik geleerd te verbergen in mijn jonge jaren. Daar merkte ik namelijk al wel dat ik anders was dan andere mensen om me heen, of tenminste ik vermoedde het. Waar het precies in zat kon ik je niet vertellen, maar ik was anders. Terugkijkend (na de diagnose) waren er natuurlijk wel aanknopingspunten. Dingen waar je nu van denkt "Ja duh!"
 Maar dat was niet erg herkenbaar. En waarom? Simpel: sociale camouflage.
 

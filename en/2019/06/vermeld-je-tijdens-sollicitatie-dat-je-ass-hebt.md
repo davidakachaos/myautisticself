@@ -1,13 +1,15 @@
 ---
-layout: post_en
-title: Do you state that you have ASD during a job application?
+layout: post
+title: Vermeld je tijdens een sollicitatie dat je ASS hebt?
 tags: autisme werk solliciteren
 date: 2019-06-22 12:20 +0200
 ---
-A question that is sometimes asked is whether you should state that you have ASD when applying.
-My idea is that, in principle, you do not state that directly on your CV or in your application letter unless the company has clear experience with ASD. Or if the fact that you have ASD yourself will give you a clear advantage. Unfortunately it is true that the first selection is based on CVs and then further examined on the basis of the letter. If that is done initially, people with "something" are placed in the "maybe / not" pile.
+![Solliciteren zonder zwakte]({{site.baseurl}}/assets/img/sollicitatie.jpg){: class="post-image-right"}
 
-Ook tijdens het eerste gesprek zou ik niet direct vermelden dat je ASS hebt. Dat gesprek is meer bedoeld als een oriënterend gesprek (voor *beide* partijen). Een dergelijk gesprek is vaak bedoeld om te bepalen of de persoon op papier ook de persoon is die het gesprek voert. Tevens is het de kans voor de sollicitant om te bepalen of je baan ook is waar je naar op zoek bent.
+Een vraag die wel eens gesteld wordt is of je moet vermelden tijdens het solliciteren dat je ASS hebt.
+Mijn idee is dat je dat in principe niet direct vermeld op je CV of in je sollicitatie brief tenzij het bedrijf duidelijk ervaring heeft met ASS. Of als het feit dat je zelf ASS hebt je een duidelijk voordeel gaat opleveren. Helaas is het zo dat de eerste schifting gebeurd aan de hand van CV's en daarna aan de hand van de brief verder word gekeken. Als dat in eerste instantie word gedaan, worden mensen met "iets" op de stapel "misschien/niet" gelegd.
+
+Also during the first interview I would not immediately state that you have ASD. That conversation is intended more as an exploratory conversation (for *both* parties). Such a conversation is often intended to determine whether the person on paper is also the person who is conducting the conversation. It is also the opportunity for the applicant to determine whether your job is what you are looking for.
 
 Only when that first (acquaintance) interview has been done and you move on to a second interview, that is the best moment to indicate that you have ASD. Of course it is important to be prepared for questions. For example, whether your ASD is going to hinder you in your work. What you need to do the job well. But also where they might find more information about ASD.
 
