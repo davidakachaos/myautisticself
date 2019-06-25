@@ -27,6 +27,8 @@ group :jekyll_plugins do
   gem 'jekyll-email-protect'
   gem 'jekyll-analytics'
 end
+
+gem "rake"
 gem "jekyll-task-i18n"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
