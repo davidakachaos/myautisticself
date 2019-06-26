@@ -1,4 +1,4 @@
-{% if site.related_posts.size >= 1 %}
+<!-- {% if site.related_posts.size >= 1 %}
 <div>
   <h3>Lees ook eens:</h3>
   <ul>
@@ -8,3 +8,42 @@
   </ul>
 </div>
 {% endif %}
+-->
+<div class="relatedPosts">
+{%- if page.lang == "nl" -%}
+<h3>Lees ook eens:</h3>
+{%- else -%}
+<h3>You May Also Enjoy</h3>
+{%- endif -%}
+{% assign maxRelated = 4 %}
+{% assign minCommonTags =  1 %}
+{% assign maxRelatedCounter = 0 %}
+{% assign posts=site.posts | where:"lang", page.lang %}
+
+  {% for post in posts %}
+
+    {% assign sameTagCount = 0 %}
+    {% assign commonTags = '' %}
+
+    {% for tag in post.tags %}
+      {% if post.url != page.url %}
+        {% if page.tags contains tag %}
+          {% assign sameTagCount = sameTagCount | plus: 1 %}
+          {% capture tagmarkup %} <span class="label label-default">{{ tag }}</span> {% endcapture %}
+          {% assign commonTags = commonTags | append: tagmarkup %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% if sameTagCount >= minCommonTags %}
+      <div>
+      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+      </div>
+      {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
+      {% if maxRelatedCounter >= maxRelated %}
+        {% break %}
+      {% endif %}
+    {% endif %}
+
+  {% endfor %}
+</div>

@@ -6,13 +6,14 @@
             <h1 class="site-logo">
                 <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/logo.png" class="logo" alt="Site logo" /></a>
             </h1>
-            <h3 class="site-description">{{ site.description }}</h3>
+            <h3 class="site-description">{{ site.description[page.lang] }}</h3>
         </div>
         {% endif %}
         <nav class="site-nav">
             <div class="left-nav">
                 <!-- add titles to all buttons -->
                 <div class="ui secondary menu inverted">
+                    {%- if page.lang == "nl" -%}
                     <a class="item" href="{{ site.baseurl }}/">
                         Home
                     </a>
@@ -22,6 +23,26 @@
                     <a class="item" href="{{ site.baseurl }}/archive.html">
                         Archief
                     </a>
+                    {%- else -%}
+                    <a class="item" href="{{ site.baseurl }}/en">
+                        Home
+                    </a>
+                    <a class="item" href="{{ site.baseurl }}/en/about.html">
+                        About me
+                    </a>
+                    <a class="item" href="{{ site.baseurl }}/en/archive.html">
+                        Archive
+                    </a>
+                    {%- endif -%}
+                    View this page in:&nbsp;
+                    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+                    {% for page in pages %}
+                        <a href="{{site.baseurl}}{{ page.url }}" class="item {{ page.lang }}">{{ page.lang }}</a>
+                    {% endfor %}
+                    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+                    {% for post in posts %}
+                        <a href="{{site.baseurl}}{{ post.url }}" class="item {{ post.lang }}">{{ post.lang }}</a>
+                    {% endfor %}
                     <div class="right menu">
                         <div id="head-search" class="ui category search item">
                             <div class="ui transparent icon input">
@@ -43,7 +64,8 @@
                     </div>
                 </div>
             </div>
-            <div class="right-nav"></div>
+            <div class="right-nav">
+            </div>
         </nav>
     </header>
 </div>

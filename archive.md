@@ -1,4 +1,6 @@
 ---
 layout: archive
-title: Archive
+title: Archief
+lang: nl
+ref: archives
 ---

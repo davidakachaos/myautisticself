@@ -1,8 +1,10 @@
 ---
-layout: post_en
+layout: post
 title: Social camouflage
 tags: autisme dit-is-autisme sociaal-gedrag
 date: 2019-06-25 12:01 +0200
+lang: en
+ref: camouflage
 seo:
   links: "/myautisticself/2019/06/sociale-camouflage"
 ---

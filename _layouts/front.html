@@ -5,7 +5,8 @@ layout: default
 <!-- one, two and then four card rows -->
 <div class="ui centered grid stackable">
     {% assign counter = 0 %}
-    {% for post in site.posts %}
+    {% assign posts=site.posts | where:"lang", page.lang %}
+    {% for post in posts %}
         {% assign counter = counter | plus: 1 %}
         {% if counter == 1 %}
             <div class="eight wide column">

@@ -1,8 +1,9 @@
 ---
-layout: post_en
+layout: post
 title: Undersensitivity and Autism
 tags: persoonlijk dit-is-autisme autisme ondergevoeligheid
 lang: en
+ref: ondergevoeligheid
 date: 2019-06-18 11:33 + 0200
 ---
 Since a year or five I now know that I have autism, Asperger syndrome. Since then, much has been searching for myself. Lots of thinking and talking to people around me; experts, fellow sufferers, like-minded, skeptics and tutors. One of the things I have found out is that part of my autism is pretty underexposed, namely undersensitivity. There is (relatively) much known about hypersensitivity, but I even had to add to the dictionary of my editor. 

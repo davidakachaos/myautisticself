@@ -11,13 +11,16 @@ layout: default
             {% endif %}
             <br>
         </span>
-		<span class="i18nlink"><a href="{{ site.baseurl }}{{ page.url | prepend: "/en" }}">See this post in English!</a></span>
         <h1 class="post-title">{{ page.title }}</h1>
     </center>
     <div class="ui divider"></div>
     {{ content }}
     <div class="ui horizontal divider">
+        {%- if page.lang == "nl" -%}
         Bedankt Voor Het Lezen
+        {%- else -%}
+        Thanks for reading
+        {%- endif -%}
     </div>
     {% include share-buttons.html %}
     <div>
@@ -28,7 +31,14 @@ layout: default
           {% endfor %}
         </span>
     </div>
+    {%- if page.lang == "nl" -%}
     {% include author.html %}
     {% include related_posts.html %}
     {% include disqus.html %}
+    {%- else -%}
+    {% include author_en.html %}
+    {% include related_posts.html %}
+    {% include disqus_en.html %}
+    {%- endif -%}
+    
 </div>

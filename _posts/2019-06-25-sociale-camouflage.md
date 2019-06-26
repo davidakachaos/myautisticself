@@ -3,6 +3,8 @@ layout: post
 title: Sociale camouflage
 tags: autisme dit-is-autisme sociaal-gedrag
 date: 2019-06-25 12:01 +0200
+lang: nl
+ref: camouflage
 ---
 ![Je bent veel te sociaal]({{site.baseurl}}/assets/img/je-bent-sociaal.jpg){: class="post-image-right"}
 

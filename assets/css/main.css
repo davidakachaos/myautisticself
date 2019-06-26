@@ -149,3 +149,7 @@ main {
     float: right;
     margin-left: 10px;
 }
+
+.en:lang(en), .nl:lang(nl){
+    font-weight: bold;
+}
