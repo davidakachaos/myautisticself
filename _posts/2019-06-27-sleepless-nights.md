@@ -6,6 +6,8 @@ ref: slapeloos
 lang: en
 date: 2019-06-27 13:17 +0200
 ---
+![Beautiful night]({{site.baseurl}}/assets/img/moonnight.jpg){: class="post-image-right"}
+
 Because of my hyposensitivity, I regularly "suffer" from sleepless nights. That I am still awake at around two o'clock, seemingly in no need of sleep. Then I look at the clock and think about what I have to do the next day. If I have something to do (appointments, work, day care, children coming) I often decide to cancel the night. I do not go to sleep but I keep calm; I am sitting / watching a series or sitting at the computer.
 
 The observant reader will have seen that I have placed suffer in quotation marks. This is not a typo. I myself do not have a lot of problems with skipping 1 night (this is, however, from my experience my limit; two really can't!). As a result, I often sleep "early" the next day and also sleep well. People around me who know me better (mentors or close friends, etc.), however, notice it with me. Whether they say something is sometimes a second, but they do notice it. However, it does not stand in my way. I am functioning otherwise normal, at least normal for me :wink:

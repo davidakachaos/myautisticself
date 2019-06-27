@@ -6,6 +6,8 @@ ref: slapeloos
 lang: nl
 date: 2019-06-27 13:17 +0200
 ---
+![Prachtige nacht]({{site.baseurl}}/assets/img/moonnight.jpg){: class="post-image-right"}
+
 Door mijn ondergevoeligheid heb ik met enige regelmaat "last" van slapeloze nachten. Dat ik om een uur of twee nog wakker ben, geen behoefte aan slaap lijk te hebben. Dan kijk ik eens op de klok en bedenk me wat ik de volgende dag te doen heb. Als ik iets te doen heb (afspraken, werk, dagbesteding, kinderen die komen) dan besluit ik vaak de nacht door te halen. Ik ga niet slapen maar houd me wel rustig; ik zit/lig een serie te kijken of zit achter de computer.
 
 De opmerkzame lezer zal gezien hebben dat ik last tussen aanhalingstekens geplaatst heb. Dit is geen typ fout. Zelf heb ik namelijk niet erg veel last van 1 nacht doorhalen (dit is echter uit ervaring wel mijn limiet; twee kan echt niet!). Het heeft wel tot gevolg dat ik de dag erna vaak "vroeg" slaap en ook goed slaap. Mensen om me heen die me beter kennen (begeleiding of goede vrienden etc. merken het echter wel aan me. Of ze er wat van zeggen is soms een tweede, maar ze merken het wel. Echter mijzelf staat het niet in de weg. Ik functioneer verder normaal. Tenminste, normaal voor mij :wink:
