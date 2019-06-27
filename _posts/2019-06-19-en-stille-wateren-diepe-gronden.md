@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Stille wateren, diepe gronden
+title: Still waters run deep
 tags: autisme sociaal-gedrag dit-is-autisme
 date: 2019-06-19 20:25 +0200
 lang: en
 ref: stille-wateren
+redirect_from: /en/2019/06/stille-wateren-diepe-gronden.html
 ---
-![Stille wateren]({{site.baseurl}}/assets/img/deepwaters.jpg){: class="post-image-right"}
-"Wat kun je rustig blijven bij dit soort dingen!" zei een vriendin ooit tegen mij toen ze mij belde bij een emotioneel noodgeval. De precieze omstandigheden zijn niet belangrijk, maar de situatie was wel erg emotioneel voor haar. Zelf heb ik altijd problemen gehad met emoties. Ik vond ze maar lastig, verwarrend en vervelend. Ik kon er niet veel mee. Herkennen van mijn eigen emoties vond ik lastig, laat staan die van een ander. Echter door sociale camouflage ben ik gaan letter op uiterlijke kenmerken van emoties bij andere mensen. Huilen, luid praten, lachen, nerveus bewegen of praten enzovoorts. Dat hielp mij ten dele om emoties van andere te herkennen en er sociaal acceptabel op de reageren.
+![Still waters]({{site.baseurl}}/assets/img/deepwaters.jpg){: class="post-image-right"}
+"You can stay calm with things like this!" a friend once said to me when she called me in an emotional emergency. The precise circumstances are not important, but the situation was very emotional for her. I myself have always had problems with emotions. I found them difficult, confusing and annoying. I couldn't do much with it. I found it difficult to recognize my own emotions, let alone those of others. However, because of social camouflage, I started to refer to the external characteristics of emotions in other people. Crying, talking loudly, laughing, moving or talking nervously and so on. That helped me in part to recognize the emotions of others and to respond socially acceptable to them.
 
 But, because I couldn't do much with emotions, I sometimes just skipped them. During conversations with a friend and who are reacting emotionally to something and were discussing it with me, I am often the one who tries to get the facts on the table. This may seem insensitive, but it is not. In those conversations I try to find out what has caused the emotion. Why does someone respond to certain things as they respond?
 

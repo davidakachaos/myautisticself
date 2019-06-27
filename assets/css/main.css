@@ -153,3 +153,11 @@ main {
 .en:lang(en), .nl:lang(nl){
     font-weight: bold;
 }
+
+a.item.nl:after {
+    content: "🇳🇱";
+}
+
+a.item.en:after {
+    content: "🇬🇧";
+}

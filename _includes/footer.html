@@ -3,9 +3,15 @@
         <div class="ui secondary menu inverted">
             <p class="item">David &copy; 2019</p>
             <div class="right menu">
+                {%- if page.lang == "nl" -%}
                 <a class="item" href="{{ site.baseurl }}/archive.html">
+                    Laatste Berichten
+                </a>
+                {%- else -%}
+                <a class="item" href="{{ site.baseurl }}/en/archive.html">
                     Latest Posts
                 </a>
+                {%- endif -%}
                 <a class="item" href="https://twitter.com/{{site.twitter.username}}">
                     Twitter
                 </a>

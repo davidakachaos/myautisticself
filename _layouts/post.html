@@ -12,6 +12,13 @@ layout: default
             <br>
         </span>
         <h1 class="post-title">{{ page.title }}</h1>
+        <div>
+            <small><i>See this post in: </i></small>
+            {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+            {% for post in posts %}
+                <a href="{{site.baseurl}}{{ post.url }}" class="item {{ post.lang }}">&nbsp;</a>
+            {% endfor %}
+        </div>
     </center>
     <div class="ui divider"></div>
     {{ content }}
@@ -27,7 +34,12 @@ layout: default
         <span class="tags">Tags:
           {% for tag in page.tags %}
             {% capture tag_name %}{{ tag }}{% endcapture %}
-            <a href="{{site.baseurl}}/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+            {%- if page.lang == "nl" -%}
+            <a href="{{site.baseurl}}/tag/{{ tag_name }}">
+            {%- else -%}
+            <a href="{{site.baseurl}}/en/tag/{{ tag_name }}">
+            {%- endif -%}
+            <code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
           {% endfor %}
         </span>
     </div>

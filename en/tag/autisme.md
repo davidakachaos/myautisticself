@@ -2,6 +2,7 @@
 layout: tagpage
 title: "Tag: autisme"
 tag: autisme
-robots: noindex
+ref: tag_autisme
 lang: en
+robots: noindex
 ---

@@ -5,6 +5,9 @@ date: 2019-06-17 14:37 +0200
 tags: persoonlijk
 lang: en
 ref: intoductie
+redirect_from: 
+  - /en/2019/06/introductie.html
+  - /en/2019/06/introductie
 ---
 Welcome to my new blog. My name is David, I'm 35 years old and have Asperger's.
 

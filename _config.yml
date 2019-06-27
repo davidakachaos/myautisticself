@@ -70,6 +70,7 @@ plugins:
   - jekyll-email-protect
   - jemoji
   - jekyll-analytics
+  - jekyll-redirect-from
 
 #defaults:
 #  -

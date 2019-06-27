@@ -34,14 +34,13 @@
                         Archive
                     </a>
                     {%- endif -%}
-                    View this page in:&nbsp;
                     {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
                     {% for page in pages %}
-                        <a href="{{site.baseurl}}{{ page.url }}" class="item {{ page.lang }}">{{ page.lang }}</a>
+                        <a href="{{site.baseurl}}{{ page.url }}" class="item {{ page.lang }}">&nbsp;</a>
                     {% endfor %}
                     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
                     {% for post in posts %}
-                        <a href="{{site.baseurl}}{{ post.url }}" class="item {{ post.lang }}">{{ post.lang }}</a>
+                        <a href="{{site.baseurl}}{{ post.url }}" class="item {{ post.lang }}">&nbsp;</a>
                     {% endfor %}
                     <div class="right menu">
                         <div id="head-search" class="ui category search item">
@@ -60,7 +59,7 @@
                         <a class="item" href="https://github.com/davidakachaos">
                             <i class="github link icon"></i>
                         </a>
-                        <a class="item" href="{{ site.baseurl }}/feed.xml">Subscribe</a>
+                        <a class="item" href="{{ site.baseurl }}/feed.xml">RSS Feed</a>
                     </div>
                 </div>
             </div>

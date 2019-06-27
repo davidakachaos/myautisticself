@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 tag_generator.py
@@ -13,6 +13,8 @@ import os
 
 post_dir = "_posts/"
 tag_dir = "tag/"
+default_lang = "nl"
+extra_lang = ["en"]
 
 filenames = glob.glob(post_dir + "*md")
 
@@ -37,11 +39,17 @@ for filename in filenames:
 total_tags = set(total_tags)
 
 old_tags = glob.glob(tag_dir + "*.md")
+for lng in extra_lang:
+    old_tags += glob.glob(lng + "/" + tag_dir + "*.md")
 for tag in old_tags:
     os.remove(tag)
 
 if not os.path.exists(tag_dir):
     os.makedirs(tag_dir)
+
+for lng in extra_lang:
+    if not os.path.exists(lng + "/" + tag_dir):
+        os.makedirs(lng + "/" + tag_dir)
 
 for tag in total_tags:
     tag_filename = tag_dir + tag + ".md"
@@ -51,8 +59,17 @@ for tag in total_tags:
         + tag
         + '"\ntag: '
         + tag
+        + "\nref: tag_"
+        + tag
+        + "\nlang: "
+        + default_lang
         + "\nrobots: noindex\n---\n"
     )
     f.write(write_str)
     f.close()
+    for lng in extra_lang:
+        tag_filename = lng + "/" + tag_dir + tag + ".md"
+        f = open(tag_filename, "a")
+        f.write(write_str.replace("lang: " + default_lang, "lang: " + lng))
+        f.close()
 print("Tags generated, count", total_tags.__len__())

@@ -1,15 +1,16 @@
 ---
 layout: post
-title: Vermeld je tijdens een sollicitatie dat je ASS hebt?
+title: Do you state during your application that you have ASD?
 tags: autisme werk solliciteren
 date: 2019-06-22 12:20 +0200
 lang: en
 ref: sollicteren
+redirect_from: /en/2019/06/vermeld-je-tijdens-sollicitatie-dat-je-ass-hebt.html
 ---
-![Solliciteren zonder zwakte]({{site.baseurl}}/assets/img/sollicitatie.jpg){: class="post-image-right"}
+![Applying without weakness]({{site.baseurl}}/assets/img/sollicitatie.jpg){: class="post-image-right"}
 
-Een vraag die wel eens gesteld wordt is of je moet vermelden tijdens het solliciteren dat je ASS hebt.
-Mijn idee is dat je dat in principe niet direct vermeld op je CV of in je sollicitatie brief tenzij het bedrijf duidelijk ervaring heeft met ASS. Of als het feit dat je zelf ASS hebt je een duidelijk voordeel gaat opleveren. Helaas is het zo dat de eerste schifting gebeurd aan de hand van CV's en daarna aan de hand van de brief verder word gekeken. Als dat in eerste instantie word gedaan, worden mensen met "iets" op de stapel "misschien/niet" gelegd.
+A question that is sometimes asked is whether you should state that you have ASD when applying.
+My idea is that, in principle, you do not state that directly on your CV or in your application letter unless the company has clear experience with ASD. Or if the fact that you have ASD yourself will give you a clear advantage. Unfortunately it is true that the first selection is based on CVs and then further examined on the basis of the letter. If that is done initially, people with "something" are placed in the "maybe / not" pile.
 
 Also during the first interview I would not immediately state that you have ASD. That conversation is intended more as an exploratory conversation (for *both* parties). Such a conversation is often intended to determine whether the person on paper is also the person who is conducting the conversation. It is also the opportunity for the applicant to determine whether your job is what you are looking for.
 
