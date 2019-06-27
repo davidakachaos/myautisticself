@@ -2,6 +2,8 @@
 layout: post
 title: Slapeloze nachten
 tags: dit-is-autisme persoonlijk autisme
+ref: slapeloos
+lang: nl
 ---
 Door mijn ondergevoeligheid heb ik met enige regelmaat "last" van slapeloze nachten. Dat ik om een uur of twee nog wakker ben, geen behoefte aan slaap lijk te hebben. Dan kijk ik eens op de klok en bedenk me wat ik de volgende dag te doen heb. Als ik iets te doen heb (afspraken, werk, dagbesteding, kinderen die komen) dan besluit ik vaak de nacht door te halen. Ik ga niet slapen maar houd me wel rustig; ik zit/lig een serie te kijken of zit achter de computer.
 

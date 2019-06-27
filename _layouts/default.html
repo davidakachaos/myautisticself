@@ -1,7 +1,7 @@
 ---
 ---
 <!DOCTYPE html>
-<html lang="nl-nl">
+<html lang="{{page.lang}}">
 
 {% include head.html %}
 
@@ -24,11 +24,90 @@
     <div class="page-wrap">
         {% include header.html %}
         <main>
+          <div style="display: none;" id="lang-change-to-en" class="ui message">
+            <i class="close icon"></i>
+            <div class="header">
+              Psst...
+            </div>
+            <p>Do you want to see this page in English? <a id="change-to-en" href="">Click here to see :smile:</a></p>
+          </div>
+          <div style="display: none;" id="lang-change-to-nl" class="ui message">
+            <i class="close icon"></i>
+            <div class="header">
+              Psst...
+            </div>
+            <p>Liever deze pagina zien in het Nederlands? <a id="change-to-nl" href="">Klik hier om te bekijken :wink:</a></p>
+          </div>
+
             {{ content }}
         </main>
     </div>
     
     {% include footer.html %}
+    <script type="text/javascript">
+  var getFirstBrowserLanguage = function () {
+    var nav = window.navigator,
+    browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'],
+    i,
+    language;
+
+    // support for HTML 5.1 "navigator.languages"
+    if (Array.isArray(nav.languages)) {
+      for (i = 0; i < nav.languages.length; i++) {
+        language = nav.languages[i];
+        if (language && language.length) {
+          return language;
+        }
+      }
+    }
+
+    // support for other well known properties in browsers
+    for (i = 0; i < browserLanguagePropertyKeys.length; i++) {
+      language = nav[browserLanguagePropertyKeys[i]];
+      if (language && language.length) {
+        return language;
+      }
+    }
+
+    return null;
+  };
+  $('.message .close')
+    .on('click', function() {
+      $(this)
+        .closest('.message')
+        .transition('fade')
+      ;
+      var cook_name = $(this).closest('.message').attr('id').split('-').join('');
+      console.log('Setting cookie name to: ' + cook_name);
+      Cookies.set(cook_name, 'dontshow');
+    })
+  ;
+  var pref_lang = getFirstBrowserLanguage().split('-')[0];
+  $(document).ready(function(){
+    {%- if page.lang == "nl" -%}
+      console.log('Loading cookie langchangetoen');
+      var cook_val = Cookies.get("langchangetoen");
+      console.log('Cook val: ' + cook_val);  
+    {%- else -%}
+      console.log('Loading cookie langchangetonl');
+      var cook_val = Cookies.get("langchangetonl");
+      console.log('Cook val: ' + cook_val);
+    {%- endif -%}
+    
+    if(cook_val == 'dontshow'){
+      console.log('Dont show change anymore!');
+      return;
+    }else{
+        console.log('Setting links...')
+        $('#change-to-nl').attr("href", $('a.item.nl')[0].href);
+        $('#change-to-en').attr("href", $('a.item.en')[0].href);
+        console.log('Checking lang...');
+        if (pref_lang != "{{page.lang}}"){
+          $('#lang-change-to-' + pref_lang).show();
+        }
+    }
+  });
+</script>
 </body>
 
 </html>

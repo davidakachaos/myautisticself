@@ -2,6 +2,8 @@
 layout: post
 title: Ik ben ik, zei de gek
 tags: autisme kinderjaren dit-is-autisme
+ref: ikbenik
+lang: nl
 ---
 Jaren lang heb ik gedacht dat ik gek was. Dit was voor mij een vaststaand feit. Ik was altijd anders dan de mensen om me heen. Ik had veel problemen met het "ergens bij horen" en me aan te passen aan mensen om me heen. Zeker tijdens mijn eerste jaren op de middelbare school merkte ik dit zelf heel sterk.
 Tijdens de basisschool tijd was dit veel minder een probleem. Ik vermoed door het feit dat ik op een kleine basisschool zat, in een klein dorpje. Daardoor viel het eigenlijk minder op. Ik leek erg op mijn vader, dus zo werd mijn gedrag ook verklaard; "O, hij lijkt gewoon op zijn vader". En achteraf klopt dat ook helemaal.

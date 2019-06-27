@@ -2,6 +2,8 @@
 layout: post
 title: Eerlijkheid en andere misvattingen
 tags: autisme dit-is-autisme
+ref: post_eerlijkheid
+lang: nl
 ---
 Er bestaan genoeg misvattingen omtrend autisme. Er zijn nogal wat vooroordelen en die maken het soms lastig om met autisme om te gaan. Mensen die de diagnose op een wat latere leeftijd krijgen (dus niet als ze jonger dan 10 ofzo zijn) hebben misschien zelf al vooroordelen en misvattingen over autisme en wat het betekend om een autist te zijn. Dit heeft natuurlijk gevolgen; mensen worden minder open over hun autisme, schamen zich er soms voor en andere mensen gaan je soms vreemd behandelen als ze weten dat je autisme hebt.
 
