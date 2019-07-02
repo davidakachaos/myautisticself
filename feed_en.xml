@@ -7,6 +7,7 @@ lang: en
   <channel>
     <title>{{ site.title[page.lang] | xml_escape }}</title>
     <description>{{ site.description[page.lang] | xml_escape }}</description>
+    <language>{{page.lang}}</language>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <atom:link href="{{ "/feed_en.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
@@ -16,7 +17,7 @@ lang: en
     {% for post in posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | markdownify | strip_html | xml_escape }}</description>
+        <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>

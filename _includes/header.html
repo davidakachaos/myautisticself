@@ -59,7 +59,11 @@
                         <a class="item" href="https://github.com/davidakachaos">
                             <i class="github link icon"></i>
                         </a>
+                        {%- if page.lang == "nl" -%}
                         <a class="item" href="{{ site.baseurl }}/feed.xml">RSS Feed</a>
+                        {%- else -%}
+                        <a class="item" href="{{ site.baseurl }}/feed_en.xml">RSS Feed</a>
+                        {%- endif -%}
                     </div>
                 </div>
             </div>
