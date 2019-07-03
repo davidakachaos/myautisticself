@@ -26,6 +26,7 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'jekyll-email-protect'
   gem 'jekyll-analytics'
+  gem "jekyll-reload"
 end
 
 gem "rake"

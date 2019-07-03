@@ -12,11 +12,11 @@
 
     <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/assets/img/logo.png"/>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-    <title>{% if page.title %}{{ page.title | append: " | " | append: site.title[page.lang] | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %}</title>
-    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}{% for post in posts %}
-    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{% endfor %}
-    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
-    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
+    <title>{%- if page.title -%}{{ page.title | append: " | " | append: site.title[page.lang] | escape }}{%- else -%}{{ site.title[page.lang] | escape }}{%- endif -%}</title>
+    {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}{%- for post in posts -%}
+    <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />{%- endfor -%}
+    {%- assign pages=site.pages | where:"ref", page.ref | sort: 'lang' -%}{%- for page in pages -%}
+    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{%- endfor -%}
     <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">
 
     {%- include icons.html -%}
@@ -33,5 +33,9 @@
     {%- if site.tags != "" -%}
       {%- include collecttags.html -%}
     {%- endif -%}
+    {% if jekyll.environment == "production" %}
     {%- include googleadsense.html -%}
+    {%- else -%}
+    {%- livereload -%}
+    {%- endif -%}
 </head>

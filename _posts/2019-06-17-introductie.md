@@ -3,6 +3,7 @@ layout: post
 title: Introductie
 date: 2019-06-17 14:37 +0200
 tags: persoonlijk
+category: persoonlijk
 lang: nl
 ref: intoductie
 ---

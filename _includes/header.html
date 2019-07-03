@@ -1,14 +1,14 @@
 <div class="header-wrapper">
     <header>
         <!-- logo and description -->
-        {% if page.layout != "post" %}
+        {%- if page.layout != "post" -%}
         <div class="head-area">
             <h1 class="site-logo">
                 <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/assets/img/logo.png" class="logo" alt="Site logo" /></a>
             </h1>
             <h3 class="site-description">{{ site.description[page.lang] }}</h3>
         </div>
-        {% endif %}
+        {%- endif -%}
         <nav class="site-nav">
             <div class="left-nav">
                 <!-- add titles to all buttons -->
@@ -34,14 +34,14 @@
                         Archive
                     </a>
                     {%- endif -%}
-                    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-                    {% for page in pages %}
+                    {%- assign pages=site.pages | where:"ref", page.ref | sort: 'lang' -%}
+                    {%- for page in pages -%}
                         <a href="{{site.baseurl}}{{ page.url }}" class="item {{ page.lang }}">&nbsp;</a>
-                    {% endfor %}
-                    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-                    {% for post in posts %}
+                    {%- endfor -%}
+                    {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}
+                    {%- for post in posts -%}
                         <a href="{{site.baseurl}}{{ post.url }}" class="item {{ post.lang }}">&nbsp;</a>
-                    {% endfor %}
+                    {%- endfor -%}
                     <div class="right menu">
                         <div id="head-search" class="ui category search item">
                             <div class="ui transparent icon input">

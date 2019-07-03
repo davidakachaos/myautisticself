@@ -6,18 +6,18 @@ layout: default
     <center>
         <span class="date">
             {{ page.date | date_to_string }} 
-            {% if page.category %} 
+            {%- if page.category -%} 
                 in <i>{{ page.categories }}</i>
-            {% endif %}
+            {%- endif -%}
             <br>
         </span>
         <h1 class="post-title">{{ page.title }}</h1>
         <div>
             <small><i>See this post in: </i></small>
-            {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-            {% for post in posts %}
+            {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}
+            {%- for post in posts -%}
                 <a href="{{site.baseurl}}{{ post.url }}" class="item {{ post.lang }}">&nbsp;</a>
-            {% endfor %}
+            {%- endfor -%}
         </div>
     </center>
     <div class="ui divider"></div>
@@ -29,28 +29,28 @@ layout: default
         Thanks for reading
         {%- endif -%}
     </div>
-    {% include share-buttons.html %}
+    {%- include share-buttons.html -%}
     <div>
         <span class="tags">Tags:
-          {% for tag in page.tags %}
-            {% capture tag_name %}{{ tag }}{% endcapture %}
+          {%- for tag in page.tags -%}
+            {%- capture tag_name -%}{{ tag }}{%- endcapture -%}
             {%- if page.lang == "nl" -%}
             <a href="{{site.baseurl}}/tag/{{ tag_name }}">
             {%- else -%}
             <a href="{{site.baseurl}}/en/tag/{{ tag_name }}">
             {%- endif -%}
             <code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
-          {% endfor %}
+          {%- endfor -%}
         </span>
     </div>
     {%- if page.lang == "nl" -%}
-    {% include author.html %}
-    {% include related_posts.html %}
-    {% include disqus.html %}
+    {%- include author.html -%}
+    {%- include related_posts.html -%}
+    {%- include disqus.html -%}
     {%- else -%}
-    {% include author_en.html %}
-    {% include related_posts.html %}
-    {% include disqus_en.html %}
+    {%- include author_en.html -%}
+    {%- include related_posts.html -%}
+    {%- include disqus_en.html -%}
     {%- endif -%}
     
 </div>

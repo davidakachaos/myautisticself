@@ -7,10 +7,10 @@ layout: default
         <h1 class="post-title">{{ page.title }}</h1>
         <div>
             <small><i>See this page in: </i></small>
-            {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-            {% for post in pages %}
+            {%- assign pages=site.pages | where:"ref", page.ref | sort: 'lang' -%}
+            {%- for post in pages -%}
                 <a href="{{site.baseurl}}{{ post.url }}" class="item {{ post.lang }}">&nbsp;</a>
-            {% endfor %}
+            {%- endfor -%}
         </div>
     </center>
     <div class="ui divider"></div>
