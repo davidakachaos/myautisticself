@@ -7,7 +7,7 @@ layout: default
         <span class="date">
             {{ page.date | date_to_string }} 
             {%- if page.category -%} 
-                &nbsp;in <i>{{ page.categories }}</i>
+                &nbsp;in <a href="{{site.baseurl}}{{ page.lang | append: '/' | prepend: '/' | remove: '/nl' }}category/{{page.category}}.html" alt="{{page.category}} posts"><i>{{ page.categories }}</i></a>
             {%- endif -%}
             <br>
         </span>

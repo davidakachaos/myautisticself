@@ -1,0 +1,16 @@
+---
+layout: page
+---
+{%- assign posts=site.posts | where:"lang", page.lang -%}
+<div class="post">
+<ul>
+{%- for post in posts -%}
+  {%- if post.categories contains page.cat -%}
+  <li><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }})<br>
+    {{ post.description }}
+  </li>
+  {%- endif -%}
+{%- endfor -%}
+</ul>
+</div>
+<hr>
