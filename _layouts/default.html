@@ -112,6 +112,10 @@
         }
     }
   });
+  // Track Facebook likes
+  FB.Event.subscribe('edge.create', function(url) {
+    ga('send', 'social', 'facebook', 'like', url);
+  });
 </script>
 </body>
 
