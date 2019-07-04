@@ -23,6 +23,9 @@
                     <a class="item" href="{{ site.baseurl }}/archive.html">
                         Archief
                     </a>
+                    <a class="item" href="{{ site.baseurl }}/links-naar-andere-websites">
+                        Links
+                    </a>
                     {%- else -%}
                     <a class="item" href="{{ site.baseurl }}/en">
                         Home
@@ -32,6 +35,9 @@
                     </a>
                     <a class="item" href="{{ site.baseurl }}/en/archive.html">
                         Archive
+                    </a>
+                    <a class="item" href="{{ site.baseurl }}/links-to-other-websites">
+                        Links
                     </a>
                     {%- endif -%}
                     {%- assign pages=site.pages | where:"ref", page.ref | sort: 'lang' -%}

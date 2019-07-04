@@ -161,3 +161,8 @@ a.item.nl:after {
 a.item.en:after {
     content: "🇬🇧";
 }
+
+a:not(.item):not([href*='{{site.url}}']):not([href^='#']):not([href^='/']):after {
+    font-family: 'FontAwesome';
+    content: " \f08e";
+}
