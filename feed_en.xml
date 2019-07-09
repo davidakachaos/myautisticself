@@ -18,7 +18,7 @@ lang: en
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | truncatewords: 200 | xml_escape }}
-            &lt;a href=&quot;{{ post.url | prepend: site.baseurl | prepend: site.url }}&quot;&gt;Read more&lt>/a&gt;
+            &lt;a href=&quot;{{ post.url | prepend: site.baseurl | prepend: site.url }}&quot;&gt;Read more&lt;>/a&gt;
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>

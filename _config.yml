@@ -32,7 +32,7 @@ feed:
   en: /feed_en.xml
 
 baseurl: '' #"/myautisticself" # the subpath of your site, e.g. /blog
-url: "http://myautisticself.nl" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://myautisticself.nl" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: WesterinkDavid
 github_username:  davidakachaos
 logo: /assets/img/logo.png
