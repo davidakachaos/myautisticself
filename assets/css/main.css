@@ -166,3 +166,8 @@ a:not(.item):not([href*='{{site.url}}']):not([href^='#']):not([href^='/']):after
     font-family: 'FontAwesome';
     content: " \f08e";
 }
+
+.reading-time{
+	font-size: smaller;
+	font-style: italic;
+}

@@ -19,6 +19,7 @@ layout: default
                 <a href="{{site.baseurl}}{{ post.url }}" class="item {{ post.lang }}">&nbsp;</a>
             {%- endfor -%}
         </div>
+		{%- include read_time.html -%}
     </center>
     <div class="ui divider"></div>
     {{ content }}
