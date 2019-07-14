@@ -3,6 +3,7 @@ layout: post
 title: Stoornis? Aandoening? Ziekte?
 lang: nl
 ref: stoornis-aandoening-ziekte
+excerpt: Autisme. ASS oftewel Autisme Spectrum Stoornis. Zo wordt het genoemd. Logisch ook dat het zo genoemd word, maar ik ben het er eigenlijk niet mee eens.
 date: 2019-07-12 16:48 +0200
 ---
 ![Iedereen is uniek, maar ik ben anders](/assets/img/uniekanders.jpg){: class='ui right floated image medium'}

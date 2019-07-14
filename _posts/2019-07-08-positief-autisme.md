@@ -32,10 +32,10 @@ Iemand met Asperger heeft soms een hyperfocus tijdens het uitvoeren van een bepa
 
 Het is ook belangrijk om te ontdekken hoe dit voor je werkt en wat je omgeving dan kan doen. Als ik in een hyperfocus zit heeft het zelden zin om met mij te communiceren. Ik negeer je onbewust totaal. Belangrijk om te weten is dat dit *onbewust* is. Het is niet met een kwade bedoeling dat ik je negeer; ik merk gewoon echt niet dat je tegen mij praat! Er zijn afspraken te maken over hoe je wel communiceert tijdens een hyperfocus; bijvoorbeeld via Facebook of Whatsapp. Misschien raar als je gewoon naast me zit; maar ik hoor je niet, zie je niet en soms voel ik je niet eens. Aanraken kan leiden tot een erge schok (plots ben je verschenen, voor mij)!
 
-Maar zoals gezegd; het is ook zeker een kracht. Door helemaal op de gaan in een taak en nergens door te worden afgeleid wordt de taak ten volle van mijn potentie uitgevoerd.
+Maar zoals gezegd; het is ook zeker een kracht. Door helemaal op te gaan in een taak en nergens door te worden afgeleid wordt de taak ten volle van mijn potentie uitgevoerd.
 
 ## Voorspelbaar
-Mensen met autisme hebben behoefte aan structuur. Dit heeft een bijkomstig voordeel; ze zijn voorspelbaar. Als je je vast wilt houden aan routines is het voor de buitenwereld vaak ook makkelijker om te voorspellen wat je aan het doen bent. Dit bied een constante en een zekere voorspelbaarheid. Mensen weten waar ze aan toe zijn en hoeven haast niet meer na te denken wat je aan het doen bent.
+Mensen met autisme hebben behoefte aan structuur. Dit heeft een bijkomstig voordeel; ze zijn voorspelbaar. Als je je vast wilt houden aan routines is het voor de buitenwereld vaak ook makkelijker om te voorspellen wat je aan het doen bent. Dit biedt een constante en een zekere voorspelbaarheid. Mensen weten waar ze aan toe zijn en hoeven haast niet meer na te denken wat je aan het doen bent.
 
 Voorbeeld van jaren geleden; ik keek altijd om een bepaalde tijd naar Star Trek: The Next Generation. Dit werd op een bepaalde tijd uitgezonden op TV en ik keek hier altijd naar. Een vriend belde mij net toen een aflevering begon. Ik drukte hem weg (niet storen tijdens mijn serie!) en keek mijn aflevering. Toen de aflevering ten einde was, en de aftiteling op het scherm kwam, belde mijn vriend mij meteen. Hij zei; "Ja ik bedacht me toen je mij wegdrukte dat het tijd was voor je serie, dus ik keek in de gids en ja hoor! Dus ik wachtte maar tot het einde van de aflevering. Maar waar ik voor bel...."
 
