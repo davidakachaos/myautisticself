@@ -3,6 +3,8 @@ layout: post
 title: Pokémon Go als ijsbreker
 lang: nl
 ref: pokemon-go-ijsbreker
+date: 2019-07-16 13:11 +0200
+excerpt: Over het gebruiken van Pokémon Go als ijsbreker bij het maken van sociale contacten. De mogelijkheden tot het opdoen van nieuwe contacten en het hebben van plezier.
 ---
 ![Mijn Pokémon Go avatar](/assets/img/profiel-pokemon.png){: class='ui image medium floated right'}
 Ik speel Pokémon Go. Ja ik ben volwassen en speel Pokémon Go. Alweer even na een tijd gestopt te zijn. Waarom? Omdat het een leuk spel is. Het verbind mensen toch op een bepaalde manier met elkaar. En voor wie denkt dat het een kinderspel is; de gemiddelde leeftijd van actieve spelers ligt rond de 30. Tenminste, als ik kijk naar wie er komt opdagen bij zogenaamde raids.
@@ -26,7 +28,7 @@ Als je buiten op straat loopt, Pokémon Go aan het spelen, herken je bijna autom
 
 Maar een van de leuke dingen aan het spel is toch wel de mensen erom heen. Je ontmoet nog wel eens mensen die het spel ook spelen en daarmee heb je toch een klik. We hebben namelijk allemaal 1 ding gemeen; we spelen hetzelfde spel.
 
-De meeste Pokémon Go spelers die dagelijks spelen hebben eigen routes die ze lopen. Ze spelen in hun eigen buurt of in buurten waar ze vaak komen. Daardoor zie je dezelfde mensen vaker. Op een gegeven moment herken je elkaar, zelf zonder met elkaar gesproken te hebben.
+De meeste Pokémon Go spelers die dagelijks spelen hebben eigen routes die ze lopen. Ze spelen in hun eigen buurt of in buurten waar ze vaak komen. Daardoor zie je dezelfde mensen vaker. Op een gegeven moment herken je elkaar, zelfs zonder met elkaar gesproken te hebben.
 
 De meeste mensen zijn vriendelijk naar elkaar. Nu het spel een aantal jaar oud is, en de hype een beetje voorbij, zijn de mensen die spelen vaak vrij sociaal naar elkaar. Ze willen je best helpen met spelen en er zijn vaak Whatsapp groepen waarin Pokémon Go zaken besproken worden voor een bepaald gebied.
 
@@ -44,7 +46,7 @@ We begroeten elkaar door te vragen naar kleur van het team waarin we zaten. Dit 
 
 Twee uur later (!!) namen we afscheid van elkaar na een gesprek wat uit liep op van alles en nog wat. Het was erg interessant om zo'n toevallige ontmoeting te hebben met iemand en een dergelijk lang gesprek te hebben.
 
-## Pokémon Go verbind mensen
+## Pokémon Go verbindt mensen
 Het was in het begin van Pokémon Go een enorme rage. Mensen die eigenlijk nooit buiten kwamen, maar wel een graag spelletjes speelden, kwamen in eens de straat op. Uiteraard was het tijdens het hoogtepunt wel een beetje belachelijk hoe mensen deden. Maar het werkte wel; mensen speelde massaal samen buiten op straat een spel met elkaar.
 
 En voor mensen zoals ik was en is het een leuke manier om contacten te leggen met mensen. En het is ook nog eens goed voor mijn gezondheid! Sinds ik weer Pokémon Go speel, probeer ik de doelen te halen voor de week (5, 25 of 50 kilometer lopen bijvoorbeeld!) en ben ik regelmatig buiten.
@@ -59,7 +61,7 @@ Natuurlijk is het leukste om het spel te spelen met vrienden! De competitie met 
 Door regelmatig te spelen kom je misschien mensen tegen, maar er zijn ook genoeg Facebook groepen voor Pokémon Go. En ik heb ook mensen gezien in autisme groepen die spelen en graag mensen als vriend in het spel willen toevoegen.
 
 ![Mijn Pokémon Go QR-code](/assets/img/qrcode-pokemon.png){: class='ui image small floated right'}
-## Schaamteloze zelf promotie
+## Schaamteloze zelfpromotie
 Ik zit in team blauw, Mystic. Ik speel vooral in het noorden van het land. Wil je me toevoegen op Pokémon Go? Dat kan natuurlijk! Mijn code is: **7133 6104 4176**
 
 Misschien zie ik je eens op straat! Of in mijn vriendenlijst!
@@ -70,4 +72,4 @@ _Voetnoten:_
 
 [^1]: Plaatsen in Pokémon Go waar spullen voor het spel kunnen worden opgehaald.
 
-[^2]: Plaatsen in Pokémon Go waar om territorium gevochten word door verschillende teams.
+[^2]: Plaatsen in Pokémon Go waar om territorium gevochten wordt door verschillende teams.
