@@ -4,6 +4,7 @@ title: Pokémon Go als ijsbreker
 lang: nl
 ref: pokemon-go-ijsbreker
 date: 2019-07-16 13:11 +0200
+tags: sociaal-gedrag persoonlijk pokemon-go
 excerpt: Over het gebruiken van Pokémon Go als ijsbreker bij het maken van sociale contacten. De mogelijkheden tot het opdoen van nieuwe contacten en het hebben van plezier.
 ---
 ![Mijn Pokémon Go avatar](/assets/img/profiel-pokemon.png){: class='ui image medium floated right'}

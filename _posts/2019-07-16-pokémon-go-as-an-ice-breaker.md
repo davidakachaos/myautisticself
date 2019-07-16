@@ -4,6 +4,7 @@ title: Pokémon Go as an ice breaker
 lang: en
 ref: pokemon-go-ijsbreker
 date: 2019-07-16 13:11 +0200
+tags: sociaal-gedrag persoonlijk pokemon-go
 excerpt: About using Pokémon Go as an icebreaker in making social contacts. The possibilities for making new contacts and having fun.
 ---
 ![My Pokémon Go avatar](/assets/img/profiel-pokemon.png){: class='ui image medium floated right'}
