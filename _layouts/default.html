@@ -1,4 +1,5 @@
 ---
+layout: compress
 ---
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
@@ -112,7 +113,6 @@
         }
     }
   });
-  // Track Facebook likes
   FB.Event.subscribe('edge.create', function(url) {
     ga('send', 'social', 'facebook', 'like', url);
   });

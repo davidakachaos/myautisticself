@@ -1,9 +1,11 @@
 <head>
     <meta charset="utf-8">
+    <link rel="dns-prefetch" href="https://webjeda.disqus.com/">
+    <link rel="dns-prefetch" href="https://code.jquery.com/">
+    <link rel="dns-prefetch" href="https://downloads.mailchimp.com/">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <meta name="msvalidate.01" content="2B3B37568F562F7C3D1DD441B8744E45" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mobile.css">
@@ -21,15 +23,6 @@
 
     {%- include icons.html -%}
     {%- seo title=false -%}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-429677-9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-429677-9');
-    </script>
     {%- if site.tags != "" -%}
       {%- include collecttags.html -%}
     {%- endif -%}
