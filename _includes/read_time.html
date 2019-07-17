@@ -1,6 +1,7 @@
 {%- if page.lang == "en" -%}
 <span class="reading-time" title="Estimated read time">
-:books:
+<svg id="i-clock" style="vertical-align: middle;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" 
+  stroke-linejoin="round" stroke-width="2"><circle cx="16" cy="16" r="14" /><path d="M16 8 L16 16 20 20" /></svg>
   {% assign words = content | number_of_words %}
   {% if words < 360 %}
     1 min
@@ -9,7 +10,8 @@
   {% endif %}
 {%- else -%}
 <span class="reading-time" title="Geschatte lees tijd">
-:books:
+<svg id="i-clock" style="vertical-align: middle;" viewBox="0 0 32 32" width="15" height="15" fill="none" stroke="currentcolor" stroke-linecap="round" 
+  stroke-linejoin="round" stroke-width="2"><circle cx="16" cy="16" r="14" /><path d="M16 8 L16 16 20 20" /></svg>
   {% assign words = content | number_of_words %}
   {% if words < 360 %}
     1 minuut
