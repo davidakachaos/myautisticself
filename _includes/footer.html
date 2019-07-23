@@ -71,6 +71,53 @@
        console.log('To ' + new_src);
        this.src = new_src;
     });
+
+    $(document).ready(function(){
+        callFB();
+        subscribeFBLike();
+    });
+
+    function subscribeFBLike(){
+        if(typeof FB !== "undefined"){
+            FB.Event.subscribe('edge.create', function(url) {
+                ga('send', 'social', 'facebook', 'like', url);
+            });
+            console.log('subscribed');
+        } else{
+            setTimeout(subscribeFBLike, 250);
+            console.log('Wait for FB init');
+        }
+    }
+
+    function callFB(){
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '482973958831772', // App ID
+            // channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
+            status     : true, // check login status
+            cookie     : true, // enable cookies to allow the server to access the session
+            oauth      : false, // enable OAuth 2.0
+            xfbml      : true,  // parse XFBML
+            autoLogAppEvents: true
+          });
+
+        // Additional initialization code here
+      };
+
+      // Load the SDK Asynchronously
+      (function(d){
+         var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+         js = d.createElement('script'); js.id = id; js.async = true;
+         {%- if page.lang == "nl" -%}
+         js.src = "//connect.facebook.net/nl_NL/all.js";
+         {%- else -%}
+         js.src = "//connect.facebook.net/en_US/all.js";
+         {%- endif -%}
+         d.getElementsByTagName('head')[0].appendChild(js);
+       }(document));     
+
+
+    }
 </script>
 <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 <script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"25d2d8c9b20b892603f68fb5e","lid":"4f8fedd4d3","uniqueMethods":true}) })
