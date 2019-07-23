@@ -23,14 +23,14 @@ layout: default
         {%- else -%}
             {%- if counter == 11 -%}
                 <div class="ui horizontal divider">
-                    Older Posts
+                    Oudere Posts
                 </div>
             {%- endif -%}
             <div class="sixteen wide column">
                 <div class="ui middle aligned selection list">
                     <div class="item">
                         <div class="header">
-                            {{ post.title | strip_html | truncatewords: 15 }}
+                            <a class="header" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | truncatewords: 15 }}">{{ post.title | strip_html | truncatewords: 15 }}</a>
                             <small class="small-date">{{ post.date | date_to_string }}</small>
                         </div>
                         {{ post.content | strip_html | truncatewords: 30 }}
