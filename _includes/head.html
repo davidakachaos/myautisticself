@@ -26,7 +26,7 @@
     {%- if site.tags != "" -%}
       {%- include collecttags.html -%}
     {%- endif -%}
-    {% if jekyll.environment == "production" %}
+    {%- if jekyll.environment == "production" -%}
     {%- include googleadsense.html -%}
     {%- endif -%}
 </head>

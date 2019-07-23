@@ -3,7 +3,7 @@ let currentSearchTerm = '';
 onload = function () {
    var e = document.getElementById('search-input');
    e.oninput = changeHandler;
-   e.onpropertychange = e.oninput; // for IE8
+   e.onpropertychange = e.oninput;
     document.getElementById('search-input').addEventListener('keyup', handleKeyPress);
 };
 

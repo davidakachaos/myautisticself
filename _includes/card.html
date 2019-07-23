@@ -7,7 +7,11 @@
             {%- if foundImage == 0 -%}
                 {%- assign html = image | split:">" | first -%}
                 <a class="image" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | truncatewords: 15 }}">
+                    {%- if jekyll.environment == "development" -%}
+                    <img {{ html | replace: '"post-image-left"', '"image"' | replace: '"post-image-right"', '"image"'| replace: 'src="', 'src="//images.weserv.nl/?url=siteurl' | replace: 'siteurl', 'https://myautisticself.nl' | replace: '" alt', '&w=500&h=300&output=jpg&q=65" alt' }} />
+                    {%- else -%}
                     <img {{ html | replace: '"post-image-left"', '"image"' | replace: '"post-image-right"', '"image"' }} />
+                    {%- endif -%}
                 </a> 
                 {%- assign foundImage = 1 -%}
                 {%- break -%}

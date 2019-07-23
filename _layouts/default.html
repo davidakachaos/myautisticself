@@ -57,7 +57,7 @@ layout: compress
     i,
     language;
 
-    // support for HTML 5.1 "navigator.languages"
+    /* support for HTML 5.1 "navigator.languages" */
     if (Array.isArray(nav.languages)) {
       for (i = 0; i < nav.languages.length; i++) {
         language = nav.languages[i];
@@ -67,7 +67,7 @@ layout: compress
       }
     }
 
-    // support for other well known properties in browsers
+    /* support for other well known properties in browsers */
     for (i = 0; i < browserLanguagePropertyKeys.length; i++) {
       language = nav[browserLanguagePropertyKeys[i]];
       if (language && language.length) {
@@ -84,30 +84,22 @@ layout: compress
         .transition('fade')
       ;
       var cook_name = $(this).closest('.message').attr('id').split('-').join('');
-      console.log('Setting cookie name to: ' + cook_name);
       Cookies.set(cook_name, 'dontshow');
     })
   ;
   var pref_lang = getFirstBrowserLanguage().split('-')[0];
   $(document).ready(function(){
     {%- if page.lang == "nl" -%}
-      console.log('Loading cookie langchangetoen');
       var cook_val = Cookies.get("langchangetoen");
-      console.log('Cook val: ' + cook_val);  
     {%- else -%}
-      console.log('Loading cookie langchangetonl');
       var cook_val = Cookies.get("langchangetonl");
-      console.log('Cook val: ' + cook_val);
     {%- endif -%}
     
     if(cook_val == 'dontshow'){
-      console.log('Dont show change anymore!');
       return;
     }else{
-        console.log('Setting links...')
         $('#change-to-nl').attr("href", $('a.item.nl')[0].href);
         $('#change-to-en').attr("href", $('a.item.en')[0].href);
-        console.log('Checking lang...');
         if (pref_lang != "{{page.lang}}"){
           $('#lang-change-to-' + pref_lang).show();
         }
