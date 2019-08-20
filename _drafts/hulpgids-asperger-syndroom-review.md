@@ -4,9 +4,17 @@ layout: post
 lang: nl
 ref: hulpgids-review
 tags: autisme review asperger
+css: ".post-container { margin-left: 160px; } #aside-toc { top: 40px; height: auto !important } #markdown-toc{ list-style: none; padding-left: 10px; }"
 ---
 ![Hulpgids Asperger-syndroom]({{site.baseurl}}/assets/img/hulpgidsasperger.jpg){: class="ui image rounded"}
 Tijdens mijn vakantie heb ik het boek "Hulpgids Asperger Syndroom - De Complete Gids" van Tony Attwood gelezen. En vandaag wil ik hier een stuk over schrijven. Voorop gesteldt; dit boek werd geschreven toen de DSM-IV nog actueel was en sindsdien is de DSM-5 verschenen. Hiervoor heeft Tony Attwood een aanvulling geschreven [die via de uitgeverij te downloaden is](https://www.nieuwezijds.nl/boek/hulpgids-asperger-syndroom/special29/). Ook deze aanvulling heb ik gelezen en zal ik meenemen in mijn review van dit boek.
+
+Ik probeer per hoofdstuk te vertellen wat ongeveer de inhoud is en wat mijn beeld bij het hoofdstuk was. Dit blijkt erg uitgebreid te zijn. Daarom dat ik een inhoudsopgave heb toegevoegd aan deze post. Ik hoop dat jullie het intressant vinden! En dan nu verder naar mijn review!
+
+<aside markdown="1" id="aside-toc" class="ui sidebar inverted vertical menu visible">
+* The generated Toc will be an unordered list
+{:toc}
+</aside>
 
 # Algemene informatie
 Ik heb de zesde oplage gelezen uit 2014, de Nederlandse vertaling. Het ISBN nummer is 978 90 5712 2477. De vertaling is uitgegeven door Uitgeverij Nieuwezijds in Amsterdam. Volgens de achterkant van het boek is Tony Attwood "internationaal de grootste autoriteit op het gebied van het Asperger-syndroom".
@@ -164,14 +172,64 @@ Aan het einde van het hoofdstuk word verteld hoe de "sociale taal" tussen mensen
 # Hoofdstuk 9 - Cognitieve vaardigheden
 Hier behandeld het boek de vaardigheden van het brein. Mensen met Asperger blijken veelal op de uiteinden van het cognitieve spectrum te zitten. Ze zijn bijvoorbeeld erg goed in wiskunde, maar slecht in taal. Of ze zijn erg goed in tekenen, maar begrijpen niets van economie.
 
-# Hoofdstuk 10 - Beweging en coördinatie
-# Hoofdstuk 11 - Sensorische problemen
-# Hoofdstuk 12 - Het leven na school: studie en beroep
-# Hoofdstuk 13 - Langdurige relaties
-# Hoofdstuk 14 - Psychotherapie
-# Hoofdstuk 15 - Veel gestelde vragen
-# Aanvulling - De DSM-5
+Ook gaat het boek in op zaken als executieve functies, problemen kunnen oplossen, omgaan met fouten en lees- en rekenprestaties. Veel van deze punten vind ik erg herkenbaar bij mezelf. Het lezen gaat altijd prima, maar ik heb de nodige problemen met schrijven. Zowel omdat mijn moteriek niet geweldig is, maar ook omdat ik woordbeeld problemen heb. Dit is een zeer lichte vorm van dyslectie. Het zorgt ervoor dat ik bepaalde woorden eigenlijk altijd verkeerd schrijf. Ook valleen me spelfouten soms niet op. En grammatica is niet echt mijn ding. Daarom dat ik verschillende tools gebruik om mijn stukken te controleren voor ik ze publiceer.
 
+Maar terug naar het boek. Hier word ook gesproken over een zwakke centrale coherentie. Wat dit betekend is dat je een goed oog hebt voor detail, maar daardoor problemen hebt met het totaalbeeld zien. Zoals het door Attwood word beschreven (p 287):
+> Een nieuwe term voor dit verschijnsel is monotropisme (Murray, Lesser en Lawson, 2005). Deze term verwijst naar de ongebruikelijke manier waarop mensen met het Asperger-syndroom hun aandacht verdelen, waardoor ze grote gebieden die informatie zouden kunnen bevatten, niet congnitief registreren.
+> Dit leverd een zeer gefragmenteerd beeld van de wereld op.
+
+# Hoofdstuk 10 - Beweging en coördinatie
+Hier gaat het boek in op de motoriek en coördinatie van mensen met Asperger. Genoemd word dat ongeveer 60 procent van de kinderen met Asperger stuntelig over komt, maar onderzoek heeft aangetoond dat vrijwel alle kinderen met Asperger specifieke bewegingsstoornissen hebben. Dit geld zowel voor de fijne als de grove motoriek.
+
+Zelf herken ik dit helemaal. Zoals ik eerder al schreef heb ik de nodige problemen met schrijven. Niet alleen is mijn handschrift erg onduidelijk, maar na een korte tijd met de hand schrijven krijg ik kramp in mijn hand en kan ik geen pen meer vast houden. In het verleden heb ik veel tijd na- en voorschools doorgebracht met extra lessen schrijven. Het heeft allemaal niet geholpen. Er is zelfs een moment geweest dat mijn geschiedenis docent mij de opdracht gaf om mijn huiswerk op de computer te maken.
+Hij wist door mijn resultaten wel dat ik mijn huiswerk maakte, maar hij kon het niet controleren omdat mijn handschrift voor hem niet te lezen was. In plaats van mijn huiswerk af te keuren, moest ik het dus maken op de computer. Dit was voor mij een verademing. Het ging mede daar door dus ook uitstekend bij geschiedenis :wink:
+
+Ook met dingen als turnen tijdens gym ging het niet zo goed. Ik had ook een hekel aan aan turnen omdat ik er niet goed in was en het me erg veel moeite kostte. Tegenwoordig gaat het qua onhandigheid wel beter. Waar ik vroeger in staat was om over mijn eigen voeten te struikelen, ben ik nu alleen nog een beetje lomp soms :smile:
+
+Opvallend is het advies van Attwood in dit hoofdstuk voor kinderen op school om al hun werk te maken op de computer, omdat volgens hem schrijven achterhaald is in deze eeuw. Als ik kijk naar de school van mijn kinderen, waar ze op tablets werken, ben ik geneigd dit met hem eens te zijn. In hoeverre met de hand schrijven zal verdwijnen in de aankomende jaren is nog af te wachten, maar dat het aan het afnemen is is heel duidelijk.
+
+# Hoofdstuk 11 - Sensorische problemen
+En dan het hoofdstuk waar ik van te voren wel erg geïntresseerd in en benieuwd naar was. Hier word ingegaan op de problemen rond prikkelverwerking. Problemen met licht, geluid, aanraking en dergelijke. Zelf heb ik geschreven over [mijn prikkelverwerking]({% post_url 2019-06-18-ondergevoeligheid-en-autisme %}) en ik was heel benieuwd wat een expert op dit gebied te vertellen heeft.
+
+Helaas is het antwoord vrijwel niets. Ondergevoeligheid word zijdelings genoemd, en dan niet als een op zichzelf staand iets. Wel word het genoemd als dat mensen soms te weinig reageren op bijvoorbeeld pijn, maar dit eigenlijk in 1 adem met overgevoeligheid.
+
+Telleurstellend, maar begrijpelijk. Naar deze kant van Aspeger is nog weinig onderzoek gedaan zover ik heb begrepen. Maar het maakt wel dat ik minder herkenning vind in dit hoofdstuk. Over de genoemde problemen is heel veel te vinden op het internet. Sensorische overbelasting is een van de kenmerken van autisme, niet specifiek alleen voor Asperger.
+
+# Hoofdstuk 12 - Het leven na school: studie en beroep
+Over werken en studeren gaat dit hoofdstuk. Het behandeld zaken rond de studie keuze en hoe die studie het beste gedaan kan worden. Attwoord geeft hierbij aan dat het belangrijk is dat een vervolg opleiding wel op de hoogte word gesteld van de diagnose. Niet alleen omdat de student dan meer tijd krijgt voor bepaalde zaken, maar ook de ondersteuning kan krijgen die hij/zij nodig heeft. 
+
+Over werken en dan [met name over het soliciteren]({% post_url 2019-06-22-vermeld-je-tijdens-sollicitatie-dat-je-ass-hebt %}) heb ik een stuk geschreven. Attwood geeft ook aan dat het belangrijk is voor de werkgever om te weten van de diagnose, maar geeft ook toe dat het vooraf (in een CV of solicitatie brief) aangeven een nadeel kan zijn. Werkgevers zien vaak alleen de beperkingen en niet de sterke kanten van iemand met Asperger. 
+
+# Hoofdstuk 13 - Langdurige relaties
+Hier worden relaties besproken. Mensen met Asperger zijn volgens het boek vaak laat bloeiers, dit ligt in lijn met de sociaal emotionele ontwikkeling. Verder word gesproken over het feit dat mensen met Asperger vaak hun liefde op een meer praktische dan emotionele manier tonen.
+
+Zelf heb ik de nodige relaties achter de rug, allemaal voor mijn diagnose. Helaas liepen deze relaties om uit een lopende redenen stuk. Nu ik mijn diagnose heb, denk ik dat ik ook sterker sta in een relatie. Ik weet beter wie ik ben, wat ik kan, wat ik wil en wat ik te bieden heb. Ook ben ik me nu veel beter bewust van wat ik **NIET** kan bieden en mijn beperkingen in sociale interactie. Het hoofdstuk was voor mij zeker op bepaalde punten herkenbaar.
+
+Op het einde van het hoofdstuk word gesproken over de relatie tussen ouder en kind. Ik vind het boek behoorlijk negatief als het gaat om hoe de ouder met Asperger word neergezet. Volgens het boek zou een ouder met Asperger weinig sympatie hebben voor de kinderen, zou het veel kritiek geven en weinig complimenten en zou het nauwelijks tot geen emotionele steun bieden aan de kinderen. Ik herken dit beeld totaal niet bij mezelf. Ik vind het zelfs een soort schrikbeeld oproepen bij mensen die geen Asperger hebben. Misschien dat ik in een later blog dit onderwerp wat verder ga uitdiepen. Al met al vind ik het boek hier zeer negatief.
+
+# Hoofdstuk 14 - Psychotherapie
+In dit hoofdstuk word de behandeling met behulp van psychotherapie besproken. Een van de dingen die meteen duidelijk gemaakt word is dat het nodig is om de therapie aan te passen aan het Aspeger syndroom. Traditionele psychoanalytische therapie heeft mensen met Asperger weinig te bieden.
+
+Zelf heb ik de nodige therapieën gehad. Na de diagnose ook door mensen die ervaring hebben met Asperger. En met name die laatste hebben mij erg geholpen. Zelf heb ik veel gehad aan de lange gesprekken met therapeuten, begeleiders en psychiaters. Ze hebben mij dingen geleerd over hoe het werkt in mijn hoofd en waar dingen anders zitten dan bij neurotypische mensen.
+
+Er word in het boek aangegeven dat het soms makkelijker is voor mensen om niet in persoon therapie te hebben, maar bijvoorbeeld via het internet. Chatten, emailen of bijvoorbeeld zaken op papier zetten werkt beter voor mensen met Asperger. Als ik kijk naar de hulp die geboden word in sommige Facebook groepen waar ik lid van ben, ben ik het eens met die stelling. Zelf heb ik 1 op 1 gesprekken altijd als prettig ervaren (als ik goed in mijn vel zat), maar soms had ik ook behoefte aan het gewoon uit kunnen schrijven. Ik deed dit vaak in dichtvorm, maar dit is voor iedereen verschillend. 
+
+# Hoofdstuk 15 - Veel gestelde vragen
+In dit deel van het boek komen verschillende vragen aan de orde. Bijvoorbeeld waar het Asperger syndroom nu precies vandaan komt, begaan mensen met Asperger vaker een misdrijf (nee!) en moet je je kind inlichten over het hebben van Asperger (JA!!).
+
+Dit hoofdstuk bevat eigenlijk dingen die nergens anders in het boek paste, of die verder uitgediept worden. Ook word het verhaal van het begin (Jack die op verjaardagsvisite gaat) afgesloten.
+
+Niet heel veel te vertellen over dit deel verder. Gewoon goede antwoorden op verschillende (soms wat vreemde) vragen.
+
+# Aanvulling - De DSM-5
+Na het verschijnen van de DSM-5 was het hoofdstuk over de diagnose achterhaald. Deze was gebasseerd op de DSM-IV. Daarom dat Tony Attwood een aanvulling heeft geschreven hierover. Een van de dingen die besproken word in het boek zijn de problemen rond de DSM-IV, deze zijn voor een deel opgelost in de DSM-5.
+Echter voegt de DSM-5 alle vormen van autisme samen tot 1 stoornis, ASS.
+
+Hierover schrijft Attwood het volgende:
+> Het schrappen van de term ‘Asperger-syndroom’ zal negatief uitpakken voor het identiteitsgevoel   van   volwassenen   die   baat   hebben   gehad   bij   de   term, lotgenotengroepen hebben opgezet en toegang hebben gekregen tot literatuur en steungroepen   op   internet   op basis   van   gemeenschappelijke   kenmerken   en ervaringen.  Klinische  ervaring leert  dat  de  meeste  volwassenen  met  Asperger-syndroom en hun familieleden de term willen behouden.
+{:.lead}
+
+En ik sta hier volledig achter. Ik wil de term Asperger syndroom niet vervangen door de nieuwe officiele naam: "Autismespectrumstoornis niveau 1 zonder bijkomende  verstandelijke  beperking of taalstoornis"
 
 # Vertaling uit het Engels
 Tony Attwood is een Autstralieër. Het boek is vertaald naar het Nederlands door Marijke van der Horst. Hoewel ik het orgineel niet gelezen heb, zijn er geen vertaal fouten te herkennen. Dit is erg prettig, want dit is in sommige andere publicaties wel anders helaas. Ook als er aanvullingen nodig zijn in het Nederlands worden deze herkenbaar gedaan. De vertaling vind ik heel goed gedaan. Ook zijn er referenties gedaan naar specifieke Nederlandse zaken waar nodig.
@@ -181,7 +239,7 @@ Tony Attwood is een Autstralieër. Het boek is vertaald naar het Nederlands door
 
 Ook reist hij de wereld rond met het geven van lezingen en workshops over het Asperger syndroom. Wereldwijd staat hij bekend als een expert op dit gebied.
 
-Er zijn ook zeker kritische geluiden over hem te vinden op het internet. Zelf heb ik alleen dit boek van hem gelezen. Ik heb geen interviews bekeken, lezeningen van hem bijgewoond of workshops van hem meegemaakt. Toch las op Twitter een reactie over hem wat me deed zoeken naar kritiek en waarom dit word geuit. Ik wil duidelijk stellen dat ik alleen zijn boek hier behandel en niet de persoon zelf. Wel [link ik hier naar een stuk wat ik vond](https://nostereotypeshere.blogspot.com/2012/10/the-tony-attwood-apologist.html) in het Engels wat de kritiek beschrijft. Gezien het stuk uit 2012 stamt, maar een commentaar heeft wat aangeeft dat het nog steeds relevant is uit 2018 denk ik dat het nog steeds een relevant stuk is. Persoonlijk heb ik nog geen mening kunnen vormen over de geuitte kritiek en/of de persoon zelf. Maar ik wil wel hiermee de kritiek onderkennen en er naar verwijzen.
+Er zijn ook zeker kritische geluiden over hem te vinden op het internet. Zelf heb ik alleen dit boek van hem gelezen. Ik heb geen interviews bekeken, lezeningen van hem bijgewoond of workshops van hem meegemaakt. Toch las op Twitter een reactie over hem wat me deed zoeken naar kritiek en waarom dit word geuit. Ik wil duidelijk stellen dat ik alleen zijn boek hier behandel en niet de persoon zelf. Wel [link ik hier naar een stuk wat ik vond](https://nostereotypeshere.blogspot.com/2012/10/the-tony-attwood-apologist.html) in het Engels wat de kritiek beschrijft. Het stuk stamt uit 2012, maar een commentaar uit 2018 geeft aan dat het nog steeds relevant is. Persoonlijk heb ik nog geen mening kunnen vormen over de geuitte kritiek en/of de persoon zelf. Maar ik wil wel hiermee de kritiek onderkennen en er naar verwijzen.
 
 Dit stuk is echter bedoeld als review over het boek zelf en niet over de persoon Tony Attwood zelf.
 
