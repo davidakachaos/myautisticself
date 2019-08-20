@@ -67,7 +67,7 @@ Met name het laaste punt kan leiden tot problemen als de personages of kinderen 
 
 Depressie en zelfverwijt komt helaas veel voor bij mensen met autisme. Dat dit op jonge leeftijd al zo is, kan voor sommige mensen komen als verrassing.
 
-De laaste punten uit dit hoofdstuk zijn de voor- en nadelen van de diagnose:
+De laatste punten uit dit hoofdstuk zijn de voor- en nadelen van de diagnose:
 
 **Voordelen**
 * Voorkomen of beperken van de gevolgen van bepaalde compensatie methodes
@@ -106,7 +106,7 @@ Herhaling van situaties die op elkaar lijken en het inzicht proberen te kweken d
 
 Wat heel duidelijk word in dit hoofdstuk is dat kinderen met Asperger geleerd moet worden hoe ze zich sociaal moeten gedragen en om moeten gaan met mensen. Mensen, en zeker kinderen, die geen Asperger hebben weten haast instinctief hoe ze met andere mensen om moeten gaan. Dit sociaal inzicht is minder ontwikkeld bij mensen met Asperger. Ze hebben hier hulp bij nodig.
 
-Niet alles hoeft geleerd te worden door "te doen"! Ook boeken, films en TV series kunnen inzicht bieden in vriendschappen en relaties. Het is wel belangrijk om een "relality check" te blijven uitvoeren. Relaties in fictie worden overdreven en zijn niet altijd realistisch. Maar ze kunnen, mits goed begeleid, zeker inzicht bieden.
+Niet alles hoeft geleerd te worden door "te doen"! Ook boeken, films en TV series kunnen inzicht bieden in vriendschappen en relaties. Het is wel belangrijk om een "reality check" te blijven uitvoeren. Relaties in fictie worden overdreven en zijn niet altijd realistisch. Maar ze kunnen, mits goed begeleid, zeker inzicht bieden.
 
 # Hoofdstuk 4 - Plagen en pesten
 Zelf heb ik [al eens geschreven over mijn middelbare hel]({% post_url 2019-07-03-ik-ben-ik-zei-de-gek %}). Dit hoofdstuk behandeld een gevoelig onderwerp, de gevolgen hiervan en eventuele oplossingen. Helaas om het plagen en pesten van mensen met Asperger vaak voor. Dit omdat ze veel buiten de boot vallen. De gevolgen hiervan kunnen zeer vergaand zijn.
@@ -195,12 +195,12 @@ En dan het hoofdstuk waar ik van te voren wel erg geïntresseerd in en benieuwd 
 
 Helaas is het antwoord vrijwel niets. Ondergevoeligheid word zijdelings genoemd, en dan niet als een op zichzelf staand iets. Wel word het genoemd als dat mensen soms te weinig reageren op bijvoorbeeld pijn, maar dit eigenlijk in 1 adem met overgevoeligheid.
 
-Telleurstellend, maar begrijpelijk. Naar deze kant van Aspeger is nog weinig onderzoek gedaan zover ik heb begrepen. Maar het maakt wel dat ik minder herkenning vind in dit hoofdstuk. Over de genoemde problemen is heel veel te vinden op het internet. Sensorische overbelasting is een van de kenmerken van autisme, niet specifiek alleen voor Asperger.
+Teleurstellend, maar begrijpelijk. Naar deze kant van Aspeger is nog weinig onderzoek gedaan zover ik heb begrepen. Maar het maakt wel dat ik minder herkenning vind in dit hoofdstuk. Over de genoemde problemen is heel veel te vinden op het internet. Sensorische overbelasting is een van de kenmerken van autisme, niet specifiek alleen voor Asperger.
 
 # Hoofdstuk 12 - Het leven na school: studie en beroep
 Over werken en studeren gaat dit hoofdstuk. Het behandeld zaken rond de studie keuze en hoe die studie het beste gedaan kan worden. Attwoord geeft hierbij aan dat het belangrijk is dat een vervolg opleiding wel op de hoogte word gesteld van de diagnose. Niet alleen omdat de student dan meer tijd krijgt voor bepaalde zaken, maar ook de ondersteuning kan krijgen die hij/zij nodig heeft. 
 
-Over werken en dan [met name over het soliciteren]({% post_url 2019-06-22-vermeld-je-tijdens-sollicitatie-dat-je-ass-hebt %}) heb ik een stuk geschreven. Attwood geeft ook aan dat het belangrijk is voor de werkgever om te weten van de diagnose, maar geeft ook toe dat het vooraf (in een CV of solicitatie brief) aangeven een nadeel kan zijn. Werkgevers zien vaak alleen de beperkingen en niet de sterke kanten van iemand met Asperger. 
+Over werken en dan [met name over het solliciteren]({% post_url 2019-06-22-vermeld-je-tijdens-sollicitatie-dat-je-ass-hebt %}) heb ik een stuk geschreven. Attwood geeft ook aan dat het belangrijk is voor de werkgever om te weten van de diagnose, maar geeft ook toe dat het vooraf (in een CV of solicitatie brief) aangeven een nadeel kan zijn. Werkgevers zien vaak alleen de beperkingen en niet de sterke kanten van iemand met Asperger. 
 
 # Hoofdstuk 13 - Langdurige relaties
 Hier worden relaties besproken. Mensen met Asperger zijn volgens het boek vaak laat bloeiers, dit ligt in lijn met de sociaal emotionele ontwikkeling. Verder word gesproken over het feit dat mensen met Asperger vaak hun liefde op een meer praktische dan emotionele manier tonen.
@@ -234,7 +234,7 @@ Hierover schrijft Attwood het volgende:
 En ik sta hier volledig achter. Ik wil de term Asperger syndroom niet vervangen door de nieuwe officiele naam: "Autismespectrumstoornis niveau 1 zonder bijkomende  verstandelijke  beperking of taalstoornis"
 
 # Vertaling uit het Engels
-Tony Attwood is een Autstralieër. Het boek is vertaald naar het Nederlands door Marijke van der Horst. Hoewel ik het orgineel niet gelezen heb, zijn er geen vertaal fouten te herkennen. Dit is erg prettig, want dit is in sommige andere publicaties wel anders helaas. Ook als er aanvullingen nodig zijn in het Nederlands worden deze herkenbaar gedaan. De vertaling vind ik heel goed gedaan. Ook zijn er referenties gedaan naar specifieke Nederlandse zaken waar nodig.
+Tony Attwood is een Australieër. Het boek is vertaald naar het Nederlands door Marijke van der Horst. Hoewel ik het orgineel niet gelezen heb, zijn er geen vertaal fouten te herkennen. Dit is erg prettig, want dit is in sommige andere publicaties wel anders helaas. Ook als er aanvullingen nodig zijn in het Nederlands worden deze herkenbaar gedaan. De vertaling vind ik heel goed gedaan. Ook zijn er referenties gedaan naar specifieke Nederlandse zaken waar nodig.
 
 # Over de auteur zelf
 ![Tony Attwood]({{site.baseurl}}/assets/img/tonyattwood.png){: class="ui image rounded floated left"} Tony Attwood is een Australische wetenschapper en heeft verschillende universitaire titels. Naast schrijver en wetenschapper is hij ook directeur van een kliniek voor diagnose en behandeling van kinderen en volwassenen met het Asperger syndroom in Brisbane, Autstralië.
