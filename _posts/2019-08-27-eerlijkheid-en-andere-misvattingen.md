@@ -4,6 +4,7 @@ title: Eerlijkheid en andere misvattingen
 tags: autisme dit-is-autisme
 ref: post_eerlijkheid
 lang: nl
+date: 2019-08-27 09:10 +0200
 ---
 ![Hello Friend!]({{site.baseurl}}/assets/img/wall-e.gif){: class="ui floated right image rounded"}
 Er bestaan genoeg misvattingen over autisme. Er zijn nogal wat vooroordelen en die maken het soms lastig om met autisme om te gaan. Mensen die de diagnose op een wat latere leeftijd krijgen (dus niet als ze jonger dan tien of zo zijn) hebben misschien zelf al vooroordelen en misvattingen over autisme en wat het betekend om een autist te zijn. Dit heeft natuurlijk gevolgen; mensen worden minder open over hun autisme, schamen zich er soms voor en andere mensen gaan je soms vreemd behandelen als ze weten dat je autisme hebt.
@@ -12,7 +13,7 @@ Dus het leek me een goed onderwerp om het eens over te hebben. Er zijn genoeg vo
 
 # Autisten zijn altijd eerlijk
 Dit is deels waar. Ik ken genoeg autisten die inderdaad altijd eerlijk zijn in de meeste situaties. Het zit er niet echt in om te liegen. Tenminste, tot een bepaalde hoogte. Ik weet van mezelf dat ik best een leugen kan vertellen of dingen geheim kan houden zelfs als ik er naar gevraagd word. Echter, is het wel zo dat ik direct ben. Tenminste, volgens NT'ers. Ook dit is een uiting van autisme; direct zijn. Antwoord geven op de vraag die gesteld word, zonder dit antwoord in te kleden in "sociale wol".
-Bijvoorbeeld als er gevraagd word of een bepaald kledingstuk staat, daar ook direct een antwoord op geven: "Nee dat staat je niet" of "Ja dat staat je". Of, als iemand niet doorheeft dat er gevraagd word naar het uiterlijk vertoon; "Huh? Kleding staat niet toch?"
+Bijvoorbeeld als er gevraagd word of een bepaald kledingstuk mooi staat, daar ook direct een antwoord op geven: "Nee dat staat je niet" of "Ja dat staat je". Of, als iemand niet doorheeft dat er gevraagd word naar het uiterlijk vertoon; "Huh? Kleding staat niet toch?"
 
 Maar *altijd* eerlijk? Nee. Net als iedereen zijn autisten prima in staat om te liegen. Maar vaak zien ze de noodzaak niet om te liegen. En in sommige gevallen doen ze het uit principe niet. Let wel; hierbij spreek ik vooral uit mijn eigen ervaring met het syndroom van Asperger. Klassiek autisten liegen eigenlijk niet is mijn ervaring (for better or worse).
 
@@ -27,7 +28,7 @@ Wat ik hiermee wil zeggen is dat er zeker verschil zit tussen "emotionele" empat
 Autistische mensen zijn niet allemaal "Rainman"... We leven niet allemaal in een eigen wereld. En verlegen zijn we ook niet allemaal. Het is waar dat contact maken voor iemand met autisme een uitdaging is, maar voor sommige is het meer het behouden van dat contact. Vaak word er gedacht dat autisten verlegen zijn, omdat ze geen oogcontact maken met mensen. Dat ze vaak wegkijken tijdens gesprekken. Dit heeft echter niets te maken met verlegen zijn.
 Als ik iemand in de ogen kijk is dat voor mij een heel persoonlijk moment. En word het oncomfortabel voor mij, omdat het voor mij heel persoonlijk voelt. Ik kijk mensen af en toe aan, maar niet constant. Als ik merk tijdens een gesprek dat iemand dit vervelend vind, kijk ik niet naar de ogen, maar precies tussen de ogen in. Zo lijkt het dat ik iemand aankijk, terwijl mijn blik gefocust is op iets anders.
 
-Het aankijken van mensen is voor de meeste mensen heel normaal, maar voor autisten echt een ding.
+Het aankijken van mensen is voor de meeste mensen heel normaal, maar voor autisten niet echt een ding om te doen.
 
 # Autisme krijg je van vaccinaties
 ![Van vaccinaties krijg je geen autisme]({{site.baseurl}}/assets/img/provax.jpg){: class="ui small floated left image rounded"} Dit is een leugen die veel herhaald word door sommige organisaties en ouders die tegen vaccinatie in het algemeen zijn. Het is ook in veel wetenschappelijke onderzoeken bewezen dat het niet waar is. Het hebben van autisme is genetisch en niet via dingen als vaccinaties op te lopen.
