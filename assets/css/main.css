@@ -162,7 +162,7 @@ a.item.en:after {
     content: "🇬🇧";
 }
 
-a:not(.item):not([href*='{{site.url}}']):not([href^='#']):not([href^='/']):after {
+a:not(.item):not([href*='{{site.url}}']):not([href*='https://www.buymeacoffee.com']):not([href^='#']):not([href^='/']):after {
     font-family: 'FontAwesome';
     content: " \f08e";
 }
