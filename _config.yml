@@ -100,6 +100,7 @@ jekyll_analytics:
 exclude:
   - deploy.sh 
   - tag-generator.py 
+  - keyword-extractor.py
   - Gemfile 
   - Gemfile.lock 
   - README.md
