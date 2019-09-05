@@ -20,7 +20,10 @@
     {%- assign pages=site.pages | where:"ref", page.ref | sort: 'lang' -%}{%- for page in pages -%}
     <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{%- endfor -%}
     <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">
-
+    
+    {%- if page.keywords -%}
+    <meta name="keywords" content="{{page.keywords}}">
+    {%- endif -%}
     {%- include icons.html -%}
     {%- seo title=false -%}
     {%- if site.tags != "" -%}
