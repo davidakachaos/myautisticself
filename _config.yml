@@ -73,12 +73,15 @@ plugins:
   - jekyll-analytics
   - jekyll-redirect-from
 
-#defaults:
-#  -
-#    scope:
-#      path:            "en/**/*"
-#    values:
-#      sitemap:         false
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      lang: "nl"
+      ref: ""
+      tags: "autisme"
 
 github: [metadata]
 encoding: UTF-8
