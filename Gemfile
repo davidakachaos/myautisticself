@@ -26,7 +26,7 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'jekyll-email-protect'
   gem 'jekyll-analytics'
-  gem "jekyll-reload"
+  gem "jekyll-reload" unless Gem.win_platform?
 end
 
 gem "rake"
