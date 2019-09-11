@@ -6,7 +6,7 @@ lang: en
 tags: overprikkeling autisme ondergevoeligheid
 category: persoonlijk
 ---
-
+![Storming]({{site.baseurl}}/assets/img/storming.jpeg){: class="ui floated right image rounded"}
 Apparently I was overwhelmed the last few days. I felt "off", not good in my skin and grumpy. Apparently that was the reason for some of my own behaviors and feelings that played out. It may be a bit strange to read, but I don't really notice getting overstrung very well. What is the reason for this? Being sensitive to many things, including my own feelings and emotions.
 
 # Not noticing getting overstrung
