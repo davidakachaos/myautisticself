@@ -19,18 +19,17 @@ source "https://rubygems.org"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  gem "github-pages"
+  gem "jekyll-feed"
+  # gem "github-pages"
   gem 'jekyll-compose'
   gem 'jekyll-seo-tag'
   gem 'jemoji'
   gem 'jekyll-email-protect'
   gem 'jekyll-analytics'
-  gem "jekyll-reload"
+  # gem "jekyll-reload"
 end
 
-gem "rake"
-gem "jekyll-task-i18n"
+gem "jekyll", "~> 4.0"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
