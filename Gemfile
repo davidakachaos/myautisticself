@@ -39,3 +39,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # Fix security issue
 gem "yard", ">= 0.9.20"
+gem "activesupport", ">= 4.1.11"
