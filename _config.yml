@@ -103,7 +103,12 @@ jekyll_analytics:
 exclude:
   - deploy.sh 
   - tag-generator.py 
+  - keyword-extractor.py
+  - webready-images.sh
   - Gemfile 
   - Gemfile.lock 
   - README.md
   - Rakefile
+  - CNAME
+  - package.json
+  - yarn.lock
