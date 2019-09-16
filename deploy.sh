@@ -2,7 +2,7 @@
 # Deploy script
 
 if branch=$(git symbolic-ref --short -q HEAD);then
-  if [$branch == "master"]; then
+  if [ "$branch" == "master" ]; then
     echo 'Getting latest changes...'
     git pull --rebase origin master
   else
