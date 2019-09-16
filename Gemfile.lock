@@ -93,7 +93,6 @@ GEM
     tzinfo-data (1.2019.2)
       tzinfo (>= 1.0.0)
     unicode-display_width (1.6.0)
-    wdm (0.1.1)
     yard (0.9.20)
     zeitwerk (2.1.10)
 
@@ -111,7 +110,6 @@ DEPENDENCIES
   jekyll-seo-tag
   jemoji
   tzinfo-data
-  wdm (~> 0.1.0)
   yard (>= 0.9.20)
 
 BUNDLED WITH
