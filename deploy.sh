@@ -1,8 +1,19 @@
 #!/usr/bin/env bash
 # Deploy script
+
+if branch=$(git symbolic-ref --short -q HEAD);then
+  if [$branch == "master"]; then
+    echo 'Getting latest changes...'
+    git pull --rebase origin master
+  else
+  	echo Not on the master branch. We are on $branch so aborting!
+  	exit 1
+  fi
+fi
+
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
 	echo 'Git status not clean, aborting deploy!'
-	exit 1
+	exit 2
 fi
 echo 'Generating tags...'
 ./tag-generator.py
