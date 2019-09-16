@@ -21,6 +21,8 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
     echo 'New tags generated or old removed, adding changes to git'
     git add tag/*
     git add category/*
+    git add en/tag/*
+    git add en/category/*
     git commit -m 'Added new tags / category'
 else
     echo 'No new tags generated or old removed.'
