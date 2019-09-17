@@ -6,6 +6,7 @@ tags: persoonlijk
 category: persoonlijk
 lang: nl
 ref: intoductie
+description: Welkomsboodschap op mijn nieuwe blog
 ---
 Welkom op mijn nieuwe blog. Mijn naam is David, ik ben 35 jaar oud en heb het syndroom van Asperger.
 

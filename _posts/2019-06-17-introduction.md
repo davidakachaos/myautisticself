@@ -6,6 +6,7 @@ tags: persoonlijk
 category: persoonlijk
 lang: en
 ref: intoductie
+description: Welcome message to my new blog
 redirect_from: 
   - /en/2019/06/introductie.html
   - /en/2019/06/introductie
