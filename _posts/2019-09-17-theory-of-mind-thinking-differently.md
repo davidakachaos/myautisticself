@@ -5,6 +5,7 @@ lang: en
 tags: autisme tom dit-is-autisme
 ref: tom-anders
 date: 2019-09-17 13:10 +0200
+description: About the Theory of Mind and thinking differently than neurotypic people. This is not a defect but can be a quality.
 ---
 ![TOM - Thinking Differently]({{site.baseurl}}/assets/img/thinking-tom.jpeg){: class="ui image rounded floated right"}
 

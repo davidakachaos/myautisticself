@@ -5,6 +5,7 @@ lang: nl
 tags: autisme tom dit-is-autisme
 ref: tom-anders
 date: 2019-09-17 13:10 +0200
+description: Over de Theory of Mind en anders denken dan neurotypische mensen. Dit is geen gebrek maar kan juist een kwaliteit zijn.
 ---
 ![TOM - Anders Denken]({{site.baseurl}}/assets/img/thinking-tom.jpeg){: class="ui image rounded floated right"}
 
