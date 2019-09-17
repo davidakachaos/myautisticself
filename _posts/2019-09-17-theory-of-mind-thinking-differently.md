@@ -2,7 +2,7 @@
 layout: post
 title: Theory of Mind - Thinking Differently
 lang: en
-tags: autisme
+tags: autisme tom dit-is-autisme
 ref: tom-anders
 date: 2019-09-17 13:10 +0200
 ---
