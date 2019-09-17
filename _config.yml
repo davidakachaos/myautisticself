@@ -60,6 +60,7 @@ jekyll_compose:
     lang: nl
     tags: autisme
     ref:
+    description:
 # Build settings
 markdown: kramdown
 # default to safe mode, like github pages
