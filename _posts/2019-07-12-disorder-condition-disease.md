@@ -5,6 +5,7 @@ lang: en
 ref: stoornis-aandoening-ziekte
 date: 2019-07-12 16:48 +0200
 description: Calling Autism a disease, a disorder or even a curse is a very bad thing! I discuss my view on having autism and why Iḿ happy with it.
+image: /assets/img/uniekanders.jpg
 ---
 ![Everyone is unique, but I am different](/assets/img/uniekanders.jpg){: class='ui right floated image medium'}
 Autism. ASD or Autism Spectrum **Disorder**. That's what it's called. Logical that it is called that way, but I actually do not agree. Autism is a "pervasive developmental disorder" according to [Wikipedia](https://nl.wikipedia.org/wiki/Autisme) and all the specialists and scientists you speak about Aspergers call it a disorder, so they're right, right?

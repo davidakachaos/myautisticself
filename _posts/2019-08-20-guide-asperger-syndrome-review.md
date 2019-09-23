@@ -7,7 +7,8 @@ tags: autisme review asperger tom
 css: ".post-container { margin-left: 160px; } #aside-toc { top: 40px; height: auto
   !important } #markdown-toc{ list-style: none; padding-left: 10px; }"
 date: 2019-08-20 12:40 +0200
-description: Review of The Complete Guide To Asperger's Syndrome by Tony Attwood. My judgements and comments. 
+description: Review of The Complete Guide To Asperger's Syndrome by Tony Attwood. My judgements and comments.
+image: /assets/img/hulpgidsasperger.jpg
 ---
 ![Hulpgids Asperger-syndroom]({{site.baseurl}}/assets/img/hulpgidsasperger.jpg){: class="ui image rounded"}
 During my vacation I read the book "The Complete Guide To Asperger's Syndrome" by Tony Attwood. And today I want to write a piece about this. Put first; this book was written when the DSM-IV was still current and the DSM-5 has since appeared. Tony Attwood has written a supplement for this [that can be downloaded from the publisher](https://www.nieuwezijds.nl/boek/hulpgids-asperger-syndroom/special29/). I have also read this supplement and will include it in my review of this book.

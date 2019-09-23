@@ -6,6 +6,7 @@ ref: beelddenker
 lang: en
 date: 2019-07-23 12:19 +0200
 description: Being a visual thinker is a common thing for autistics. How is it to think in such a way?
+image: /assets/img/googleimages.jpg
 ---
 ![My mind is like Goole Images](/assets/img/googleimages.jpg){: class='ui image medium floated right'}
 I'm an visual thinker. Many people with autism are visual thinkers. When someone tells something I see it happening in my head. Sometimes it happens that I start to laugh at something someone tells, because it produces a funny video in my head.

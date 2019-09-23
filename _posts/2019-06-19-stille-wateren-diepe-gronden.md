@@ -6,6 +6,7 @@ date: 2019-06-19 20:25 +0200
 lang: nl
 ref: stille-wateren
 description: Stille wateren van mijn gedachten. Over autisme en emoties herkennen, een persoonlijk verhaal.
+image: /assets/img/deepwaters.jpg
 ---
 ![Stille wateren]({{site.baseurl}}/assets/img/deepwaters.jpg){: class="post-image-right"}
 "Wat kun je rustig blijven bij dit soort dingen!" zei een vriendin ooit tegen mij toen ze mij belde bij een emotioneel noodgeval. De precieze omstandigheden zijn niet belangrijk, maar de situatie was wel erg emotioneel voor haar. Zelf heb ik altijd problemen gehad met emoties. Ik vond ze maar lastig, verwarrend en vervelend. Ik kon er niet veel mee. Herkennen van mijn eigen emoties vond ik lastig, laat staan die van een ander. Echter door sociale camouflage ben ik gaan letter op uiterlijke kenmerken van emoties bij andere mensen. Huilen, luid praten, lachen, nerveus bewegen of praten enzovoorts. Dat hielp mij ten dele om emoties van andere te herkennen en er sociaal acceptabel op de reageren.

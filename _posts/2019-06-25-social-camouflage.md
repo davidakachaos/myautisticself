@@ -9,6 +9,7 @@ redirect_from: /en/2019/06/sociale-camouflage.html
 seo:
   links: "/myautisticself/2019/06/sociale-camouflage"
 description: Social camouflage and autism. How I duck under the radar of many people and how it influences my life.
+image: /assets/img/je-bent-sociaal.jpg
 ---
 ![You are way too social]({{site.baseurl}}/assets/img/je-bent-sociaal.jpg){: class="post-image-right"}
 

@@ -8,6 +8,7 @@ css: ".post-container { margin-left: 160px; } #aside-toc { top: 40px; height: au
   !important } #markdown-toc{ list-style: none; padding-left: 10px; }"
 date: 2019-08-20 12:40 +0200
 description: Mijn review van De Complete Hulpgids Asperger-syndroom. Mijn meningen en commentaren op alle onderdelen.
+image: /assets/img/hulpgidsasperger.jpg
 ---
 ![Hulpgids Asperger-syndroom]({{site.baseurl}}/assets/img/hulpgidsasperger.jpg){: class="ui image rounded"}
 Tijdens mijn vakantie heb ik het boek "Hulpgids Asperger Syndroom - De Complete Gids" van Tony Attwood gelezen. En vandaag wil ik hier een stuk over schrijven. Voorop gesteldt; dit boek werd geschreven toen de DSM-IV nog actueel was en sindsdien is de DSM-5 verschenen. Hiervoor heeft Tony Attwood een aanvulling geschreven [die via de uitgeverij te downloaden is](https://www.nieuwezijds.nl/boek/hulpgids-asperger-syndroom/special29/). Ook deze aanvulling heb ik gelezen en zal ik meenemen in mijn review van dit boek.

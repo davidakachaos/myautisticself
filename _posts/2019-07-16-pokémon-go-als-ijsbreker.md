@@ -6,6 +6,7 @@ ref: pokemon-go-ijsbreker
 date: 2019-07-16 13:11 +0200
 tags: sociaal-gedrag persoonlijk pokemon-go
 description: Over het gebruiken van Pokémon Go als ijsbreker bij het maken van sociale contacten. De mogelijkheden tot het opdoen van nieuwe contacten en het hebben van plezier.
+image: /assets/img/profiel-pokemon.png
 ---
 ![Mijn Pokémon Go avatar](/assets/img/profiel-pokemon.png){: class='ui image medium floated right'}
 Ik speel Pokémon Go. Ja ik ben volwassen en speel Pokémon Go. Alweer even na een tijd gestopt te zijn. Waarom? Omdat het een leuk spel is. Het verbind mensen toch op een bepaalde manier met elkaar. En voor wie denkt dat het een kinderspel is; de gemiddelde leeftijd van actieve spelers ligt rond de 30. Tenminste, als ik kijk naar wie er komt opdagen bij zogenaamde raids.

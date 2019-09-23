@@ -6,6 +6,7 @@ ref: post_eerlijkheid
 lang: nl
 date: 2019-08-27 09:10 +0200
 description: Er bestaan misvattingen rond autisme, geboren in generalisaties. Hier ga ik op een aantal daarvan in
+image: /assets/img/wall-e.gif
 ---
 ![Hello Friend!]({{site.baseurl}}/assets/img/wall-e.gif){: class="ui floated right image rounded"}
 Er bestaan genoeg misvattingen over autisme. Er zijn nogal wat vooroordelen en die maken het soms lastig om met autisme om te gaan. Mensen die de diagnose op een wat latere leeftijd krijgen (dus niet als ze jonger dan tien of zo zijn) hebben misschien zelf al vooroordelen en misvattingen over autisme en wat het betekend om een autist te zijn. Dit heeft natuurlijk gevolgen; mensen worden minder open over hun autisme, schamen zich er soms voor en andere mensen gaan je soms vreemd behandelen als ze weten dat je autisme hebt.

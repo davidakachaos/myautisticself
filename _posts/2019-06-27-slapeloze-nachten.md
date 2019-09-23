@@ -6,6 +6,7 @@ ref: slapeloos
 lang: nl
 date: 2019-06-27 13:17 +0200
 description: Nachten wakker liggen en hoe ik omga met het zijn van een nachtmens. Autisme en het missen van structuur
+image: /assets/img/moonnight.jpg
 ---
 ![Prachtige nacht]({{site.baseurl}}/assets/img/moonnight.jpg){: class="post-image-right"}
 

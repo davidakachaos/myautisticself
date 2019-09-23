@@ -6,6 +6,7 @@ tags: autisme
 ref: social-antropoloog
 date: 2019-09-02 11:13 +0200
 description: Een paraodie van een buitenaardswezen (ik) die de aarde bezoekt.
+image: /assets/img/alien-studing-earth.jpg
 ---
 ![Sociaal Antropoloog]({{site.baseurl}}/assets/img/alien-studing-earth.jpg){: class="floated right ui image rounded"}
 **==== Begin Logboek ====**

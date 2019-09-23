@@ -8,6 +8,7 @@ ref: camouflage
 redirect_from:
     - /myautisticself/2019/06/sociale-camouflage
 description: Sociale camouflage en autisme. Over hoe ik niet autistisch over kom en hoe het mijn dagelijks leven beïnvloed.
+image: /assets/img/je-bent-sociaal.jpg
 ---
 
 ![Je bent veel te sociaal]({{site.baseurl}}/assets/img/je-bent-sociaal.jpg){: class="post-image-right"}

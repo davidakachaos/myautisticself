@@ -11,6 +11,7 @@ social_pitch:
   facebook: true
   twitter: true
 description: Autisme heeft ook mooie kanten! In deze post ga ik meer in op de positieve kanten van autisme. Om ook de positieve kanten van autisme eens onder de loep te nemen en de burger wat moed te geven.
+image: /assets/img/autisme2_opti.jpg
 ---
 ![Autisme kan ook mooi zijn]({{site.baseurl}}/assets/img/autisme2_opti.jpg){: class="post-image-right ui image rounded"}
 Laten we het eens hebben over positief autisme! Veel wordt er gesproken over de negatieve kanten van autisme, de nadelen en de zaken waar mensen met autisme tegen aan lopen. Dingen die niet goed gaan. Natuurlijk is dit heel natuurlijk voor de mens om over de dingen te praten die niet goed gaan, daar willen we ons hart over luchten. Maar soms word je er moe van. Zeker in "lotgenoten" groepen op bijvoorbeeld Facebook komen er veel "negatieve" verhalen voorbij. Dit heeft vaak tot gevolg dat autisme als iets negatiefs gezien word. Als een vloek. Toch zijn er ook zeker positieve kanten aan autisme.
