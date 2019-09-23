@@ -5,6 +5,7 @@ tags: dit-is-autisme persoonlijk autisme
 ref: slapeloos
 lang: nl
 date: 2019-06-27 13:17 +0200
+description: Nachten wakker liggen en hoe ik omga met het zijn van een nachtmens. Autisme en het missen van structuur
 ---
 ![Prachtige nacht]({{site.baseurl}}/assets/img/moonnight.jpg){: class="post-image-right"}
 

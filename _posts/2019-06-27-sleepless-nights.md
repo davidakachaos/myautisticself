@@ -5,6 +5,7 @@ tags: dit-is-autisme persoonlijk autisme
 ref: slapeloos
 lang: en
 date: 2019-06-27 13:17 +0200
+description: Having sleepless nights and how I deal with those while having autism.
 ---
 ![Beautiful night]({{site.baseurl}}/assets/img/moonnight.jpg){: class="post-image-right"}
 

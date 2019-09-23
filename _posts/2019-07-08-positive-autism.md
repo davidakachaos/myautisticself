@@ -5,6 +5,7 @@ lang: en
 tags: dit-is-autisme positief autisme
 ref: positive
 date: 2019-07-08 10:25 +0200
+description: Let's take a look at the positive side of autism! The thing that are a blessing and don't make life difficult. Or how you can look at difficulties and make them your strengths
 ---
 ![Autisme kan ook mooi zijn]({{site.baseurl}}/assets/img/autisme2_opti.jpg){: class="post-image-right ui image rounded"}
 Let's talk about positive autism! There is much talk about the negative sides of autism, the disadvantages and the issues that people with autism encounter. Things that are not going well. Of course this is very natural for people to talk about things that are not going well, we want to express our heart about that. But sometimes it makes you tired. Certainly in "fellow sufferers" groups on Facebook, for example, many "negative" stories come by. This often results in autism being seen as something negative. Like a curse. Yet there are certainly positive sides to autism.

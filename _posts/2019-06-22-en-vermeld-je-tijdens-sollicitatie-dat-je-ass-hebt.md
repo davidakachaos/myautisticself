@@ -6,6 +6,7 @@ date: 2019-06-22 12:20 +0200
 lang: en
 ref: sollicteren
 redirect_from: /en/2019/06/vermeld-je-tijdens-sollicitatie-dat-je-ass-hebt.html
+description: Applying for a job and ASD. Do you let the employer know as soon as possible, or wait a bit?
 ---
 ![Applying without weakness]({{site.baseurl}}/assets/img/sollicitatie.jpg){: class="post-image-right"}
 

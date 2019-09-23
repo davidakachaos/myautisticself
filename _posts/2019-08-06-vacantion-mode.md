@@ -4,6 +4,7 @@ title: Vacantion mode
 lang: en
 ref: vakantie2019
 tags: vakantie 2019 ritme
+description: Vacation 2019! Short update post about vacation and my sense for time.
 ---
 ![Is my autisme showing?]({{site.baseurl}}/assets/img/is-my-autism-showing-5bboy5d-kids-premium-t-shirt.jpg){: class="post-image-right ui image rounded"}
 It is summer vacation. The first two weeks of my vacation I have my children on the floor. Enjoying their presence. It also helps me to stay in my rhythm. Rhythm is important for me to remain stable, but it also provides clarity and structure for the children.

@@ -5,6 +5,7 @@ lang: nl
 ref: stoornis-aandoening-ziekte
 excerpt: Autisme. ASS oftewel Autisme Spectrum Stoornis. Zo wordt het genoemd. Logisch ook dat het zo genoemd word, maar ik ben het er eigenlijk niet mee eens.
 date: 2019-07-12 16:48 +0200
+description: Autisme is geen stoornis, ziekte, aandoening of vloek. Hier ga ik in op het hebben van autisme en wat ik daarvan vind.
 ---
 ![Iedereen is uniek, maar ik ben anders](/assets/img/uniekanders.jpg){: class='ui right floated image medium'}
 Autisme. ASS oftewel Autisme Spectrum **Stoornis**. Zo wordt het genoemd. Logisch ook dat het zo genoemd word, maar ik ben het er eigenlijk niet mee eens. Autisme is een "pervasieve ontwikkelingsstoornis" volgens [Wikipedia](https://nl.wikipedia.org/wiki/Autisme) en alle specialisten en wetenschappers die je spreekt over autisme noemen het een stoornis, dus ze hebben gelijk toch?

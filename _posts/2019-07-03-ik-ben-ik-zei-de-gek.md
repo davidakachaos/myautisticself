@@ -6,6 +6,7 @@ category: persoonlijk
 ref: ikbenik
 lang: nl
 date: 2019-07-03 09:58 +0200
+description: Over opgroeien met autisme zonder dat te weten. Mijn persoonlijk verhaal over het ontdekken van mijn autisme
 ---
 ![Yes I Am Crazy - (C) Rebel Circus]({{site.baseurl}}/assets/img/yescrazy.jpg){: class="ui medium image right floated rounded"}
 Jaren lang heb ik gedacht dat ik gek was. Dit was voor mij een vaststaand feit. Ik was altijd anders dan de mensen om me heen. Ik had veel problemen met het "ergens bij horen" en me aan te passen aan mensen om me heen. Zeker tijdens mijn eerste jaren op de middelbare school merkte ik dit zelf heel sterk.

@@ -5,6 +5,7 @@ tags: autisme werk solliciteren
 date: 2019-06-22 12:20 +0200
 lang: nl
 ref: sollicteren
+description: Soliciteren en autisme. Vertel je meteen in je CV dat je autisme hebt, of vertel je dit later pas?
 ---
 ![Solliciteren zonder zwakte]({{site.baseurl}}/assets/img/sollicitatie.jpg){: class="post-image-right"}
 

@@ -6,6 +6,7 @@ category: persoonlijk
 ref: ikbenik
 lang: en
 date: 2019-07-03 09:58 +0200
+description: Growing up with autism without knowing it. How it was for me and my road to discovering my diagnosis
 ---
 ![Yes I Am Crazy - (C) Rebel Circus]({{site.baseurl}}/assets/img/yescrazy.jpg){: class="ui medium image right floated rounded"}
 For years I thought I was crazy. This was a fact for me. I was always different from the people around me. I had many problems with "belonging" and adapting to people around me. Certainly during my first years in high school I noticed this very strongly.

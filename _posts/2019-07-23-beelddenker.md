@@ -5,6 +5,7 @@ tags: autisme dit-is-autisme
 ref: beelddenker
 lang: nl
 date: 2019-07-23 12:19 +0200
+description: Denken in beelden komt veel voor bij autisten. Hoe is het om zo te denken?
 ---
 ![My mind is like Goole Images](/assets/img/googleimages.jpg){: class='ui image medium floated right'}
 Ik ben een beelddenker. Veel mensen met autisme zijn beelddenkers. Als iemand iets verteld zie ik dat in mijn hoofd gebeuren. Zo kan het soms gebeuren dat ik begin te lachen om iets wat iemand verteld, omdat het in mijn hooft een grappig filmpje oplevert.

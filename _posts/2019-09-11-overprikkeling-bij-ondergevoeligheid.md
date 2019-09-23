@@ -5,6 +5,7 @@ ref: overprik-ondergevoel
 lang: nl
 tags: overprikkeling autisme ondergevoeligheid
 category: persoonlijk
+description: Ondergevoelig zijn heeft ook gevolgen voor de overprikkeling en hoe dat ontstaat/voelt. Hier bespreek ik mijn ervaringen.
 ---
 ![Storming]({{site.baseurl}}/assets/img/storming.jpeg){: class="ui floated right image rounded"}
 Blijkbaar was ik de afgelopen dagen overprikkeld. Ik voelde me "off", niet goed in mijn vel en korzelig. Blijkbaar was dat de reden voor enkele gedragingen van mezelf en gevoelens die opspeelden. Het is misschien wat raar om te lezen, maar overprikkeling heb ik zelf niet zo goed in de gaten. Waardoor dit komt? Onder gevoelig zijn voor veel dingen, inclusief mijn eigen gevoelens en emoties.
