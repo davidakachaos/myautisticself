@@ -79,6 +79,9 @@ for tag in total_tags:
         + tag
         + "\nlang: "
         + default_lang
+        + "\ndescription: "
+        + "Tag pagina voor "
+        + tag
         + "\nrobots: noindex\n---\n"
     )
     f.write(write_str)
@@ -86,7 +89,11 @@ for tag in total_tags:
     for lng in extra_lang:
         tag_filename = lng + "/" + tag_dir + tag + ".md"
         f = open(tag_filename, "a")
-        f.write(write_str.replace("lang: " + default_lang, "lang: " + lng))
+        f.write(
+            write_str.replace("lang: " + default_lang, "lang: " + lng).replace(
+                "pagina voor", "page for"
+            )
+        )
         f.close()
 
 for cat in total_cats:
@@ -101,6 +108,9 @@ for cat in total_cats:
         + cat
         + "\nlang: "
         + default_lang
+        + "\ndescription: "
+        + "Categorie pagina voor "
+        + cat
         + "\nrobots: noindex\n---\n"
     )
     f.write(write_str)
@@ -109,9 +119,9 @@ for cat in total_cats:
         cat_filename = lng + "/" + cat_dir + cat + ".md"
         f = open(cat_filename, "a")
         f.write(
-            write_str.replace("lang: " + default_lang, "lang: " + lng).replace(
-                "title: Categorie", "title: Category"
-            )
+            write_str.replace("lang: " + default_lang, "lang: " + lng)
+            .replace("title: Categorie", "title: Category")
+            .replace("Categorie pagina voor", "Category page for")
         )
         f.close()
 
