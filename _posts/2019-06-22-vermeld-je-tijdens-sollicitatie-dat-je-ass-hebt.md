@@ -8,7 +8,7 @@ ref: sollicteren
 description: Soliciteren en autisme. Vertel je meteen in je CV dat je autisme hebt, of vertel je dit later pas?
 image: /assets/img/sollicitatie.jpg
 ---
-![Solliciteren zonder zwakte]({{site.baseurl}}/assets/img/sollicitatie.jpg){: class="post-image-right"}
+![Solliciteren zonder zwakte](/assets/img/sollicitatie.jpg){: class="post-image-right"}
 
 Een vraag die wel eens gesteld wordt is of je moet vermelden tijdens het solliciteren dat je ASS hebt.
 Mijn idee is dat je dat in principe niet direct vermeld op je CV of in je sollicitatie brief tenzij het bedrijf duidelijk ervaring heeft met ASS. Of als het feit dat je zelf ASS hebt je een duidelijk voordeel gaat opleveren. Helaas is het zo dat de eerste schifting gebeurd aan de hand van CV's en daarna aan de hand van de brief verder word gekeken. Als dat in eerste instantie word gedaan, worden mensen met "iets" op de stapel "misschien/niet" gelegd.

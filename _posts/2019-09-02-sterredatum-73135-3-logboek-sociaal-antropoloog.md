@@ -8,7 +8,7 @@ date: 2019-09-02 11:13 +0200
 description: Een paraodie van een buitenaardswezen (ik) die de aarde bezoekt.
 image: /assets/img/alien-studing-earth.jpg
 ---
-![Sociaal Antropoloog]({{site.baseurl}}/assets/img/alien-studing-earth.jpg){: class="floated right ui image rounded"}
+![Sociaal Antropoloog](/assets/img/alien-studing-earth.jpg){: class="floated right ui image rounded"}
 **==== Begin Logboek ====**
 
 Vaak heb ik me een vreemde gevoeld tussen deze wezens en vandaag is niet anders. Al 35 jaar bewoon ik deze planeet nu en heb ik geleerd. Geleerd hoe deze wezens met elkaar omgaan, wat hun beweegredenen zijn en wat geaccepteerd gedrag is. Vandaag schrijf ik mijn logboek met het idee om andere zoals ik te helpen begrijpen wat deze wezens beweegt en waarom ze zijn zoals ze zijn.

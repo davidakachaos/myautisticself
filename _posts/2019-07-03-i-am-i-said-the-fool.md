@@ -9,7 +9,7 @@ date: 2019-07-03 09:58 +0200
 description: Growing up with autism without knowing it. How it was for me and my road to discovering my diagnosis
 image: /assets/img/yescrazy.jpg
 ---
-![Yes I Am Crazy - (C) Rebel Circus]({{site.baseurl}}/assets/img/yescrazy.jpg){: class="ui medium image right floated rounded"}
+![Yes I Am Crazy - (C) Rebel Circus](/assets/img/yescrazy.jpg){: class="ui medium image right floated rounded"}
 For years I thought I was crazy. This was a fact for me. I was always different from the people around me. I had many problems with "belonging" and adapting to people around me. Certainly during my first years in high school I noticed this very strongly.
 This was much less of a problem during primary school. I suspect by the fact that I was in a small primary school, in a small village. That actually made it less noticeable. I was very much like my father, so that was how my behavior was explained; "Oh, he's just like his father". And in hindsight that is also true.
 
@@ -34,7 +34,7 @@ After my diagnosis, many things fell into place for me. And yes, then came the t
 This may sound strange to someone who has not experienced this; but it was a moment of relief for me. What I think and feel is not strange or weird or crazy; it can be there! It may seem strange to people, but now I know why. I can explain to people that I have Asperger's syndrome, that may make me think in a strange way. Or that it is partly because of that that I can adopt a somewhat rigid attitude in my beliefs. Now that I know what I have, I can understand the world better. Or actually, now I know that my view of the world is not crazy! Only different than for most people.
 
 ## Acceptance as a first step to growth
-![Self Acceptance]({{site.baseurl}}/assets/img/mirrorself.jpg){: class="ui medium image right floated rounded"}
+![Self Acceptance](/assets/img/mirrorself.jpg){: class="ui medium image right floated rounded"}
 For years I had embraced that I was crazy. But now I know I'm not crazy, just different. Other than people around me, and that's fine. By accepting myself as I am, I make steps to get to know myself better and I can explain myself better to people around me. I actually achieve two goals at the same time; I gain understanding for myself as an autist and I often receive feedback from "normal" people. Through that feedback I learn more about the world around me.
 
 I am convinced that this is the first step for every person to grow; acceptance of yourself. Unfortunately I only got to know myself late in life, but that doesn't mean I can't grow! It is the first step to growth, not the last. Autism is part of me and will never change or leave. And that's okay. That is part of me and I will have to live with it.

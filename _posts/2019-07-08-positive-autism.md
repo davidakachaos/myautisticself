@@ -8,7 +8,7 @@ date: 2019-07-08 10:25 +0200
 description: Let's take a look at the positive side of autism! The thing that are a blessing and don't make life difficult. Or how you can look at difficulties and make them your strengths
 image: /assets/img/autisme2_opti.jpg
 ---
-![Autisme kan ook mooi zijn]({{site.baseurl}}/assets/img/autisme2_opti.jpg){: class="post-image-right ui image rounded"}
+![Autisme kan ook mooi zijn](/assets/img/autisme2_opti.jpg){: class="post-image-right ui image rounded"}
 Let's talk about positive autism! There is much talk about the negative sides of autism, the disadvantages and the issues that people with autism encounter. Things that are not going well. Of course this is very natural for people to talk about things that are not going well, we want to express our heart about that. But sometimes it makes you tired. Certainly in "fellow sufferers" groups on Facebook, for example, many "negative" stories come by. This often results in autism being seen as something negative. Like a curse. Yet there are certainly positive sides to autism.
 I'm going to talk in particular about my own form of autism, Asperger's syndrome. This is because I have experience with it myself. I cannot speak from my own experience about the other forms of autism, so I don't do that either.
 
@@ -20,7 +20,7 @@ These days I express my thoughts about things. I didn't do that before. I though
 ## Honest and direct
 People with autism do less often to turn things around or to bring something careful. It is often a relief for people to hear a "real" opinion from someone. Just as it is, and not wrapped in careful words. It is true that this is sometimes described as "cold", "blunt" or "unsympathetic" for people. However, if someone wants to know a clear opinion, without compromise, then they are usually at the right address with an autist.
 
-![Different view, same bricks]({{site.baseurl}}/assets/img/difbutsame.jpg){: class="post-image-left ui image"} 
+![Different view, same bricks](/assets/img/difbutsame.jpg){: class="post-image-left ui image"} 
 ## Attention to detail
 Most people with autism / Asperger have a good eye for detail. Sometimes their things stand out that others overlook. Although they sometimes miss essentials because of this, they again see the small details that other people have not noticed. As a result, they can, for example, be good at drawing or in precise subjects. They can also describe and view things in detail.
 

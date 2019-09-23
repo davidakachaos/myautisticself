@@ -8,7 +8,7 @@ date: 2019-09-02 11:13 +0200
 description: A paraody of a alien (me) visiting earth
 image: /assets/img/alien-studing-earth.jpg
 ---
-![Sociaal Antropoloog]({{site.baseurl}}/assets/img/alien-studing-earth.jpg){: class="floated right ui image rounded"}
+![Sociaal Antropoloog](/assets/img/alien-studing-earth.jpg){: class="floated right ui image rounded"}
 **==== Start Log ====**
 
 I have often felt a stranger among these beings and today is no different. I have been inhabiting this planet for 35 years now and have learned. Learned how these beings interact with each other, what their motives are and what accepted behavior is. Today I write my logbook with the idea to help others like me understand what moves these beings and why they are the way they are.

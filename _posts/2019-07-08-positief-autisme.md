@@ -13,7 +13,7 @@ social_pitch:
 description: Autisme heeft ook mooie kanten! In deze post ga ik meer in op de positieve kanten van autisme. Om ook de positieve kanten van autisme eens onder de loep te nemen en de burger wat moed te geven.
 image: /assets/img/autisme2_opti.jpg
 ---
-![Autisme kan ook mooi zijn]({{site.baseurl}}/assets/img/autisme2_opti.jpg){: class="post-image-right ui image rounded"}
+![Autisme kan ook mooi zijn](/assets/img/autisme2_opti.jpg){: class="post-image-right ui image rounded"}
 Laten we het eens hebben over positief autisme! Veel wordt er gesproken over de negatieve kanten van autisme, de nadelen en de zaken waar mensen met autisme tegen aan lopen. Dingen die niet goed gaan. Natuurlijk is dit heel natuurlijk voor de mens om over de dingen te praten die niet goed gaan, daar willen we ons hart over luchten. Maar soms word je er moe van. Zeker in "lotgenoten" groepen op bijvoorbeeld Facebook komen er veel "negatieve" verhalen voorbij. Dit heeft vaak tot gevolg dat autisme als iets negatiefs gezien word. Als een vloek. Toch zijn er ook zeker positieve kanten aan autisme.
 Ik ga het met name hebben over mijn eigen vorm van autisme, het syndroom van Asperger. Dit omdat ik daarmee zelf ervaring heb. Ik kan niet uit eigen ervaring spreken over de andere vormen van autisme, dus dat doe ik ook niet.
 
@@ -25,7 +25,7 @@ Tegenwoordig spreek ik mijn gedachten over dingen uit. Eerder deed ik dat niet. 
 ## Eerlijk en direct
 Om de zaak heendraaien, of iets voorzichtig brengen, doen mensen met autisme minder vaak. Het is vaak een verademing voor mensen om een "echte" mening te horen van iemand. Gewoon zoals het is, en niet ingepakt in voorzichtige woorden. Het is waar dat dit soms voor mensen als "koud", "bot" of "onsympathiek" word beschreven. Echter als iemand een duidelijke mening wil weten, zonder compromis, dan zijn ze bij een autist meestal aan het juiste adres.
 
-![Different view, same bricks]({{site.baseurl}}/assets/img/difbutsame.jpg){: class="post-image-left ui image"} 
+![Different view, same bricks](/assets/img/difbutsame.jpg){: class="post-image-left ui image"} 
 ## Oog voor detail
 De meeste mensen met autisme/Asperger hebben een goed oog voor detail. Soms valt hun dingen op die andere over het hoofd zien. Ondanks dat ze daardoor soms hoofdzaken missen, zien ze wel weer de kleine details die andere mensen niet zijn opgevallen. Daardoor kunnen ze bijvoorbeeld goed zijn in tekenen of in precieze vakken. Ook kunnen ze dingen tot in detail beschrijven en bekijken.
 

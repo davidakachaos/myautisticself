@@ -7,7 +7,7 @@ tags: vakantie 2019 ritme
 description: Vakantie 2019! Korte update over mijn vakantie en tijdbesef
 image: /assets/img/is-my-autism-showing-5bboy5d-kids-premium-t-shirt.jpg
 ---
-![Wat? Zie je mijn autisme?]({{site.baseurl}}/assets/img/is-my-autism-showing-5bboy5d-kids-premium-t-shirt.jpg){: class="post-image-right ui image rounded"}
+![Wat? Zie je mijn autisme?](/assets/img/is-my-autism-showing-5bboy5d-kids-premium-t-shirt.jpg){: class="post-image-right ui image rounded"}
 Het is zomervakantie. De eerste twee weken van mijn vakantie heb ik mijn kinderen over de vloer. Heerlijk genieten van hun aanwezigheid. Het helpt me ook goed om in mijn ritme te blijven. Ritme is voor mij belangrijk om stabiel te blijven, maar ook voor de kinderen biedt het duidelijkheid en structuur.
 
 # In de vakantie modus

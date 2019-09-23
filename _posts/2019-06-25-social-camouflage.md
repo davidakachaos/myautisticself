@@ -11,7 +11,7 @@ seo:
 description: Social camouflage and autism. How I duck under the radar of many people and how it influences my life.
 image: /assets/img/je-bent-sociaal.jpg
 ---
-![You are way too social]({{site.baseurl}}/assets/img/je-bent-sociaal.jpg){: class="post-image-right"}
+![You are way too social](/assets/img/je-bent-sociaal.jpg){: class="post-image-right"}
 
 "I don't notice that you have autism!" True, if you meet me you may not immediately recognize that I have ASD. I learned to hide that in my younger years. I already noticed that I was different from other people around me, or at least I suspected it. I couldn't tell you exactly what it was in, but I was different. Looking back (after the diagnosis) there were of course leads. Things you think about now "Yes duh!" But that were not very recognizable. And why? Simple: social camouflage.
 

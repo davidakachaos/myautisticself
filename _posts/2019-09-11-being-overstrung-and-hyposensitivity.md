@@ -8,7 +8,7 @@ category: persoonlijk
 description: Hyposensitivity has concequences for the feelings off being overstrung and how those come about. Here I'm trying to describe my expierences with these things.
 image: /assets/img/storming.jpeg
 ---
-![Storming]({{site.baseurl}}/assets/img/storming.jpeg){: class="ui floated right image rounded"}
+![Storming](/assets/img/storming.jpeg){: class="ui floated right image rounded"}
 Apparently I was overwhelmed the last few days. I felt "off", not good in my skin and grumpy. Apparently that was the reason for some of my own behaviors and feelings that played out. It may be a bit strange to read, but I don't really notice getting overstrung very well. What is the reason for this? Being sensitive to many things, including my own feelings and emotions.
 
 # Not noticing getting overstrung

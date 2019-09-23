@@ -8,7 +8,7 @@ date: 2019-09-17 13:10 +0200
 description: Over de Theory of Mind en anders denken dan neurotypische mensen. Dit is geen gebrek maar kan juist een kwaliteit zijn.
 image: /assets/img/thinking-tom.jpeg
 ---
-![TOM - Anders Denken]({{site.baseurl}}/assets/img/thinking-tom.jpeg){: class="ui image rounded floated right"}
+![TOM - Anders Denken](/assets/img/thinking-tom.jpeg){: class="ui image rounded floated right"}
 
 Theory of mind, oftewel TOM, is de wetenschap rond het denken van de mens. Hoe mensen denken en hoe ze tot bepaalde gedachten komen. [In mijn review]({%post_url 2019-08-20-hulpgids-asperger-syndroom-review %}) van het boek van Tony Attwood noemde ik dit al kort. Het is de theorie rond hoe mensen denken en hoe verbindingen binnen gedachten lopen.
 
@@ -34,7 +34,7 @@ Het is belangrijk om stil te staan bij het feit dat wat voor een neurotypisch pe
 
 Andersom is het vaak ook heel nuttig om gedachtengangen uit te spreken naar autisten. Autisten denken op een andere manier, en volgen daarom niet altijd een conclusie die voor neurotypische mensen "heel logisch" is.
 
-![Heb je het begrepen?]({{site.baseurl}}/assets/img/questionmarkthink.jpg){: class="ui image rounded floated left"}
+![Heb je het begrepen?](/assets/img/questionmarkthink.jpg){: class="ui image rounded floated left"}
 ## Heb je het begrepen?
 
 Deze vraag leidt soms tot problemen. Als je deze vraag stelt, ga je ervan uit dat de gedachtengangen van de ander hetzelfde zijn als die van jezelf. En gezien de verschillen in TOM kan dit leiden tot problemen.

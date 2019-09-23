@@ -8,7 +8,7 @@ date: 2019-08-27 09:10 +0200
 description: There are common misconceptions about autism. Here I detail a few of them and talk about them
 image: /assets/img/wall-e.gif
 ---
-![Hello Friend!]({{site.baseurl}}/assets/img/wall-e.gif){: class="ui floated right image rounded"}
+![Hello Friend!](/assets/img/wall-e.gif){: class="ui floated right image rounded"}
 There are enough misconceptions about autism. There are quite a few prejudices and they sometimes make it difficult to deal with autism. People who are diagnosed at a somewhat later age (not if they are younger than ten or so) may already have prejudices and misconceptions about autism and what it means to be an autist. This of course has consequences; People become less open about their autism, sometimes feel embarrassed and other people sometimes treat you strangely when they know you have autism.
 
 So it seemed like a good subject to talk about. There are enough prejudices, and I will miss some! So if you have additions yourself, or run into things that I don't mention here, let me know!
@@ -33,7 +33,7 @@ When I look into someone's eyes, that is a very personal moment for me. And it b
 Looking at people is quite normal for most people, but not really a thing for autists to do.
 
 # You get autism from vaccinations
-![You will not get autism from vaccinations]({{site.baseurl}}/assets/img/provax.jpg){: class="ui small floated left image rounded"} This is a lie that is often repeated by some organizations and parents who are against vaccination in general. It has also been proven in many scientific studies that it is not true. Having autism is genetic and cannot be contracted through things like vaccinations.
+![You will not get autism from vaccinations](/assets/img/provax.jpg){: class="ui small floated left image rounded"} This is a lie that is often repeated by some organizations and parents who are against vaccination in general. It has also been proven in many scientific studies that it is not true. Having autism is genetic and cannot be contracted through things like vaccinations.
 
 [Steven Novella](https://theness.com/neurologicablog/index.php/about/), neurologist and skeptic, has made [an extensive post](https://sciencebasedmedicine.org/vaccines-still-dont-cause-autism/) about the claims and why they are incorrect. I strongly encourage everyone to read his post.
 

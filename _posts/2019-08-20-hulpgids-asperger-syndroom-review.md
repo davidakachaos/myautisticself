@@ -10,7 +10,7 @@ date: 2019-08-20 12:40 +0200
 description: Mijn review van De Complete Hulpgids Asperger-syndroom. Mijn meningen en commentaren op alle onderdelen.
 image: /assets/img/hulpgidsasperger.jpg
 ---
-![Hulpgids Asperger-syndroom]({{site.baseurl}}/assets/img/hulpgidsasperger.jpg){: class="ui image rounded"}
+![Hulpgids Asperger-syndroom](/assets/img/hulpgidsasperger.jpg){: class="ui image rounded"}
 Tijdens mijn vakantie heb ik het boek "Hulpgids Asperger Syndroom - De Complete Gids" van Tony Attwood gelezen. En vandaag wil ik hier een stuk over schrijven. Voorop gesteldt; dit boek werd geschreven toen de DSM-IV nog actueel was en sindsdien is de DSM-5 verschenen. Hiervoor heeft Tony Attwood een aanvulling geschreven [die via de uitgeverij te downloaden is](https://www.nieuwezijds.nl/boek/hulpgids-asperger-syndroom/special29/). Ook deze aanvulling heb ik gelezen en zal ik meenemen in mijn review van dit boek.
 
 Ik probeer per hoofdstuk te vertellen wat ongeveer de inhoud is en wat mijn beeld bij het hoofdstuk was. Dit blijkt erg uitgebreid te zijn. Daarom dat ik een inhoudsopgave heb toegevoegd aan deze post. Ik hoop dat jullie het intressant vinden! En dan nu verder naar mijn review!
@@ -239,7 +239,7 @@ En ik sta hier volledig achter. Ik wil de term Asperger syndroom niet vervangen 
 Tony Attwood is een Australieër. Het boek is vertaald naar het Nederlands door Marijke van der Horst. Hoewel ik het orgineel niet gelezen heb, zijn er geen vertaal fouten te herkennen. Dit is erg prettig, want dit is in sommige andere publicaties wel anders helaas. Ook als er aanvullingen nodig zijn in het Nederlands worden deze herkenbaar gedaan. De vertaling vind ik heel goed gedaan. Ook zijn er referenties gedaan naar specifieke Nederlandse zaken waar nodig.
 
 # Over de auteur zelf
-![Tony Attwood]({{site.baseurl}}/assets/img/tonyattwood.png){: class="ui image rounded floated left"} Tony Attwood is een Australische wetenschapper en heeft verschillende universitaire titels. Naast schrijver en wetenschapper is hij ook directeur van een kliniek voor diagnose en behandeling van kinderen en volwassenen met het Asperger syndroom in Brisbane, Autstralië.
+![Tony Attwood](/assets/img/tonyattwood.png){: class="ui image rounded floated left"} Tony Attwood is een Australische wetenschapper en heeft verschillende universitaire titels. Naast schrijver en wetenschapper is hij ook directeur van een kliniek voor diagnose en behandeling van kinderen en volwassenen met het Asperger syndroom in Brisbane, Autstralië.
 
 Ook reist hij de wereld rond met het geven van lezingen en workshops over het Asperger syndroom. Wereldwijd staat hij bekend als een expert op dit gebied.
 

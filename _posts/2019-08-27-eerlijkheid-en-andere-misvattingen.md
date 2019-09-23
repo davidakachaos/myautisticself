@@ -8,7 +8,7 @@ date: 2019-08-27 09:10 +0200
 description: Er bestaan misvattingen rond autisme, geboren in generalisaties. Hier ga ik op een aantal daarvan in
 image: /assets/img/wall-e.gif
 ---
-![Hello Friend!]({{site.baseurl}}/assets/img/wall-e.gif){: class="ui floated right image rounded"}
+![Hello Friend!](/assets/img/wall-e.gif){: class="ui floated right image rounded"}
 Er bestaan genoeg misvattingen over autisme. Er zijn nogal wat vooroordelen en die maken het soms lastig om met autisme om te gaan. Mensen die de diagnose op een wat latere leeftijd krijgen (dus niet als ze jonger dan tien of zo zijn) hebben misschien zelf al vooroordelen en misvattingen over autisme en wat het betekend om een autist te zijn. Dit heeft natuurlijk gevolgen; mensen worden minder open over hun autisme, schamen zich er soms voor en andere mensen gaan je soms vreemd behandelen als ze weten dat je autisme hebt.
 
 Dus het leek me een goed onderwerp om het eens over te hebben. Er zijn genoeg vooroordelen, en ik zal ze vast niet allemaal benoemen! Dus als je zelf aanvullingen hebt, of tegen zaken aanloopt die ik hier niet noem, laat het vooral weten!
@@ -33,7 +33,7 @@ Als ik iemand in de ogen kijk is dat voor mij een heel persoonlijk moment. En wo
 Het aankijken van mensen is voor de meeste mensen heel normaal, maar voor autisten niet echt een ding om te doen.
 
 # Autisme krijg je van vaccinaties
-![Van vaccinaties krijg je geen autisme]({{site.baseurl}}/assets/img/provax.jpg){: class="ui small floated left image rounded"} Dit is een leugen die veel herhaald word door sommige organisaties en ouders die tegen vaccinatie in het algemeen zijn. Het is ook in veel wetenschappelijke onderzoeken bewezen dat het niet waar is. Het hebben van autisme is genetisch en niet via dingen als vaccinaties op te lopen.
+![Van vaccinaties krijg je geen autisme](/assets/img/provax.jpg){: class="ui small floated left image rounded"} Dit is een leugen die veel herhaald word door sommige organisaties en ouders die tegen vaccinatie in het algemeen zijn. Het is ook in veel wetenschappelijke onderzoeken bewezen dat het niet waar is. Het hebben van autisme is genetisch en niet via dingen als vaccinaties op te lopen.
 
 [Steven Novella](https://theness.com/neurologicablog/index.php/about/), neuroloog en scepticus, heeft [een uitgebreide post](https://sciencebasedmedicine.org/vaccines-still-dont-cause-autism/) gemaakt (in het Engels) over de claims en waarom deze niet kloppen. Ik raad iedereen ten zeerste aan zijn post te lezen.
 

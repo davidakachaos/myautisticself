@@ -9,7 +9,7 @@ redirect_from: /en/2019/06/vermeld-je-tijdens-sollicitatie-dat-je-ass-hebt.html
 description: Applying for a job and ASD. Do you let the employer know as soon as possible, or wait a bit?
 image: /assets/img/sollicitatie.jpg
 ---
-![Applying without weakness]({{site.baseurl}}/assets/img/sollicitatie.jpg){: class="post-image-right"}
+![Applying without weakness](/assets/img/sollicitatie.jpg){: class="post-image-right"}
 
 A question that is sometimes asked is whether you should state that you have ASD when applying.
 My idea is that, in principle, you do not state that directly on your CV or in your application letter unless the company has clear experience with ASD. Or if the fact that you have ASD yourself will give you a clear advantage. Unfortunately it is true that the first selection is based on CVs and then further examined on the basis of the letter. If that is done initially, people with "something" are placed in the "maybe / not" pile.

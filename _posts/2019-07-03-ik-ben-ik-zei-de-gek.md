@@ -9,7 +9,7 @@ date: 2019-07-03 09:58 +0200
 description: Over opgroeien met autisme zonder dat te weten. Mijn persoonlijk verhaal over het ontdekken van mijn autisme
 image: /assets/img/yescrazy.jpg
 ---
-![Yes I Am Crazy - (C) Rebel Circus]({{site.baseurl}}/assets/img/yescrazy.jpg){: class="ui medium image right floated rounded"}
+![Yes I Am Crazy - (C) Rebel Circus](/assets/img/yescrazy.jpg){: class="ui medium image right floated rounded"}
 Jaren lang heb ik gedacht dat ik gek was. Dit was voor mij een vaststaand feit. Ik was altijd anders dan de mensen om me heen. Ik had veel problemen met het "ergens bij horen" en me aan te passen aan mensen om me heen. Zeker tijdens mijn eerste jaren op de middelbare school merkte ik dit zelf heel sterk.
 Tijdens de basisschool tijd was dit veel minder een probleem. Ik vermoed door het feit dat ik op een kleine basisschool zat, in een klein dorpje. Daardoor viel het eigenlijk minder op. Ik leek erg op mijn vader, dus zo werd mijn gedrag ook verklaard; "O, hij lijkt gewoon op zijn vader". En achteraf klopt dat ook helemaal.
 
@@ -34,7 +34,7 @@ Na mijn diagnose vielen er veel dingen voor mij op hun plaats. En ja toen kwam v
 Dit klinkt misschien vreemd voor iemand die dit niet heeft meegemaakt; maar het was een moment van verlichting voor mij. Wat ik denk en voel is niet vreemd of raar of gek; het mag er zijn! Het komt misschien vreemd over op mensen, maar nu weet ik waardoor dat komt. Ik kan mensen uitleggen dat ik het syndroom van Asperger heb, dat ik daardoor misschien op een wat vreemde manier denk. Of dat ik me mede daardoor wat star kan opstellen in mijn overtuigingen. Nu ik weet wat ik heb, kan ik de wereld beter begrijpen. Of eigenlijk, nu weet ik dat mijn kijk op de wereld niet gek is! Alleen anders dan voor de meeste mensen.
 
 ## Acceptatie als eerste stap naar groei
-![Zelf acceptatie]({{site.baseurl}}/assets/img/mirrorself.jpg){: class="ui medium image right floated rounded"}
+![Zelf acceptatie](/assets/img/mirrorself.jpg){: class="ui medium image right floated rounded"}
 Al jaren had ik omarmd dat ik gek was. Maar nu weet ik dat ik niet gek ben, alleen anders. Anders dan mensen om me heen, en dat is prima. Door mezelf te accepteren zoals ik ben, maak ik stappen om mezelf beter te leren kennen en kan ik mezelf beter uitleggen aan mensen om me heen. Daarmee bereik ik eigenlijk twee doelen tegelijk; ik kweek begrip voor mij als autist en ik krijg vaak feedback van "normale" mensen. Door die feedback leer ik weer meer over de wereld om me heen.
 
 Ik ben ervan overtuigd dat dit de eerste stap voor ieder mens is naar groei; acceptatie van jezelf. Helaas heb ik mezelf pas laat leren kennen, maar dat betekend niet dat ik niet kan groeien! Het is de eerste stap naar groei, niet de laatste. Autisme is onderdeel van mij en zal nooit veranderen of weggaan. En dat is okay. Dat is een deel van mij en ik zal er mee moeten leven.

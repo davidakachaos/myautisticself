@@ -8,7 +8,7 @@ date: 2019-06-27 13:17 +0200
 description: Nachten wakker liggen en hoe ik omga met het zijn van een nachtmens. Autisme en het missen van structuur
 image: /assets/img/moonnight.jpg
 ---
-![Prachtige nacht]({{site.baseurl}}/assets/img/moonnight.jpg){: class="post-image-right"}
+![Prachtige nacht](/assets/img/moonnight.jpg){: class="post-image-right"}
 
 Door mijn ondergevoeligheid heb ik met enige regelmaat "last" van slapeloze nachten. Dat ik om een uur of twee nog wakker ben, geen behoefte aan slaap lijk te hebben. Dan kijk ik eens op de klok en bedenk me wat ik de volgende dag te doen heb. Als ik iets te doen heb (afspraken, werk, dagbesteding, kinderen die komen) dan besluit ik vaak de nacht door te halen. Ik ga niet slapen maar houd me wel rustig; ik zit/lig een serie te kijken of zit achter de computer.
 

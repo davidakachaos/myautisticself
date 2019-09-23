@@ -8,7 +8,7 @@ date: 2019-06-27 13:17 +0200
 description: Having sleepless nights and how I deal with those while having autism.
 image: /assets/img/moonnight.jpg
 ---
-![Beautiful night]({{site.baseurl}}/assets/img/moonnight.jpg){: class="post-image-right"}
+![Beautiful night](/assets/img/moonnight.jpg){: class="post-image-right"}
 
 Because of my hyposensitivity, I regularly "suffer" from sleepless nights. That I am still awake at around two o'clock, seemingly in no need of sleep. Then I look at the clock and think about what I have to do the next day. If I have something to do (appointments, work, day care, children coming) I often decide to cancel the night. I do not go to sleep but I keep calm; I am sitting / watching a series or sitting at the computer.
 

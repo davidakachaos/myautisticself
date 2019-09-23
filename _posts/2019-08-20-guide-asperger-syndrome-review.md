@@ -10,7 +10,7 @@ date: 2019-08-20 12:40 +0200
 description: Review of The Complete Guide To Asperger's Syndrome by Tony Attwood. My judgements and comments.
 image: /assets/img/hulpgidsasperger.jpg
 ---
-![Hulpgids Asperger-syndroom]({{site.baseurl}}/assets/img/hulpgidsasperger.jpg){: class="ui image rounded"}
+![Hulpgids Asperger-syndroom](/assets/img/hulpgidsasperger.jpg){: class="ui image rounded"}
 During my vacation I read the book "The Complete Guide To Asperger's Syndrome" by Tony Attwood. And today I want to write a piece about this. Put first; this book was written when the DSM-IV was still current and the DSM-5 has since appeared. Tony Attwood has written a supplement for this [that can be downloaded from the publisher](https://www.nieuwezijds.nl/boek/hulpgids-asperger-syndroom/special29/). I have also read this supplement and will include it in my review of this book.
 
 I try to explain per chapter what the content is and what my view of the chapter was. This appears to be very extensive. That is why I have added a table of contents to this post. I hope you find it interesting! And now on to my review!
@@ -238,7 +238,7 @@ And I fully support this. I do not want to replace the term Asperger's syndrome 
 Tony Attwood is an Australian. The book has been translated into Dutch by Marijke van der Horst. Although I have not read the original, there are no translation errors. This is very nice, because this is unfortunately different in some other publications. Even if additions are needed in Dutch, they are recognizable. I think the translation is very well done. References have also been made to specific Dutch cases where necessary.
 
 # About the author himself
-![Tony Attwood]({{site.baseurl}}/assets/img/tonyattwood.png){: class="ui image rounded floated left"} Tony Attwood is an Australian scientist and has several university degrees. In addition to being a writer and scientist, he is also director of a clinic for the diagnosis and treatment of children and adults with Asperger's syndrome in Brisbane, Autstralia.
+![Tony Attwood](/assets/img/tonyattwood.png){: class="ui image rounded floated left"} Tony Attwood is an Australian scientist and has several university degrees. In addition to being a writer and scientist, he is also director of a clinic for the diagnosis and treatment of children and adults with Asperger's syndrome in Brisbane, Autstralia.
 
 He also travels around the world giving lectures and workshops on Asperger's syndrome. He is known worldwide as an expert in this field.
 

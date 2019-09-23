@@ -8,7 +8,7 @@ date: 2019-09-17 13:10 +0200
 description: About the Theory of Mind and thinking differently than neurotypic people. This is not a defect but can be a quality.
 image: /assets/img/thinking-tom.jpeg
 ---
-![TOM - Thinking Differently]({{site.baseurl}}/assets/img/thinking-tom.jpeg){: class="ui image rounded floated right"}
+![TOM - Thinking Differently](/assets/img/thinking-tom.jpeg){: class="ui image rounded floated right"}
 
 Theory of mind, or TOM, is the science of human thinking. How people think and how they come to certain thoughts. [In my review]({% post_url 2019-08-20-guide-asperger-syndrome-review%}) of Tony Attwood's book I already mentioned this briefly. It is the theory about how people think and how connections are made within thoughts.
 
@@ -34,7 +34,7 @@ It is important to reflect on the fact that what is very logical for a neurotypi
 
 Conversely, it is often very useful to speak out thoughts to autists. Autists think differently and therefore do not always follow a conclusion that is "very logical" for neurotypic people.
 
-![Did you understand?]({{site.baseurl}}/assets/img/questionmarkthink.jpg){: class="ui image rounded floated left"}
+![Did you understand?](/assets/img/questionmarkthink.jpg){: class="ui image rounded floated left"}
 ## Did you understand?
 
 This question sometimes leads to problems. If you ask this question, you assume that the other person's thoughts are the same as your own. And given the differences in TOM, this can lead to problems.
