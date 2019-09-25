@@ -52,11 +52,10 @@ layout: default
     {%- if page.lang == "nl" -%}
     {%- include author.html -%}
     {%- include related_posts.html -%}
-    {%- include disqus.html -%}
     {%- else -%}
     {%- include author_en.html -%}
     {%- include related_posts.html -%}
-    {%- include disqus_en.html -%}
     {%- endif -%}
-    
+    <h1>Webmentions</h1>
+    {% webmentions page.url %}
 </div>

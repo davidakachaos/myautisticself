@@ -51,4 +51,6 @@
     site.tags != "" -%} {%- include collecttags.html -%} {%- endif -%} {%- if
     jekyll.environment == "production" -%} {%- include googleadsense.html -%}
     {%- endif -%}
+
+    {% webmentions_head %}
 </head>

@@ -63,8 +63,8 @@ jekyll_compose:
     description:
 # Build settings
 markdown: kramdown
-# default to safe mode, like github pages
-safe: true
+# default to false, build locally
+safe: false
 # theme: minima
 plugins:
   - jekyll-feed
@@ -113,3 +113,6 @@ exclude:
   - CNAME
   - package.json
   - yarn.lock
+
+webmentions:
+  username: myautisticself.nl

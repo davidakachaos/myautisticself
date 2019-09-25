@@ -26,7 +26,8 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'jekyll-email-protect'
   gem 'jekyll-analytics'
-  # gem "jekyll-reload"
+  gem 'jekyll-webmention_io', github: 'davidakachaos/jekyll-webmention_io'
+  gem 'jekyll-redirect-from'
 end
 
 gem "jekyll", "~> 4.0"
