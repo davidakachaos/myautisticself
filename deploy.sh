@@ -2,11 +2,11 @@
 # Deploy script
 
 if branch=$(git symbolic-ref --short -q HEAD);then
-  if [ "$branch" == "master" ]; then
+  if [ "$branch" == "source" ]; then
     echo 'Getting latest changes...'
-    git pull --rebase origin master
+    git pull --rebase origin source
   else
-  	echo Not on the master branch. We are on $branch so aborting!
+  	echo Not on the source branch. We are on $branch so aborting!
   	exit 1
   fi
 fi
@@ -27,5 +27,21 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
 else
     echo 'No new tags generated or old removed.'
 fi
-echo 'Deploying to GitHub'
-git push
+
+echo 'Building Jekyll...'
+JEKYLL_ENV=production jekyll build
+echo 'Switching to master branch...'
+git checkout master
+echo 'Copying build site to master branch'
+cp -r _site/* .
+if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
+  git add .
+  git commit -m 'Latest version of My Autistic Self'
+  echo 'Would now push latest to GitHub!'
+else
+  echo 'Nothing was changed! Aborting deployment.'
+  git checkout source
+fi
+
+# echo 'Deploying to GitHub'
+# git push
