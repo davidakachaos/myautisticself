@@ -1,5 +1,2 @@
----
----
-{%- assign prep = site.baseurl | append: "/assets/icons" -%}
 <?xml version="1.0" encoding="utf-8"?>
-<browserconfig><msapplication><tile><square70x70logo src="{{prep}}/ms-icon-70x70.png"/><square150x150logo src="{{prep}}/ms-icon-150x150.png"/><square310x310logo src="{{prep}}/ms-icon-310x310.png"/><TileColor>#ffffff</TileColor></tile></msapplication></browserconfig>
+<browserconfig><msapplication><tile><square70x70logo src="/assets/icons/ms-icon-70x70.png"/><square150x150logo src="/assets/icons/ms-icon-150x150.png"/><square310x310logo src="/assets/icons/ms-icon-310x310.png"/><TileColor>#ffffff</TileColor></tile></msapplication></browserconfig>

@@ -1,16 +1,13 @@
----
-title: CSS stylesheet
----
 /*
     Import League Gothic <3
 */
 @font-face {
     font-family: 'League Gothic';
-    src: url('{{site.baseurl}}/assets/css/fonts/leaguegothic-regular-webfont.eot');
-    src: url('{{site.baseurl}}/assets/css/fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('{{site.baseurl}}/assets/css/fonts/leaguegothic-regular-webfont.woff') format('woff'),
-    url('{{site.baseurl}}/assets/css/fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-    url('{{site.baseurl}}/assets/css/fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    src: url('/assets/css/fonts/leaguegothic-regular-webfont.eot');
+    src: url('/assets/css/fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/assets/css/fonts/leaguegothic-regular-webfont.woff') format('woff'),
+    url('/assets/css/fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+    url('/assets/css/fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -38,7 +35,7 @@ img, video, iframe {
 header {
     max-width: 80%;
     margin: 0 auto;
-    background-image: url({{site.baseurl}}/assets/img/bg.jpg);
+    background-image: url(/assets/img/bg.jpg);
     background-size: cover;
     color: rgba(255, 255, 255, .75);
 }
@@ -162,7 +159,7 @@ a.item.en:after {
     content: "🇬🇧";
 }
 
-a:not(.item):not([href*='{{site.url}}']):not([href*='https://www.buymeacoffee.com']):not([href^='#']):not([href^='/']):after {
+a:not(.item):not([href*='https://myautisticself.nl']):not([href*='https://www.buymeacoffee.com']):not([href^='#']):not([href^='/']):after {
     font-family: 'FontAwesome';
     content: " \f08e";
 }
