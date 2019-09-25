@@ -34,10 +34,14 @@ echo 'Switching to master branch...'
 git checkout master
 echo 'Copying build site to master branch'
 cp -r _site/* .
+echo 'Remove build site...'
+rm -r _site
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git add .
   git commit -m 'Latest version of My Autistic Self'
-  echo 'Would now push latest to GitHub!'
+  echo 'Pushing latest to GitHub!'
+  git push
+  git checkout source
 else
   echo 'Nothing was changed! Aborting deployment.'
   git checkout source
