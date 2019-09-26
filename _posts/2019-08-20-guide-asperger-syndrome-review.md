@@ -179,8 +179,10 @@ Here the book covers the skills of the brain. People with Asperger often appear 
 The book also deals with issues such as executive functions, being able to solve problems, dealing with errors and reading and calculation performance. I find many of these points very recognizable to myself. Reading is always fine, but I have some problems with writing. Both because my motive is not great, but also because I have problems with words. This is a very light form of dyslexia. It ensures that I always write certain words incorrectly. Sometimes I miss out on spelling mistakes. And grammar is not really my thing. That is why I use different tools to check my documents before I publish them.
 
 But back to the book. Here is also spoken of a weak central coherence. What this means is that you have a good eye for detail, but therefore have trouble seeing the overall picture. As described by Attwood (p. 287):
-> A new term for this phenomenon is monotropism (Murray, Lesser and Lawson, 2005). This term refers to the unusual way in which people with Asperger's syndrome divide their attention, so that they do not congnitively register large areas that might contain information.
-> This produces a very fragmented view of the world.
+<div class="quote"><blockquote><p>A new term for this phenomenon is monotropism (Murray, Lesser and Lawson, 2005). This term refers to the unusual way in which people with Asperger's syndrome divide their attention, so that they do not congnitively register large areas that might contain information.</p>
+<p>This produces a very fragmented view of the world.</p>
+<cite>Tony Attwood</cite>
+</blockquote></div>
 
 # Chapter 10 - Movement and coordination
 Here the book examines the motor skills and coordination of people with Asperger. It is said that about 60 percent of children with Asperger are bumbling, but research has shown that almost all children with Asperger have specific movement disorders. This applies to both fine and gross motor skills.
@@ -230,7 +232,9 @@ After the publication of the DSM-5, the chapter on diagnosis was obsolete. This 
 However, the DSM-5 merges all forms of autism into 1 disorder, ASS.
 
 Attwood writes the following about this:
-> The deletion of the term "Asperger's syndrome" will have a negative impact on the sense of identity of adults who have benefited from the term, have set up peer groups and have access to literature and support groups on the Internet based on common characteristics and experiences. Clinical experience shows that most adults with Asperger's syndrome and their family members want to keep the term.
+<div class="quote"><blockquote><p>The deletion of the term "Asperger's syndrome" will have a negative impact on the sense of identity of adults who have benefited from the term, have set up peer groups and have access to literature and support groups on the Internet based on common characteristics and experiences. Clinical experience shows that most adults with Asperger's syndrome and their family members want to keep the term.</p>
+<cite>Tony Attwood</cite>
+</blockquote></div>
 
 And I fully support this. I do not want to replace the term Asperger's syndrome with the new official name: "Level 1 autism spectrum disorder without additional intellectual disability or language disorder"
 

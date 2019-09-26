@@ -179,8 +179,11 @@ Hier behandeld het boek de vaardigheden van het brein. Mensen met Asperger blijk
 Ook gaat het boek in op zaken als executieve functies, problemen kunnen oplossen, omgaan met fouten en lees- en rekenprestaties. Veel van deze punten vind ik erg herkenbaar bij mezelf. Het lezen gaat altijd prima, maar ik heb de nodige problemen met schrijven. Zowel omdat mijn moteriek niet geweldig is, maar ook omdat ik woordbeeld problemen heb. Dit is een zeer lichte vorm van dyslectie. Het zorgt ervoor dat ik bepaalde woorden eigenlijk altijd verkeerd schrijf. Ook valleen me spelfouten soms niet op. En grammatica is niet echt mijn ding. Daarom dat ik verschillende tools gebruik om mijn stukken te controleren voor ik ze publiceer.
 
 Maar terug naar het boek. Hier word ook gesproken over een zwakke centrale coherentie. Wat dit betekend is dat je een goed oog hebt voor detail, maar daardoor problemen hebt met het totaalbeeld zien. Zoals het door Attwood word beschreven (p 287):
-> Een nieuwe term voor dit verschijnsel is monotropisme (Murray, Lesser en Lawson, 2005). Deze term verwijst naar de ongebruikelijke manier waarop mensen met het Asperger-syndroom hun aandacht verdelen, waardoor ze grote gebieden die informatie zouden kunnen bevatten, niet congnitief registreren.
-> Dit leverd een zeer gefragmenteerd beeld van de wereld op.
+<div class="quote"><blockquote><p>Een nieuwe term voor dit verschijnsel is monotropisme (Murray, Lesser en Lawson, 2005). Deze term verwijst naar de ongebruikelijke manier waarop mensen met het Asperger-syndroom hun aandacht verdelen, waardoor ze grote gebieden die informatie zouden kunnen bevatten, niet congnitief registreren.</p>
+<p>Dit leverd een zeer gefragmenteerd beeld van de wereld op.</p>
+<cite>Tony Attwood</cite>
+</blockquote>
+</div>
 
 # Hoofdstuk 10 - Beweging en coördinatie
 Hier gaat het boek in op de motoriek en coördinatie van mensen met Asperger. Genoemd word dat ongeveer 60 procent van de kinderen met Asperger stuntelig over komt, maar onderzoek heeft aangetoond dat vrijwel alle kinderen met Asperger specifieke bewegingsstoornissen hebben. Dit geld zowel voor de fijne als de grove motoriek.
@@ -230,8 +233,11 @@ Na het verschijnen van de DSM-5 was het hoofdstuk over de diagnose achterhaald. 
 Echter voegt de DSM-5 alle vormen van autisme samen tot 1 stoornis, ASS.
 
 Hierover schrijft Attwood het volgende:
-> Het schrappen van de term ‘Asperger-syndroom’ zal negatief uitpakken voor het identiteitsgevoel   van   volwassenen   die   baat   hebben   gehad   bij   de   term, lotgenotengroepen hebben opgezet en toegang hebben gekregen tot literatuur en steungroepen   op   internet   op basis   van   gemeenschappelijke   kenmerken   en ervaringen.  Klinische  ervaring leert  dat  de  meeste  volwassenen  met  Asperger-syndroom en hun familieleden de term willen behouden.
-{:.lead}
+<div class="quote">
+<blockquote><p>Het schrappen van de term ‘Asperger-syndroom’ zal negatief uitpakken voor het identiteitsgevoel   van   volwassenen   die   baat   hebben   gehad   bij   de   term, lotgenotengroepen hebben opgezet en toegang hebben gekregen tot literatuur en steungroepen   op   internet   op basis   van   gemeenschappelijke   kenmerken   en ervaringen.  Klinische  ervaring leert  dat  de  meeste  volwassenen  met  Asperger-syndroom en hun familieleden de term willen behouden.</p>
+<cite>Tony Attwood</cite>
+</blockquote>
+</div>
 
 En ik sta hier volledig achter. Ik wil de term Asperger syndroom niet vervangen door de nieuwe officiele naam: "Autismespectrumstoornis niveau 1 zonder bijkomende  verstandelijke  beperking of taalstoornis"
 

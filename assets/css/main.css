@@ -225,3 +225,40 @@ a:not(.u-url):not(.u-mention):not(.item):not([href*='{{site.url}}']):not([href*=
 .webmention__pubdate {
     font-style: italic;
 }
+
+
+.quote {
+  display: inline-block;
+  margin: 1em;
+  overflow: hidden;
+}
+.quote blockquote {
+  background-color: #fff;
+  border: solid 2px #757575;
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+  position: relative;
+}
+.quote blockquote:before {
+  background-color: #fff;
+  bottom: -10%;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: -10%;
+  transform: rotate(-15deg) skew(5deg);
+}
+.quote blockquote cite {
+  display: block;
+  font-style: italic;
+  text-align: right;
+}
+.quote blockquote cite:before {
+  content: "- ";
+}
+.quote blockquote > * {
+  position: relative;
+  z-index: 1;
+}

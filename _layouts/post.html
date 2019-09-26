@@ -29,6 +29,26 @@ layout: default
         </div>
 		{%- include read_time.html -%}
     </center>
+    {%- if page.wm-reply == true -%}
+    <div>
+    {%- if page.lang == "nl" -%}
+    Als antwoord op
+    {%- else -%}
+     In reply to
+    {%- endif-%} <a href="{{page.wm-link}}" class="u-in-reply-to">{{page.wm-title}}</a>:<br />
+        {% if page.wm-quote %}
+        <div class="p-name p-content quote">
+            <blockquote>
+                <p>{{page.wm-quote}}</p>
+                {%- if page.wm-cite -%}
+                <cite>{{page.wm-cite}}</cite>
+                {%- endif -%}
+            </blockquote>
+            <br />
+        </div>
+        {% endif %}
+    </div>
+    {%- endif -%}
     <div class="ui divider"></div>
     <div class="e-content">
         {{ content }}
