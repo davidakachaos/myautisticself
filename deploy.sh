@@ -42,6 +42,7 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Pushing latest to GitHub!'
   git push
   git checkout source
+  echo 'https://myautisticself.nl has been deployed.'
 else
   echo 'Nothing was changed! Aborting deployment.'
   git checkout source
