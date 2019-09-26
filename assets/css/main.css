@@ -159,7 +159,7 @@ a.item.en:after {
     content: "🇬🇧";
 }
 
-a:not(.item):not([href*='https://myautisticself.nl']):not([href*='https://www.buymeacoffee.com']):not([href^='#']):not([href^='/']):after {
+a:not(.u-url):not(.u-mention):not(.item):not([href*='https://myautisticself.nl']):not([href*='https://www.buymeacoffee.com']):not([href*='https://twitter.com']):not([href^='#']):not([href^='/']):after {
     font-family: 'FontAwesome';
     content: " \f08e";
 }
@@ -167,4 +167,58 @@ a:not(.item):not([href*='https://myautisticself.nl']):not([href*='https://www.bu
 .reading-time{
 	font-size: smaller;
 	font-style: italic;
+}
+
+/* Webmention Section */
+
+.webmentions {
+    display:block;
+    text-align: left;
+}
+.webmentions__facepile {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.webmentions__face {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
+    flex: none;
+}
+.webmentions__list {
+    list-style-type: none;
+    padding:0;
+}
+.webmentions__item {
+    margin-bottom: 2rem;
+}
+
+/* Single Webmention */
+
+.webmention {
+    display:block;
+}
+.webmention__meta,
+.webmention__author {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.webmention__meta {
+    margin-bottom:.5rem;
+}
+.webmention__author {
+    margin-right:.25rem;
+}
+.webmention__author__photo {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right:.5rem;
+}
+.webmention__pubdate {
+    font-style: italic;
 }
