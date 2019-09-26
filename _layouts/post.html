@@ -7,16 +7,19 @@ layout: default
 </style>
 {%- endif -%}
 
-<div class="post-container">
+<div class="post-container h-entry">
     <center>
         <span class="date">
-            {{ page.date | date_to_string }} 
+            <a
+      class="u-url dt-published"
+      href="{{page.url}}"
+      >{{ page.date | date_to_string }}</a> 
             {%- if page.category -%} 
                 &nbsp;in <a href="{{site.baseurl}}{{ page.lang | append: '/' | prepend: '/' | remove: '/nl' }}category/{{page.category}}.html" alt="{{page.category}} posts"><i>{{ page.categories }}</i></a>
             {%- endif -%}
             <br>
         </span>
-        <h1 class="post-title">{{ page.title }}</h1>
+        <h1 class="post-title p-name">{{ page.title }}</h1>
         <div>
             <small><i>See this post in: </i></small>
             {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}
@@ -27,7 +30,9 @@ layout: default
 		{%- include read_time.html -%}
     </center>
     <div class="ui divider"></div>
-    {{ content }}
+    <div class="e-content">
+        {{ content }}
+    </div>
     <div class="ui horizontal divider">
         {%- if page.lang == "nl" -%}
         Bedankt Voor Het Lezen
