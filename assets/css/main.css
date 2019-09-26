@@ -262,3 +262,7 @@ a:not(.u-url):not(.u-mention):not(.item):not([href*='{{site.url}}']):not([href*=
   position: relative;
   z-index: 1;
 }
+
+li {
+    padding-top: 5px;
+}
