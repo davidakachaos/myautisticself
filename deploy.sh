@@ -43,6 +43,8 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git push
   git checkout source
   echo 'https://myautisticself.nl has been deployed.'
+  echo 'Sending webmentions...'
+  jekyll webmention
 else
   echo 'Nothing was changed! Aborting deployment.'
   git checkout source
