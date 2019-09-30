@@ -8,8 +8,7 @@ description: Answering 10 questions about money
 wm-reply: true
 wm-link: https://tistje.com/2019/09/26/10-geldvragen-aan-tistje-autisme-en-geld/
 wm-title: 10 money questions for Tistje ... autism and money
-wm-quote: Every weekend, a newspaper appears in the newspaper De Tijd in the ‘Netto’ section in which a well-known or less well-known person is presented with ten money questions.
-   It is one of the sections that I like to read. That's why I thought it would be nice to put it on Tistje once. Are you a blogger? Feel free to be inspired and take over the baton.
+wm-quote: Every weekend, a newspaper appears in the newspaper De Tijd in the ‘Netto’ section in which a well-known or less well-known person is presented with ten money questions. It is one of the sections that I like to read. That's why I thought it would be nice to put it on Tistje once. Are you a blogger? Feel free to be inspired and take over the baton.
 wm-cite: Tistje
 date: 2019-09-30 12:06 +0200
 ---
