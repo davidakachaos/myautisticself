@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 10 geld vragen aan...
+title: 10 geldvragen aan...
 lang: nl
 tags: autisme geld persoonlijk
 ref: 10geldvragen
@@ -33,4 +33,4 @@ Naar aanleiding van bovenstaande post van [Tistje][1] leek het me leuk om dit oo
 
 Net als [Tistje][1] al zei; lijkt het je leuk om dit ook op je eigen blog te zetten, ga vooral je gang! Ik ben wel benieuwd naar jullie antwoorden.
 
-[1]: https://tistje.com "Tistje Ervaringsblog Autisme Sinds 2008"
+[1]: https://tistje.com "Tistje - Ervaringsblog Autisme Sinds 2008"
