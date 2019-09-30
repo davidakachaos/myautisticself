@@ -38,6 +38,13 @@ permalink: /:year/:month/:title.html
 timezone: Europe/Amsterdam
 future: false # Don't publish posts in the future!
 
+responsive_image:
+  template: _includes/srcset-resized-fallback.html
+  sizes:
+    - width: 80  # [Required] How wide the resized image will be.
+    - width: 250
+    - width: 500
+    - width: 900
 twitter:
   username: WesterinkDavid
   card: summary

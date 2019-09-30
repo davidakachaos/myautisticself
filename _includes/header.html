@@ -6,11 +6,7 @@
             <h1 style="display:none;">{{site.title}}</h1>
             <h1 class="site-logo">
                 <a href="{{ site.baseurl }}/"
-                    ><img
-                        src="{{ site.baseurl }}/assets/img/logo.png"
-                        class="logo"
-                        alt="Site logo"
-                /></a>
+                    >{% responsive_image path: assets/img/logo.png alt: "Site logo" class: "logo" %}</a>
             </h1>
             <h3 class="site-description">{{ site.description[page.lang] }}</h3>
         </div>

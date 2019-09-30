@@ -6,12 +6,16 @@
         {%- if image contains 'src' -%}
             {%- if foundImage == 0 -%}
                 {%- assign html = image | split:">" | first -%}
+                {%- assign elements = html | split: '"' -%}
+                {%- assign post_img_url = elements[1] | replace: '/assets', 'assets' -%}
+                {%- assign post_img_alt = elements[3] -%}
+                <!-- {{ elements[3] }} -->
                 <a class="image" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | truncatewords: 15 }}">
-                    {%- if jekyll.environment == "production" -%}
-                    <img {{ html | replace: '"post-image-left"', '"image"' | replace: '"post-image-right"', '"image"'| replace: 'src="', 'src="//images.weserv.nl/?url=siteurl' | replace: 'siteurl', 'https://myautisticself.nl' | replace: '" alt', '&w=500&h=300&output=jpg&q=65" alt' }} />
-                    {%- else -%}
-                    <img {{ html | replace: '"post-image-left"', '"image"' | replace: '"post-image-right"', '"image"' }} />
-                    {%- endif -%}
+                    {% responsive_image_block %}
+                      path: {{ post_img_url }}
+                      alt: {{ post_img_alt }}
+                      class: "image"
+                    {% endresponsive_image_block %}
                 </a> 
                 {%- assign foundImage = 1 -%}
                 {%- break -%}

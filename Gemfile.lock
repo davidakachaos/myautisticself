@@ -67,6 +67,9 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-redirect-from (0.15.0)
       jekyll (>= 3.3, < 5.0)
+    jekyll-responsive-image (1.5.3)
+      jekyll (>= 2.0, < 5.0)
+      rmagick (>= 2.0, < 3.0)
     jekyll-sass-converter (2.0.0)
       sassc (> 2.0.1, < 3.0)
     jekyll-seo-tag (2.6.1)
@@ -103,6 +106,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
+    rmagick (2.16.0)
     rouge (3.10.0)
     ruby_dep (1.5.0)
     safe_yaml (1.0.5)
@@ -141,6 +145,7 @@ DEPENDENCIES
   jekyll-email-protect
   jekyll-feed
   jekyll-redirect-from
+  jekyll-responsive-image
   jekyll-seo-tag
   jekyll-webmention_io!
   jemoji

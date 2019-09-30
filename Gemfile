@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem 'jekyll-analytics'
   gem 'jekyll-webmention_io', github: 'davidakachaos/jekyll-webmention_io'
   gem 'jekyll-redirect-from'
+  gem 'jekyll-responsive-image'
 end
 
 gem "jekyll", "~> 4.0"
