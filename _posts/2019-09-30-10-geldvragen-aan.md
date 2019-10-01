@@ -17,7 +17,7 @@ wm-quote: Elk weekend verschijnt in de krant De Tijd in de katern ‘Netto’ ee
 wm-cite: Tistje
 date: 2019-09-30 12:06 +0200
 ---
-![Website update](/assets/img/moneyeuros.jpg){: class='ui right floated image medium'}
+![Geld](/assets/img/moneyeuros.jpg){: class='ui right floated image medium'}
 
 Naar aanleiding van bovenstaande post van [Tistje][1] leek het me leuk om dit ook eens voor mezelf in te vullen en dit met jullie te delen.
 
