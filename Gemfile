@@ -42,3 +42,10 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 # Fix security issue
 gem "yard", ">= 0.9.20"
 gem "activesupport", ">= 4.1.11"
+
+#for amp generation
+gem 'nokogiri'
+gem 'fastimage'
+gem 'html-proofer'
+gem 'parallel'
+gem 'faraday', '0.9.2'

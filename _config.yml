@@ -38,6 +38,8 @@ permalink: /:year/:month/:title.html
 timezone: Europe/Amsterdam
 future: false # Don't publish posts in the future!
 
+ampdir: amp
+
 responsive_image:
   template: _includes/srcset-resized-fallback.html
   sizes:
@@ -101,6 +103,7 @@ jailed: false
 # theme: jekyll-theme-primer
 gfm_quirks: paragraph_end
 google_site_verification: WHeMLVU_8p80z-fEGUMt0A3fc-NVCLfFxqZX2NktdfE
+amp_googleanalytics_id: UA-429677-9
 lang: nl_NL
 
 jekyll_analytics:
@@ -122,6 +125,7 @@ exclude:
   - yarn.lock
 
 webmentions:
+  pause_lookups: true
   username: myautisticself.nl
   templates:
     bookmarks: _includes/webmentions/bookmarks.html

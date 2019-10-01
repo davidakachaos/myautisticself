@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mobile.css" />
+    {%- if page.path contains '_posts' -%}
+    <link rel="amphtml" href="{{site.url}}/{{site.ampdir}}{{page.id}}">
+    {%- endif -%}
     <link
         rel="stylesheet"
         href="{{ site.baseurl }}/assets/css/vendor/syntax.css"
