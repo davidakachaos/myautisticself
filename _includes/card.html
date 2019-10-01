@@ -38,8 +38,8 @@
     </div>
     <div class="extra content">
         <i class="comments icon"></i>
-        <a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.url}}">
-            0 Comments
+        <a href="{{ site.baseurl }}{{ post.url }}#allwebmentions" data-disqus-identifier="{{post.url}}">
+            {% webmention_count post.url %} Webmentions
         </a>
         {%- if post.author -%}
         <div class="right floated author">
