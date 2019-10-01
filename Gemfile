@@ -26,7 +26,7 @@ group :jekyll_plugins do
   gem 'jemoji'
   gem 'jekyll-email-protect'
   gem 'jekyll-analytics'
-  gem 'jekyll-webmention_io', github: 'davidakachaos/jekyll-webmention_io'
+  gem 'jekyll-webmention_io', github: 'davidakachaos/jekyll-webmention_io', branch: 'upgrade_webmention'
   gem 'jekyll-redirect-from'
   gem 'jekyll-responsive-image'
 end
