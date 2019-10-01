@@ -2,7 +2,7 @@
 layout: post
 title: Muziek vs. Stilte
 lang: nl
-tags: autisme
+tags: autisme muziek
 ref: muziekvsstilte
 description: Over de invloed die muziek op mijn concentratie heeft
 date: 2019-10-01 12:56 +0200

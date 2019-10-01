@@ -2,7 +2,7 @@
 layout: post
 title: Music vs. Silence
 lang: en
-tags: autisme
+tags: autisme muziek
 ref: muziekvsstilte
 description: About the influence that music has on my concentration
 date: 2019-10-01 12:56 +0200
