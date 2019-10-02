@@ -1,19 +1,83 @@
-<header class="hero">
-	<div class="title">
-		<a href="/">My Autistic Self</a>
-	</div>
-	<div class="name">
-		<div class="row">
-			<div>David Westerink op GitHub</div>
-				<a href="https://github.com/davidakachaos">
-					GitHub
-				</a>
-		</div>
-		<div class="row">
-			<div>David op Twitter</div>
-				<a href="https://twitter.com/WesterinkDavid">
-					Twitter
-				</a>
-		</div>
-	</div>
+<header>
+	<nav class="site-nav">
+	    <div class="left-nav">
+	        <!-- add titles to all buttons -->
+	        <div class="ui secondary menu inverted">
+	            {%- if page.lang == "nl" -%}
+	            <a class="item" href="{{ site.baseurl }}/">
+	                Home
+	            </a>
+	            <a class="item" href="{{ site.baseurl }}/about.html">
+	                Over mij
+	            </a>
+	            <a class="item" href="{{ site.baseurl }}/archive.html">
+	                Archief
+	            </a>
+	            <a
+	                class="item"
+	                href="{{ site.baseurl }}/links-naar-andere-websites"
+	            >
+	                Links
+	            </a>
+	            {%- else -%}
+	            <a class="item" href="{{ site.baseurl }}/en">
+	                Home
+	            </a>
+	            <a class="item" href="{{ site.baseurl }}/en/about.html">
+	                About me
+	            </a>
+	            <a class="item" href="{{ site.baseurl }}/en/archive.html">
+	                Archive
+	            </a>
+	            <a
+	                class="item"
+	                href="{{ site.baseurl }}/links-to-other-websites"
+	            >
+	                Links
+	            </a>
+	            {%- endif -%} {%- assign pages=site.pages | where:"ref",
+	            page.ref | sort: 'lang' -%} {%- for page in pages -%}
+	            <a
+	                href="{{site.baseurl}}{{ page.url }}"
+	                class="item {{ page.lang }}"
+	                >&nbsp;</a
+	            >
+	            {%- endfor -%} {%- assign posts=site.posts | where:"ref",
+	            page.ref | sort: 'lang' -%} {%- for post in posts -%}
+	            <a
+	                href="{{site.baseurl}}{{ post.url }}"
+	                class="item {{ post.lang }}"
+	                >&nbsp;</a
+	            >
+	            {%- endfor -%}
+	            <div class="right menu">
+	                <a
+	                    class="item"
+	                    href="https://www.facebook.com/myautisticself"
+	                >
+	                    Facebook
+	                </a>
+	                <a
+	                    class="item"
+	                    href="https://twitter.com/WesterinkDavid"
+	                >
+	                    Twitter
+	                </a>
+	                <a class="item" href="https://github.com/davidakachaos">
+	                    GitHub
+	                </a>
+	                {%- if page.lang == "nl" -%}
+	                <a class="item" href="{{ site.baseurl }}/feed.xml"
+	                    >RSS Feed</a
+	                >
+	                {%- else -%}
+	                <a class="item" href="{{ site.baseurl }}/feed_en.xml"
+	                    >RSS Feed</a
+	                >
+	                {%- endif -%}
+	            </div>
+	        </div>
+	    </div>
+	    <div class="right-nav"></div>
+	</nav>
 </header>

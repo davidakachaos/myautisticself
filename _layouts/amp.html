@@ -1,5 +1,5 @@
 <!doctype html>
-<html amp lang="en">
+<html amp lang="{{page.lang}}">
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
@@ -7,10 +7,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
     <style amp-custom>
-      {% capture include_to_scssify %}
-        {% include main.scss %}
-      {% endcapture %}
-      {{ include_to_scssify | scssify }}
+      {% include amp.css %}
     </style>
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 
@@ -98,7 +95,15 @@
       <div class="post">
       {{ page.body | markdownify | amp_images }} 
     </div>
-    {% include related_posts.html %}
+    <div class="ui horizontal divider">
+        {%- if page.lang == "nl" -%}
+        Bedankt Voor Het Lezen
+        {%- else -%}
+        Thanks for reading
+        {%- endif -%}
+    </div>
+    {%- include amp-share-buttons.html -%}
+    {% include further_reading.html %}
   </article> 
 
   </div>

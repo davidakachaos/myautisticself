@@ -11,21 +11,27 @@ module Jekyll
       @dir = dir
       @name = 'index.html'
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'amp-post.html')
+      self.read_yaml(File.join(base, '_layouts'), 'amp.html')
 
       self.data['body']          = post.content
+      self.data['lang']          = post.data['lang']
+      self.data['ref']           = post.data['ref']
       self.data['title']         = post.data['title']
+      self.data['description']   = post.data['description']
       self.data['date']          = post.data['date']
       self.data['author']        = post.data['author']
       self.data['category']      = post.data['category']
       self.data['tags']          = post.data['tags']
       self.data['canonical_url'] = post.url
+      
     end
   end
   # Generates a new AMP post for each existing post
   class AmpGenerator < Generator
     priority :low
+    safe true
     def generate(site)
+      puts "Called AMP?"
       dir = site.config['ampdir'] || 'amp'
 
       thread_count = (ENV['THREADCOUNT'] || 8).to_i
