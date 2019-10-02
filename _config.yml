@@ -124,7 +124,6 @@ exclude:
   - yarn.lock
 
 webmentions:
-  pause_lookups: true
   username: myautisticself.nl
   templates:
     bookmarks: _includes/webmentions/bookmarks.html
