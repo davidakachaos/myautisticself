@@ -47,21 +47,7 @@
                     >
                         Links
                     </a>
-                    {%- endif -%} {%- assign pages=site.pages | where:"ref",
-                    page.ref | sort: 'lang' -%} {%- for page in pages -%}
-                    <a
-                        href="{{site.baseurl}}{{ page.url }}"
-                        class="item {{ page.lang }}"
-                        >&nbsp;</a
-                    >
-                    {%- endfor -%} {%- assign posts=site.posts | where:"ref",
-                    page.ref | sort: 'lang' -%} {%- for post in posts -%}
-                    <a
-                        href="{{site.baseurl}}{{ post.url }}"
-                        class="item {{ post.lang }}"
-                        >&nbsp;</a
-                    >
-                    {%- endfor -%}
+                    {%- endif -%}
                     <div class="right menu">
                         <div id="head-search" class="ui category search item">
                             <div class="ui transparent icon input">
