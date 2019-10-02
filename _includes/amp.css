@@ -565,7 +565,7 @@ header {
   transition: color 0.1s ease;
   border-radius: 0.28571429rem;
   background: 0 0;
-  color: rgba(255, 255, 255, 0.7) !important;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .ui.secondary.inverted.menu {
