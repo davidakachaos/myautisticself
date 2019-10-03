@@ -29,6 +29,7 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-responsive-image'
   gem 'amp-jekyll', path: '../amp-jekyll/'
+  gem 'jekyll-pingback', path: '../jekyll-pingback/'
   gem 'jekyll-auto-image'
 end
 

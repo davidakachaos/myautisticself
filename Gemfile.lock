@@ -20,6 +20,13 @@ PATH
       jekyll (~> 4.0)
       nokogiri (>= 1.6.0)
 
+PATH
+  remote: ../jekyll-pingback
+  specs:
+    jekyll-pingback (0.1.0)
+      nokogiri
+      xmlrpc
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -102,7 +109,6 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
-    jekyll-analytics (0.1.11)
     jekyll-auto-image (1.1.3)
       jekyll
     jekyll-compose (0.11.0)
@@ -185,6 +191,7 @@ GEM
       http (~> 5.0.0.pre)
       indieweb-endpoints (~> 1.0)
       nokogiri (~> 1.10)
+    xmlrpc (0.3.0)
     yard (0.9.20)
     yell (2.2.0)
     zeitwerk (2.1.10)
@@ -200,11 +207,11 @@ DEPENDENCIES
   fastimage
   html-proofer
   jekyll (~> 4.0)
-  jekyll-analytics
   jekyll-auto-image
   jekyll-compose
   jekyll-email-protect
   jekyll-feed
+  jekyll-pingback!
   jekyll-redirect-from
   jekyll-responsive-image
   jekyll-seo-tag

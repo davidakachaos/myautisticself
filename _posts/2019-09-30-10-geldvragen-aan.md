@@ -6,6 +6,7 @@ tags: autisme geld persoonlijk
 ref: 10geldvragen
 description: 10 vragen beantwoorden over geld
 in_reply_to: https://tistje.com/2019/09/26/10-geldvragen-aan-tistje-autisme-en-geld/
+pingback: https://tistje.com/2019/09/26/10-geldvragen-aan-tistje-autisme-en-geld/
 wm-reply: true
 wm-link: https://tistje.com/2019/09/26/10-geldvragen-aan-tistje-autisme-en-geld/
 wm-title: 10 geldvragen aan Tistje … autisme en geld

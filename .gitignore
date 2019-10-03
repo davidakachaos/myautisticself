@@ -4,3 +4,4 @@ _site
 *.swp
 node_modules
 .jekyll-cache
+.pingbacks-cache
