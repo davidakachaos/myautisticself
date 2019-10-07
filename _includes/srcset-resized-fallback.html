@@ -1,7 +1,28 @@
 {%- assign largest = resized | sort: 'width' | last -%}
+{%- assign tinyest = resized | sort: 'width' | first -%}
 {%- capture srcset -%}
 {%- for i in resized -%}
+	{%- if forloop.last == false -%}
     /{{ i.path }} {{ i.width }}w,
+	{%- endif -%}
 {%- endfor -%}
 {%- endcapture -%}
-<img src="/{{ largest.path }}" alt="{{ alt }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w" class="{{ class }}">
+{%- if class == "logo" -%}
+<img src="/{{ original.path }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w" class="{{ class }}" alt="{{ alt }}" title="{{ title }}" />
+{%- else -%}
+{%- if url -%}
+<a href="{{url}}" data-href="/{{ original.path }}"
+   data-srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
+   data-sizes="100vw"
+   class="progressive replace {{ class }}">
+    <img src="/{{ tinyest.path }}" class="preview {{ class }}" alt="{{ alt }}" title="{{ title }}" />
+</a>
+{%- else -%}
+<a href="/{{ original.path }}"
+   data-srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
+   data-sizes="100vw"
+   class="progressive replace {{ class }}">
+    <img src="/{{ tinyest.path }}" class="preview {{ class }}" alt="{{ alt }}" title="{{ title }}" />
+</a>
+{%- endif -%}
+{%- endif -%}

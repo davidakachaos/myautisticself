@@ -10,13 +10,15 @@
                 {%- assign post_img_url = elements[1] | replace: '/assets', 'assets' -%}
                 {%- assign post_img_alt = elements[3] -%}
                 <!-- {{ elements[3] }} -->
-                <a class="image" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | truncatewords: 15 }}">
+                <div class="ui image">
                     {% responsive_image_block %}
                       path: {{ post_img_url }}
                       alt: {{ post_img_alt }}
-                      class: "image"
+                      title: {{ post.title | strip_html | truncatewords: 15 }}
+                      class: "ui image large centered"
+                      url: {{ post.url }}
                     {% endresponsive_image_block %}
-                </a> 
+                </div>
                 {%- assign foundImage = 1 -%}
                 {%- break -%}
             {%- endif -%}

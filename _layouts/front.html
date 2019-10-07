@@ -25,19 +25,28 @@ layout: default
                 <div class="ui horizontal divider">
                     Oudere Posts
                 </div>
+            <div class="ui link items">
             {%- endif -%}
             <div class="sixteen wide column">
                 <div class="ui middle aligned selection list">
-                    <div class="item">
-                        <div class="header">
-                            <a class="header" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | truncatewords: 15 }}">{{ post.title | strip_html | truncatewords: 15 }}</a>
-                            <small class="small-date">{{ post.date | date_to_string }}</small>
+                    <div class="item" style="text-align: left;">
+                        <div class="ui tiny image">
+                          <img src="{{ post.image | replace: "assets/img", "assets/resized/80" }}">
                         </div>
-                        {{ post.content | strip_html | truncatewords: 30 }}
+                        <div class="content">
+                            <div class="header">
+                                <a class="header" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | truncatewords: 15 }}">{{ post.title | strip_html | truncatewords: 15 }}</a>
+                                <small class="small-date">{{ post.date | date_to_string }}</small>
+                            </div>
+                            <div class="description">
+                                {{ post.content | strip_html | truncatewords: 30 }}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         {%- endif -%}
     {%- endfor -%}
+    </div>
 </div>
 <div class="ui divider"></div>

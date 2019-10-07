@@ -41,9 +41,14 @@ future: false # Don't publish posts in the future!
 ampdir: amp
 
 responsive_image:
+  strip: true
   template: _includes/srcset-resized-fallback.html
+  output_path_format: assets/resized/%{width}/%{basename}
   sizes:
     - width: 80  # [Required] How wide the resized image will be.
+    - width: 20
+      quality: 10
+    - width: 300
     - width: 250
     - width: 500
     - width: 900
