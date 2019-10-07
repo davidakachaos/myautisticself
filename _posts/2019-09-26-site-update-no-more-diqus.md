@@ -6,6 +6,7 @@ tags: website technisch
 ref: siteupdate-commentsremoved
 description: Short update about removing Disqus and adding webmentions
 date: 2019-09-26 12:44 +0200
+image: assets/img/wall_e_pod_hires.jpg
 ---
 ![Website update](/assets/img/wall_e_pod_hires.jpg){: class='ui right floated image large'}
 Since I started this blog I have used a comment system called Disqus. This blog was not actually used by visitors to my blog. Not so strange actually, because most of the reactions I get outside of my blog. In particular via Twitter and Facebook. Commenting via the blog itself was never actually done.

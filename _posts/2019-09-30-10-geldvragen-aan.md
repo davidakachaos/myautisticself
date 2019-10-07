@@ -17,6 +17,7 @@ wm-quote: Elk weekend verschijnt in de krant De Tijd in de katern ‘Netto’ ee
   het stokje over.
 wm-cite: Tistje
 date: 2019-09-30 12:06 +0200
+image: assets/img/moneyeuros.jpg
 ---
 ![Geld](/assets/img/moneyeuros.jpg){: class='ui right floated image medium'}
 

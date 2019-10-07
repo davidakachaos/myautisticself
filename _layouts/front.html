@@ -31,7 +31,9 @@ layout: default
                 <div class="ui middle aligned selection list">
                     <div class="item" style="text-align: left;">
                         <div class="ui tiny image">
+                        {%- if post.image -%}
                           <img src="{{ post.image | replace: "assets/img", "assets/resized/80" }}">
+                        {%- endif -%}
                         </div>
                         <div class="content">
                             <div class="header">

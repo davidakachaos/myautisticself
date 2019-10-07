@@ -46,6 +46,8 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'https://myautisticself.nl has been deployed.'
   echo 'Sending webmentions...'
   jekyll webmention
+  echo 'Sending pingbacks...'
+  jekyll pingback
 else
   echo 'Nothing was changed! Aborting deployment.'
   git checkout source

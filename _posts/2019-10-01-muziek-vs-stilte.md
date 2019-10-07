@@ -6,6 +6,7 @@ tags: autisme muziek
 ref: muziekvsstilte
 description: Over de invloed die muziek op mijn concentratie heeft
 date: 2019-10-01 12:56 +0200
+image: assets/img/music.jpg
 ---
 ![Muziek noten](/assets/img/music.jpg){: class='ui right floated image medium'}
 Als ik druk bezig ben met werk of bijvoorbeeld dit blog schrijven, "moet" ik muziek aan hebben. Ik weet dat er veel mensen zijn die veel liever in stilte werken, maar voor mij werkt dat eigenlijk niet. Ik moet muziek aan hebben om geconcentreerd te werken.

@@ -6,6 +6,7 @@ tags: website technisch
 ref: siteupdate-commentsremoved
 description: Korte update over het verwijderen van Disqus en toevoegen van webmentions
 date: 2019-09-26 12:44 +0200
+image: assets/img/wall_e_pod_hires.jpg
 ---
 ![Website update](/assets/img/wall_e_pod_hires.jpg){: class='ui right floated image large'}
 Sinds ik met dit blog begonnen ben heb ik een commentaar systeem gebruikt wat Disqus heet. Hiervan werd eigenlijk geen gebruik gemaakt door bezoekers van mijn blog. Niet zo raar eigenlijk, want de meeste reacties krijg ik buiten mijn blog om. Met name via Twitter en Facebook. Commentaren geven via het blog zelf werd eigenlijk nooit gedaan.

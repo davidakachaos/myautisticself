@@ -6,6 +6,9 @@ tags: autisme
 category: persoonlijk
 ref: ikbenautist
 description: Het verschil tussen het "hebben van" autisme en het "zijn van een" autist.
+date: 2019-10-07 13:35 +0200
+image: assets/img/identityfirst.jpg
+pingback: https://www.autisme.nl/ervaringen/blogs-over-autisme/blog-van-els-van-veen-huisarts-4/
 ---
 {% responsive_image path: assets/img/identityfirst.jpg alt: "Identity first autism" title: "Identity first autism" class: 'ui image medium floated right' %}
 

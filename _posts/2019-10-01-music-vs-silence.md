@@ -6,6 +6,7 @@ tags: autisme muziek
 ref: muziekvsstilte
 description: About the influence that music has on my concentration
 date: 2019-10-01 12:56 +0200
+image: assets/img/music.jpg
 ---
 ![Muziek noten](/assets/img/music.jpg){: class='ui right floated image medium'}
 When I'm busy with work or writing this blog, for example, I "need" to have music on. I know there are many people who prefer to work in silence, but for me that doesn't actually work. I need music on to work concentrated.

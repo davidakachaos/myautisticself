@@ -1,30 +1,15 @@
 <div class="ui card">
-
-    {%- assign foundImage = 0 -%}
-    {%- assign images = post.content | split:"<img" -%}
-    {%- for image in images -%}
-        {%- if image contains 'src' -%}
-            {%- if foundImage == 0 -%}
-                {%- assign html = image | split:">" | first -%}
-                {%- assign elements = html | split: '"' -%}
-                {%- assign post_img_url = elements[1] | replace: '/assets', 'assets' -%}
-                {%- assign post_img_alt = elements[3] -%}
-                <!-- {{ elements[3] }} -->
-                <div class="ui image">
-                    {% responsive_image_block %}
-                      path: {{ post_img_url }}
-                      alt: {{ post_img_alt }}
-                      title: {{ post.title | strip_html | truncatewords: 15 }}
-                      class: "ui image large centered"
-                      url: {{ post.url }}
-                    {% endresponsive_image_block %}
-                </div>
-                {%- assign foundImage = 1 -%}
-                {%- break -%}
-            {%- endif -%}
-        {%- endif -%}
-    {%- endfor -%}
-
+    {%- if post.image -%}
+    <div class="ui image">
+        {% responsive_image_block %}
+          path: {{ post.image | replace: "/assets", "assets" }}
+          alt: {{ post.description }}
+          title: {{ post.title | strip_html | truncatewords: 15 }}
+          class: "ui image large centered"
+          url: {{ post.url }}
+        {% endresponsive_image_block %}
+    </div>
+    {%- endif -%}
     <div class="content">
         <a class="header" href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title | strip_html | truncatewords: 15 }}">{{ post.title | strip_html | truncatewords: 15 }}</a>
         <div class="meta">
