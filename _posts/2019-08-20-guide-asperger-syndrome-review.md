@@ -188,7 +188,7 @@ But back to the book. Here is also spoken of a weak central coherence. What this
 Here the book examines the motor skills and coordination of people with Asperger. It is said that about 60 percent of children with Asperger are bumbling, but research has shown that almost all children with Asperger have specific movement disorders. This applies to both fine and gross motor skills.
 
 I fully recognize this myself. As I wrote before, I have some problems with writing. Not only is my handwriting very unclear, but after a short time writing by hand I get cramp in my hand and I can no longer hold a pen. In the past I spent a lot of time after and pre-school with writing extra lessons. It all didn't help. There has even been a moment when my history teacher instructed me to do my homework on the computer.
-He knew from my results that I was doing my homework, but he could not check because my handwriting could not be read by him. So instead of rejecting my homework, I had to do it on the computer. This was a relief for me. Partly because of that, it was also excellent at history class :wink:
+He knew from my results that I was doing my homework, but he could not check because my handwriting could not be read by him. So instead of rejecting my homework, I had to do it on the computer. This was a relief for me. Partly because of that, it was also excellent at history class.
 
 Things like gymnastics during the gym didn't go so well either. I also hated gymnastics because I was not good at it and it took me a lot of effort. Nowadays things are getting better in terms of clumsiness. Where I used to be able to trip over my own feet, I'm now just a little clumsy at times :smile:
 

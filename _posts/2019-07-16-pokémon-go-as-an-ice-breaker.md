@@ -44,7 +44,7 @@ Because I wasn't sure if she actually played, I first walked on. But when she we
 
 After looking at how she attacked my Pokémon, I restored my Pokémon to full life in one go. Then she looked around and almost directly in my direction. She clearly understood that I was also a player. I raised my hand and approached her.
 
-We greet each other by asking about the color of the team we were in. This sometimes seems to be a standard greeting between Pokémon players :smile: Then the conversation quickly got going.
+We greet each other by asking about the color of the team we were in. This sometimes seems to be a standard greeting between Pokémon players. Then the conversation quickly got going.
 
 Two hours later (!!) we said goodbye to each other after a conversation that ended with anything and everything. It was very interesting to have such a chance encounter with someone and to have such a long conversation.
 
