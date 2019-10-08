@@ -18,6 +18,7 @@
     <script async custom-element="amp-analytics"
     src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
 
 <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -103,6 +104,14 @@
         {%- endif -%}
     </div>
     {%- include amp-share-buttons.html -%}
+    <amp-ad width="100vw" height=320
+         type="adsense"
+         data-ad-client="ca-pub-4410316703647021"
+         data-ad-slot="9683938232"
+         data-auto-format="rspv"
+         data-full-width>
+      <div overflow></div>
+    </amp-ad>
     {% include further_reading.html %}
   </article> 
 
