@@ -131,6 +131,7 @@ exclude:
 
 webmentions:
   username: myautisticself.nl
+  paused: false
   throttle_lookups:
     last_week: daily
     last_month: weekly
