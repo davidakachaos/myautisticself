@@ -5,8 +5,10 @@ lang: nl
 tags: autisme dnd fantasie
 category: Dungeons and Dragons
 ref: dnd-fantasie-de-vrije-loop
-description: Over wat het maakt dat ik Dungeons and Dragons zo leuk vind om te spelen. Wat maakt het een leuk spel? En waar loop ik tegen aan?
-image: /assets/img/dndfire.jpg
+description: Over wat het maakt dat ik Dungeons and Dragons zo leuk vind om te spelen.
+  Wat maakt het een leuk spel? En waar loop ik tegen aan?
+image: "/assets/img/dndfire.jpg"
+date: 2019-10-10 14:07 +0200
 ---
 {% responsive_image path: assets/img/dndfire.jpg alt: "Dungeons And Dragons" title: "Dungeons and Dragons" class: 'ui image large centered' %}
 
@@ -23,7 +25,7 @@ Hoe je dat doet dat staat je vrij. Je bent beperkt door de wereld (net als perso
 # Mijn verhaal
 Ik ben nog niet erg ervaren met Dungeons and Dragons, maar ik speel het al wel wat maanden nu. Niet elke dag, zelfs niet elke week. Maar wel regelmatig. De groep waarin ik speel, bestaat uit 5 spelers en 1 verteller. We spelen samen een groep avonturiers die op zoek zijn om te groeien in faam en kracht. Dit is de eerste campagne van onze Dungeon Master en het bevalt me uitstekend!
 
-Ons verhaal is net een nieuwe weg in geslagen. We zijn op weg naar een nieuwe stad, met nieuwe avonturen en gevaren. Ik ben benieuwd wat het verhaal allemaal gaat brengen.
+Ons verhaal is net een nieuwe weg ingeslagen. We zijn op weg naar een nieuwe stad, met nieuwe avonturen en gevaren. Ik ben benieuwd wat het verhaal allemaal gaat brengen.
 
 # Het spelen van een rol
 
