@@ -11,7 +11,7 @@ module Jekyll
     def amp_images(input, responsive = true, wi = nil, he = nil)
       doc = Nokogiri::HTML.fragment(input);
       # Add width and height to img elements lacking them
-      doc.css('img').each do |image|
+      doc.css('img:not([width])').each do |image|
         if wi && he
           image['width']  = wi
           image['height'] = he
