@@ -28,7 +28,7 @@ for filename in filenames:
         if crawl:
             current_tags = line.strip().split()
             if current_tags[0] == "category:":
-                total_cats.extend(current_tags[1:])
+                total_cats.extend(["-".join(current_tags[1:])])
             if current_tags[0] == "tags:":
                 total_tags.extend(current_tags[1:])
                 # crawl = False
@@ -101,16 +101,16 @@ for cat in total_cats:
     f = open(cat_filename, "a")
     write_str = (
         '---\nlayout: catpage\ntitle: "Categorie: '
-        + cat
+        + " ".join(cat.split("-"))
         + '"\ncat: '
-        + cat
+        + " ".join(cat.split("-"))
         + "\nref: cat_"
         + cat
         + "\nlang: "
         + default_lang
         + "\ndescription: "
         + "Categorie pagina voor "
-        + cat
+        + " ".join(cat.split("-"))
         + "\nrobots: noindex\n---\n"
     )
     f.write(write_str)
