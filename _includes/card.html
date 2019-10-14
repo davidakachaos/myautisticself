@@ -15,7 +15,7 @@
         <div class="meta">
             <span class="date">{{ post.date | date_to_string }} 
             {%- if post.category -%} 
-                &nbsp;in <a href="{{site.baseurl}}{{ page.lang | append: '/' | prepend: '/' | remove: '/nl' }}category/{{post.category}}.html" alt="{{post.category}} posts">{{ post.categories }}</a>
+                &nbsp;in <a href="{{site.baseurl}}{{ page.lang | append: '/' | prepend: '/' | remove: '/nl' }}category/{{post.category | replace: ' ', '-'}}.html" alt="{{post.category}} posts">{{ post.categories }}</a>
             {%- endif -%} 
             </span>
         </div>
