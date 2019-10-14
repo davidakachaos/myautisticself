@@ -8,6 +8,7 @@ ref: mijndepressie
 description: Over hoe ik als autist om ben gegaan met mijn depressie. Hoe ik ben hersteld
   en wat het voor mij heeft betekend om zo diep te zitten.
 date: 2019-10-14 12:57 +0200
+image: "/assets/img/monsterinside.jpg"
 ---
 {% responsive_image path: assets/img/monsterinside.jpg alt: "The scariest monster is inside us" class: 'ui image floated medium right' %}
 

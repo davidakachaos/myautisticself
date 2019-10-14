@@ -7,6 +7,7 @@ category: persoonlijk
 ref: mijndepressie
 description: About how I dealt with my depression as an autist. How I recovered and what it meant for me to be so deep.
 date: 2019-10-14 12:57 +0200
+image: "/assets/img/monsterinside.jpg"
 ---
 {% responsive_image path: assets/img/monsterinside.jpg alt: "The scariest monster is inside us" class: 'ui image floated medium right' %}
 
