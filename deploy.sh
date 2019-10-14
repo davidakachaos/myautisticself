@@ -42,7 +42,11 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git commit -m 'Latest version of My Autistic Self'
   echo 'Pushing latest to GitHub!'
   git push
+  echo 'Restoring build site...'
+  mkdir _site
+  cp -r * ./_site/ 2>/dev/null
   git checkout source
+  rm -r ./_site/_site
   echo 'https://myautisticself.nl has been deployed.'
   echo 'Sending webmentions...'
   jekyll webmention
