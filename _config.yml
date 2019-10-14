@@ -131,7 +131,10 @@ exclude:
 
 webmentions:
   username: myautisticself.nl
+  debug: false
   paused: false
+  legacy_domains: # Some might link to the HTTP version (will be redirected to HTTPS)
+    - http://myautisticself.nl
   throttle_lookups:
     last_week: daily
     last_month: weekly
