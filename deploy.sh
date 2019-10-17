@@ -31,6 +31,12 @@ fi
 
 echo 'Building Jekyll...'
 JEKYLL_ENV=production jekyll build
+# Fuck you, hands off my js file!
+git checkout -- js/JekyllWebmentionIO.js
+if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
+  echo 'Git status not clean after build, aborting deploy!'
+  exit 3
+fi
 echo 'Switching to master branch...'
 git checkout master
 echo 'Copying build site to master branch'
@@ -54,8 +60,7 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   jekyll pingback
 else
   echo 'Nothing was changed! Aborting deployment.'
+  cp -r * ./_site/ 2>/dev/null
   git checkout source
+  rm -r ./_site/_site
 fi
-
-# echo 'Deploying to GitHub'
-# git push
