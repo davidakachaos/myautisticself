@@ -753,11 +753,10 @@ exports.Liquid=Liquid;}// #@ts-check
   var targets = [],
       $redirects = document.querySelector('meta[property="webmention:redirected_from"]'),
       redirects,
-      base_url = 'https://myautisticself.nl',
+      base_url = window.location.origin,
       $script;
   
   targets.push( base_url + window.location.pathname );
-  targets.push( base_url.replace('https', 'http') + window.location.pathname );
   if ( $redirects )
   {
     redirects = $redirects.getAttribute('content').split(',');
