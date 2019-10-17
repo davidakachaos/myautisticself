@@ -25,12 +25,13 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jemoji'
   gem 'jekyll-email-protect'
-  gem 'jekyll-webmention_io', github: 'davidakachaos/jekyll-webmention_io', branch: 'upgrade_webmention'
+  gem 'jekyll-webmention_io', path: '../jekyll-webmention_io/' #github: 'davidakachaos/jekyll-webmention_io', branch: 'upgrade_webmention'
   gem 'jekyll-redirect-from'
   gem 'jekyll-responsive-image'
   gem 'amp-jekyll', path: '../amp-jekyll/'
   gem 'jekyll-pingback', path: '../jekyll-pingback/'
   gem 'jekyll-auto-image'
+  gem 'jekyll-minifier', path: '../jekyll-minifier/'
 end
 
 gem "jekyll", "~> 4.0"

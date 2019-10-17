@@ -87,6 +87,10 @@ plugins:
   - jekyll-email-protect
   - jemoji
   - jekyll-redirect-from
+  - jekyll-minifier
+
+jekyll-minifier:
+  compress_javascript: false
 
 defaults:
   -
@@ -128,10 +132,15 @@ exclude:
   - CNAME
   - package.json
   - yarn.lock
+  - node_modules
+  - gulpfile.js
 
 webmentions:
   username: myautisticself.nl
   debug: false
+  js:
+    deploy: false
+    uglify: false
   paused: false
   legacy_domains: # Some might link to the HTTP version (will be redirected to HTTPS)
     - http://myautisticself.nl

@@ -19,8 +19,19 @@
                 </a>
               </div>
             {% endif %}
+            {% if webmention.type == 'link' %}
+              {% assign author = webmention.raw.source | remove: 'https://' | remove:'http://' | split:'/' | first %}
+              <div class="webmention__author p-author h-card">
+                <a class="u-url" href="{{ webmention.raw.source }}" rel="nofollow">
+                  <b class="p-name">{{ author }}</b>
+                </a>
+              </div>
+            {% endif %}
 
             <div class="webmention__content p-content">
+              {% if webmention.type == 'link'%}
+              Postback from <a class="webmention__source u-url" href="{{ webmention.raw.source }}" rel="nofollow">{{ webmention.raw.source }}</a>
+              {% endif %}
               {% if webmention.content %}
                 {{ webmention.content }}
               {% else %}
@@ -32,6 +43,9 @@
               {% if webmention.pubdate %}
                 <time class="webmention__pubdate dt-published"
                       datetime="{{ webmention.pubdate | date: '%FT%T%:z' }}">{{ webmention.pubdate | date: '%d %B %Y' }}</time>
+              {% else if webmention.raw.verified_date %}
+              <time class="webmention__pubdate dt-published"
+                      datetime="{{ webmention.raw.verified_date | date: '%FT%T%:z' }}">{{ webmention.raw.verified_date | date: '%d %B %Y' }}</time>
               {% endif %}
               {% if webmention.pubdate and webmention.url %}|{% endif %}
               {% if webmention.url %}
