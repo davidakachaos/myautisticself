@@ -12,6 +12,7 @@ __All links are in Dutch!__
 ## Blogs
 
 - [Gewoon autastisch](https://gewoonautastisch.nl/){:target="_blank"}{:rel="noopener"}: The website of Mama Isidore about experiences with Autism and her personal story
+- [Dit is ook autisme](https://www.ditisookautisme.nl/){:target="_blank"}{:rel="noopener"}: Michel's personal blog about his view of his autism. One of the few other men who blogs (in Dutch) that I have found.
 - [A-typist](https://a-typist.nl/){:target="_blank"}{:rel="noopener"}: A-typist.nl is a blog by, for and about adults with autism. Here you will find information, experiences, recognition and tips for dealing with and living with autism.
 - [Roos vindt een weg](https://zeevanderrosan.wixsite.com/roosvindteenweg){:target="_blank"}{:rel="noopener"}: Personal blog by Rosan van der Zee about her autism.
 - [NVA Blog lijst](https://www.autisme.nl/ervaringen/blogs-over-autisme/){:target="_blank"}{:rel="noreferrer noopener"}: An overview of blogs on the NVA website
