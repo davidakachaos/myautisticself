@@ -5,7 +5,7 @@
         <div class="head-area">
             <h1 style="display:none;">{{site.title}}</h1>
             <h1 class="site-logo">
-                <a href="{{ site.baseurl }}/"
+                <a href="{{ site.baseurl }}/" title="Homepage"
                     >{% responsive_image path: assets/img/logo.png alt: "Site logo" class: "logo" progressive: false %}</a>
             </h1>
             <h3 class="site-description">{{ site.description[page.lang] }}</h3>
@@ -16,34 +16,36 @@
                 <!-- add titles to all buttons -->
                 <div class="ui secondary menu inverted">
                     {%- if page.lang == "nl" -%}
-                    <a class="item" href="{{ site.baseurl }}/">
+                    <a class="item" href="{{ site.baseurl }}/" title="Homepage">
                         Home
                     </a>
-                    <a class="item" href="{{ site.baseurl }}/about.html">
+                    <a class="item" href="{{ site.baseurl }}/about.html" title="Over mij">
                         Over mij
                     </a>
-                    <a class="item" href="{{ site.baseurl }}/archive.html">
+                    <a class="item" href="{{ site.baseurl }}/archive.html" title="Archief">
                         Archief
                     </a>
                     <a
                         class="item"
                         href="{{ site.baseurl }}/links-naar-andere-websites"
+                        title="Links naar andere websites"
                     >
                         Links
                     </a>
                     {%- else -%}
-                    <a class="item" href="{{ site.baseurl }}/en">
+                    <a class="item" href="{{ site.baseurl }}/en" title="Homepage">
                         Home
                     </a>
-                    <a class="item" href="{{ site.baseurl }}/en/about.html">
+                    <a class="item" href="{{ site.baseurl }}/en/about.html" title="About me">
                         About me
                     </a>
-                    <a class="item" href="{{ site.baseurl }}/en/archive.html">
+                    <a class="item" href="{{ site.baseurl }}/en/archive.html" title="Archive">
                         Archive
                     </a>
                     <a
                         class="item"
                         href="{{ site.baseurl }}/links-to-other-websites"
+                        title="Links to other websites"
                     >
                         Links
                     </a>
@@ -67,24 +69,26 @@
                         <a
                             class="item"
                             href="https://www.facebook.com/myautisticself"
+                            title="Facebook My Autistic Self"
                         >
                             <i class="facebook link icon"></i>
                         </a>
                         <a
                             class="item"
                             href="https://twitter.com/WesterinkDavid"
+                            title="My Twitter"
                         >
                             <i class="twitter link icon"></i>
                         </a>
-                        <a class="item" href="https://github.com/davidakachaos">
+                        <a class="item" href="https://github.com/davidakachaos" title="My GitHub">
                             <i class="github link icon"></i>
                         </a>
                         {%- if page.lang == "nl" -%}
-                        <a class="item" href="{{ site.baseurl }}/feed.xml"
+                        <a class="item" href="{{ site.baseurl }}/feed.xml" title="RSS Feed"
                             >RSS Feed</a
                         >
                         {%- else -%}
-                        <a class="item" href="{{ site.baseurl }}/feed_en.xml"
+                        <a class="item" href="{{ site.baseurl }}/feed_en.xml" title="RSS Feed"
                             >RSS Feed</a
                         >
                         {%- endif -%}

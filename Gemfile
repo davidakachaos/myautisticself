@@ -31,7 +31,6 @@ group :jekyll_plugins do
   gem 'amp-jekyll', path: '../amp-jekyll/'
   gem 'jekyll-pingback', path: '../jekyll-pingback/'
   gem 'jekyll-auto-image'
-  gem 'jekyll-minifier', path: '../jekyll-minifier/'
 end
 
 gem "jekyll", "~> 4.0"

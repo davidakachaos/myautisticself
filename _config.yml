@@ -87,7 +87,6 @@ plugins:
   - jekyll-email-protect
   - jemoji
   - jekyll-redirect-from
-  - jekyll-minifier
 
 jekyll-minifier:
   compress_javascript: false
