@@ -47,7 +47,7 @@ echo 'Remove build site...'
 rm -r _site
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git add .
-  git commit -m 'Latest version of My Autistic Self'
+  git commit -m "Latest version of My Autistic Self - `date +'%Y-%m-%d %H:%M:%S'`"
   echo 'Pushing latest to GitHub!'
   git push
   echo 'Restoring build site...'
