@@ -46,33 +46,6 @@
   gtag('config', 'UA-429677-9');
 </script>
 <script type="text/javascript">
-    jQuery('div.ui > a.image').each(function(){
-        /* get max and minwidth via jquery*/       
-       var maxWidth = parseInt($(this).width);
-       var maxHeight = parseInt($(this).height);
-       console.log('Changing dementions for img..');
-       console.log('W: ' + maxWidth + ' H:' + maxHeight);
-       var imga = $(this).find('img')[0];
-       imga.src = imga.src.replace('h=300', 'h=' + maxHeight);
-       imga.src = imga.src.replace('w=500', 'w=' + maxWidth);
-    });
-    jQuery('.post-container img.ui').each(function(){
-       var maxWidth = parseInt(this.width);
-       var maxHeight = parseInt(this.height);
-       new_src = "//images.weserv.nl/?url=" + this.src;
-       ext = this.src.split('.').slice(-1)[0];
-
-       new_src += "&w=" + maxWidth+ "&h=" + maxHeight 
-       if(ext == 'png'){
-         new_src += "&output=png"
-       } else {
-         new_src += "&output=jpg"
-       }
-       console.log('Changing src from ' + this.src);
-       console.log('To ' + new_src);
-       this.src = new_src;
-    });
-
     $(document).ready(function(){
         callFB();
         subscribeFBLike();
@@ -115,7 +88,7 @@
          js.src = "//connect.facebook.net/en_US/all.js";
          {%- endif -%}
          d.getElementsByTagName('head')[0].appendChild(js);
-       }(document));     
+       }(document));
 
 
     }

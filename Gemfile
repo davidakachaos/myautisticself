@@ -52,3 +52,6 @@ gem 'fastimage'
 gem 'html-proofer'
 gem 'parallel'
 gem 'faraday', '0.9.2'
+
+gem "image_optim", "~> 0.26.5"
+gem "image_optim_pack", "~> 0.6.0"

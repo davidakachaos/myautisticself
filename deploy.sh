@@ -37,6 +37,8 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Git status not clean after build, aborting deploy!'
   exit 3
 fi
+echo 'Optimizing site....'
+grunt optimize
 echo 'Switching to master branch...'
 git checkout master
 echo 'Copying build site to master branch'
