@@ -1,4 +1,4 @@
-let currentSearchTerm = '';
+var currentSearchTerm = '';
 
 onload = function () {
    var e = document.getElementById('search-input');
