@@ -2,7 +2,7 @@
 layout: post
 title: Spinnenwebben in mijn hoofd
 lang: nl
-tags: autisme gedachtes dit-is-ook-autisme
+tags: autisme gedachtes dit-is-autisme
 ref: spinnewebben
 description: Over hoe mijn gedachten tot stand komen en hoe ik verbindingen leg tussen
   verschillende dingen. Hoe het eigenlijk alles beïnvloed in mijn bestaan.

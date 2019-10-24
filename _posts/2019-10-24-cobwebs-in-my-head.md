@@ -2,21 +2,16 @@
 layout: post
 title: Cobwebs in my head
 lang: en
-tags: autisme gedachtes dit-is-ook-autisme
+tags: autisme gedachtes dit-is-autisme
 ref: spinnewebben
-description: About how my thoughts come about and how I make connections between
-   different things. How it actually affects everything in my existence.
-image: "/assets/img/spinnenweb.jpg"
+description: "About how my thoughts come about and how I make connections between different things. How it actually affects everything in my existence."
+image: /assets/img/spinnenweb.jpg
 pingback: https://www.ditisookautisme.nl/2019/10/17/laatjes-in-mijn-hoofd/
 in-reply-to: https://www.ditisookautisme.nl/2019/10/17/laatjes-in-mijn-hoofd/
 wm-reply: true
 wm-link: https://www.ditisookautisme.nl/2019/10/17/laatjes-in-mijn-hoofd/
 wm-title: Laatjes in mijn hoofd
-wm-quote: 'Maybe you have read about it in combination with autism: late.
-   You may have heard an autist talk about "this drawer is still with me
-   not filled ". It is a metaphor. My head doesn't really consist of drawers. But
-   I think it's a very good metaphor. A lot of what's happening in my life,
-   what works differently from others has to do with drawers. [Translated from Dutch]'
+wm-quote: 'Maybe you have read about it in combination with autism: late. You may have heard an autist talk about "this drawer is still with me not filled ". It is a metaphor. My head doesn't really consist of drawers. But I think it's a very good metaphor. A lot of what's happening in my life, what works differently from others has to do with drawers. [Translated from Dutch]'
 wm-cite: Michel
 date: 2019-10-24 10:13 +0200
 ---
