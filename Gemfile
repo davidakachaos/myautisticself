@@ -31,6 +31,9 @@ group :jekyll_plugins do
   gem 'amp-jekyll', path: '../amp-jekyll/'
   gem 'jekyll-pingback', path: '../jekyll-pingback/'
   gem 'jekyll-auto-image'
+  gem 'jekyll-twitter-plugin'
+  gem 'jekyll-tagging', path: '../jekyll-tagging'
+  gem 'jekyll-last-modified-at'
 end
 
 gem "jekyll", "~> 4.0"

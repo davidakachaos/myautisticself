@@ -5,5 +5,6 @@ tag: werk
 ref: tag_werk
 lang: en
 description: Tag page for werk
+sitemap: false
 robots: noindex
 ---

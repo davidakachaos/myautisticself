@@ -38,6 +38,12 @@ permalink: /:year/:month/:title.html
 timezone: Europe/Amsterdam
 future: false # Don't publish posts in the future!
 
+tag_page_layout: tagpage
+tag_page_dir: tag
+tag_disable_tag_pages: true
+tag_page_data:
+  sitemap: false
+
 ampdir: amp
 
 responsive_image:
@@ -112,7 +118,7 @@ jailed: false
 gfm_quirks: paragraph_end
 google_site_verification: WHeMLVU_8p80z-fEGUMt0A3fc-NVCLfFxqZX2NktdfE
 amp_googleanalytics_id: UA-429677-9
-lang: nl_NL
+lang: nl
 
 jekyll_analytics:
   GoogleAnalytics:          # Add, if you want to track with Google Analytics

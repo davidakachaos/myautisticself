@@ -5,5 +5,6 @@ tag: autisme
 ref: tag_autisme
 lang: en
 description: Tag page for autisme
+sitemap: false
 robots: noindex
 ---

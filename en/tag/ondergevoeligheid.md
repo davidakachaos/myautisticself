@@ -5,5 +5,6 @@ tag: ondergevoeligheid
 ref: tag_ondergevoeligheid
 lang: en
 description: Tag page for ondergevoeligheid
+sitemap: false
 robots: noindex
 ---

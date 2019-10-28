@@ -27,6 +27,7 @@ permalink: /sitemap.xml
     {%- endif -%}
   {%- endfor -%}
   {%- for page in site.pages -%}
+  {%- unless page.sitemap == false -%}
 	{%- unless page.sitemap.exclude == "yes" -%}
     {%- if page.id contains "404" -%}
     {%- elsif page.url contains "/assets/" or page.url contains ".xml" or page.url contains ".json" or page.url contains "/en/2019/" or page.url contains "/robots.txt" -%}
@@ -50,5 +51,6 @@ permalink: /sitemap.xml
       </url>
     {%- endif -%}
 	{%- endunless  -%}
+  {%- endunless  -%}
   {%- endfor -%}
 </urlset>

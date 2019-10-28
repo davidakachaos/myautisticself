@@ -5,5 +5,6 @@ tag: asperger
 ref: tag_asperger
 lang: nl
 description: Tag pagina voor asperger
+sitemap: false
 robots: noindex
 ---

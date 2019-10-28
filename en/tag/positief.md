@@ -5,5 +5,6 @@ tag: positief
 ref: tag_positief
 lang: en
 description: Tag page for positief
+sitemap: false
 robots: noindex
 ---

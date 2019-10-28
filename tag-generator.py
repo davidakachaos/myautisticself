@@ -82,7 +82,8 @@ for tag in total_tags:
         + "\ndescription: "
         + "Tag pagina voor "
         + tag
-        + "\nrobots: noindex\n---\n"
+        + "\nsitemap: false\n"
+        + "robots: noindex\n---\n"
     )
     f.write(write_str)
     f.close()

@@ -5,5 +5,6 @@ tag: vakantie
 ref: tag_vakantie
 lang: nl
 description: Tag pagina voor vakantie
+sitemap: false
 robots: noindex
 ---

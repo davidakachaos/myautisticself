@@ -5,5 +5,6 @@ tag: depressie
 ref: tag_depressie
 lang: en
 description: Tag page for depressie
+sitemap: false
 robots: noindex
 ---

@@ -5,5 +5,6 @@ tag: dit-is-autisme
 ref: tag_dit-is-autisme
 lang: en
 description: Tag page for dit-is-autisme
+sitemap: false
 robots: noindex
 ---

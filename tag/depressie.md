@@ -5,5 +5,6 @@ tag: depressie
 ref: tag_depressie
 lang: nl
 description: Tag pagina voor depressie
+sitemap: false
 robots: noindex
 ---

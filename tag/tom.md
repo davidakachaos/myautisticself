@@ -5,5 +5,6 @@ tag: tom
 ref: tag_tom
 lang: nl
 description: Tag pagina voor tom
+sitemap: false
 robots: noindex
 ---

@@ -5,5 +5,6 @@ tag: dit-is-autisme
 ref: tag_dit-is-autisme
 lang: nl
 description: Tag pagina voor dit-is-autisme
+sitemap: false
 robots: noindex
 ---

@@ -5,5 +5,6 @@ tag: kinderjaren
 ref: tag_kinderjaren
 lang: en
 description: Tag page for kinderjaren
+sitemap: false
 robots: noindex
 ---
