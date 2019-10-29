@@ -39,7 +39,7 @@ echo 'Optimizing site....'
 JEKYLL_ENV=production grunt optimize
 rm -Rf .tmp
 echo 'Removing optimized files from deploy'
-rm -Rf _site/assets/js/vendor/*
+rm -Rf _site/assets/js/vendor
 rm -f _site/assets/js/main.js
 rm -f _site/assets/css/main.css
 rm -f _site/assets/css/mobile.css

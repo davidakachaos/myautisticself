@@ -168,11 +168,13 @@ module.exports = function(grunt) {
         uncss: {
             options: {
                 htmlroot: '_site',
+                stylesheets: ['_site/assets/css/site.css'],
                 report: 'min',
                 ignore: ['.reveal', '.progressive', '.progressive img.preview', '.progressive img.reveal', '.progressive img', '.progressive img.reveal']
             },
             dist: {
                 nonull: true,
+                stylesheets: ['_site/assets/css/site.css'],
                 src: ['_site/**/*.html', '!yandex_f0a389ddfda6489c.html',
                         '!_site/2019/**/*.html', '_site/2019/08/hulpgids-asperger-syndroom-review.html',
                         '_site/2019/07/beelddenker.html', '_site/2019/10/cobwebs-in-my-head.html',
@@ -291,7 +293,6 @@ module.exports = function(grunt) {
             },
             html: ['_site/**/*.html'],
             css: ['_site/assets/css/**/*.css'],
-            // js: ['_site/assets/js/**/*.js', '_site/js/*']
         },
         // Usemin adds files to concat
         concat: {},
@@ -337,6 +338,16 @@ module.exports = function(grunt) {
                     connectCommits: false
                 }
             }
+        },
+        stripCssComments: {
+            dist: {
+                options: {
+                    preserve: false
+                },
+                files: {
+                    '_site/assets/css/site.css': '_site/assets/css/site.css'
+                }
+            }
         }
     });
 
@@ -363,6 +374,16 @@ module.exports = function(grunt) {
         grunt.task.run(['serve']);
     });
 
+    grunt.registerTask('removeOldAssets', function(){
+        grunt.file.delete('_site/assets/css/main.css');
+        grunt.file.delete('_site/assets/js/vendor');
+        grunt.file.delete('_site/assets/js/main.js');
+        grunt.file.delete('_site/assets/css/main.css');
+        grunt.file.delete('_site/assets/css/mobile.css');
+        grunt.file.delete('_site/assets/css/vendor/syntax.css');
+        grunt.file.delete('_site/assets/css/vendor/semantic.min.css');
+    });
+
     grunt.registerTask('full_build', [
         // 'clean:dist',
         'jekyll:dist',
@@ -385,12 +406,13 @@ module.exports = function(grunt) {
         'useminPrepare',
         'concat:generated',
         'cssmin:generated',
-        'uglify:generated',
-        // 'filerev',
+        'uglify:generated', 
+        'removeOldAssets',
         'uncss',
         'autoprefixer',
-        'usemin',        
-        'htmlmin'
+        'stripCssComments',
+        // 'usemin',        
+        // 'htmlmin'
     ]);
 
     // grunt.registerTask('deploy', [
