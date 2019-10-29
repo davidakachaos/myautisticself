@@ -2,7 +2,14 @@
 -%} {%- for image in images -%} {%- if image contains 'src' -%} {%- if
 foundImage == 0 -%} {%- assign html = image | split:">" | first -%}{%- assign
 foundImage = 1 -%} {%- break -%} {%- endif -%} {%- endif -%} {%- endfor -%} {%-
-if foundImage == 1 -%} <meta property="og:image" content="{{site.url}}{{ html |
-replace: 'src="', '' | split:'"' | first | strip}}" /> {%- else -%}
+if foundImage == 1 -%}
+<meta property="og:image" content="{{site.url}}{{ html |
+replace: 'src="', '' | split:'"' | first | strip}}" />
+<meta name="twitter:image" content="{{site.url}}{{ html |
+replace: 'src="', '' | split:'"' | first | strip}}">
+{%- else -%}
 <meta property="og:image" content="{{site.url}}/assets/img/logo.png" />
+<meta name="twitter:image" content="{{site.url}}/assets/img/logo.png">
 {%- endif -%}
+<meta name="twitter:title" content="{{page.title}} | My Autistic Self">
+<meta name="twitter:description" content="{{page.description}}">
