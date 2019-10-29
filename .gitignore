@@ -7,3 +7,4 @@ node_modules
 .pingbacks-cache
 Gruntfile.js
 .jekyll
+.tweet-cache

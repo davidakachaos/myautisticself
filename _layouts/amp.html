@@ -99,7 +99,7 @@
   {% capture post_header %}{% include post_header.html %}{% endcapture %}
   {{ post_header | amp_images }}
       <div class="post">
-      {{ page.body | markdownify | amp_images }} 
+      {{ page.body | markdownify | amp_images | amp_tweets }} 
     </div>
     <div class="ui horizontal divider">
         {%- if page.lang == "nl" -%}
