@@ -26,7 +26,7 @@
     <div class="extra content">
         <i class="comments icon"></i>
         <a href="{{ site.baseurl }}{{ post.url }}#allwebmentions" title="Webmentions {{ post.title | strip_html | truncatewords: 15 }}">
-            {% webmention_count post.url %} Webmentions
+            <span data-webmention-count data-url="https://myautisticself.nl{{post.url}}">{% webmention_count post.url %}</span> Webmentions
         </a>
         {%- if post.author -%}
         <div class="right floated author">
