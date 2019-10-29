@@ -168,13 +168,13 @@ module.exports = function(grunt) {
         uncss: {
             options: {
                 htmlroot: '_site',
-                stylesheets: ['_site/assets/css/site.css'],
+                stylesheets: ['assets/css/site.css'],
                 report: 'min',
                 ignore: ['.reveal', '.progressive', '.progressive img.preview', '.progressive img.reveal', '.progressive img', '.progressive img.reveal']
             },
             dist: {
                 nonull: true,
-                stylesheets: ['_site/assets/css/site.css'],
+                stylesheets: ['assets/css/site.css'],
                 src: ['_site/**/*.html', '!yandex_f0a389ddfda6489c.html',
                         '!_site/2019/**/*.html', '_site/2019/08/hulpgids-asperger-syndroom-review.html',
                         '_site/2019/07/beelddenker.html', '_site/2019/10/cobwebs-in-my-head.html',
@@ -384,6 +384,10 @@ module.exports = function(grunt) {
         grunt.file.delete('_site/assets/css/vendor/semantic.min.css');
     });
 
+    grunt.registerTask('removeTmp', function(){
+        grunt.file.delete('.tmp');
+    })
+
     grunt.registerTask('full_build', [
         // 'clean:dist',
         'jekyll:dist',
@@ -408,11 +412,12 @@ module.exports = function(grunt) {
         'cssmin:generated',
         'uglify:generated', 
         'removeOldAssets',
+        'usemin',
         'uncss',
-        'autoprefixer',
         'stripCssComments',
-        // 'usemin',        
-        // 'htmlmin'
+        'autoprefixer',
+        'htmlmin',
+        'removeTmp'
     ]);
 
     // grunt.registerTask('deploy', [

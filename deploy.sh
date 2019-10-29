@@ -37,15 +37,6 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
 fi
 echo 'Optimizing site....'
 JEKYLL_ENV=production grunt optimize
-rm -Rf .tmp
-echo 'Removing optimized files from deploy'
-rm -Rf _site/assets/js/vendor
-rm -f _site/assets/js/main.js
-rm -f _site/assets/css/main.css
-rm -f _site/assets/css/mobile.css
-rm -f _site/assets/css/vendor/syntax.css
-rm -f _site/assets/css/vendor/semantic.min.css
-exit 2
 echo 'Switching to master branch...'
 git checkout master
 echo 'Copying build site to master branch'
