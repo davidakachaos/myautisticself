@@ -42,7 +42,7 @@
 
   if ( $webmention_counts.length )
   {
-    JekyllWebmentionIO.counter_update_event = new Event(event_name);
+    window.JekyllWebmentionIO.counter_update_event = new Event(event_name);
     document.addEventListener(event_name, updateCounts, false);
   }
 
@@ -77,8 +77,8 @@ else if((/^(\d+)$/).test(key))
 {return parseInt(key.replace(/^(\d+)$/,'$1'));}
 else if((/^(\d[\d\.]+)$/).test(key))
 {return parseFloat(key.replace(/^(\d[\d\.]+)$/,'$1'));}
-else if((/^\((\S+)\.\.(\S+)\)$/).test(key)){var range=key.match(/^\((\S+)\.\.(\S+)\)$/),left=parseInt(range[1]),right=parseInt(range[2]),arr=[];if(isNaN(left)){let varLeft=this.resolve(range[1]);left=parseInt(varLeft);if(isNaN(left)){throw new Error('Incorrect param for range: '+key);}}
-if(isNaN(right)){let varRight=this.resolve(range[2]);right=parseInt(varRight);if(isNaN(right)){throw new Error('Incorrect param for range: '+key);}}
+else if((/^\((\S+)\.\.(\S+)\)$/).test(key)){var range=key.match(/^\((\S+)\.\.(\S+)\)$/),left=parseInt(range[1]),right=parseInt(range[2]),arr=[];if(isNaN(left)){var varLeft=this.resolve(range[1]);left=parseInt(varLeft);if(isNaN(left)){throw new Error('Incorrect param for range: '+key);}}
+if(isNaN(right)){var varRight=this.resolve(range[2]);right=parseInt(varRight);if(isNaN(right)){throw new Error('Incorrect param for range: '+key);}}
 var limit=right-left+1;for(var i=0;i<limit;i++)arr.push(i+left);return arr;}else{var result=this.variable(key);return result;}}},findVariable:function(key){for(var i=0;i<this.scopes.length;i++){var scope=this.scopes[i];if(scope&&typeof(scope[key])!=='undefined'){var variable=scope[key];if(typeof(variable)=='function'){variable=variable.apply(this);scope[key]=variable;}
 if(variable&&this._isObject(variable)&&('toLiquid'in variable)){variable=variable.toLiquid();}
 if(variable&&this._isObject(variable)&&('setContext'in variable)){variable.setContext(self);}
@@ -757,6 +757,9 @@ exports.Liquid=Liquid;}// #@ts-check
       $script;
   
   targets.push( base_url + window.location.pathname );
+  if (base_url.includes('https')) {
+    targets.push( base_url.replace('https', 'http') + window.location.pathname );
+  }
   if ( $redirects )
   {
     redirects = $redirects.getAttribute('content').split(',');
