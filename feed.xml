@@ -18,7 +18,8 @@ lang: nl
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | truncatewords: 200 | xml_escape }}
-            &lt;a href=&quot;{{ post.url | prepend: site.baseurl | prepend: site.url }}&quot;&gt;Lees verder&lt;>/a&gt;
+        <br />
+        Lees verder via: {{ post.url | prepend: site.url | xml_escape }}
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>

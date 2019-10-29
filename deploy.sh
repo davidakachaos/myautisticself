@@ -31,14 +31,13 @@ fi
 
 echo 'Building Jekyll...'
 JEKYLL_ENV=production jekyll build
-# Fuck you, hands off my js file!
-git checkout -- js/JekyllWebmentionIO.js
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Git status not clean after build, aborting deploy!'
   exit 3
 fi
 echo 'Optimizing site....'
-grunt optimize
+JEKYLL_ENV=production grunt optimize
+rm -Rf .tmp
 echo 'Switching to master branch...'
 git checkout master
 echo 'Copying build site to master branch'

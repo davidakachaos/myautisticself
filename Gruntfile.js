@@ -5,6 +5,7 @@ module.exports = function(grunt) {
     require('time-grunt')(grunt);
     // load processhtml
     grunt.loadNpmTasks('grunt-processhtml');
+    grunt.loadNpmTasks('grunt-usemin');
     // Load all Grunt tasks
     require('jit-grunt')(grunt);
 
@@ -82,7 +83,7 @@ module.exports = function(grunt) {
                     dot: true,
                     src: [
                         '.tmp',
-                        // '<%= app.dist %>/*',
+                        '<%= app.dist %>/*',
                         '!<%= app.dist %>/.git*'
                     ]
                 }]
@@ -129,12 +130,12 @@ module.exports = function(grunt) {
             options: {
                 preserveComments: false,
                 mangle: {
-                 reserved: ['jQuery']
-               }
+                    reserved: ['jQuery']
+                }
             },
             dist: {
                 files: {
-                    '_site/assets/js/scripts.js': ['<%= app.app %>/assets/js/**/*.js', '!<%= app.app %>/assets/js/**/*.min.js']
+                    '_site/assets/js/scripts.min.js': ['<%= app.app %>/assets/js/**/*.js', '<%= app.app %>/js/**/*.js']
                 }
             }
         },
@@ -172,7 +173,12 @@ module.exports = function(grunt) {
             },
             dist: {
                 nonull: true,
-                src: ['_site/**/*.html', '!yandex_f0a389ddfda6489c.html', '!_site/amp/**/*.html', '!_site/tag/**/*.html', '!_site/category/**/*.html', '!_site/en/**/*.html'],
+                src: ['_site/**/*.html', '!yandex_f0a389ddfda6489c.html',
+                        '!_site/2019/**/*.html', '_site/2019/08/hulpgids-asperger-syndroom-review.html',
+                        '_site/2019/07/beelddenker.html', '_site/2019/10/cobwebs-in-my-head.html',
+                        '!_site/amp/**/*.html', '!_site/tag/**/*.html', 
+                        '!_site/category/**/*.html', '!_site/en/**/*.html'
+                    ],
                 dest: '_site/assets/css/site.css'
             }
         },
@@ -215,8 +221,8 @@ module.exports = function(grunt) {
                     check: 'gzip'
                 },
                 files: {
-                  '_site/assets/css/site.css': '_site/assets/css/site.css'
-                  // [ '_site/assets/css/vendor/syntax.css', '_site/assets/css/vendor/semantic.min.css', '_site/assets/css/main.css', '_site/assets/css/mobile.css']
+                    '_site/assets/css/site.css': '_site/assets/css/site.css'
+                        // [ '_site/assets/css/vendor/syntax.css', '_site/assets/css/vendor/semantic.min.css', '_site/assets/css/main.css', '_site/assets/css/mobile.css']
                 }
             }
         },
@@ -230,13 +236,12 @@ module.exports = function(grunt) {
                     cwd: '<%= app.dist %>/<%= app.baseurl %>/assets/img',
                     src: '**/*.{jpg,jpeg,png,gif}',
                     dest: '<%= app.dist %>/<%= app.baseurl %>/assets/img'
-                },{
+                }, {
                     expand: true,
                     cwd: '<%= app.dist %>/<%= app.baseurl %>/assets/resized',
                     src: '**/*.{jpg,jpeg,png,gif}',
                     dest: '<%= app.dist %>/<%= app.baseurl %>/assets/resized'
-                }
-              ]
+                }]
             }
         },
         svgmin: {
@@ -250,52 +255,62 @@ module.exports = function(grunt) {
             }
         },
         processhtml: {
-          options: {
-            process: true,
-          },
-          js: {
-            files: [{
-                expand: true,
-                cwd: '<%= app.dist %>/<%= app.baseurl %>',
-                src: ['**/*.html', '!amp/**/*.html'],
-                dest: '<%= app.dist %>/',
-                ext: '.html'
-            }]
-          },
-          css: {
-            files: [{
-                expand: true,
-                cwd: '<%= app.dist %>/<%= app.baseurl %>',
-                src: ['**/*.html', '!amp/**/*.html'],
-                dest: '<%= app.dist %>/',
-                ext: '.html'
-            }]
-          }
+            options: {
+                process: true,
+            },
+            js: {
+                files: [{
+                    expand: true,
+                    cwd: '<%= app.dist %>/<%= app.baseurl %>',
+                    src: ['**/*.html', '!amp/**/*.html'],
+                    dest: '<%= app.dist %>/',
+                    ext: '.html'
+                }]
+            },
+            css: {
+                files: [{
+                    expand: true,
+                    cwd: '<%= app.dist %>/<%= app.baseurl %>',
+                    src: ['**/*.html', '!amp/**/*.html'],
+                    dest: '<%= app.dist %>/',
+                    ext: '.html'
+                }]
+            }
         },
         useminPrepare: {
-          options: {
-            dest: '_site'
-          },
-          html: '_site/index.html'
+            options: {
+                dest: '_site',
+                root: '_site'
+            },
+            html: ['_site/**/*.html', '!_site/amp/**/*.html']
         },
         usemin: {
-          options: {
-            assetsDirs: ['_site', '_site/assets/img']
-          },
-          html: ['_site/**/*.html'],
-          css: ['_site/assets/css/**/*.css']
+            options: {
+                assetsDirs: ['_site', '_site/assets/img'],
+                flow: { steps: { js: ['concat', 'uglify'], css: ['concat', 'cssmin'] }, post: {} }
+            },
+            html: ['_site/**/*.html'],
+            css: ['_site/assets/css/**/*.css'],
+            // js: ['_site/assets/js/**/*.js', '_site/js/*']
         },
         // Usemin adds files to concat
         concat: {},
         // Usemin adds files to uglify
-        uglify: {},
+        uglify: {
+            options: {
+                preserveComments: false,
+                mangle: {
+                    reserved: ['jQuery']
+                }
+            },
+        },
         // Usemin adds files to cssmin
         cssmin: {
-          dist: {
-            options: {
-              check: 'gzip'
+            dist: {
+                options: {
+                    check: 'gzip'
+                }
             }
-          }
         },
         copy: {
             dist: {
@@ -348,19 +363,33 @@ module.exports = function(grunt) {
         grunt.task.run(['serve']);
     });
 
-    grunt.registerTask('optimize', [
+    grunt.registerTask('full_build', [
         // 'clean:dist',
-        // 'jekyll:dist',
+        'jekyll:dist',
         'imagemin',
         'svgmin',
+        'useminPrepare',
+        'concat:generated',
+        'cssmin:generated',
+        'uglify:generated',
+        // 'filerev',
         'uncss',
-        'cssmin',
-        'processhtml:js',
-        'processhtml:css',
         'autoprefixer',
-        // 'uglify',
-        // 'critical',
-        'usemin',
+        'usemin',        
+        'htmlmin'
+    ]);
+
+    grunt.registerTask('optimize', [
+        'imagemin',
+        'svgmin',
+        'useminPrepare',
+        'concat:generated',
+        'cssmin:generated',
+        'uglify:generated',
+        // 'filerev',
+        'uncss',
+        'autoprefixer',
+        'usemin',        
         'htmlmin'
     ]);
 
