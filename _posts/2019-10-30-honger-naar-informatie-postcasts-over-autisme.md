@@ -4,17 +4,21 @@ title: Honger naar informatie | Postcasts over Autisme
 lang: nl
 tags: autisme podcasts honger-naar-informatie
 ref: hni-podcasts-over
-description: Een post over het hebben van honger naar informatie. Hoe ik altijd op zoek ben naar informatie en hoe ik podcasts hierbij zie al bron aan informatie. En het gebrek aan Nederlandstalige podcasts
-image: 
+description: Een post over het hebben van honger naar informatie. Hoe ik altijd op
+  zoek ben naar informatie en hoe ik podcasts hierbij zie al bron aan informatie.
+  En het gebrek aan Nederlandstalige podcasts
+image: /assets/img/soundbars.jpg
+date: 2019-10-30 12:10 +0100
 ---
+{% responsive_image path: assets/img/soundbars.jpg alt: "Soundbars" title: "Soundbars" class: 'ui image floated medium right' %}
 
-"Ik ben niet nieuwsgierig, ik wil gewoon alles weten!" dit was vroeger een van mijn vaste uitspraken. Altijd ben ik op zoek naar informatie, over allerlei verschillende onderwerpen. Om een mening te vormen over iets, of omdat het een intressant onderwerp voor mij is, of omdat iemand me een vraag steld over iets waar ik niet veel van weet.
+"Ik ben niet nieuwsgierig, ik wil gewoon alles weten!" dit was vroeger een van mijn vaste uitspraken. Altijd ben ik op zoek naar informatie, over allerlei verschillende onderwerpen. Om een mening te vormen over iets, of omdat het een interessant onderwerp voor mij is, of omdat iemand me een vraag stelt over iets waar ik niet veel van weet.
 
-Toen ik mijn diagnose kreeg ben ik na een tijd ook druk op zoek gegaan naar allerlei informatie rond mijn diagnose van Asperger. Op internet was veel informatie te vinden. In allerlei vormen. YouTube filmpjes, wikipedia pagina's, blogs, Facebook groepen en ga zo maar door. Vandaag ga ik het hebben over een andere bron aan informatie; de podcasts.
+Toen ik mijn diagnose kreeg, ben ik na een tijd ook druk op zoek gegaan naar allerlei informatie rond mijn diagnose van Asperger. Op internet was veel informatie te vinden. In allerlei vormen. YouTube filmpjes, Wikipedia pagina's, blogs, Facebook groepen en ga zo maar door. Vandaag ga ik het hebben over een andere bron aan informatie; de podcasts.
 
 ## Podcasts?
 
-Tegenwoordig is alles meer en meer "on demand". Denk bijvoorbeeld aan Netflix; je kunt op je eigen tijd de series bekijken die je op dat moment wilt zien. Dit systeem is verre van nieuw. Als we bijvoorbeeld aan een bibiotheek denken kun je zien dat het idee van iets afnemen als je het nodig hebt en niet eerder al heel oud is.
+Tegenwoordig is alles meer en meer "on demand". Denk bijvoorbeeld aan Netflix; je kunt op je eigen tijd de series bekijken die je op dat moment wilt zien. Dit systeem is verre van nieuw. Als we bijvoorbeeld aan een bibliotheek denken kun je zien dat het idee van iets afnemen als je het nodig hebt en niet eerder al heel oud is.
 
 Podcasts kun je zien als radio uitzendingen "on demand". Er zijn verschillende vormen van podcasts. Er zijn podcasts die zich richten op 1 onderwerp en daarover praten. Er zijn er die zich richten op 1 soort berichtgeving en daar dan over berichtgeving verzorgen. Ook zijn er podcasts die muziek spelen, bijvoorbeeld een compilatie van uitgebrachte muziek door een DJ. Er zijn zelfs podcasts die verhalen vertellen in verschillende genres, korte verhalen of langere verhalen, bijna zoiets als een luisterboek.
 
@@ -46,9 +50,9 @@ Ik ben dit jaar dit blog begonnen omdat ik mensen wil vertellen over autisme, wa
 
 Wat hierbij komt kijken moet ik nog bekijken. Maar het plan is wel om hiermee serieus aan de slag te gaan. Uiteraard zal ik door blijven gaan met het schrijven van blogposts. Wie weet waar dit nieuwe idee uiteindelijk toe gaat leiden.
 
-Ik heb nog helemaal geen tijdsframe in mijn hoofd over de podcast. Ik weet niet of ik het alleen ga doen, of met iemand anders. Maar ik ga het een en ander uitzoeken.
+Ik heb nog helemaal geen tijdsframe in mijn hoofd over de podcast. Ik weet niet of ik het alleen ga doen, of met iemand anders. Maar ik ga het dit alles uitzoeken.
 
 ## Elk project heeft een naam nodig
 
-En als werk titel heeft de podcast in mijn hoofd momenteel "AutCast" (met dank aan Sven). Maar ik sta open voor alle suggesties. Zoals gezegd, het is een werk titel.
+En als werk titel heeft de podcast in mijn hoofd nu "AutCast" (met dank aan Sven). Maar ik sta open voor alle suggesties. Zoals gezegd, het is een werk titel.
 Als je een suggestie hebt, mee zou willen doen aan de podcast, informatie voor me hebt over het maken van een podcast, of wat dan ook; ik ben altijd bereikbaar via social media. Bijvoorbeeld via Twitter of Facebook (zie links hieronder)
