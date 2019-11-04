@@ -121,7 +121,7 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= app.dist %>/<%= app.baseurl %>',
-                    src: ['**/*.html', '!amp/**/*.html'],
+                    src: ['**/*.html'],
                     dest: '<%= app.dist %>/<%= app.baseurl %>'
                 }]
             }
@@ -178,7 +178,7 @@ module.exports = function(grunt) {
                 src: ['_site/**/*.html', '!yandex_f0a389ddfda6489c.html',
                         '!_site/2019/**/*.html', '_site/2019/08/hulpgids-asperger-syndroom-review.html',
                         '_site/2019/07/beelddenker.html', '_site/2019/10/cobwebs-in-my-head.html',
-                        '!_site/amp/**/*.html', '!_site/tag/**/*.html', 
+                        '!_site/amp/**/*.html', '!_site/tag/**/*.html',
                         '!_site/category/**/*.html', '!_site/en/**/*.html'
                     ],
                 dest: '_site/assets/css/site.css'
@@ -240,6 +240,16 @@ module.exports = function(grunt) {
                     dest: '<%= app.dist %>/<%= app.baseurl %>/assets/img'
                 }, {
                     expand: true,
+                    cwd: './assets/img',
+                    src: '**/*.{jpg,jpeg,png,gif}',
+                    dest: './assets/img'
+                }, {
+                    expand: true,
+                    cwd: './assets/resized',
+                    src: '**/*.{jpg,jpeg,png,gif}',
+                    dest: './assets/resized'
+                }, {
+                    expand: true,
                     cwd: '<%= app.dist %>/<%= app.baseurl %>/assets/resized',
                     src: '**/*.{jpg,jpeg,png,gif}',
                     dest: '<%= app.dist %>/<%= app.baseurl %>/assets/resized'
@@ -284,7 +294,7 @@ module.exports = function(grunt) {
                 dest: '_site',
                 root: '_site'
             },
-            html: ['_site/**/*.html', '!_site/amp/**/*.html']
+            html: ['_site/**/*.html']
         },
         usemin: {
             options: {
@@ -400,7 +410,7 @@ module.exports = function(grunt) {
         // 'filerev',
         'uncss',
         'autoprefixer',
-        'usemin',        
+        'usemin',
         'htmlmin'
     ]);
 
@@ -410,7 +420,7 @@ module.exports = function(grunt) {
         'useminPrepare',
         'concat:generated',
         'cssmin:generated',
-        'uglify:generated', 
+        'uglify:generated',
         'removeOldAssets',
         'usemin',
         'uncss',
