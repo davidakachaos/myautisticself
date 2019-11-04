@@ -11,9 +11,10 @@ module Jekyll
       @dir = dir
       @name = 'index.html'
       self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'amp.html')
+      self.read_yaml(File.join(site.source, '_layouts'), 'amp.html')
 
       self.data['body']          = replace_links_to_posts(remove_responsive_image(post.content))
+      self.data['is_a_post']     = post.respond_to?('id')
       self.data['lang']          = post.data['lang']
       self.data['image']         = post.data['image']
       self.data['ref']           = post.data['ref']
@@ -75,21 +76,39 @@ module Jekyll
   class AmpGenerator < Generator
     priority :low
     safe true
+
+    def gather_documents(site)
+      include_pages = site.config['amp_include_pages'] || false
+      if include_pages
+        puts "there are #{site.pages.length} pages to process"
+      end
+
+      documents = site.posts.docs.clone
+      documents.concat site.pages.clone if include_pages
+
+      return documents
+    end
+
     def generate(site)
       puts "Called AMP?"
       dir = site.config['ampdir'] || 'amp'
-
-      thread_count = (ENV['THREADCOUNT'] || 8).to_i
+      thread_count = (ENV['THREADCOUNT'] || 1).to_i
 
       puts "using #{thread_count} threads for processing to AMP pages"
       puts "there are #{site.posts.docs.length} articles to process"
 
       queue = Queue.new
+      documents = gather_documents(site)
       threads = []
 
-      site.posts.docs
-        .reject { |post| post.data['skip_amp'] }
-        .each   { |post| queue << post }
+      documents
+        .reject { |page| page.data['skip_amp'] }
+        .reject { |page| page.data.has_key?('redirect_from') }
+        .reject { |page| page.url.include?('.xml') }
+        .reject { |page| page.url.include?('.json') }
+        .reject { |page| page.url.include?('.txt') }
+        .reject { |page| page.relative_path == 'redirect.html' }
+        .each   { |page| queue << page }
 
       thread_count.times do
         threads << Thread.new do
@@ -97,9 +116,14 @@ module Jekyll
             break if queue.empty?
             post = queue.pop(true) rescue nil
             if post
-              index = AmpPost.new(site, site.source, File.join(dir, post.id), post)
+              if post.respond_to?('id')
+                index = AmpPost.new(site, site.source, File.join(dir, post.id), post)
+              else
+                puts "Page: #{post.inspect}"
+                index = AmpPost.new(site, post.relative_path, "/#{dir}#{post.url}", post)
+              end
               index.render(site.layouts, site.site_payload)
-              puts index.inspect
+              # puts index.inspect
               index.write(site.dest)
               site.pages << index
             end
@@ -108,7 +132,7 @@ module Jekyll
         end
       end
       threads.each{|t| t.join}
-      puts "all AMP posts generated"
+      puts "all AMP documents generated"
     end
   end
 end

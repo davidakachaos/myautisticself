@@ -94,32 +94,35 @@
   {% capture header %}{% include amp_header.html %}{% endcapture %}
   {{ header | amp_images: false, 32, 32 }}
 <div class="main">
-   
+  {% if page.is_a_post %}
   <article>
   {% capture post_header %}{% include post_header.html %}{% endcapture %}
-  {{ post_header | amp_images }}
-      <div class="post">
-      {{ page.body | markdownify | amp_images | amp_tweets }} 
-    </div>
-    <div class="ui horizontal divider">
-        {%- if page.lang == "nl" -%}
-        Bedankt Voor Het Lezen
-        {%- else -%}
-        Thanks for reading
-        {%- endif -%}
-    </div>
-    {%- include amp-share-buttons.html -%}
-    <amp-ad width="100vw" height=320
-         type="adsense"
-         data-ad-client="ca-pub-4410316703647021"
-         data-ad-slot="9683938232"
-         data-auto-format="rspv"
-         data-full-width>
-      <div overflow></div>
-    </amp-ad>
-    {% include further_reading.html %}
-  </article> 
+    {{ post_header | amp_images }}
+        <div class="post">
+        {{ page.body | markdownify | amp_images | amp_tweets }}
+      </div>
+      <div class="ui horizontal divider">
+          {%- if page.lang == "nl" -%}
+          Bedankt Voor Het Lezen
+          {%- else -%}
+          Thanks for reading
+          {%- endif -%}
+      </div>
+      {%- include amp-share-buttons.html -%}
+      <amp-ad width="100vw" height=320
+           type="adsense"
+           data-ad-client="ca-pub-4410316703647021"
+           data-ad-slot="9683938232"
+           data-auto-format="rspv"
+           data-full-width>
+        <div overflow></div>
+      </amp-ad>
+      {% include further_reading.html %}
 
+    </article>
+  {% else %}
+  {{ page.body | markdownify | amp_images | amp_tweets }}
+  {% endif %}
   </div>
 
   {% capture footer %}{% include amp_footer.html %}{% endcapture %}

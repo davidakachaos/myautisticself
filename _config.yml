@@ -45,6 +45,7 @@ tag_page_data:
   sitemap: false
 
 ampdir: amp
+amp_include_pages: true
 
 responsive_image:
   strip: true

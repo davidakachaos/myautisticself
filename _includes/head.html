@@ -21,6 +21,8 @@
     <script src="https://cdn.jsdelivr.net/npm/progressive-image.js/dist/progressive-image.js"></script>
     {%- if page.path contains '_posts' -%}
     <link rel="amphtml" href="{{site.url}}/{{site.ampdir}}{{page.id}}">
+    {%- else -%}
+    <link rel="amphtml" href="{{site.url}}/{{site.ampdir}}{{page.url}}/">
     {%- endif -%}
     <link
         rel="shortcut icon"
@@ -36,10 +38,10 @@
         | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
     </title>
     {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}{%-
-    for post in posts -%}
+    for post in posts -%}{%- if post.url contains "amp" -%}{%- continue -%}{%- endif -%}
     <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
     {%- endfor -%} {%- assign pages=site.pages | where:"ref", page.ref | sort:
-    'lang' -%}{%- for page in pages -%}
+    'lang' -%}{%- for page in pages -%}{%- if page.url contains "amp" -%}{%- continue -%}{%- endif -%}
     <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
     {%- endfor -%}
     <link
