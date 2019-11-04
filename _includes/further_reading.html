@@ -4,7 +4,7 @@
 	{%- else -%}
     <h3>Some other articles...</h3>
     {%- endif -%}
-      {% assign random_posts = site.posts | where:"lang", page.lang | sample:4 %}
+      {% assign random_posts = site.posts | where:"lang", page.lang | sample:5 %}
       {% for rando in random_posts limit:3 %}
         {% include article_tile.html article=rando %}
       {% endfor %}

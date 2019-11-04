@@ -1,4 +1,4 @@
-<a href="{{ include.article.url }}">
+<a href="{{ include.article.url | prepend: '/amp' | replace: '.html', '/' }}">
   <div class="article-tile">
       <h3>
         {{ include.article.title }}

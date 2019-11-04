@@ -15,6 +15,7 @@ module Jekyll
 
       self.data['body']          = replace_links_to_posts(remove_responsive_image(post.content))
       self.data['lang']          = post.data['lang']
+      self.data['image']         = post.data['image']
       self.data['ref']           = post.data['ref']
       self.data['title']         = post.data['title']
       self.data['description']   = post.data['description']
@@ -23,7 +24,7 @@ module Jekyll
       self.data['category']      = post.data['category']
       self.data['tags']          = post.data['tags']
       self.data['canonical_url'] = post.url
-      
+
     end
 
     private
@@ -46,7 +47,7 @@ module Jekyll
       # ->
       # ![Mijn Pokémon Go avatar](/assets/img/profiel-pokemon.png){: class='ui image medium floated right'}
       img_string = "![xdes](url){: class=klass}"
-      
+
       return content.gsub(/\{\% responsive_image.+\%\}/){ |m|
         match_pth = /path: ([a-z\/\.\-]+)/.match(m)
         match_alt = /alt: (["a-zA-Z\s]+)\s/.match(m)
@@ -60,11 +61,11 @@ module Jekyll
         else
           newstr.gsub!('xdes', match_tit[1])
         end
-        newstr.gsub!('url', "/#{match_pth[1].sub('assets/img/', 'assets/resized/300/')}")
+        newstr.gsub!('url', "/#{match_pth[1].sub('assets/img/', 'assets/resized/250/')}")
         if match_kls.nil?
           newstr.gsub!('klass', "''")
         else
-          newstr.gsub!('klass', match_kls[1])  
+          newstr.gsub!('klass', match_kls[1])
         end
         newstr
       }

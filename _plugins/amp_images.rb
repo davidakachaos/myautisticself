@@ -3,13 +3,23 @@ require 'fastimage'
 
 module Jekyll
   module AmpFilter
+
+    def emoji_filtering(input)
+      begin
+        return Jekyll::Emoji.filter_with_emoji(Jekyll::Emoji.emoji_src).call(input)[:output].to_s
+      rescue
+        return input
+      end
+    end
     # Filter for HTML 'img' elements.
     # Converts elements to 'amp-img' and adds additional attributes
     # Parameters:
     #   input       - the content of the post
     #   responsive  - boolean, whether to add layout=responsive, true by default
     def amp_images(input, responsive = true, wi = nil, he = nil)
-      doc = Nokogiri::HTML.fragment(input);
+      # Process the emotiocons first...
+      input = emoji_filtering(input)
+      doc = Nokogiri::HTML.fragment(input)
       # Add width and height to img elements lacking them
       doc.css('img:not([width])').each do |image|
         if wi && he
