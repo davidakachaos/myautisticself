@@ -26,10 +26,8 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
     git add en/tag/*
     git add en/category/*
     git commit -m 'Added new tags / category'
-    git push
 else
     echo 'No new tags generated or old removed.'
-    git push
 fi
 
 echo 'Building Jekyll...'
