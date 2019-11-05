@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # Deploy script
-
+notify-send 'Deploying My Autistic Self to the world!'
+cd /home/david/Broncode/myautisticself
 if branch=$(git symbolic-ref --short -q HEAD);then
   if [ "$branch" == "source" ]; then
     echo 'Getting latest changes...'
@@ -13,6 +14,7 @@ fi
 
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
 	echo 'Git status not clean, aborting deploy!'
+	notify-send 'Git status not clean, aborting deploy!'
 	exit 2
 fi
 echo 'Generating tags...'
@@ -34,6 +36,7 @@ echo 'Building Jekyll...'
 JEKYLL_ENV=production jekyll build
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Git status not clean after build, aborting deploy!'
+  notify-send 'Git status not clean after build, aborting deploy!'
   exit 3
 fi
 echo 'Optimizing site....'
@@ -55,12 +58,13 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git checkout source
   rm -r ./_site/_site
   echo 'https://myautisticself.nl has been deployed.'
+  notify-send 'https://myautisticself.nl has been deployed.'
   echo 'Sending webmentions...'
   jekyll webmention
   echo 'Sending pingbacks...'
   jekyll pingback
 else
-  echo 'Nothing was changed! Aborting deployment.'
+  notify-send 'Nothing was changed! Aborting deployment.'
   cp -r * ./_site/ 2>/dev/null
   git checkout source
   rm -r ./_site/_site
