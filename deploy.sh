@@ -7,7 +7,7 @@ if branch=$(git symbolic-ref --short -q HEAD);then
     echo 'Getting latest changes...'
     git pull --rebase origin source
   else
-  	echo Not on the source branch. We are on $branch so aborting!
+	echo Not on the source branch. We are on $branch so aborting!
   	exit 1
   fi
 fi
@@ -38,23 +38,17 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   exit 3
 fi
 echo 'Optimizing site....'
-JEKYLL_ENV=production grunt optimize
+grunt optimize
 echo 'Switching to master branch...'
 git checkout master
 echo 'Copying build site to master branch'
 cp -r _site/* .
-echo 'Remove build site...'
-rm -r _site
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git add -A .
   git commit -m "Latest version of My Autistic Self - `date +'%Y-%m-%d %H:%M:%S'`"
   echo 'Pushing latest to GitHub!'
   git push
-  echo 'Restoring build site...'
-  mkdir _site
-  cp -r * ./_site/ 2>/dev/null
   git checkout source
-  rm -r ./_site/_site
   echo 'https://myautisticself.nl has been deployed.'
   notify-send 'https://myautisticself.nl has been deployed.'
   echo 'Sending webmentions...'
@@ -63,7 +57,5 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   jekyll pingback
 else
   notify-send 'Nothing was changed! Aborting deployment.'
-  cp -r * ./_site/ 2>/dev/null
   git checkout source
-  rm -r ./_site/_site
 fi
