@@ -27,6 +27,7 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
     git push
 else
     echo 'No new tags generated or old removed.'
+    git push
 fi
 
 echo 'Building Jekyll...'
