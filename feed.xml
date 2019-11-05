@@ -17,9 +17,9 @@ lang: nl
     {%- for post in posts limit:10 -%}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description><![CDATA[{{ post.content | truncatewords: 200 | xml_escape }}
+        <description>{{ post.content | truncatewords: 200 | xml_escape }}
         <br />
-        Lees verder via: {{ post.url | prepend: site.url | xml_escape }}]]>
+        Lees verder via: {{ post.url | prepend: site.url | xml_escape }}
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
