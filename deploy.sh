@@ -25,7 +25,7 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
     git add category/*
     git add en/tag/*
     git add en/category/*
-    git commit -m 'Added new tags / category'
+    git commit -m "Added new tags / category - `date +'%Y-%m-%d %H:%M:%S'`"
 else
     echo 'No new tags generated or old removed.'
 fi
@@ -39,6 +39,18 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
 fi
 echo 'Optimizing site....'
 grunt optimize
+if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
+  echo 'Adding optimized images to source...'
+  git add assets
+  git commit -m "Optimized assets - `date +'%Y-%m-%d %H:%M:%S'`"
+fi
+# LOCAL=$(git rev-parse @)
+REMOTE=$(git rev-parse "@{u}")
+BASE=$(git merge-base @ "@{u}")
+if [ $REMOTE = $BASE ]; then
+    echo "Need to push changes to source!"
+    git push
+fi
 echo 'Switching to master branch...'
 git checkout master || exit 1
 echo 'Copying build site to master branch'
