@@ -40,14 +40,14 @@ fi
 echo 'Optimizing site....'
 grunt optimize
 echo 'Switching to master branch...'
-git checkout master
+git checkout master || exit 1
 echo 'Copying build site to master branch'
-cp -r _site/* .
+cp -r _site/* . || exit 1
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git add -A .
   git commit -m "Latest version of My Autistic Self - `date +'%Y-%m-%d %H:%M:%S'`"
   echo 'Pushing latest to GitHub!'
-  git push
+  git push || exit 1
   git checkout source
   echo 'https://myautisticself.nl has been deployed.'
   notify-send 'https://myautisticself.nl has been deployed.'
