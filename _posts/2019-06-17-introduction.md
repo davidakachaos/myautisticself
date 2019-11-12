@@ -1,16 +1,18 @@
 ---
 layout: post
 title: Introduction
-date: 2019-06-17 14:37 +0200
+date: '2019-06-17 14:37 +0200'
 tags: persoonlijk
 category: persoonlijk
 lang: en
 ref: intoductie
 description: Welcome message to my new blog
-redirect_from: 
+image: assets/posts/introduction.png
+redirect_from:
   - /en/2019/06/introductie.html
   - /en/2019/06/introductie
 ---
+
 Welcome to my new blog. My name is David, I'm 35 years old and have Asperger's.
 
 I have decided to make this blog to give information about autism and to be able to write off me about my experiences and look at the world. This blog is a personal blog and therefore can not be seen as a definitive source of information about autism. These are my opinions and look at things.

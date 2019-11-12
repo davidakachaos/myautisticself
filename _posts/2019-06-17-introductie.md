@@ -1,13 +1,15 @@
 ---
 layout: post
 title: Introductie
-date: 2019-06-17 14:37 +0200
+date: '2019-06-17 14:37 +0200'
 tags: persoonlijk
 category: persoonlijk
 lang: nl
 ref: intoductie
 description: Welkomsboodschap op mijn nieuwe blog
+image: assets/img/posts/introductie.png
 ---
+
 Welkom op mijn nieuwe blog. Mijn naam is David, ik ben 35 jaar oud en heb het syndroom van Asperger.
 
 Ik heb besloten om dit blog te maken om informatie te geven over autisme en van me af te kunnen schrijven over mijn ervaringen en kijk op de wereld. Dit blog is een persoonlijk blog en kan dus niet gezien worden als een definitieve bron van informatie over autisme. Dit zijn mijn meningen en kijk op dingen.
