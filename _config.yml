@@ -157,8 +157,6 @@ webmentions:
     - http://www.myautisticself.nl
     - https://www.myautisticself.nl
   throttle_lookups:
-    last_week: daily
-    last_month: weekly
     last_year: every 2 weeks
     older: monthly
   templates:
