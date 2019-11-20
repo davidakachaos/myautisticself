@@ -2,7 +2,7 @@
 
 """
 tag_generator.py
-Copyright 2017 Long Qian
+Copyright 2017 Long Qian // Adjusted by David Westerink 2019
 Contact: lqian8@jhu.edu
 This script creates tags for your Jekyll blog hosted by Github page.
 No plugins required.
@@ -43,18 +43,46 @@ for filename in filenames:
 total_tags = set(total_tags)
 total_cats = set(total_cats)
 
-old_tags = glob.glob(tag_dir + "*.md")
-for lng in extra_lang:
-    old_tags += glob.glob(lng + "/" + tag_dir + "*.md")
-for tag in old_tags:
-    os.remove(tag)
+old_tag_files = glob.glob(tag_dir + "*.md")
+old_tags = 0
 
-old_tags = glob.glob(cat_dir + "*.md")
-for lng in extra_lang:
-    old_tags += glob.glob(lng + "/" + cat_dir + "*.md")
-for tag in old_tags:
-    os.remove(tag)
+for tag_file in old_tag_files:
+    t = tag_file.split('/')[-1].replace('.md', '')
+    # print(f"Found tag: {t}")
+    if t not in total_tags:
+        # print("-- Tag not in current tags, removing")
+        os.remove(tag_file)
+        for lng in extra_lang:
+            for extra_tag_file in glob.glob(lng + "/" + tag_dir + t + ".md"):
+                os.remove(extra_tag_file)
+    else:
+        # print('-- Tag is current, leaving there')
+        old_tags += 1
+        total_tags.remove(t)
 
+# print(f"Tags to create: {total_tags}")
+
+old_cat_files = glob.glob(cat_dir + "*.md")
+old_cats = 0
+
+for cat_file in old_cat_files:
+    t = cat_file.split('/')[-1].replace('.md', '')
+    # print(f"Found cat: {t}")
+    if t not in total_cats:
+        # print("-- cat not in current cats, removing")
+        os.remove(cat_file)
+        for lng in extra_lang:
+            for extra_cat_file in glob.glob(lng + "/" + cat_dir + t + ".md"):
+                os.remove(extra_cat_file)
+    else:
+        # print('-- cat is current, leaving there')
+        old_cats += 1
+        total_cats.remove(t)
+
+# print(f"cats to create: {total_cats}")
+
+
+# Creating paths and files
 if not os.path.exists(tag_dir):
     os.makedirs(tag_dir)
 
@@ -126,5 +154,4 @@ for cat in total_cats:
         )
         f.close()
 
-print("Tags generated, count", total_tags.__len__())
-print("Cats generated, count", total_cats.__len__())
+print(f"New Tags: {total_tags.__len__()} New Cats: {total_cats.__len__()} Old Tags: {old_tags} Old Cats: {old_cats}")
