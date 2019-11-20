@@ -32,6 +32,8 @@ fi
 
 echo 'Building Jekyll...'
 JEKYLL_ENV=production jekyll build
+# Force some renames for fixing JS templating
+./sed_posts.sh
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Git status not clean after build, aborting deploy!'
   notify-send 'Git status not clean after build, aborting deploy!'
