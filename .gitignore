@@ -5,3 +5,4 @@ node_modules
 .tweet-cache
 .tmp
 _site
+./sed_posts.sh
