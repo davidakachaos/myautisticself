@@ -22,7 +22,7 @@
     {%- if page.path contains '_posts' -%}
     <link rel="amphtml" href="{{site.url}}/{{site.ampdir}}{{page.id}}">
     {%- else -%}
-    <link rel="amphtml" href="{{site.url}}/{{site.ampdir}}{{page.url}}/">
+    <link rel="amphtml" href="{{site.url}}/{{site.ampdir}}{{page.url | replace: '.html', ''}}/">
     {%- endif -%}
     <link
         rel="shortcut icon"

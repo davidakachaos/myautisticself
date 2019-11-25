@@ -136,6 +136,9 @@ GEM
     jekyll-last-modified-at (1.1.0)
       jekyll (>= 3.7, < 5.0)
       posix-spawn (~> 0.3.9)
+    jekyll-mentions (1.5.1)
+      html-pipeline (~> 2.3)
+      jekyll (>= 3.7, < 5.0)
     jekyll-redirect-from (0.15.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-responsive-image (1.5.3)
@@ -238,6 +241,7 @@ DEPENDENCIES
   jekyll-email-protect
   jekyll-feed
   jekyll-last-modified-at
+  jekyll-mentions
   jekyll-pingback!
   jekyll-redirect-from
   jekyll-responsive-image

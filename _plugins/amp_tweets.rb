@@ -29,15 +29,15 @@ module Jekyll
 
     def amp_tweets(input)
       doc = Nokogiri::HTML.fragment(input);
-      doc.css('.tweet-wrapper').each do |tw| 
+      doc.css('.twitter-tweet').each do |tw| 
         links = tw.css('a').map { |l| l['href'] }
 
         w = 292
-        if tw['data-width'] 
+        if tw['data-width']
           w = tw['data-width']
         end
         h = 345
-        if tw['data-height'] 
+        if tw['data-height']
           h = tw['data-height']
         end
 

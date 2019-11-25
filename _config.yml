@@ -97,9 +97,12 @@ plugins:
   - jekyll-email-protect
   - jemoji
   - jekyll-redirect-from
+  - jekyll-mentions
 
 jekyll-minifier:
   compress_javascript: false
+
+jekyll-mentions: https://twitter.com
 
 defaults:
   -

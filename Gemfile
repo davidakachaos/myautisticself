@@ -34,6 +34,7 @@ group :jekyll_plugins do
   gem 'jekyll-twitter-plugin'
   gem 'jekyll-tagging', path: '../jekyll-tagging'
   gem 'jekyll-last-modified-at'
+  gem 'jekyll-mentions'
 end
 
 gem "jekyll", "~> 4.0"
