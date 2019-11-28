@@ -31,16 +31,16 @@ else
 fi
 
 echo 'Building Jekyll...'
-JEKYLL_ENV=production jekyll build
+JEKYLL_ENV=production jekyll build || exit 1
 # Force some renames for fixing JS templating
-./sed_posts.sh
+./sed_posts.sh || exit 1
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Git status not clean after build, aborting deploy!'
   notify-send 'Git status not clean after build, aborting deploy!'
   exit 3
 fi
 echo 'Optimizing site....'
-grunt optimize
+grunt optimize || exit 1
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Adding optimized images to source...'
   git add assets

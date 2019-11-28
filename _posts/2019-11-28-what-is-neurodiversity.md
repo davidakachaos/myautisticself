@@ -33,7 +33,7 @@ In a 2009 [study](https://onlinelibrary.wiley.com/doi/abs/10.1002/dys.383), 27 s
 
 In 2013, an [online survey](https://www.ncbi.nlm.nih.gov/pubmed/22545843) was conducted on the way autism was perceived. This showed that when people looked at autism from the point of view that autism is a form of neurodiversity, people thought better about themselves and their future.
 
-When I look at [my own views on autism]({% post_url 2019-07-12 disorder-disease %}), I think I am clearly in the camp of "autism is not a disease, it is a different way of thinking". It should come as no surprise then that I am a supporter of the term neurodiversity. I think it's a much healthier view of autism, because it doesn't label you as wrong or unhealthy. It calls you "different".
+When I look at [my own views on autism]({% post_url 2019-07-12-disorder-condition-disease %}), I think I am clearly in the camp of "autism is not a disease, it is a different way of thinking". It should come as no surprise then that I am a supporter of the term neurodiversity. I think it's a much healthier view of autism, because it doesn't label you as wrong or unhealthy. It calls you "different".
 
 ## Neurodiversity as a tribe
 
