@@ -9,7 +9,7 @@ description: My son was diagnosed with autism. I welcome him to the neurodiverse
 image: "/assets/img/autism-little-elephant.jpg"
 date: 2019-12-03 12:42 +0100
 ---
-![Little autistic elephant](/assets/img/autism-little-elephant.jpg){: class="post-image-right ui image rounded"}
+![Little autistic elephant](/assets/img/autism-little-elephant.jpg){: class="floated right ui image rounded"}
 You turned 6 this year. Ever since you were two, your mother has noticed differences between you and your sister. And yesterday you were diagnosed with autism. And now I can officially welcome you to the neurodiverse world. Your mother and I have known for ages that you are on the spectrum, your behavior and your difficulties are very recognizable to me. Also my guidance and the help at your mother's home, who has a lot of experience with autism, found that you were very clearly on the spectrum.
 
 And now I welcome you to the "club", the "tribe" or the team. And I'm very happy that we now have the diagnosis officially. This means that in the future you can get the help you need. It means that money will be available to help you. It also confirms what we have known for years; you really look like your father.

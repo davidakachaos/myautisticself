@@ -10,7 +10,7 @@ description: Mijn zoon heeft de diagnose autisme gekregen. Ik verwelkom hem in d
 image: "/assets/img/autism-little-elephant.jpg"
 date: 2019-12-03 12:42 +0100
 ---
-![Little autistic elephant](/assets/img/autism-little-elephant.jpg){: class="post-image-right ui image rounded"}
+![Little autistic elephant](/assets/img/autism-little-elephant.jpg){: class="floated right ui image rounded"}
 6 jaar ben je geworden dit jaar. Al sinds je tweede merkte je moeder verschillen op tussen jou en je zus. En gister heb je de diagnose autisme gekregen. En nu mag ik je dus officieel welkom heten in de neurodiverse wereld. Je moeder en ik wisten al tijden dat je op het spectrum zit, je gedrag en je moeilijkheden zijn heel herkenbaar voor mij. Ook begeleiding van mij en de hulp bij je moeder thuis, die veel ervaring hebben met autisme, vonden dat je wel heel duidelijk op het spectrum zat.
 
 En nu heet ik je dus welkom bij de "club", de "tribe" oftewel bij het team. En ik ben heel blij dat we de diagnose nu officieel hebben. Dit betekend dat je in de toekomst de hulp kunt krijgen die je nodig hebt. Het betekend dat er geld vrij komt om je te kunnen helpen. Ook bevestigd het wat we al jaren wisten; je lijkt echt op je vader.
