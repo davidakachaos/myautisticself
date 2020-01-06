@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Thinking in terms of solutions, not problems
-lang: nl
+lang: en
 tags: autisme filosofie gedachtes positief depressie
 ref: denkeninoplossingen
 description: It's become a way of life for me. Thinking in solutions and not in problems. Sometimes it's quite an art, but it makes me a lot calmer to think about things in my life.
