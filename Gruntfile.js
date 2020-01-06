@@ -176,7 +176,7 @@ module.exports = function(grunt) {
                 nonull: true,
                 stylesheets: ['assets/css/site.css'],
                 src: ['_site/**/*.html', '!yandex_f0a389ddfda6489c.html',
-                        '!_site/2019/**/*.html', '_site/2019/08/hulpgids-asperger-syndroom-review.html',
+                        '!_site/2019/**/*.html', '!_site/2020/**/*.html', '_site/2019/08/hulpgids-asperger-syndroom-review.html',
                         '_site/2019/07/beelddenker.html', '_site/2019/10/cobwebs-in-my-head.html',
                         '!_site/amp/**/*.html', '!_site/tag/**/*.html',
                         '!_site/category/**/*.html', '!_site/en/**/*.html'
