@@ -90,9 +90,8 @@ module Jekyll
     end
 
     def generate(site)
-      puts "Called AMP?"
       dir = site.config['ampdir'] || 'amp'
-      thread_count = (ENV['THREADCOUNT'] || 1).to_i
+      thread_count = (ENV['THREADCOUNT'] || 8).to_i
 
       puts "using #{thread_count} threads for processing to AMP pages"
       puts "there are #{site.posts.docs.length} articles to process"
