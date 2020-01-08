@@ -34,6 +34,11 @@ echo 'Building Jekyll...'
 JEKYLL_ENV=production jekyll build || exit 1
 # Force some renames for fixing JS templating
 ./sed_posts.sh || exit 1
+# Add cache file for bitlys to git
+if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
+  git add .bitly_cache
+  git commit -m "Added URLs to Bitly cache -  `date +'%Y-%m-%d %H:%M:%S'`"
+fi
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Git status not clean after build, aborting deploy!'
   notify-send 'Git status not clean after build, aborting deploy!'
@@ -69,6 +74,10 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   jekyll webmention
   echo 'Sending pingbacks...'
   jekyll pingback
+  echo 'Generate bitly links...'
+  generate-bitlys.rb
+  git add db.json .bitly_cache
+  git commit -m "Created new Bitly Links after deploy - `date +'%Y-%m-%d %H:%M:%S'`"
 else
   notify-send 'Nothing was changed! Aborting deployment.'
   git checkout source
