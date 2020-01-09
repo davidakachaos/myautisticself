@@ -45,7 +45,7 @@ for (ref, values) in seen_refs.items():
         print(values['documents'][0])
         to_trans = values['documents'][0].replace('.md', '').replace('_posts/','')
         result = subprocess.run(['trans', '-b', '-s', 'nl', '-t', 'en', to_trans], stdout=subprocess.PIPE)
-        new_file_name = f"_posts/{result.stdout.decode('utf-8')}.md"
+        new_file_name = f"_posts/{result.stdout.decode('utf-8').strip()}.md"
         dest = shutil.copyfile(values['documents'][0], new_file_name)
         # Read in the file
         with open(new_file_name, 'r') as file :
