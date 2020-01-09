@@ -4,8 +4,11 @@ title: Autisme als een wolk
 lang: nl
 tags: autisme
 ref: eigenwolkje
-description: Autisme Spectrum Stoornis word vaak beschreven als een grafiek of als verschillende "levels". Eigenlijk is het meer een wolk waar mensen in bewegen dan een verzameling niveaus.
-image: /assets/img/ads-cloud-head.jpg
+description: Autisme Spectrum Stoornis word vaak beschreven als een grafiek of als
+  verschillende "levels". Eigenlijk is het meer een wolk waar mensen in bewegen dan
+  een verzameling niveaus.
+image: "/assets/img/ads-cloud-head.jpg"
+date: 2020-01-09 09:48 +0100
 ---
 <div class="quote" markdown="1">
 > Een spectrum (ook wel verloop genoemd) - (meervoud: spectra of spectrums) is een scala van opeenvolgende kleuren of geluiden of andere verscheidenheden. Deze term wordt vaak gebruikt in de natuurkunde.
@@ -20,7 +23,7 @@ Zoals de definitie al aangeeft is een spectrum een scala van opeenvolgende versc
 
 ## De wolk die autisme heet
 
-Volgens mij kun je over autisme beter nadenken als een wolk. Een hele grote wolk met allerlei verscheidenheden. Het is geen 2D schaal waarop je mensen kunt indelen; het is een 3D wolk waarin mensen rond bewegen. Door het op die manier te benaderen wordt ook meteen duidelijk waarom zaken als "hoog functionerend" en "laag functionerend" niet werken. Het kan namelijk prima zijn dat iemand die niet verbaal is, uitstekend kan communiceren via het internet bijvoorbeeld. In schrift is er dan geen enkele drempel voor communicatie. Ook kan iemand die verbaal juist erg sterk is, in sociale situatie (on- of offline) juist heel veel moeite hebben.
+Volgens mij kun je over autisme beter nadenken als een wolk. Een hele grote wolk met allerlei verscheidenheden. Het is geen 2D schaal waarop je mensen kunt indelen; het is een 3D wolk waarin mensen rond bewegen. Door het op die manier te benaderen wordt ook meteen duidelijk waarom zaken als "hoog functionerend" en "laag functionerend" niet werken. Het kan namelijk prima zijn dat iemand die niet verbaal is, uitstekend kan communiceren via het internet bijvoorbeeld of met gebarentaal. In schrift is er dan geen enkele drempel voor communicatie. Ook kan iemand die verbaal juist erg sterk is, in sociale situatie (on- of offline) juist heel veel moeite hebben.
 
 Als we autisme als een spectrum bekijken is het heel moeilijk om mensen in te delen. En dat is iets wat we als mensen heel graag doen; indelen. We delen alles in, we willen alles een plek geven die duidelijk is en vast staat. Als zaken veranderen, delen we het simpel weg opnieuw in. Maar we vergeten dan dat sommige dingen zo groot zijn dat ze niet vast te zetten zijn in 1 richting.
 
@@ -47,16 +50,16 @@ Lijsten met eigenschappen zijn dingen die thuishoren binnen een computer spel. N
 
 Het antwoord op deze vraag is aan een kant simpel; de hoeveelheid zorg die een autist nodig heeft. Heel koud gezegd heeft een autist op level 1 minder zorg nodig dan op een level 3. Het is dan voor de instantie duidelijk wat het gaat kosten. Het is dan voor koude organisaties duidelijk in welk hokje het nummertje wat je dan bent als mens thuishoort.
 
-Gelukkig is er al veel zorgverlening die hier (ver) afstand van neemt. Mensen zijn geen nummer. Zorg is niet iets wat ik hokjes thuishoort. Maar het is toch doktoren eigen dat ze ziektes, aandoeningen en stoornissen willen indelen op de hoeveelheid zorg die nodig is. Meer zorg betekend dat het ernstiger is. Minder zorg betekend minder erg.
+Gelukkig is er al veel zorgverlening die hier (ver) afstand van neemt. Mensen zijn geen nummer. Zorg is niet iets wat in hokjes thuishoort. Maar het is toch doktoren eigen dat ze ziektes, aandoeningen en stoornissen willen indelen op de hoeveelheid zorg die nodig is. Meer zorg betekend dat het ernstiger is. Minder zorg betekend minder erg.
 
 Maar elke autist is anders. Elke autist is namelijk ook een mens en ieder mens is verschillend. Het is daarom niet te zeggen waar een autist hulp nodig bij heeft door enkel te kijken naar het "level van autisme" dat ze hebben.
 
-De zorgverlening die ik heb gehad kijken allemaal naar het individu en niet naar de algemeenheden gelukkig.
+De zorgverlening die ik heb gehad kijken allemaal naar het individu en niet naar de algemeenheden, gelukkig.
 
 ## Vergeet de labels
 
 Het beste om over autisme te denken is niet in labels. Niet in specifieke, afgezette stukjes. Denk niet aan "hoog of laag functionerend". Het is allemaal autisme. Het is allemaal dezelfde wolk. Waar ik in de wolk zit kan heel anders zijn dan waar een andere autist in de wolk zit, maar we zitten er allebei in. Ook kan het zijn dat iemand maar een heel klein deel van de wolk heel sterk heeft en een ander heeft van alles wel een beetje. Toch is het allebei autisme.
 
-Mensen labelen is verkeerd en leid naar problemen. Door een label aan iemand te geven verwacht je dat nevel in dat kleine kamertje blijft hangen. Maar dat zal niet gebeuren. Van dag tot dag kan het verschillen. Bij de ene autist zullen die veranderingen extremer zijn dan bij een andere. Sommige autisten zullen altijd op hun plek blijven binnen de autisme wolk, terwijl andere autisten door de hele wolk heen vliegen als een kleuter door een speeltuin. Maar alle autisten zitten in dezelfde autisme wolk.
+Mensen labelen is verkeerd en leid naar problemen. Van dag tot dag kan het verschillen. Bij de ene autist zullen die veranderingen extremer zijn dan bij een andere. Sommige autisten zullen altijd op hun plek blijven binnen de autisme wolk, terwijl andere autisten door de hele wolk heen vliegen als een kleuter door een speeltuin. Maar alle autisten zitten in dezelfde autisme wolk.
 
 Als je het een naam wilt geven is dat in eens een stuk simpeler geworden; het is autisme. Geen andere labels nodig. Zit er verschil tussen autisten? Ja! Net als bij ons allemaal. Maar dat betekend niet dat er meteen labels op geplakt moeten worden.
