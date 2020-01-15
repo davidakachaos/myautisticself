@@ -47,7 +47,7 @@ old_tag_files = glob.glob(tag_dir + "*.md")
 old_tags = 0
 
 for tag_file in old_tag_files:
-    t = tag_file.split('/')[-1].replace('.md', '')
+    t = tag_file.split("/")[-1].replace(".md", "")
     # print(f"Found tag: {t}")
     if t not in total_tags:
         # print("-- Tag not in current tags, removing")
@@ -66,7 +66,7 @@ old_cat_files = glob.glob(cat_dir + "*.md")
 old_cats = 0
 
 for cat_file in old_cat_files:
-    t = cat_file.split('/')[-1].replace('.md', '')
+    t = cat_file.split("/")[-1].replace(".md", "")
     # print(f"Found cat: {t}")
     if t not in total_cats:
         # print("-- cat not in current cats, removing")
@@ -154,4 +154,6 @@ for cat in total_cats:
         )
         f.close()
 
-print(f"New Tags: {total_tags.__len__()} New Cats: {total_cats.__len__()} Old Tags: {old_tags} Old Cats: {old_cats}")
+print(
+    f"New Tags: {total_tags.__len__()} New Cats: {total_cats.__len__()} Old Tags: {old_tags} Old Cats: {old_cats}"
+)
