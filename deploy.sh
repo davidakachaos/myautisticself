@@ -40,6 +40,10 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git commit -m "Added URLs to Bitly cache -  `date +'%Y-%m-%d %H:%M:%S'`"
 fi
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
+  git add -A assets/resized/
+  git commit -m "Added resized assets -  `date +'%Y-%m-%d %H:%M:%S'`"
+fi
+if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Git status not clean after build, aborting deploy!'
   notify-send 'Git status not clean after build, aborting deploy!'
   exit 3
