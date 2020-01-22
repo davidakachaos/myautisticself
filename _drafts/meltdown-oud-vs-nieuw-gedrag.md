@@ -5,8 +5,9 @@ lang: nl
 tags: autisme meltdown persoonlijk sociaal-gedrag
 ref: meltdownoudvsnieuw
 description: In deze post ga ik in op het omgaan met mijn meltdowns. Hoe ik daar vroeger mee omging en hoe ik daar nu beter mijn weg in weet te vinden. Meltdowns zijn niet alleen iets voor kinderen met autisme, maar ook voor volwassenen.
-image:
+image: /assets/img/a-blue-brain-with-lightning-bolts.jpg
 ---
+![Mind Melting Down](/assets/img/a-blue-brain-with-lightning-bolts.jpg){class: 'ui image floated right'}
 Mijn gedachten rennen door mijn hoofd en door elkaar. Mijn hoofd zit vol en ik merk dat ik bang ben. Mijn lichaam geeft alle klassieke signalen daarvoor; hart slaat veel sneller, mijn ogen dwalen over alles zonder veel te zien, mijn ademhaling is veel sneller dan normaal. Voor mij is het ergste dat ik mijn zelfcontrole verlies, mijn grip op mijn reacties en het masker waarmee ik mijn uitspraken normaal gezien filter.
 
 Dit is in het kort mijn zogenaamde meltdown. Een meltdown is niet iets wat alleen kinderen met autisme hebben, ook volwassen autisten lopen hier van tijd tot tijd tegen aan. En voor elke autist is een meltdown anders. Er zijn zeker wel overeenkomsten tussen meltdowns en ze zijn stuk voor stuk extreem rot.
