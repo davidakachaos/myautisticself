@@ -4,8 +4,11 @@ title: Meltdown - Oud vs Nieuw gedrag
 lang: nl
 tags: autisme meltdown persoonlijk sociaal-gedrag
 ref: meltdownoudvsnieuw
-description: In deze post ga ik in op het omgaan met mijn meltdowns. Hoe ik daar vroeger mee omging en hoe ik daar nu beter mijn weg in weet te vinden. Meltdowns zijn niet alleen iets voor kinderen met autisme, maar ook voor volwassenen.
-image: /assets/img/a-blue-brain-with-lightning-bolts.jpg
+description: In deze post ga ik in op het omgaan met mijn meltdowns. Hoe ik daar vroeger
+  mee omging en hoe ik daar nu beter mijn weg in weet te vinden. Meltdowns zijn niet
+  alleen iets voor kinderen met autisme, maar ook voor volwassenen.
+image: "/assets/img/a-blue-brain-with-lightning-bolts.jpg"
+date: 2020-01-22 12:29 +0100
 ---
 ![Mind Melting Down](/assets/img/a-blue-brain-with-lightning-bolts.jpg){: class='ui image floated right'}
 Mijn gedachten rennen door mijn hoofd en door elkaar. Mijn hoofd zit vol en ik merk dat ik bang ben. Mijn lichaam geeft alle klassieke signalen daarvoor; hart slaat veel sneller, mijn ogen dwalen over alles zonder veel te zien, mijn ademhaling is veel sneller dan normaal. Voor mij is het ergste dat ik mijn zelfcontrole verlies, mijn grip op mijn reacties en het masker waarmee ik mijn uitspraken normaal gezien filter.
