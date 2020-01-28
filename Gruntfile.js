@@ -230,7 +230,8 @@ module.exports = function(grunt) {
         },
         imagemin: {
             options: {
-                progressive: true
+                progressive: true,
+                concurrency: 8
             },
             dist: {
                 files: [{
