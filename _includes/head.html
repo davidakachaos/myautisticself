@@ -70,6 +70,20 @@
     ga('create', 'UA-429677-9', 'auto');
     ga('send', 'pageview', { 'page': location.pathname + location.search + location.hash});
     ga('set', 'anonymizeIp', false);
+    ga('require', 'cleanUrlTracker', {
+      stripQuery: true,
+      queryDimensionIndex: 1,
+      indexFilename: 'index.html'
+    });
+    ga('require', 'impressionTracker', {
+      elements: ['allwebmentions', 'share-buttons', 'olderpostsfp']
+    });
+    ga('require', 'maxScrollTracker');
+    ga('require', 'outboundLinkTracker', {
+      events: ['click', 'auxclick', 'contextmenu']
+    });
+    ga('require', 'socialWidgetTracker');
+    ga('require', 'pageVisibilityTracker');
     </script>
     <!-- End Google Analytics -->
     {%- endif -%}
