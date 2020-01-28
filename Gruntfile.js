@@ -4,6 +4,7 @@ module.exports = function(grunt) {
     // Show elapsed time after tasks run
     require('time-grunt')(grunt);
     // load processhtml
+    grunt.loadNpmTasks('grunt-newer');
     grunt.loadNpmTasks('grunt-processhtml');
     grunt.loadNpmTasks('grunt-usemin');
     // Load all Grunt tasks
@@ -416,18 +417,18 @@ module.exports = function(grunt) {
     ]);
 
     grunt.registerTask('optimize', [
-        'imagemin',
-        'svgmin',
-        'useminPrepare',
-        'concat:generated',
-        'cssmin:generated',
-        'uglify:generated',
+        'newer:imagemin',
+        'newer:svgmin',
+        'newer:useminPrepare',
+        'newer:concat:generated',
+        'newer:cssmin:generated',
+        'newer:uglify:generated',
         'removeOldAssets',
-        'usemin',
+        'newer:usemin',
         'uncss',
         'stripCssComments',
-        'autoprefixer',
-        'htmlmin',
+        'newer:autoprefixer',
+        'newer:htmlmin',
         'removeTmp'
     ]);
 
