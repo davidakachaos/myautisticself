@@ -16,106 +16,20 @@ module.exports = function(grunt) {
             dist: '_site',
             baseurl: '.'
         },
-        watch: {
-            sass: {
-                files: ['<%= app.app %>/_assets/scss/**/*.{scss,sass}'],
-                tasks: ['sass:server', 'autoprefixer']
-            },
-            scripts: {
-                files: ['<%= app.app %>/_assets/js/**/*.{js}'],
-                tasks: ['uglify']
-            },
-            jekyll: {
-                files: [
-                    '<%= app.app %>/**/*.{html,yml,md,mkd,markdown}'
-                ],
-                tasks: ['jekyll:server']
-            },
-            livereload: {
-                options: {
-                    livereload: '<%= connect.options.livereload %>'
-                },
-                files: [
-                    '_site/**/*.{html,yml,md,mkd,markdown}',
-                    '_site/assets/css/*.css',
-                    '_site/assets/js/*.js',
-                    '<%= app.app %>/assets/img/**/*.{gif,jpg,jpeg,png,svg,webp}'
-                ]
-            }
-        },
-        connect: {
-            options: {
-                port: 9000,
-                livereload: 35729,
-                // change this to '0.0.0.0' to access the server from outside
-                hostname: 'localhost'
-            },
-            livereload: {
-                options: {
-                    open: {
-                        target: 'http://localhost:9000/<%= app.baseurl %>'
-                    },
-                    base: [
-                        '_site',
-                        '.tmp',
-                        '<%= app.app %>'
-                    ]
-                }
-            },
-            dist: {
-                options: {
-                    open: {
-                        target: 'http://localhost:9000/<%= app.baseurl %>'
-                    },
-                    base: [
-                        '<%= app.dist %>',
-                        '.tmp'
-                    ]
-                }
-            }
-        },
-        clean: {
-            server: [
-                '.jekyll',
-                '.tmp'
-            ],
-            dist: {
-                files: [{
-                    dot: true,
-                    src: [
-                        '.tmp',
-                        '<%= app.dist %>/*',
-                        '!<%= app.dist %>/.git*'
-                    ]
-                }]
-            }
-        },
-        jekyll: {
-            options: {
-                config: '_config.yml',
-                src: '<%= app.app %>'
-            },
-            dist: {
-                options: {
-                    dest: '<%= app.dist %>',
-                }
-            },
-            server: {
-                options: {
-                    config: '_config.yml',
-                    dest: '<%= app.dist %>'
-                }
-            }
-        },
         htmlmin: {
             dist: {
                 options: {
                     removeComments: true,
                     collapseWhitespace: true,
                     collapseBooleanAttributes: true,
+                    collapseWhitespace: true,
+                    conservativeCollapse: true,
                     removeAttributeQuotes: true,
-                    removeRedundantAttributes: true,
+                    removeCommentsFromCDATA: true,
                     removeEmptyAttributes: true,
+                    removeOptionalTags: true,
+                    removeRedundantAttributes: true,
+                    useShortDoctype: true,
                     minifyJS: true,
                     minifyCSS: true
                 },
@@ -131,10 +45,18 @@ module.exports = function(grunt) {
             options: {
                 preserveComments: false,
                 mangle: {
-                    reserved: ['jQuery']
+                    reserved: ['jQuery', 'Cookies']
+                },
+                reserveDOMProperties: true,
+                compress: {
+                  drop_console: true
                 }
             },
             dist: {
+                options:{
+                  sourceMap: true,
+                  sourceMapName: '_site/assets/js/scripts.min.js'
+                },
                 files: {
                     '_site/assets/js/scripts.min.js': ['<%= app.app %>/assets/js/**/*.js', '<%= app.app %>/js/**/*.js']
                 }
@@ -171,6 +93,7 @@ module.exports = function(grunt) {
                 htmlroot: '_site',
                 stylesheets: ['assets/css/site.css'],
                 report: 'min',
+                ignoreSheets: [/fonts.googleapis/],
                 ignore: ['.reveal', '.progressive', '.progressive img.preview', '.progressive img.reveal', '.progressive img', '.progressive img.reveal']
             },
             dist: {
@@ -187,7 +110,7 @@ module.exports = function(grunt) {
         },
         autoprefixer: {
             options: {
-                browsers: ['last 3 versions']
+                browsers: ['> 1%', 'last 2 versions', 'Firefox ESR', 'Opera 12.1']
             },
             dist: {
                 files: [{
@@ -400,22 +323,6 @@ module.exports = function(grunt) {
         grunt.file.delete('.tmp');
     })
 
-    grunt.registerTask('full_build', [
-        // 'clean:dist',
-        'jekyll:dist',
-        'imagemin',
-        'svgmin',
-        'useminPrepare',
-        'concat:generated',
-        'cssmin:generated',
-        'uglify:generated',
-        // 'filerev',
-        'uncss',
-        'autoprefixer',
-        'usemin',
-        'htmlmin'
-    ]);
-
     grunt.registerTask('optimize', [
         'newer:imagemin',
         'newer:svgmin',
@@ -426,7 +333,7 @@ module.exports = function(grunt) {
         'removeOldAssets',
         'newer:usemin',
         'uncss',
-        'stripCssComments',
+        'newer:stripCssComments',
         'newer:autoprefixer',
         'newer:htmlmin',
         'removeTmp'
