@@ -21,7 +21,7 @@ module Jekyll
     end
 
     def generate(site)
-      if ENV["JEKYLL_ENVIRONMENT"] != "production"
+      if ENV["JEKYLL_ENV"] != "production"
         puts "Skipping Bitly url generation"
         return
       end
