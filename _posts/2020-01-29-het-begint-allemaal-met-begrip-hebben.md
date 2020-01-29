@@ -2,7 +2,7 @@
 layout: post
 title: Het begint allemaal met begrip hebben
 lang: nl
-tags: autisme
+tags: autisme begrip neurodiversiteit positief dit-is-autisme sociaal-gedrag tom
 ref: begriphebben2020
 description: Om elkaar te kunnen begrijpen, respecteren en met elkaar te kunnen samen
   leven is in basis begrip nodig. Begrip voor neurodiversiteit, begrip voor jezelf,

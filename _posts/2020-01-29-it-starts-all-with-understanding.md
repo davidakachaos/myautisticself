@@ -2,7 +2,7 @@
 layout: post
 title: It all starts with understanding
 lang: en
-tags: autisme
+tags: autisme begrip neurodiversiteit positief dit-is-autisme sociaal-gedrag tom
 ref: begriphebben2020
 description: In order to understand each other, respect each other and live with each other, basic understanding is needed. Understanding for neurodiversity, understanding for yourself, understanding for someone else and understanding of reality. That this is lacking in some people and institutions, is a subject for today.
 image: "/assets/img/understandingeachother.jpg"
