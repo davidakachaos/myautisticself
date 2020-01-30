@@ -7,14 +7,19 @@ module Jekyll
             doc = Nokogiri::HTML.fragment(input);
             doc.css('img').each do |img|
                 next if img['class']&.include?('preview')
+                next if img['src']&.include?('http')
+                next if img['src']&.include?('gif')
                 picture = Nokogiri::XML::Node.new "picture", doc
 
                 # Generate new <source srcset="img path" type="image/webp"/> and add it to <picture>
                 picture_webp = Nokogiri::XML::Node.new "source", doc
                 picture_webp['type'] = 'image/webp'
-                picture_webp['srcset'] = img['src'][0...-3] + "webp"
                 # Small bugfix for jpeg files.
-                picture_webp['srcset'].gsub!('jwebp', 'webp')
+                if img['src'].include?('.jpeg')
+                  picture_webp['srcset'] = img['src'][0...-4] + "webp"
+                else
+                  picture_webp['srcset'] = img['src'][0...-3] + "webp"
+                end
                 picture.add_child(picture_webp)
 
                 # Generate new <source> with original image and add it to <picture>
