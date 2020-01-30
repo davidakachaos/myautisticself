@@ -35,7 +35,11 @@ group :jekyll_plugins do
   gem 'jekyll-tagging', path: '../jekyll-tagging'
   gem 'jekyll-last-modified-at'
   gem 'jekyll-mentions'
+  gem 'jekyll-webp'
 end
+
+# Force WebP plugin needs this
+gem 'mime-types', '~> 3.2.2', '>=3.0.0'
 
 gem "jekyll", "~> 4.0"
 

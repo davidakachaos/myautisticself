@@ -8,7 +8,11 @@
 {%- endfor -%}
 {%- endcapture -%}
 {%- if class == "logo" -%}
-<img src="/{{ original.path }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w" class="{{ class }}" alt="{{ alt }}" title="{{ title }}" />
+<picture>
+	<source type="image/webp" srcset="/{{ original.path | replace: 'png', 'webp' }}">
+	<source type="image/png" srcset="/{{ original.path  }}">
+	<img src="/{{ original.path }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w" class="{{ class }}" alt="{{ alt }}" title="{{ title }}" />
+</picture>
 {%- else -%}
 {%- if url -%}
 <a href="{{url}}" data-href="/{{ original.path }}"

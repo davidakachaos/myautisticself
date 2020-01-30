@@ -5,8 +5,13 @@
         <div class="head-area">
             <h1 style="display:none;">{{site.title}}</h1>
             <h1 class="site-logo">
-                <a href="{{ site.baseurl }}/" title="Homepage"
-                    >{% responsive_image path: assets/img/logo.png alt: "Site logo" class: "logo" progressive: false %}</a>
+                <a href="{{ site.baseurl }}/" title="Homepage">
+                  <picture>
+                    <source srcset="/assets/img/logo.webp" type="image/webp">
+                    <source srcset="/assets/img/logo.png" type="image/png">
+                    <img src="/assets/img/logo.png" srcset="/assets/resized/80/logo.png 80w,/assets/resized/20/logo.png 20w,/assets/resized/300/logo.png 300w,/assets/resized/250/logo.png 250w, /assets/img/logo.png 900w" class="logo" alt="Site logo" title="">
+                  </picture>
+                </a>
             </h1>
             <h3 class="site-description">{{ site.description[page.lang] }}</h3>
         </div>

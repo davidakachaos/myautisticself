@@ -13,8 +13,8 @@ layout: default
             <a
       class="u-url dt-published"
       href="{{page.url}}"
-      >{{ page.date | date_to_string }}</a> 
-            {%- if page.category -%} 
+      >{{ page.date | date_to_string }}</a>
+            {%- if page.category -%}
                 &nbsp;in <a href="{{site.baseurl}}{{ page.lang | append: '/' | prepend: '/' | remove: '/nl' }}category/{{page.category | replace: ' ', '-'}}.html" alt="{{page.category}} posts"><i>{{ page.categories }}</i></a>
             {%- endif -%}
             <br>
