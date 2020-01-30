@@ -7,6 +7,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-newer');
     grunt.loadNpmTasks('grunt-processhtml');
     grunt.loadNpmTasks('grunt-usemin');
+    grunt.loadNpmTasks('grunt-critical');
     // Load all Grunt tasks
     require('jit-grunt')(grunt);
 
@@ -335,6 +336,7 @@ module.exports = function(grunt) {
         'uncss',
         'newer:stripCssComments',
         'newer:autoprefixer',
+        'critical:dist',
         'newer:htmlmin',
         'removeTmp'
     ]);

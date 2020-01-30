@@ -13,6 +13,8 @@ module Jekyll
                 picture_webp = Nokogiri::XML::Node.new "source", doc
                 picture_webp['type'] = 'image/webp'
                 picture_webp['srcset'] = img['src'][0...-3] + "webp"
+                # Small bugfix for jpeg files.
+                picture_webp['srcset'].gsub!('jwebp', 'webp')
                 picture.add_child(picture_webp)
 
                 # Generate new <source> with original image and add it to <picture>
