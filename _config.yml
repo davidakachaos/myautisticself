@@ -79,7 +79,7 @@ author:
   twitter: WesterinkDavid
 
 jekyll_compose:
-  auto_open: true
+  auto_open: false
   draft_default_front_matter:
     lang: nl
     tags: autisme
@@ -120,7 +120,7 @@ encoding: UTF-8
 kramdown:
   input: GFM
   hard_wrap: false
-future: true
+future: false
 jailed: false
 # theme: jekyll-theme-primer
 gfm_quirks: paragraph_end
