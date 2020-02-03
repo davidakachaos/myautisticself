@@ -50,6 +50,8 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
 fi
 echo 'Optimizing site....'
 grunt optimize || exit 1
+echo 'Optimizing images in _site...'
+trimage -q ./_site/assets/img/ || exit 1
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Adding optimized images to source...'
   git add assets

@@ -95,7 +95,7 @@ module.exports = function(grunt) {
                 stylesheets: ['assets/css/site.css'],
                 report: 'min',
                 ignoreSheets: [/fonts.googleapis/],
-                ignore: ['.reveal', '.progressive', '.progressive img.preview', '.progressive img.reveal', '.progressive img', '.progressive img.reveal']
+                ignore: ['.webp', '.no-webp', '.reveal', '.progressive', '.progressive img.preview', '.progressive img.reveal', '.progressive img', '.progressive img.reveal']
             },
             dist: {
                 nonull: true,
