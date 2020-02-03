@@ -32,7 +32,7 @@ layout: default
                     <div class="item" style="text-align: left;">
                         <div class="ui tiny image">
                         {%- if post.image -%}
-                          <img src="{{ post.image | replace: "assets/img", "assets/resized/80" | replace: "/posts/", "/" }}">
+                          <img alt="{{ post.description }}" src="{{ post.image | replace: "assets/img", "assets/resized/80" | replace: "/posts/", "/" }}">
                         {%- endif -%}
                         </div>
                         <div class="content">
