@@ -6,8 +6,8 @@ tags: autisme
 ref: stoplicht
 description: Hoe kan een stoplicht je helpen met de interactie in je omgeving. Een
   signaleringsplan in welke vorm dan ook kan je helpen met sociale interactie en uitleg
-  geven aan de mensen om je heen.
-image: 
+  over gedrag te geven aan de mensen om je heen.
+image:
 date: 2020-02-04 11:47 +0100
 ---
 In het verleden heb ik de nodige therapieën gevolgd voor het verwerken van mijn depressie. Een van die therapieën was het maken van een zogenaamd signaleringsplan. Dit is een plan waarin je moet opschrijven wat jezelf en je omgeving kan merken aan je gemoedstoestand. Vaak word dit gemaakt gemaakt met een stoplicht. Mensen die zelf al eens in behandeling hebben gezeten voor een depressie hebben misschien al een idee hoe dit werkt.
