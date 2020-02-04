@@ -11,7 +11,7 @@ description: Mijn naam is David Westerink. Ik ben geboren in 1984 en ben autisti
       <div class="ui black ribbon label" style="z-index: 1;">
         Dit ben ik!
       </div>
-      <img src="/assets/img/profile2.jpg" class='image ui' style="max-height: 400px;" />
+      <img src="/assets/img/profile2.jpg" class='image ui' style="max-height: 400px; max-width: 337px;" />
     </div>
   </div>
   <div class="column" markdown="1">

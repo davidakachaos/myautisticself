@@ -11,7 +11,7 @@ description: My name is David Westerink. I was born in 1984 and am autistic. I a
       <div class="ui black ribbon label" style="z-index: 1;">
         This is me!
       </div>
-      <img src="/assets/img/profile2.jpg" class='image ui' style="max-height: 400px;" />
+      <img src="/assets/img/profile2.jpg" class='image ui' style="max-height: 400px; max-width: 337px;" />
     </div>
   </div>
   <div class="column" markdown="1">

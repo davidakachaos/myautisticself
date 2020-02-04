@@ -41,10 +41,10 @@ All these questions (and more) can be asked and answered in a signalling plan. T
 
 Of course these systems taught me to process and cope with depression. Looking at my meltdowns and over-stimulation now, I think this is a system that can be valuable for autistic people. In the form of what people around you can do or not do.
 
-![Giving an explanation](/assets/img/uitleggen.png){: class="ui image medium floated left"}
 ## Very personal
 A signalling plan is very personal. The most comprehensive plan is very intimate and will not be easy to share. It doesn't have to be. In my opinion it is best to "undress" and censor this most detailed plan in order to share it with others you are less intimate with, such as an employer, friends or acquaintances. But, even if it is only for yourself, making an extensive overview for yourself can be very helpful.
 
+![Giving an explanation](/assets/img/uitleggen.png){: class="ui image medium floated left"}
 Especially if you can use it to give signals to people around you without the whole world immediately understanding what you mean. For example, consider that you are at a party with your partner or parents. It's very cosy and busy... Very busy... Too busy... And you want to indicate that it's too much for you, but you don't want everyone at the party to know right away that things are going wrong with you. Then you can say to your partner or parents, "I feel like going to pan 4, can we leave?"
 
 Also, they'd better see how you're doing by just being yourself. For example, if you have included in your plan that if you twist your thumbs a lot, you feel very uncomfortable, they may react. They can also point out behaviour that makes them suspect that you are not doing well. I myself often had the problem that I couldn't estimate which phase I was in. Because of the fact that people could ask me, "You seem to be rather introverted, that's a sign that you're not doing so well. Do you want to have a one on one talk?" I learned to recognize better and better how I was doing.

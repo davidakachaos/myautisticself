@@ -43,10 +43,10 @@ Al deze vragen (en meer) kun je jezelf stellen en beantwoorden in een signalerin
 
 Uiteraard zijn deze systemen mij geleerd om depressie te verwerken en op te vangen. Als ik nu kijk naar mijn meltdowns en overprikkeling, denk ik dat dit een systeem is wat waardevol kan zijn voor autisten. In de vorm van wat mensen om je heen kunnen doen of laten.
 
-![Uitleg geven](/assets/img/uitleggen.png){: class="ui image medium floated left"}
 ## Heel persoonlijk
 Een signaleringsplan is heel persoonlijk. Het meest uitgebreide plan is heel intiem en zal niet makkelijk te delen zijn. Dit hoeft ook niet. Volgens mij kun je best dit meest gedetailleerde plan "uitkleden" en censureren om het met anderen te delen waar je minder intiem mee bent, zoals een werkgever, vrienden of kennissen. Maar, al is het alleen voor jezelf, het maken van een uitgebreid overzicht voor jezelf kan heel handig zijn.
 
+![Uitleg geven](/assets/img/uitleggen.png){: class="ui image medium floated left"}
 Zeker als je daarmee signalen kunt geven aan mensen om je heen zonder dat meteen de hele wereld snapt wat je bedoelt. Denk er bijvoorbeeld aan dat je met je partner of ouders op een feest bent. Het is heel gezellig en druk... Heel druk... Te druk... En je wilt aangeven dat het je te veel is, maar je wilt niet dat iedereen op het feest meteen weet dat het mis aan het gaan is met je. Dan kun je tegen je partner of ouders zeggen; "Ik voel me naar pan 4 gaan, kunnen we weg?"
 
 Ook kunnen zij beter aan je zien hoe het gaat met je door gewoon jezelf te blijven. Als je in je plan bijvoorbeeld hebt opgenomen dat als je veel met je duimen draait je je erg ongemakkelijk voelt, kunnen ze daarop reageren. Ook kunnen ze je wijzen op gedrag wat hun doet vermoeden dat het niet goed gaat met je. Zelf had ik vaak het probleem dat ik niet goed in kon schatten in welke fase ik zat. Door dat mensen me konden vragen; "Je lijkt nogal in jezelf gekeerd, dat is een teken dat het niet zo goed gaat met je. Wil je even 1 op 1 met me praten?" leerde ik steeds beter herkennen hoe het eigenlijk met me ging.
