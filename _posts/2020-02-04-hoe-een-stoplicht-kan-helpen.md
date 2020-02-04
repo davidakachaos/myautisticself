@@ -2,14 +2,15 @@
 layout: post
 title: Hoe een stoplicht en pannetjes kunnen helpen
 lang: nl
-tags: autisme
+tags: autisme depressie gedachtes meltdown overprikkeling positief kinderen
 ref: stoplicht
 description: Hoe kan een stoplicht je helpen met de interactie in je omgeving. Een
   signaleringsplan in welke vorm dan ook kan je helpen met sociale interactie en uitleg
   over gedrag te geven aan de mensen om je heen.
-image:
+image: /assets/img/stoplicht.png
 date: 2020-02-04 11:47 +0100
 ---
+![Stoplicht](/assets/img/stoplicht.png){: class="ui image floated right medium"}
 In het verleden heb ik de nodige therapieën gevolgd voor het verwerken van mijn depressie. Een van die therapieën was het maken van een zogenaamd signaleringsplan. Dit is een plan waarin je moet opschrijven wat jezelf en je omgeving kan merken aan je gemoedstoestand. Vaak word dit gemaakt gemaakt met een stoplicht. Mensen die zelf al eens in behandeling hebben gezeten voor een depressie hebben misschien al een idee hoe dit werkt.
 
 ## Stoplicht op groen
@@ -26,6 +27,8 @@ Dit systeem werkt met vijf fases in plaats van drie. Dit maakt het systeem preci
 
 Het was makkelijker om de "buitenste" fases te beschrijven, de fases die staan voor rust en crisis. De fases daar tussen zijn een heel stuk moeilijker. Maar bij het systeem met de pannetjes worden deze fases weergegeven met een afbeelding van een pannetje. Dit hielp mij om te bepalen wat ik moest opschrijven. Het systeem van de pannetjes word ook gebruikt bij de therapie van borderline heb ik mij laten vertellen.
 
+![De pannetjes](/assets/img/pannetjes.jpg){: class="ui image"}
+
 ## Wat andere mensen aan je kunnen zien
 Voor iedereen is dit natuurlijk weer anders, maar het opschrijven van je gedrag helpt je omgeving enorm. Dat het vereist dat je jezelf kent is niet helemaal correct, als je tenminste iemand hebt die je helpt bij het maken van een dergelijk plan. Mensen kunnen je namelijk helpen door te beschrijven wat zij voor gedrag bij je zien. Als je dan vervolgens kunt bepalen hoe je er op dat moment bij zat, kun je dit gedrag vervolgens beschrijven in je plan.
 
@@ -40,6 +43,7 @@ Al deze vragen (en meer) kun je jezelf stellen en beantwoorden in een signalerin
 
 Uiteraard zijn deze systemen mij geleerd om depressie te verwerken en op te vangen. Als ik nu kijk naar mijn meltdowns en overprikkeling, denk ik dat dit een systeem is wat waardevol kan zijn voor autisten. In de vorm van wat mensen om je heen kunnen doen of laten.
 
+![Uitleg geven](/assets/img/uitleggen.png){: class="ui image medium floated left"}
 ## Heel persoonlijk
 Een signaleringsplan is heel persoonlijk. Het meest uitgebreide plan is heel intiem en zal niet makkelijk te delen zijn. Dit hoeft ook niet. Volgens mij kun je best dit meest gedetailleerde plan "uitkleden" en censureren om het met anderen te delen waar je minder intiem mee bent, zoals een werkgever, vrienden of kennissen. Maar, al is het alleen voor jezelf, het maken van een uitgebreid overzicht voor jezelf kan heel handig zijn.
 
@@ -57,6 +61,7 @@ Als het over het algemeen goed gaat met je, en je geen problemen ondervind bij h
 Voor ouders kan het een middel zijn om duidelijk op papier te zetten hoe er met hun kind moet worden omgegaan in verschillende situaties, bijvoorbeeld op school. De docent heeft dan een soort handleiding gekregen en kan misschien beter handelen. Daarmee is iedereen geholpen. En opnieuw; niet alle details hoeven gedeeld te worden met een persoon. Dit is aan de autist om te bepalen wat mensen wel of niet weten. Daarbij moet ik wel zeggen, hoe meer mensen weten hoe beter ze kunnen handelen. Als ze een signaal niet weten, kunnen ze er ook niet op reageren.
 
 ## Maar waarom "moeten" wij dit doen en neurotypische mensen niet?
+![Handleiding voor mensen](/assets/img/usermanualpeople.jpg){: class="ui image floated right large"}
 In mijn ogen is het maken van een signaleringsplan iets wat iedereen zou moeten doen. Al is het alleen al zo dat het meer inzicht geeft in je eigen gedrag en emoties, het is niet specifiek voor neurodiverse mensen. Een signaleringsplan kan voor iedereen werken. Het is nu eenmaal een feit dat autisten vaker tegen problemen aanlopen, omdat de omgeving hun niet begrijpt of verkeerd handelt. Daarom denk ik dat het maken van een signaleringsplan ons meer kan helpen daarmee.
 
 Het is ook een feit dat neurotypische mensen elkaar al beter begrijpen. Ze zien aan elkaar hoe het met ze gaat. Deze signalen lijken namelijk erg op die van zichzelf. Maar omdat de signalen van neurodiverse mensen (erg) kunnen afwijken van hun, interpreteren ze die soms verkeerd. Jarenlang is het "stimmen" bijvoorbeeld gezien als gedrag wat duidt dat het slecht gaat met iemand. Hoewel het voor sommige autisten wel zo is dat het stimmen heviger word als het slechter gaat, hoeft het helemaal niet te betekenen dat het altijd slecht gaat. Het kan ook heel goed een teken zijn van rust en tevredenheid.

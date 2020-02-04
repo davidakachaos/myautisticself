@@ -2,12 +2,13 @@
 layout: post
 title: How a traffic light and pans can help
 lang: en
-tags: autisme
+tags: autisme depressie gedachtes meltdown overprikkeling positief kinderen
 ref: stoplicht
 description: How can a traffic light help you with the interaction in your environment. A signalling plan in any form can help you with social interaction and explain behaviour to the people around you.
-image:
+image: /assets/img/stoplicht.png
 date: 2020-02-04 11:47 +0100
 ---
+![Traffic light](/assets/img/stoplicht.png){: class="ui image floated right medium"}
 In the past I have followed the necessary therapies to cope with my depression. One of those therapies was to make a so-called signalling plan. This is a plan in which you have to write down what you and your surroundings can notice about your state of mind. Often this is made with a traffic light. People who have been in treatment for depression themselves may already have an idea how this works.
 
 ## Traffic light on green
@@ -24,6 +25,8 @@ This system works with five phases instead of three. This makes the system more 
 
 It was easier to describe the "outer" phases, the phases that stand for peace and crisis. The phases in between are a lot more difficult. But with the pan system, these phases are represented by an image of a pan. This helped me to determine what to write down. The system of the pans is also used in the therapy of borderline I have been told.
 
+![The pans](/assets/img/pannetjes.jpg){: class="ui image"}
+
 ## What other people can see of you
 Of course this is different for everyone, but writing down your behaviour helps your environment enormously. That it requires you to know yourself is not entirely correct, if you at least have someone to help you make such a plan. People can help you by describing what kind of behavior they see in you. If you can then determine how you felt at that moment, you can then describe this behavior in your plan.
 
@@ -38,6 +41,7 @@ All these questions (and more) can be asked and answered in a signalling plan. T
 
 Of course these systems taught me to process and cope with depression. Looking at my meltdowns and over-stimulation now, I think this is a system that can be valuable for autistic people. In the form of what people around you can do or not do.
 
+![Giving an explanation](/assets/img/uitleggen.png){: class="ui image medium floated left"}
 ## Very personal
 A signalling plan is very personal. The most comprehensive plan is very intimate and will not be easy to share. It doesn't have to be. In my opinion it is best to "undress" and censor this most detailed plan in order to share it with others you are less intimate with, such as an employer, friends or acquaintances. But, even if it is only for yourself, making an extensive overview for yourself can be very helpful.
 
@@ -55,6 +59,7 @@ If you're generally doing well, and you don't have any problems calming yourself
 For parents, it can be a means to clearly write down how to deal with their child in different situations, for example at school. The teacher has then been given some sort of manual and may be able to act better. This helps everyone. And again; not all details need to be shared with a person. This is up to the autistic person to determine what people do or do not know. I have to say, the more people know, the better they can act. If they don't know a signal, they can't react to it.
 
 ## But why do we "have to" do this and neurotypical people don't?
+![Manual for people](/assets/img/usermanualpeople.jpg){: class="ui image floated right large"}
 In my opinion, making a signalling plan is something everyone should do. If only it gives you more insight into your own behavior and emotions, it's not specific to neurodiverse people. A signalling-plan can work for everyone. It is a fact that autistic people more often encounter problems because the environment does not understand them or acts incorrectly. That's why I think that making a signalling plan can help us more.
 
 It is also a fact that neurotypical people already understand each other better. They see how they are doing with each other. These signals are very similar to their own. But because the signals of neurodiverse people can (very) different from their own, they sometimes misinterpret them. For years, for example, "stimming" has been seen as behaviour that indicates that someone is doing badly. Although for some autistic people it is true that the stimming becomes more intense when things get worse, it does not necessarily mean that it always goes bad. It can also very well be a sign of peace and contentment.
