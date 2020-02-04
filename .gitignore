@@ -6,3 +6,8 @@ node_modules
 .tmp
 _site
 ./sed_posts.sh
+.jekyll-metadata
+generate-bitlys.rb
+generate-post-image.sh
+post-translator.py
+sed_posts.sh
