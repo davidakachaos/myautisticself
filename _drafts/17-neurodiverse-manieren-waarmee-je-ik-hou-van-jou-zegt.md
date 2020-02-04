@@ -7,8 +7,9 @@ ref: 17manierenhoudenvan
 description: Neurodiverse mensen zeggen op een andere manier "Ik hou van jou" dan neurotypische mensen. De verschillen zijn soms subtiel, maar het is belangrijk om ze te noemen.
 in_reply_to: https://theaspergian.com/2020/02/04/17-ways-to-say-i-love-you-in-neurodivergent/
 pingback: https://theaspergian.com/2020/02/04/17-ways-to-say-i-love-you-in-neurodivergent/
-image:
+image: /assets/img/iloveyoutalen.jpg
 ---
+![I love you](/assets/img/iloveyoutalen.jpg){: class="ui image medium floated right"}
 Deze lijst heb ik overgenomen van @SNeurotypicals die dit deelde via [The Aspergian](https://theaspergian.com/2020/02/04/17-ways-to-say-i-love-you-in-neurodivergent/). Ik heb deze vertaalt naar het Nederlands :smile:
 
 1. Ik zag dit artikel / site en wilde het met je delen.
