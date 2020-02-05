@@ -109,5 +109,47 @@ function showTranslation(){
   });
 }
 
+function subscribeFBLike(){
+    if(typeof FB !== "undefined"){
+        FB.Event.subscribe('edge.create', function(url) {
+            ga('send', 'social', 'facebook', 'like', url);
+        });
+    } else{
+        setTimeout(subscribeFBLike, 250);
+    }
+}
+
+function callFB(){
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '829197500840832', // App ID
+        // channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
+        status     : true, // check login status
+        cookie     : true, // enable cookies to allow the server to access the session
+        oauth      : false, // enable OAuth 2.0
+        xfbml      : true,  // parse XFBML
+        autoLogAppEvents: true
+      });
+
+    // Additional initialization code here
+  };
+
+  // Load the SDK Asynchronously
+  (function(d){
+     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+     js = d.createElement('script'); js.id = id; js.async = true;
+     if (document.documentElement.lang == "nl") {
+      js.src = "//connect.facebook.net/nl_NL/all.js";
+      }else {
+        js.src = "//connect.facebook.net/en_US/all.js";
+      }
+     d.getElementsByTagName('head')[0].appendChild(js);
+   }(document));
+
+
+}
+
 defer(updateWebmentionCounts);
 defer(showTranslation);
+defer(callFB);
+defer(subscribeFBLike);
