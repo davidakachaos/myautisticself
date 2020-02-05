@@ -69,6 +69,24 @@
 </script>
 </amp-analytics>
 
+<!-- Facebook Pixel Analytics tracking -->
+<amp-analytics type="facebookpixel" id="facebook-pixel">
+    <script type="application/json">
+    {
+        "vars": {
+            "pixelId": "2493946240823204"
+        },
+        "triggers": {
+            "trackPageview": {
+                "on": "visible",
+                "request": "pageview"
+            }
+        }
+    }
+    </script>
+</amp-analytics>
+<!-- End Facebook Pixel Analytics example -->
+
 <amp-analytics type="googleanalytics" id="amp-analytics-facebook-share">
 <script type="application/json">
 {
