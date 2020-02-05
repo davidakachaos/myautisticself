@@ -10,7 +10,7 @@ description: Neurodiverse mensen zeggen op een andere manier "Ik hou van jou" da
 in_reply_to: https://theaspergian.com/2020/02/04/17-ways-to-say-i-love-you-in-neurodivergent/
 pingback: https://theaspergian.com/2020/02/04/17-ways-to-say-i-love-you-in-neurodivergent/
 image: "/assets/img/iloveyoutalen.jpg"
-date: 2020-02-04 14:14 +0100
+date: 2020-02-05 09:14 +0100
 ---
 ![I love you](/assets/img/iloveyoutalen.jpg){: class="ui image medium floated right"}
 Deze lijst heb ik overgenomen van @SNeurotypicals die dit deelde via [The Aspergian](https://theaspergian.com/2020/02/04/17-ways-to-say-i-love-you-in-neurodivergent/). Ik heb deze vertaalt naar het Nederlands :smile:
