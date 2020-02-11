@@ -75,9 +75,9 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'https://myautisticself.nl has been deployed.'
   notify-send 'https://myautisticself.nl has been deployed.'
   echo 'Sending webmentions...'
-  jekyll webmention
+  bundle exec jekyll webmention
   echo 'Sending pingbacks...'
-  jekyll pingback
+  bundle exec jekyll pingback
   echo 'Generate bitly links...'
   generate-bitlys.rb
   git add db.json .bitly_cache
