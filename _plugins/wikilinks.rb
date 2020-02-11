@@ -55,20 +55,20 @@ module Jekyll
     end
   end
 
-  module Convertible
-    alias old_transform transform
-
-    def transform
-      if converter.instance_of? Jekyll::Converters::Markdown
-        pat = /\[\[(.+?)\]\]/
-        @content = @content.gsub(pat) do |m|
-          wl = Wikilinks::Wikilink.parse(m)
-          wl.match_page(site.pages)
-          wl.match_post(site.posts) unless wl.has_match?
-          wl.markdown
-        end
-      end
-      old_transform
-    end
-  end
+  # module Convertible
+  #   alias old_transform transform
+  #
+  #   # def transform
+  #   #   if converter.instance_of? Jekyll::Converters::Markdown
+  #   #     pat = /\[\[(.+?)\]\]/
+  #   #     @content = @content.gsub(pat) do |m|
+  #   #       wl = Wikilinks::Wikilink.parse(m)
+  #   #       wl.match_page(site.pages)
+  #   #       wl.match_post(site.posts) unless wl.has_match?
+  #   #       wl.markdown
+  #   #     end
+  #   #   end
+  #   #   old_transform
+  #   # end
+  # end
 end

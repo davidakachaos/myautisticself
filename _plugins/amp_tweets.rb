@@ -1,8 +1,7 @@
 require 'nokogiri'
-require 'fastimage'
 
 module Jekyll
-  module AmpFilter
+  module AmpTweetFilter
     # Filter for HTML twitter embeds
     # Converts elements to 'amp-tweet' and adds additional attributes
     # Parameters:
@@ -29,8 +28,8 @@ module Jekyll
 
     def amp_tweets(input)
       doc = Nokogiri::HTML.fragment(input);
-      doc.css('.twitter-tweet').each do |tw| 
-        links = tw.css('a').map { |l| l['href'] }
+      doc.css('.jekyll-twitter-plugin').each do |tw|
+        links = tw.css('.twitter-tweet').css('a').map { |l| l['href'] }
 
         w = 292
         if tw['data-width']
@@ -52,4 +51,4 @@ module Jekyll
   end
 end
 
-Liquid::Template.register_filter(Jekyll::AmpFilter)
+Liquid::Template.register_filter(Jekyll::AmpTweetFilter)

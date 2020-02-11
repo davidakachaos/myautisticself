@@ -1,5 +1,7 @@
 require 'thread'
 require 'thwait'
+require 'jekyll-twitter-plugin'
+# c
 
 # based on https://github.com/juusaw/amp-jekyll/
 module Jekyll
@@ -10,10 +12,14 @@ module Jekyll
       @base = base
       @dir = dir
       @name = 'index.html'
+      # Bestandnaam goed zetten
       self.process(@name)
+      # Data van schijf inlezen in structure.
       self.read_yaml(File.join(site.source, '_layouts'), 'amp.html')
 
-      self.data['body']          = replace_links_to_posts(remove_responsive_image(post.content))
+      template = (Liquid::Template.parse replace_links_to_posts(remove_responsive_image(post.content)))
+
+      self.data['body']          = template.render!(site.site_payload, { :strict_variables => false, :strict_filters => true })
       self.data['is_a_post']     = post.respond_to?('id')
       self.data['lang']          = post.data['lang']
       self.data['image']         = post.data['image']
@@ -26,6 +32,8 @@ module Jekyll
       self.data['tags']          = post.data['tags']
       self.data['canonical_url'] = post.url
 
+      # Call trigger?
+      Jekyll::Hooks.trigger :pages, :post_init, self
     end
 
     private
