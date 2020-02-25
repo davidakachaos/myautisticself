@@ -21,7 +21,7 @@ module Jekyll
     def get_new_twitter_content(link, w, h, doc)
       if link =~ /twitter\.com\/.*[status|statuses]\/(\d+)/
         tweet_id = $1
-        puts "replacing element for tweet #{tweet_id}"
+        # puts "replacing element for tweet #{tweet_id}"
         create_tweet tweet_id, w, h, doc
       end
     end

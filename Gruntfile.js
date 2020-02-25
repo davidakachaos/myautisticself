@@ -8,6 +8,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-processhtml');
     grunt.loadNpmTasks('grunt-usemin');
     grunt.loadNpmTasks('grunt-critical');
+    grunt.loadNpmTasks('grunt-closure-compiler');
     // Load all Grunt tasks
     require('jit-grunt')(grunt);
 
@@ -59,7 +60,7 @@ module.exports = function(grunt) {
                   sourceMapName: '_site/assets/js/scripts.min.js'
                 },
                 files: {
-                    '_site/assets/js/scripts.min.js': ['<%= app.app %>/assets/js/**/*.js', '<%= app.app %>/js/**/*.js']
+                    '_site/assets/js/scripts.min.js': ['<%= app.app %>/assets/js/*.js', '<%= app.app %>/assets/js/vendor/*.js', '<%= app.app %>/js/**/*.js'],
                 }
             }
         },
@@ -241,6 +242,24 @@ module.exports = function(grunt) {
                 }
             },
         },
+        'closure-compiler': {
+          optimize: {
+            closurePath: '/usr/local/bin/closure-compiler',
+            // js: '_site/assets/js/scripts.min.js',
+            js: '.tmp/concat/assets/js/scripts.min.js',
+            jsOutputFile: '_site/assets/js/scripts.min.js',
+            maxBuffer: 50000,
+            options: {
+              compilation_level: 'SIMPLE_OPTIMIZATIONS',
+              strict_mode_input: false,
+              create_source_map: '_site/assets/js/scripts.min.js.map',
+              language_in: 'ECMASCRIPT5',
+              language_out: 'ECMASCRIPT_2019',
+              externs: "externs\jquery-1.8.js",
+              jscomp_off: 'es5Strict'
+            }
+          }
+        },
         // Usemin adds files to cssmin
         cssmin: {
             dist: {
@@ -322,6 +341,7 @@ module.exports = function(grunt) {
 
     grunt.registerTask('removeTmp', function(){
         grunt.file.delete('.tmp');
+        grunt.file.delete('_site/assets/js/scripts.min.js.report.txt');
     })
 
     grunt.registerTask('optimize', [
@@ -333,12 +353,23 @@ module.exports = function(grunt) {
         'newer:uglify:generated',
         'removeOldAssets',
         'newer:usemin',
+        'closure-compiler:optimize',
         'uncss',
         'newer:stripCssComments',
         'newer:autoprefixer',
         'critical:dist',
         'newer:htmlmin',
         'removeTmp'
+    ]);
+
+    grunt.registerTask('testjs', [
+      'useminPrepare',
+      'concat:generated',
+      'cssmin:generated',
+      'uglify:generated',
+      'removeOldAssets',
+      'usemin',
+      'closure-compiler:optimize',
     ]);
 
     // grunt.registerTask('deploy', [
