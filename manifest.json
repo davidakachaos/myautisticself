@@ -1,6 +1,12 @@
 {
- "name": "App",
- "icons": [
+  "short_name": "My Autistic Self",
+  "name": "My Autistic Self - Autisme blog",
+  "start_url": "/",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "display": "minimal-ui",
+  "description": "My blog about myself as an autist and my experiences with autism. Information and explanation for people without autism, a view of the world from someone with autism.",
+  "icons": [
   {
    "src": "\/assets\/icons\/android-icon-36x36.png",
    "sizes": "36x36",
@@ -34,6 +40,12 @@
   {
    "src": "\/assets\/icons\/android-icon-192x192.png",
    "sizes": "192x192",
+   "type": "image\/png",
+   "density": "4.0"
+  },
+  {
+   "src": "\/assets\/img\/logo.png",
+   "sizes": "512x512",
    "type": "image\/png",
    "density": "4.0"
   }
