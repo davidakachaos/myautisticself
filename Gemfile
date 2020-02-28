@@ -36,6 +36,7 @@ group :jekyll_plugins do
   gem 'jekyll-last-modified-at'
   gem 'jekyll-mentions'
   gem 'jekyll-webp'
+  gem 'jekyll-include-cache'
 end
 
 # Force WebP plugin needs this

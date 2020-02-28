@@ -96,7 +96,12 @@ module.exports = function(grunt) {
                 stylesheets: ['assets/css/site.css'],
                 report: 'min',
                 ignoreSheets: [/fonts.googleapis/],
-                ignore: ['.webp header', '.no-webp header', '.reveal', '.progressive', '.progressive img.preview', '.progressive img.reveal', '.progressive img', '.progressive img.reveal']
+                ignore: ['.webp header', '.ui.form', '.ui.form input[type=email]', '.ui.form textarea',
+                        '.ui.message', '.ui.message.error', '.ui.message.succes', '.ui.form .field>label',
+                        'ui button', '.no-webp header', '.reveal', '.progressive', '.progressive img.preview',
+                        '.progressive img.reveal', '.progressive img', '.progressive img.reveal', '.ui.message>:first-child',
+                        '.ui.message .header', '.ui.message p:last-child', '.ui.button'
+                      ]
             },
             dist: {
                 nonull: true,
@@ -104,9 +109,9 @@ module.exports = function(grunt) {
                 src: ['_site/**/*.html', '!yandex_f0a389ddfda6489c.html',
                         '!_site/2019/**/*.html', '!_site/2020/**/*.html', '_site/2019/08/hulpgids-asperger-syndroom-review.html',
                         '_site/2019/07/beelddenker.html', '_site/2019/10/cobwebs-in-my-head.html',
-                        '_site/contact-opnemen.html',
                         '!_site/amp/**/*.html', '!_site/tag/**/*.html',
-                        '!_site/category/**/*.html', '!_site/en/**/*.html'
+                        '!_site/category/**/*.html', '!_site/en/**/*.html',
+                        '_site/contact-opnemen.html', '_site/get-in-touch.html'
                     ],
                 dest: '_site/assets/css/site.css'
             }
@@ -132,8 +137,10 @@ module.exports = function(grunt) {
                         '_site/assets/css/site.css'
                     ],
                     minify: true,
-                    width: 320,
-                    height: 480
+                    inline: true,
+                    inlineImages: true,
+                    width: 1300,
+                    height: 900
                 },
                 files: [{
                     expand: true,
@@ -141,18 +148,6 @@ module.exports = function(grunt) {
                     src: ['**/*.html', '!amp/**/*.html'],
                     dest: '<%= app.dist %>/<%= app.baseurl %>'
                 }]
-            }
-        },
-        cssmin_old: {
-            dist: {
-                options: {
-                    keepSpecialComments: 0,
-                    check: 'gzip'
-                },
-                files: {
-                    '_site/assets/css/site.css': '_site/assets/css/site.css'
-                        // [ '_site/assets/css/vendor/syntax.css', '_site/assets/css/vendor/semantic.min.css', '_site/assets/css/main.css', '_site/assets/css/mobile.css']
-                }
             }
         },
         imagemin: {
@@ -231,6 +226,11 @@ module.exports = function(grunt) {
             },
             html: ['_site/**/*.html'],
             css: ['_site/assets/css/**/*.css'],
+            blockReplacements: {
+              css: function (block) {
+                  return '<link rel="preload" href="' + block.dest + '" as="style" onload="this.onload=null;this.rel=\'stylesheet\'"><noscript><link rel="stylesheet" href="' + block.dest + '"></noscript>';
+              }
+            },
         },
         // Usemin adds files to concat
         concat: {},

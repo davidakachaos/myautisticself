@@ -19,7 +19,7 @@
 <body>
 	<div id="fb-root"></div>
     <div class="page-wrap">
-        {% include header.html %}
+        {% include_cached header.html %}
         <main>
           <div style="display: none;" id="lang-change-to-en" class="ui message">
             <i class="close icon"></i>
@@ -40,7 +40,7 @@
         </main>
     </div>
 
-    {% include footer.html %}
+    {% include_cached footer.html %}
 <!-- build:js /assets/js/scripts.min.js -->
 <script async charset="utf-8" type="text/javascript" src="/assets/js/main.js"></script>
 <script async charset="utf-8" type="text/javascript" src="/js/JekyllWebmentionIO.js"></script>
