@@ -8,9 +8,6 @@ lang: en
 ref: intoductie
 description: Welcome message to my new blog
 image: assets/posts/introduction.png
-redirect_from:
-  - /en/2019/06/introductie.html
-  - /en/2019/06/introductie
 ---
 
 Welcome to my new blog. My name is David, I'm 35 years old and have Asperger's.
