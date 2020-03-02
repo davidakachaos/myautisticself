@@ -20,7 +20,7 @@
             <div class="left-nav">
                 <!-- add titles to all buttons -->
                 <div class="ui secondary menu inverted">
-                    {%- if page.lang == "nl" -%}
+                    {%- if include.lang == "nl" -%}
                     <a class="item" href="{{ site.baseurl }}/" title="Homepage">
                         Home
                     </a>
@@ -90,7 +90,7 @@
                         <a class="item" href="https://github.com/davidakachaos" title="My GitHub">
                             <i class="github link icon"></i>
                         </a>
-                        {%- if page.lang == "nl" -%}
+                        {%- if include.lang == "nl" -%}
                         <a class="item" href="{{ site.baseurl }}/feed.xml" title="RSS Feed"
                             >RSS Feed</a
                         >

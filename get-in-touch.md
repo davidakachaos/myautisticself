@@ -4,13 +4,18 @@ title: Get in touch!
 lang: en
 ref: contactpage
 ---
+<p>Do you need someone to explain what autism actually means? Or maybe you want to know more about neurodiversity and all its different forms? It's an honour for me to be able to do something for you!</p>
 <p>Please contact me using the form below. Of course I can also be contacted via the various social media, but sometimes it is easier to contact me directly.</p>
 <p>I aim to respond to your message within a reasonable time. Thank you for taking the time to write me a message!</p>
 
 <form class="ui form" id="my-form"
   action="https://formspree.io/xwkblaje"
   method="POST"
->
+
+  <div class="field">
+    <label>Name:</label>
+    <input type="text" name="name" placeholder="Your name..." />
+  </div>
   <div class="field">
     <label>Email address:</label>
     <input type="email" name="email" placeholder="Your email address..." />
@@ -23,6 +28,7 @@ ref: contactpage
     <div class="header"></div>
     <p></p>
   </div>
+  <input type="hidden" name="\_subject" value="New submission!" />
   <button class="ui button" id="my-form-button">Send!</button>
   <p ></p>
 </form>

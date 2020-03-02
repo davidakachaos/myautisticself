@@ -4,6 +4,7 @@ title: Contact opnemen
 lang: nl
 ref: contactpage
 ---
+<p>Heeft u misschien iemand nodig om uitleg te geven over wat autisme nu eigenlijk betekend? Of misschien wilt u meer weten over neurodiversiteit en al zijn verschillende vormen? Het is me een eer om iets voor u te kunnen betekenen!</p>
 <p>Via onderstaand formulier kunt u contact opnemen met mij. Uiteraard ben ik ook via de verschillende sociale media te benaderen, maar soms is het makkelijker om rechtstreeks contact op te nemen.</p>
 <p>Ik streef er naar om binnen een redelijke tijd te reageren op uw bericht. Bedankt dat u de tijd wilt nemen om een bericht aan me te schrijven!</p>
 
@@ -11,6 +12,10 @@ ref: contactpage
   action="https://formspree.io/xwkblaje"
   method="POST"
 >
+  <div class="field">
+    <label>Naam:</label>
+    <input type="text" name="name" placeholder="Uw naam" />
+  </div>
   <div class="field">
     <label>Email adres:</label>
     <input type="email" name="email" placeholder="Uw email adres" />
@@ -23,6 +28,8 @@ ref: contactpage
     <div class="header"></div>
     <p></p>
   </div>
+  <input type="hidden" name="\_subject" value="Nieuw bericht!" />
+  <input type="hidden" name="\_language" value="nl" />
   <button class="ui button" id="my-form-button">Verstuur!</button>
   <p ></p>
 </form>
