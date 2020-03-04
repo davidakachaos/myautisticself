@@ -19,6 +19,7 @@ Hier volgen een aantal links naar andere websites die interessant kunnen zijn vo
 ## Andere links
 
 - [NVA - Nederlandse Vereniging voor Autisme](https://www.autisme.nl/){:target="_blank"}{:rel="noreferrer noopener"}
+- [Autisme Netwerk Friesland](http://www.autismenetwerkfriesland.nl/){:target="_blank"}{:rel="noreferrer noopener"}
 - [Autisme Online](https://www.autisme.online/){:target="_blank"}{:rel="noreferrer noopener"}
 - [ATN - Autisme Team Noord-Nederland](https://www.lentis.nl/locaties/atn-drachten/){:target="_blank"}{:rel="noreferrer noopener"}: De plaats waar ik mijn diagnose heb gekregen en de eerste hulp heb gekregen na de diagnose.
 - [Scauting](https://scauting.nl/){:target="_blank"}{:rel="noreferrer noopener"}: Scauting helpt normaal tot hoogbegaafde mensen met autisme verder in wonen, werken en leren. De plaats waar ik dagbesteding doe.
