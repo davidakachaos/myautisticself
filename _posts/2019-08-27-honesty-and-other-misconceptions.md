@@ -6,9 +6,9 @@ ref: post_eerlijkheid
 lang: en
 date: 2019-08-27 09:10 +0200
 description: There are common misconceptions about autism. Here I detail a few of them and talk about them
-image: /assets/img/wall-e.gif
+image: /assets/img/wall-e.jpg
 ---
-![Hello Friend!](/assets/img/wall-e.gif){: class="ui floated right image rounded"}
+![Hello Friend!](/assets/img/wall-e.jpg){: class="ui floated right image rounded"}
 There are enough misconceptions about autism. There are quite a few prejudices and they sometimes make it difficult to deal with autism. People who are diagnosed at a somewhat later age (not if they are younger than ten or so) may already have prejudices and misconceptions about autism and what it means to be an autist. This of course has consequences; People become less open about their autism, sometimes feel embarrassed and other people sometimes treat you strangely when they know you have autism.
 
 So it seemed like a good subject to talk about. There are enough prejudices, and I will miss some! So if you have additions yourself, or run into things that I don't mention here, let me know!
