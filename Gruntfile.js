@@ -347,7 +347,7 @@ module.exports = function(grunt) {
         'newer:cssmin:generated',
         'newer:uglify:generated',
         'removeOldAssets',
-        'newer:usemin',
+        'usemin',
         'closure-compiler:optimize',
         'uncss',
         'newer:stripCssComments',

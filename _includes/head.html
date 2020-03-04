@@ -8,15 +8,6 @@
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <meta name="msvalidate.01" content="2B3B37568F562F7C3D1DD441B8744E45" />
     <link rel="manifest" href="/manifest.json">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preload" href="/assets/css/site.css" as="style" />
-    <link rel="preload" href="/assets/js/scripts.min.js" as="script" />
-    <link rel="preload" href="/assets/css/fonts/leaguegothic-regular-webfont.eot" as="font" type="font/embedded-opentype" crossorigin />
-    <link rel="preload" href="/assets/css/fonts/leaguegothic-regular-webfont.woff" as="font" type="font/woff" crossorigin />
-    <link rel="preload" href="/assets/css/vendor/themes/default/assets/fonts/icons.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/assets/css/fonts/leaguegothic-regular-webfont.ttf" as="font" type="font/truetype" crossorigin />
-    <link rel="preload" href="/assets/css/fonts/leaguegothic-regular-webfont.svg" as="font" type="font/svg" crossorigin />
     <!-- build:css /assets/css/site.css -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mobile.css" />
@@ -29,11 +20,18 @@
         href="{{ site.baseurl }}/assets/css/vendor/semantic.min.css"
     />
     <!-- endbuild -->
-    {%- if page.path contains '_posts' -%}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preload" href="/assets/css/site.css" as="style" />
+    <link rel="preload" href="/assets/js/scripts.min.js" as="script" />
+    <link rel="preload" href="/assets/css/fonts/leaguegothic-regular-webfont.eot" as="font" type="font/embedded-opentype" crossorigin />
+    <link rel="preload" href="/assets/css/fonts/leaguegothic-regular-webfont.woff" as="font" type="font/woff" crossorigin />
+    <link rel="preload" href="/assets/css/vendor/themes/default/assets/fonts/icons.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/css/fonts/leaguegothic-regular-webfont.ttf" as="font" type="font/truetype" crossorigin />
+    <link rel="preload" href="/assets/css/fonts/leaguegothic-regular-webfont.svg" as="font" type="font/svg" crossorigin />
+    {% if page.path contains '_posts' %}
     <link rel="amphtml" href="{{site.url}}/{{site.ampdir}}{{page.id}}">
-    {%- else -%}
-    <link rel="amphtml" href="{{site.url}}/{{site.ampdir}}{{page.url | replace: '.html', ''}}/">
-    {%- endif -%}
+    {% endif %}
     <link
         rel="shortcut icon"
         type="image/png"
