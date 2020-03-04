@@ -98,8 +98,7 @@ module.exports = function(grunt) {
                 ignoreSheets: [/fonts.googleapis/],
                 ignore: ['.webp header', '.ui.form', '.ui.form input[type=email]', '.ui.form textarea',
                         '.ui.message', '.ui.message.error', '.ui.message.succes', '.ui.form .field>label',
-                        'ui button', '.no-webp header', '.reveal', '.progressive', '.progressive img.preview',
-                        '.progressive img.reveal', '.progressive img', '.progressive img.reveal', '.ui.message>:first-child',
+                        'ui button', '.no-webp header', '.ui.form input[type=text]', '.ui.message>:first-child',
                         '.ui.message .header', '.ui.message p:last-child', '.ui.button'
                       ]
             },

@@ -11,22 +11,25 @@
 <picture>
 	<source type="image/webp" srcset="/{{ original.path | replace: 'png', 'webp' }}">
 	<source type="image/png" srcset="/{{ original.path  }}">
-	<img src="/{{ original.path }}" srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w" class="{{ class }}" alt="{{ alt }}" title="{{ title }}" />
+	<img src="/{{ original.path }}"
+	srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
+	class="lazyload {{ class }}" alt="{{ alt }}"
+	title="{{ title }}" />
 </picture>
 {%- else -%}
 {%- if url -%}
-<a href="{{url}}" data-href="/{{ original.path }}"
-   data-srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
-   data-sizes="100vw"
-   class="progressive replace {{ class }}">
-    <img src="/{{ tinyest.path }}" class="preview {{ class }}" alt="{{ alt }}" title="{{ title }}" />
-</a>
-{%- else -%}
-<a href="/{{ original.path }}"
-   data-srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w"
-   data-sizes="100vw"
-   class="progressive replace {{ class }}">
-    <img src="/{{ tinyest.path }}" class="preview {{ class }}" alt="{{ alt }}" title="{{ title }}" />
+<a href="{{url}}">
+{%- endif -%}
+	<picture>
+		<source type="image/webp" srcset="/{{ original.path | replace: 'png', 'webp' | replace: 'jpg', 'webp' | replace: 'jpeg', 'webp' }}">
+		<source srcset="/{{ original.path  }}">
+		<img
+		data-sizes="auto"
+	  src="/{{ tinyest.path }}"
+		alt="{{ alt }}" title="{{ title }}"
+		data-srcset="{{ srcset | strip_newlines }} /{{ path }} {{ original.width }}w" class="preview lazyload {{ class }}" />
+	</picture>
+{%- if url -%}
 </a>
 {%- endif -%}
 {%- endif -%}
