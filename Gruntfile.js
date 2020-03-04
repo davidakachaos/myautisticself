@@ -225,11 +225,11 @@ module.exports = function(grunt) {
             },
             html: ['_site/**/*.html'],
             css: ['_site/assets/css/**/*.css'],
-            blockReplacements: {
-              css: function (block) {
-                  return '<link rel="preload" href="' + block.dest + '" as="style" onload="this.onload=null;this.rel=\'stylesheet\'"><noscript><link rel="stylesheet" href="' + block.dest + '"></noscript>';
-              }
-            },
+            // blockReplacements: {
+            //   css: function (block) {
+            //       return '<link rel="preload" href="' + block.dest + '" as="style" onload="this.onload=null;this.rel=\'stylesheet\'"><noscript><link rel="stylesheet" href="' + block.dest + '"></noscript>';
+            //   }
+            // },
         },
         // Usemin adds files to concat
         concat: {},
