@@ -2,7 +2,7 @@
 layout: post
 title: The role of spokesperson
 lang: en
-tags: autisme
+tags: autisme begrip neurodiversiteit lezingen voorlichting
 ref: voorlichterworden
 description: It is important in the struggle for acceptance of autism that information is given about autism. I am already doing this by this blog and by talking to people about autism. I'll take that to the next level next Friday!
 image: "/assets/img/lezingengeven.jpg"

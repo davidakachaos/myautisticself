@@ -2,7 +2,7 @@
 layout: post
 title: De rol van voorlichter
 lang: nl
-tags: autisme
+tags: autisme begrip neurodiversiteit lezingen voorlichting
 ref: voorlichterworden
 description: Het is belangrijk in de strijd voor acceptatie van autisme dat er voorlichting
   gegeven word over autisme. Zelf doe ik dat al door dit blog en door met mensen te
