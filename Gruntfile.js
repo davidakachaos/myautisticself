@@ -224,12 +224,7 @@ module.exports = function(grunt) {
                 flow: { steps: { js: ['concat', 'uglify'], css: ['concat', 'cssmin'] }, post: {} }
             },
             html: ['_site/**/*.html'],
-            css: ['_site/assets/css/**/*.css'],
-            // blockReplacements: {
-            //   css: function (block) {
-            //       return '<link rel="preload" href="' + block.dest + '" as="style" onload="this.onload=null;this.rel=\'stylesheet\'"><noscript><link rel="stylesheet" href="' + block.dest + '"></noscript>';
-            //   }
-            // },
+            css: ['_site/assets/css/**/*.css']
         },
         // Usemin adds files to concat
         concat: {},
