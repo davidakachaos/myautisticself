@@ -7,7 +7,7 @@ ref: dekleurvanautisme
 description: Als tegenhanger van de blauwe kleur is er goud. In deze post ga ik hierop in. Waarom is de kleur van autisme goud? En hoe kunnen we dat uitdragen naar de mensen om ons heen.
 image: /assets/img/autisticgold.jpg
 ---
-![Autistic Gold](/assets/img/neurodiversity-logo.png){: alt="Symbool van neurodiversiteit" class="ui image floated right medium"}
+![Autistic Gold](/assets/img/neurodiversity-logo-300.png){: alt="Symbool van neurodiversiteit" class="ui image floated right medium"}
 We zijn in maart. Volgende maand is de autisme maand en in Nederland ook de autisme week. Hiervoor worden verschillende dingen georganiseerd. Veel organisaties proberen autisme onder de aandacht te brengen bij het publiek. Onderdeel daarvan zijn de verschillende symbolen en kleuren die gebruikt worden. Veel zie je de bekende puzzel stukjes en de kleur blauw als de kleur die staat voor autisme.
 
 ## Waarom is de kleur van autisme goud?
@@ -46,4 +46,4 @@ Zelf zal ik ook goed nadenken over wat ik kan tonen op 2 april. Misschien maak i
 
 Maar ik zou het geweldig vinden om te zien wat jullie Gouden Moment is. Wat is jullie prachtige kant? Wat maakt jou nu echt typisch jou? Het lijkt me prachtig om heel Facebook, Twitter en noem maar op vol te zien staan op 2 april met jullie creaties, foto's, video's, muziek en ga zo maar door met de hashtag #OurGoldenMoment!
 
-En mocht er die dag nare opmerkingen komen (op Twitter, Facebook bied niet dezelfde functie) gebruik dan de hashtag #OGMassist om het anderen te laten weten. Hiermee willen we als gemeenschap een veilige plaats creëren voor iedereen om zijn/haar verhaal te delen.
+En mocht er die dag nare opmerkingen komen (op Twitter, Facebook bied niet dezelfde functie) gebruik dan de hashtag #OGMassist om het anderen te laten weten. Hiermee willen we als gemeenschap een veilige plaats te scheppen voor iedereen om zijn/haar verhaal te delen.
