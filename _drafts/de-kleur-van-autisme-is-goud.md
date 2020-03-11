@@ -38,3 +38,12 @@ De strijd is niet langer over bewustwording van autisme, maar voor de acceptatie
 Met de hashtag #OurGoldenMoment willen we schrijven over onze neurodiversiteit. Op 2 april roepen we iedereen op om via sociale media met deze hashtag te schrijven over hun neurodiversiteit. Misschien zelfs voor het eerst. Tijdens deze dag kunnen we laten zien wie we zijn. Mensen kunnen deze dag op extra steun rekenen vanuit de gemeenschap tegen de vooroordelen die mensen hebben. Door op Twitter gebruik te maken van de hashtag #OGMassist kun je om hulp vragen bij eventuele pesterijen. Neurodiverse mensen, autisten en steunbetuigers zullen dan je te hulp komen en je verdedigen mocht dit nodig zijn.
 
 Het lijkt mij een bijzonder initiatief en een mogelijkheid voor mensen om te praten over hun autisme. Het geeft een kans aan mensen die bang zijn, om wat voor reden dan ook, om de wereld te laten weten dat ze autistisch zijn.
+
+## Deel op 2 april je Gouden Moment!
+Het lijkt me geweldig om van iedereen zijn of haar mooie kant van autisme te laten zien op de verschillende sociale media platformen. Zoals bijvoorbeeld Twitter, Instagram en Facebook. Als we dit massaal doen met de hashtag #OurGoldenMoment en mensen laten zien hoe autisme ook kan zijn. Anders dan wat er in de tekstboeken staat over ons. Je weet wel, de tekstboeken geschreven door neurotypische mensen, mensen die niet uit eerste hand autisme hebben ervaren. Dit is geen aanval op hun, maar een moment om ons te laten zien.
+
+Zelf zal ik ook goed nadenken over wat ik kan tonen op 2 april. Misschien maak ik een video over mijn reis naar waar ik nu ben, of misschien bedenk ik nog iets anders. Het zal een verrassing worden denk ik :wink:
+
+Maar ik zou het geweldig vinden om te zien wat jullie Gouden Moment is. Wat is jullie prachtige kant? Wat maakt jou nu echt typisch jou? Het lijkt me prachtig om heel Facebook, Twitter en noem maar op vol te zien staan op 2 april met jullie creaties, foto's, video's, muziek en ga zo maar door met de hashtag #OurGoldenMoment!
+
+En mocht er die dag nare opmerkingen komen (op Twitter, Facebook bied niet dezelfde functie) gebruik dan de hashtag #OGMassist om het anderen te laten weten. Hiermee willen we als gemeenschap een veilige plaats creëren voor iedereen om zijn/haar verhaal te delen.
