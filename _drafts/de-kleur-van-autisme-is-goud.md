@@ -16,16 +16,16 @@ Het chemische symbool voor goud is Au. Dit symbool is door de neurodiversiteit b
 Mensen op Twitter en andere sociale media zijn de letters Âû gaan opnemen in hun naam om aan anderen te laten weten dat ze onderdeel uitmaken van deze unie. Hiermee proberen geven ze aan open te staan om te praten over autisme en bereid zijn om vragen te beantwoorden die mensen hebben.
 
 ## Wat is er mis met blauw?
-[Eerder heb ik al eens geschreven over het probleem met blauw]({% post_url 2020-02-21-het-probleem-met-lightupblue %}), maar ik zal het samenvatten. De kleur blauw is bedacht door een organisatie met de naam "Autism Speaks" uit Amerika. Deze organisatie heeft als een van haar doelen een medicijn te vinden voor autisme. Zij zien autisme als een ziekte die moet worden uitgeroeid. Ook dragen zij de overtuiging uit dat autisme met name een mannen ziekte is en niet voorkomt onder vrouwen. Schoorvoetend moeten ze steeds meer toegeven dat het ook onder vrouwen voorkomt, maar ze beweren dat het toch een mannelijke ziekte is.
+[Eerder heb ik al eens geschreven over het probleem met blauw]({% post_url 2020-02-21-het-probleem-met-lightupblue %}), maar ik zal het samenvatten. De kleur blauw is bedacht door een organisatie met de naam "Autism Speaks" uit Amerika. Deze organisatie heeft als een van haar doelen een medicijn te vinden voor autisme. Zij zien autisme als een ziekte die moet worden uitgeroeid. Ook dragen zij de overtuiging uit dat autisme vooral een mannen ziekte is en niet voorkomt onder vrouwen. Schoorvoetend moeten ze steeds meer toegeven dat het ook onder vrouwen voorkomt, maar ze beweren dat het toch een mannelijke ziekte is.
 
 De kleur blauw is dus een uitvinding van deze organisatie. Deze kleur is al snel overgenomen door andere organisaties. Zo is ook het logo van bijvoorbeeld de NVA blauw. Ik zeg niet dat zij nu hun logo moeten veranderen, maar het is wel een bron van irritatie bij tegenstanders van Autism Speaks.
 
 ## Waarom zouden we moeten geven om Amerika?
-Nou eigenlijk helemaal niet nee. We zouden er niets om moeten geven dat een of andere organisatie in Amerika is bedacht heeft of wat de redenatie er achter is. Maar de wereld is niet begrenst door landsgrenzen op het internet. Als we ons als autisten verenigen in groepen zoals de Autistische Unie, doen we dat niet enkel in Nederland, maar internationaal.
+Nou eigenlijk helemaal niet nee. We zouden er niets om moeten geven dat een of andere organisatie in Amerika is bedacht heeft of wat de redenatie er achter is. Maar de wereld is niet begrenst door landsgrenzen op het internet. Als we ons als autisten verenigen in groepen zoals de Autistische Unie, doen we dat niet alleen in Nederland, maar internationaal.
 
 En dan moeten we ons ook bewust zijn van de symbolen die we gebruiken. Het is tegenwoordig op veel plaatsen verboden bepaalde afbeeldingen te gebruiken, puur om historische redenen. Omdat het symbool gebruikt is in het verleden voor een verschrikkelijke boodschap bijvoorbeeld. Omdat we bewust zijn van waar het symbool voor staat, hebben we als maatschappij besloten het symbool niet langer te gebruiken.
 
-Nu we weten waar de kleur blauw vandaan komt en wat de organisatie die de kleur heeft bepaald voor staat, kan je je indenken waarom er op zoek gegaan is naar een alternatieve kleur.
+Nu we weten waar de kleur blauw vandaan komt en wat de organisatie die de kleur heeft bepaald voor staat, kun je je indenken waarom er op zoek gegaan is naar een alternatieve kleur.
 
 ## 2 april 2020 #OurGoldenMoment
 ![Neurodiversiteit](/assets/img/autisticgold.jpg){: class="ui image medium floated right"}
