@@ -4,8 +4,11 @@ title: De kleur van autisme is goud
 lang: nl
 tags: autisme OurGoldenMoment RedInstead neurodiversiteit
 ref: dekleurvanautisme
-description: Als tegenhanger van de blauwe kleur is er goud. In deze post ga ik hierop in. Waarom is de kleur van autisme goud? En hoe kunnen we dat uitdragen naar de mensen om ons heen.
-image: /assets/img/autisticgold.jpg
+description: Als tegenhanger van de blauwe kleur is er goud. In deze post ga ik hierop
+  in. Waarom is de kleur van autisme goud? En hoe kunnen we dat uitdragen naar de
+  mensen om ons heen.
+image: "/assets/img/autisticgold.jpg"
+date: 2020-03-11 11:47 +0100
 ---
 ![Autistic Gold](/assets/img/neurodiversity-logo-300.png){: alt="Symbool van neurodiversiteit" class="ui image floated right medium"}
 We zijn in maart. Volgende maand is de autisme maand en in Nederland ook de autisme week. Hiervoor worden verschillende dingen georganiseerd. Veel organisaties proberen autisme onder de aandacht te brengen bij het publiek. Onderdeel daarvan zijn de verschillende symbolen en kleuren die gebruikt worden. Veel zie je de bekende puzzel stukjes en de kleur blauw als de kleur die staat voor autisme.
@@ -13,7 +16,7 @@ We zijn in maart. Volgende maand is de autisme maand en in Nederland ook de auti
 ## Waarom is de kleur van autisme goud?
 Het chemische symbool voor goud is Au. Dit symbool is door de neurodiversiteit beweging op internet opgepakt en gedoopt naar de "Autistic Union" of de Autistische Unie. Afgekort tot Âû. Hiermee werd ook de kleur goud overgenomen als de basis kleur voor autisme.
 
-Mensen op Twitter en andere sociale media zijn de letters Âû gaan opnemen in hun naam om aan anderen te laten weten dat ze onderdeel uitmaken van deze unie. Hiermee proberen geven ze aan open te staan om te praten over autisme en bereid zijn om vragen te beantwoorden die mensen hebben.
+Mensen op Twitter en andere sociale media zijn de letters Âû gaan opnemen in hun naam om aan anderen te laten weten dat ze onderdeel uitmaken van deze unie. Hiermee proberen ze aan te geven, dat ze aan open te staan om te praten over autisme en bereid zijn om vragen te beantwoorden die mensen hebben.
 
 ## Wat is er mis met blauw?
 [Eerder heb ik al eens geschreven over het probleem met blauw]({% post_url 2020-02-21-het-probleem-met-lightupblue %}), maar ik zal het samenvatten. De kleur blauw is bedacht door een organisatie met de naam "Autism Speaks" uit Amerika. Deze organisatie heeft als een van haar doelen een medicijn te vinden voor autisme. Zij zien autisme als een ziekte die moet worden uitgeroeid. Ook dragen zij de overtuiging uit dat autisme vooral een mannen ziekte is en niet voorkomt onder vrouwen. Schoorvoetend moeten ze steeds meer toegeven dat het ook onder vrouwen voorkomt, maar ze beweren dat het toch een mannelijke ziekte is.
