@@ -96,7 +96,7 @@ module.exports = function(grunt) {
                 stylesheets: ['assets/css/site.css'],
                 report: 'min',
                 ignoreSheets: [/fonts.googleapis/],
-                ignore: ['.webp header', '.ui.form', '.ui.form input[type=email]', '.ui.form textarea',
+                ignore: ['.webp header', 'input[name="_gotcha"]', '.ui.form', '.ui.form input[type=email]', '.ui.form textarea',
                         '.ui.message', '.ui.message.error', '.ui.message.succes', '.ui.form .field>label',
                         'ui button', 'lazyload', '.no-webp header', '.ui.form input[type=text]', '.ui.message>:first-child',
                         '.ui.message .header', '.ui.message p:last-child', '.ui.button'
