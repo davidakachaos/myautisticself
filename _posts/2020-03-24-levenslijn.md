@@ -4,8 +4,11 @@ title: Levenslijn
 lang: nl
 tags: autisme crisis gedachtes fantasie begrip ritme
 ref: levenslijnen
-description: Levenslijn is een raar woord. Maar wel een onderwerp wat me afleid van alle chaos in deze tijden van crisis. Hoe mijn hoofd soms werkt, bespreek ik in deze post.
-image: /assets/img/heart-rate-monitor-pulse.png
+description: Levenslijn is een raar woord. Maar wel een onderwerp wat me afleid van
+  alle chaos in deze tijden van crisis. Hoe mijn hoofd soms werkt, bespreek ik in
+  deze post.
+image: "/assets/img/heart-rate-monitor-pulse.png"
+date: 2020-03-24 11:50 +0100
 ---
 ![Levenslijn](/assets/img/heart-rate-monitor-pulse.png){: class="ui image floated right large"}
 Raar woord eigenlijk, levenslijn. Gister lag ik in bed en was erg onrustig. Onrustig door alles wat er speelt in het land. De zorgen om mensen in mijn familie die vallen onder de "zwakkeren" van Nederland. De afgelopen dagen is het ook heel moeilijk gebleken om mijn structuur vast te houden, mijn leefritme draaide weer naar het 's nachts leven en overdag slapen.
