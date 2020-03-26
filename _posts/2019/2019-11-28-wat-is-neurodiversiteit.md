@@ -35,7 +35,7 @@ In een [studie](https://onlinelibrary.wiley.com/doi/abs/10.1002/dys.383) uit 200
 
 In 2013 werd er een [online onderzoek](https://www.ncbi.nlm.nih.gov/pubmed/22545843) gehouden naar de manier waarop er naar autisme gekeken werd. Hieruit bleek dat als mensen keken vanuit het oogpunt dat autisme een vorm van neurodiversiteit is, mensen beter over zichzelf en hun toekomst dachten.
 
-Als ik naar [mijn eigen opvattingen rond autisme]({% post_url 2019-07-12-stoornis-aandoening-ziekte %}) kijk, denk ik dat ik duidelijk in het kamp zit van "autisme is geen ziekte, het is een andere manier van denken". Het mag dan ook als geen verrassing komen dat ik een voorstander ben van de term neurodiversiteit. Volgens mij is het een veel gezondere kijk naar autisme, het bestempeld je namelijk niet als fout of ongezond. Het bestempeld je als "anders".
+Als ik naar [mijn eigen opvattingen rond autisme]({% post_url /2019/2019-07-12-stoornis-aandoening-ziekte %}) kijk, denk ik dat ik duidelijk in het kamp zit van "autisme is geen ziekte, het is een andere manier van denken". Het mag dan ook als geen verrassing komen dat ik een voorstander ben van de term neurodiversiteit. Volgens mij is het een veel gezondere kijk naar autisme, het bestempeld je namelijk niet als fout of ongezond. Het bestempeld je als "anders".
 
 ## Neurodiversiteit als stam
 

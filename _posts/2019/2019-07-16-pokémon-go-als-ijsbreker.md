@@ -14,7 +14,7 @@ Ik speel Pokémon Go. Ja ik ben volwassen en speel Pokémon Go. Alweer even na e
 Echter, deze post gaat niet over de verschillende aspecten van Pokémon Go of over de spelelementen, daarover zijn genoeg andere websites. Nee, ik wil het hebben over de sociale kant van het spel.
 
 ## Autisme en contact maken met mensen
-Contact maken met mensen is lastig. Tenminste, voor mij is het lastig. Hoewel ik vrij goed ben in [sociale camouflage]({% post_url 2019-06-25-sociale-camouflage %}) en je het dus niet meteen merkt als je met me praat (heb ik horen zeggen), heb ik toch problemen met contact leggen met mensen.
+Contact maken met mensen is lastig. Tenminste, voor mij is het lastig. Hoewel ik vrij goed ben in [sociale camouflage]({% post_url /2019/2019-06-25-sociale-camouflage %}) en je het dus niet meteen merkt als je met me praat (heb ik horen zeggen), heb ik toch problemen met contact leggen met mensen.
 Hoe begin je met een gesprek? Waar praat je over met iemand? Koetjes en kalfjes is niet echt mijn ding... Waar begin je over? En vinden ze het eigenlijk wel wat als ik tegen ze begin te praten?
 Zo maar wat dingen die door mijn gedachten spelen als ik denk aan het beginnen van een gesprek.
 

@@ -14,7 +14,7 @@ Apparently I was overwhelmed the last few days. I felt "off", not good in my ski
 # Not noticing getting overstrung
 
 If you read about overstimulation on the internet, you will always come across the same stories. People who, for example, have a headache due to sound or light. People soon notice that they are over-stimulated, usually within a few minutes to hours.
-I only notice this much later. And then I talk about days or sometimes even weeks later. And then I often have to be pointed out by others. I usually do not realize this myself. And why? Because I'm hyposensitive to stimuli. [I previously wrote a blog post about this]({%post_url 2019-06-18-ondergevoeligheid-en-autisme%}).
+I only notice this much later. And then I talk about days or sometimes even weeks later. And then I often have to be pointed out by others. I usually do not realize this myself. And why? Because I'm hyposensitive to stimuli. [I previously wrote a blog post about this]({% post_url /2019/2019-06-18-ondergevoeligheid-en-autisme%}).
 Here I mainly describe my own experience with being hyposensitive. Because incentives and impressions come to me less than with most people, I also notice much later that I am over-stimulated.
 Only after other people point out certain behavior to me, do I find out why I react or act that way. And through a recent conversation with my guidance, I have come to the conclusion that I have become over-stimulated.
 

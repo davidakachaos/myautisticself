@@ -17,7 +17,7 @@ date: 2020-01-09 09:48 +0100
 
 {% responsive_image path: assets/img/ads-cloud-head.jpg alt: "Autism als een wolk" title: "Autism als een wolk" class: 'ui image floated medium right' %}
 
-When we talk about ASD one of the first things we do is pronounce the abbreviation completely; Autism Spectrum Disorder. About the last word, disorder, [I've already written]({% post_url 2019-07-12-disorder-condition-disease %}). Today I'd like to discuss the second word, spectrum.
+When we talk about ASD one of the first things we do is pronounce the abbreviation completely; Autism Spectrum Disorder. About the last word, disorder, [I've already written]({% post_url /2019/2019-07-12-disorder-condition-disease %}). Today I'd like to discuss the second word, spectrum.
 
 As the definition indicates, a spectrum is a range of successive diversities. In my opinion, this is an incorrect representation of autism. It leads to different problems when thinking about autism. It leads to the labeling of forms of autism, the thinking that there are "not bad" and "heavy" forms of autism, that you can place someone on a straight line and so on by means of some outward displays. I think it is not as easy as that. People with autism are very different, but classifying them in a straight line doesn't seem possible to me.
 

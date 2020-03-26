@@ -39,11 +39,11 @@ module Jekyll
     private
 
     def replace_links_to_posts(content)
-      # {% post_url 2019-09-11-overprikkeling-bij-ondergevoeligheid %}
+      # {% post_url /2019/2019-09-11-overprikkeling-bij-ondergevoeligheid %}
       # ->
       # /amp/2019/09/overprikkeling-bij-ondergevoeligheid
       return content.gsub(/\{\%\s{0,1}post_url.+\%\}/){ |m|
-        matches = m.match(/\{\%\s{0,1}post_url (\d{4})-(\d{2})-\d{2}-(.+)\s{0,1}\%}/)
+        matches = m.match(/\{\%\s{0,1}post_url ((?:\/\d{4}\/)?\d{4})-(\d{2})-\d{2}-(.+)\s{0,1}\%}/)
         if matches.nil?
           raise StandardError, "No matches for post? #{m.inspect}"
         end

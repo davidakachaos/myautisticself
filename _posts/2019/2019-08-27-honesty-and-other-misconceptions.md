@@ -45,7 +45,7 @@ Strange, but some people dare to claim this. It is true that people with autism 
 # Autism can be cured // You will grow over it
 Bluntly; No. Autism is not a disease. Autism is a part of you as a person. You are **always** autistic. I myself am also in favor of describing myself as an autist versus having autism. Autism is not a "phase", it is there forever. Of course you can learn to deal with the interaction with people who do not have autism. With that it may seem to them that you become "less autistic", but that does not change how things are going in yourself.
 
-Many people with problems in their younger years learn to deal with this. They learn how to adapt so that they have fewer problems. I myself have learned this throughout the years. [I also wrote about this before]({% post_url 2019-06-25-social-camouflage %}). However, this never means that my autism is "over" or "has decreased." It means that I have learned how to hide my autism from the outside world.
+Many people with problems in their younger years learn to deal with this. They learn how to adapt so that they have fewer problems. I myself have learned this throughout the years. [I also wrote about this before]({% post_url /2019/2019-06-25-social-camouflage %}). However, this never means that my autism is "over" or "has decreased." It means that I have learned how to hide my autism from the outside world.
 
 And the "cure" of autism is definitely a ridiculous thing to think about. You cannot cure what is not a disease ...
 

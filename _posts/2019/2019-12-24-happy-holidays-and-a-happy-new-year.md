@@ -9,7 +9,7 @@ description: I wish you all from here on out very happy holidays and a very
 image: "/assets/img/feestdagen-nieuwjaar.jpg"
 date: 2019-12-24 11:42 +0100
 ---
-In my [previous post]({% post_url 2019-12-16-end-of-the-year %}) I already looked back at 2019. Today I would simply like to wish you all Happy Holidays and a Happy New Year!
+In my [previous post]({% post_url /2019/2019-12-16-end-of-the-year %}) I already looked back at 2019. Today I would simply like to wish you all Happy Holidays and a Happy New Year!
 
 Thank you for reading my blogs and the feedback I'm receiving through Facebook/Twitter and IRL!
 

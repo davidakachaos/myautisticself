@@ -19,7 +19,7 @@ Als ik muziek aan heb kan ik mij afsluiten voor de wereld om me heen. Ik kan me 
 
 # Overprikkeling door geluid?
 
-Ik weet dat er veel autisten zijn die overprikkeld raken door geluid of licht bijvoorbeeld. Ik behoor niet tot die groep. Mijn overprikkeling komt niet door een overmaat van geluid of licht. [In een eerder blog ging ik al even in op mijn overprikkeling]({% post_url 2019-09-11-overprikkeling-bij-ondergevoeligheid %}) en hoe dat bij mij eigenlijk langzaam opbouwd.
+Ik weet dat er veel autisten zijn die overprikkeld raken door geluid of licht bijvoorbeeld. Ik behoor niet tot die groep. Mijn overprikkeling komt niet door een overmaat van geluid of licht. [In een eerder blog ging ik al even in op mijn overprikkeling]({% post_url /2019/2019-09-11-overprikkeling-bij-ondergevoeligheid %}) en hoe dat bij mij eigenlijk langzaam opbouwd.
 
 Een van mijn manieren om overprikkeling tegen te gaan is juist me verliezen in muziek. Het spelen van harde muziek op mijn koptelefoon is juist een manier van ontspanning voor mij. Ik ben me bewust van eventuele gehoorschade hoor, ik hou daar ook rekening mee. Het helpt daarbij om een goede koptelefoon te hebben. Hoe minder geluid "lekt", hoe beter het is. Daarmee voorkom ik dat ik het geluid te hard zet van de muziek die ik speel.
 

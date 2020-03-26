@@ -19,7 +19,7 @@ When I have music on, I can close myself off to the world around me. I can conce
 
 # Sound over-stimulation?
 
-I know that there are many autists who are over-stimulated by sound or light, for example. I don't belong to that group. My stimulation is not due to an excess of sound or light. [In an earlier blog I briefly discussed my over-stimulation]({% post_url 2019-09-11-being-overstrung-and-hyposensitivity %}) and how that actually builds up slowly for me.
+I know that there are many autists who are over-stimulated by sound or light, for example. I don't belong to that group. My stimulation is not due to an excess of sound or light. [In an earlier blog I briefly discussed my over-stimulation]({% post_url /2019/2019-09-11-being-overstrung-and-hyposensitivity %}) and how that actually builds up slowly for me.
 
 One of my ways to prevent stimulation is to lose me in music. Playing loud music on my headphones is a way of relaxation for me. I am aware of any hearing damage, I also take that into account. It helps to have a good headset. The less noise "leaks", the better. This way I prevent the sound from being too loud from the music I play.
 

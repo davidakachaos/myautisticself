@@ -45,7 +45,7 @@ Raar, maar sommige mensen durven dit te beweren. Het is zo dat mensen met autism
 # Autisme is te genezen // Je groeit er wel overheen
 Kort door de bocht; nee. Autisme is geen ziekte. Autisme is een deel van je als persoon. Je bent **altijd** autistisch. Zelf ben ik ook een voorstander van mezelf als autist te beschrijven versus het hebben van autisme. Autisme is geen "fase", het is er voor altijd. Natuurlijk kun je wel leren omgaan met de interactie met mensen die geen autisme hebben. Daarmee lijkt het misschien voor hun alsof je "minder autistisch" word, maar dat veranderd niets aan hoe het in je zelf gaat.
 
-Veel mensen met problemen in hun jonge jaren leren hiermee om te gaan. Ze leren hoe ze zich moeten aanpassen, zodat ze minder problemen hebben. Zelf heb ik dit door alle jaren heen ook geleerd. [Ook hierover heb ik eerder geschreven]({%post_url 2019-06-25-sociale-camouflage %}). Dit betekend echter nooit dat mijn autisme "over" is, of "minder is geworden". Het betekend dat ik geleerd heb hoe ik mijn autisme voor de buitenwereld kan verbergen.
+Veel mensen met problemen in hun jonge jaren leren hiermee om te gaan. Ze leren hoe ze zich moeten aanpassen, zodat ze minder problemen hebben. Zelf heb ik dit door alle jaren heen ook geleerd. [Ook hierover heb ik eerder geschreven]({% post_url /2019/2019-06-25-sociale-camouflage %}). Dit betekend echter nooit dat mijn autisme "over" is, of "minder is geworden". Het betekend dat ik geleerd heb hoe ik mijn autisme voor de buitenwereld kan verbergen.
 
 En het "genezen" van autisme is al helemaal een belachelijk ding om aan te denken. Je kunt niet genezen wat geen ziekte is...
 

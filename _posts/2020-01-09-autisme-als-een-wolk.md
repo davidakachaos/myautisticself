@@ -17,7 +17,7 @@ date: 2020-01-09 09:48 +0100
 
 {% responsive_image path: assets/img/ads-cloud-head.jpg alt: "Autism als een wolk" title: "Autism als een wolk" class: 'ui image floated medium right' %}
 
-Als we praten over ASS is een van de eerste dingen die we doen de afkorting volledig uitspreken; Autisme Spectrum Stoornis. Over het laatst woord, stoornis, [heb ik al eens geschreven]({% post_url 2019-07-12-stoornis-aandoening-ziekte %}). Vandaag wil ik meer in gaan op het tweede woord, spectrum.
+Als we praten over ASS is een van de eerste dingen die we doen de afkorting volledig uitspreken; Autisme Spectrum Stoornis. Over het laatst woord, stoornis, [heb ik al eens geschreven]({% post_url /2019/2019-07-12-stoornis-aandoening-ziekte %}). Vandaag wil ik meer in gaan op het tweede woord, spectrum.
 
 Zoals de definitie al aangeeft is een spectrum een scala van opeenvolgende verscheidenheden. In mijn ogen is dit een onjuiste weergave van autisme. Het leid tot verschillende problemen bij het denken over autisme. Het leid tot het labelen van vormen van autisme, het denken dat er "niet erge" en "zware" vormen van autisme zijn, dat je aan de hand van enkele uiterlijke vertoningen iemand kan plaatsen op een rechtlijnige indeling enzovoorts. Volgens mij is het niet zo makkelijk als dat. Mensen met autisme zijn zeer verschillend, maar het indelen op een rechte lijn lijkt me niet mogelijk.
 

@@ -111,7 +111,7 @@ Wat heel duidelijk word in dit hoofdstuk is dat kinderen met Asperger geleerd mo
 Niet alles hoeft geleerd te worden door "te doen"! Ook boeken, films en TV series kunnen inzicht bieden in vriendschappen en relaties. Het is wel belangrijk om een "reality check" te blijven uitvoeren. Relaties in fictie worden overdreven en zijn niet altijd realistisch. Maar ze kunnen, mits goed begeleid, zeker inzicht bieden.
 
 # Hoofdstuk 4 - Plagen en pesten
-Zelf heb ik [al eens geschreven over mijn middelbare hel]({% post_url 2019-07-03-ik-ben-ik-zei-de-gek %}). Dit hoofdstuk behandeld een gevoelig onderwerp, de gevolgen hiervan en eventuele oplossingen. Helaas om het plagen en pesten van mensen met Asperger vaak voor. Dit omdat ze veel buiten de boot vallen. De gevolgen hiervan kunnen zeer vergaand zijn.
+Zelf heb ik [al eens geschreven over mijn middelbare hel]({% post_url /2019/2019-07-03-ik-ben-ik-zei-de-gek %}). Dit hoofdstuk behandeld een gevoelig onderwerp, de gevolgen hiervan en eventuele oplossingen. Helaas om het plagen en pesten van mensen met Asperger vaak voor. Dit omdat ze veel buiten de boot vallen. De gevolgen hiervan kunnen zeer vergaand zijn.
 
 De oplossingen die genoemd worden zijn veelal bekende oplossingen die in het algemeen goed werken tegen pesterijen. Zaken als een goed school beleid op dit gebied met een anti-pestteam bijvoorbeeld. Ook het kweken van begrip over autisme in het algemeen en Asperger in het bijzonder kan heel verhelderend zijn en kan problemen oplossen. Het vinden van een sociaal 'maatje' die helpt bemiddelen bij problemen.
 
@@ -196,7 +196,7 @@ Ook met dingen als turnen tijdens gym ging het niet zo goed. Ik had ook een heke
 Opvallend is het advies van Attwood in dit hoofdstuk voor kinderen op school om al hun werk te maken op de computer, omdat volgens hem schrijven achterhaald is in deze eeuw. Als ik kijk naar de school van mijn kinderen, waar ze op tablets werken, ben ik geneigd dit met hem eens te zijn. In hoeverre met de hand schrijven zal verdwijnen in de aankomende jaren is nog af te wachten, maar dat het aan het afnemen is is heel duidelijk.
 
 # Hoofdstuk 11 - Sensorische problemen
-En dan het hoofdstuk waar ik van te voren wel erg geïntresseerd in en benieuwd naar was. Hier word ingegaan op de problemen rond prikkelverwerking. Problemen met licht, geluid, aanraking en dergelijke. Zelf heb ik geschreven over [mijn prikkelverwerking]({% post_url 2019-06-18-ondergevoeligheid-en-autisme %}) en ik was heel benieuwd wat een expert op dit gebied te vertellen heeft.
+En dan het hoofdstuk waar ik van te voren wel erg geïntresseerd in en benieuwd naar was. Hier word ingegaan op de problemen rond prikkelverwerking. Problemen met licht, geluid, aanraking en dergelijke. Zelf heb ik geschreven over [mijn prikkelverwerking]({% post_url /2019/2019-06-18-ondergevoeligheid-en-autisme %}) en ik was heel benieuwd wat een expert op dit gebied te vertellen heeft.
 
 Helaas is het antwoord vrijwel niets. Ondergevoeligheid word zijdelings genoemd, en dan niet als een op zichzelf staand iets. Wel word het genoemd als dat mensen soms te weinig reageren op bijvoorbeeld pijn, maar dit eigenlijk in 1 adem met overgevoeligheid.
 
@@ -205,7 +205,7 @@ Teleurstellend, maar begrijpelijk. Naar deze kant van Aspeger is nog weinig onde
 # Hoofdstuk 12 - Het leven na school: studie en beroep
 Over werken en studeren gaat dit hoofdstuk. Het behandeld zaken rond de studie keuze en hoe die studie het beste gedaan kan worden. Attwoord geeft hierbij aan dat het belangrijk is dat een vervolg opleiding wel op de hoogte word gesteld van de diagnose. Niet alleen omdat de student dan meer tijd krijgt voor bepaalde zaken, maar ook de ondersteuning kan krijgen die hij/zij nodig heeft. 
 
-Over werken en dan [met name over het solliciteren]({% post_url 2019-06-22-vermeld-je-tijdens-sollicitatie-dat-je-ass-hebt %}) heb ik een stuk geschreven. Attwood geeft ook aan dat het belangrijk is voor de werkgever om te weten van de diagnose, maar geeft ook toe dat het vooraf (in een CV of solicitatie brief) aangeven een nadeel kan zijn. Werkgevers zien vaak alleen de beperkingen en niet de sterke kanten van iemand met Asperger. 
+Over werken en dan [met name over het solliciteren]({% post_url /2019/2019-06-22-vermeld-je-tijdens-sollicitatie-dat-je-ass-hebt %}) heb ik een stuk geschreven. Attwood geeft ook aan dat het belangrijk is voor de werkgever om te weten van de diagnose, maar geeft ook toe dat het vooraf (in een CV of solicitatie brief) aangeven een nadeel kan zijn. Werkgevers zien vaak alleen de beperkingen en niet de sterke kanten van iemand met Asperger. 
 
 # Hoofdstuk 13 - Langdurige relaties
 Hier worden relaties besproken. Mensen met Asperger zijn volgens het boek vaak laat bloeiers, dit ligt in lijn met de sociaal emotionele ontwikkeling. Verder word gesproken over het feit dat mensen met Asperger vaak hun liefde op een meer praktische dan emotionele manier tonen.

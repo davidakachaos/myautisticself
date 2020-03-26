@@ -10,7 +10,7 @@ image: /assets/img/thinking-tom.jpeg
 ---
 ![TOM - Anders Denken](/assets/img/thinking-tom.jpeg){: class="ui image rounded floated right"}
 
-Theory of mind, oftewel TOM, is de wetenschap rond het denken van de mens. Hoe mensen denken en hoe ze tot bepaalde gedachten komen. [In mijn review]({%post_url 2019-08-20-hulpgids-asperger-syndroom-review %}) van het boek van Tony Attwood noemde ik dit al kort. Het is de theorie rond hoe mensen denken en hoe verbindingen binnen gedachten lopen.
+Theory of mind, oftewel TOM, is de wetenschap rond het denken van de mens. Hoe mensen denken en hoe ze tot bepaalde gedachten komen. [In mijn review]({% post_url /2019/2019-08-20-hulpgids-asperger-syndroom-review %}) van het boek van Tony Attwood noemde ik dit al kort. Het is de theorie rond hoe mensen denken en hoe verbindingen binnen gedachten lopen.
 
 Uiteraard zijn er verschillen tussen de TOM van een neurotypisch persoon en die van een autistisch persoon. Deze verschillen veroorzaken misverstanden tussen de twee groepen. Deze verschillen worden door wetenschappers ook wel "tekorten in de theory of mind" genoemd. In mijn ogen is dit een verkeerde stelling. Ik noem deze "tekorten" liever verschillen.
 

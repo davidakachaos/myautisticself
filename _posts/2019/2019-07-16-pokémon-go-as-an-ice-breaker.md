@@ -14,7 +14,7 @@ I play Pokémon Go. Yes I am an adult and play Pokémon Go. Again after having s
 However, this post is not about the different aspects of Pokémon Go or the game elements, there are plenty of other websites about that. No, I want to talk about the social side of the game.
 
 ## Autism and connecting with people
-Making contact with people is difficult. At least it's hard for me. Although I'm pretty good at [social camouflage]({% post_url 2019-06-25-sociale-camouflage %}) and you do not immediately notice when you talk to me (I have been told), I still problems with making contact with people.
+Making contact with people is difficult. At least it's hard for me. Although I'm pretty good at [social camouflage]({% post_url /2019/2019-06-25-sociale-camouflage %}) and you do not immediately notice when you talk to me (I have been told), I still problems with making contact with people.
 How do you start a conversation? What are you talking about with someone? Small talk is not really my thing ... Where do you start talking about? And do they actually like it when I start talking to them?
 Just some things that play through my mind when I think about starting a conversation.
 

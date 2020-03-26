@@ -14,7 +14,7 @@ Blijkbaar was ik de afgelopen dagen overprikkeld. Ik voelde me "off", niet goed 
 # Overprikkeling niet door hebben
 
 Als je op internet leest over overprikkeling kom je eigenlijk steeds dezelfde verhalen tegen. Mensen die bijvoorbeeld hoofdpijn hebben door geluid of licht. Mensen merken vrij snel dat ze overprikkeld zijn, meestal binnen enkele minuten tot uren.
-Zelf merk ik dit pas veel later. En dan praat ik over dagen of soms zelfs weken later pas. En dan nog moet ik er vaak op gewezen worden door anderen. Zelf heb ik dit meestal niet door. En waarom? Omdat ik ondergevoelig ben voor prikkels. [Hier heb ik eerder een blog post over geschreven]({%post_url 2019-06-18-ondergevoeligheid-en-autisme%}).
+Zelf merk ik dit pas veel later. En dan praat ik over dagen of soms zelfs weken later pas. En dan nog moet ik er vaak op gewezen worden door anderen. Zelf heb ik dit meestal niet door. En waarom? Omdat ik ondergevoelig ben voor prikkels. [Hier heb ik eerder een blog post over geschreven]({% post_url /2019/2019-06-18-ondergevoeligheid-en-autisme%}).
 Hier beschrijf ik vooral mijn eigen ervaring met ondergevoelig zijn. Doordat prikkels en indrukken bij mij minder binnen komen dan bij de meeste mensen, merk ik ook pas veel later dat ik overprikkeld ben.
 Pas nadat andere mensen me wijzen op bepaald gedrag, ga ik bij mezelf na hoe het komt dat ik zo reageer of doe. En door een recent gesprek met mijn begeleiding ben ik tot de conclusie gekomen dat ik overprikkeld ben geraakt.
 

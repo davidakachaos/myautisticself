@@ -111,7 +111,7 @@ What becomes very clear in this chapter is that children with Asperger must be t
 Not everything has to be learned by "doing"! Books, films and TV series can also provide insight into friendships and relationships. It is important to continue to perform a "reality check". Relationships in fiction are exaggerated and are not always realistic. But, if properly supervised, they can certainly provide insight.
 
 # Chapter 4 - Teasing and bullying
-I myself have [written about my highschool hell]({% post_url 2019-07-03-i-am-i-said-the-fool %}). This chapter deals with a sensitive topic, its consequences and any solutions. Unfortunately, the teasing and bullying of people with Asperger's is common. This is because they often fall outside the boat. The consequences of this can be very far-reaching.
+I myself have [written about my highschool hell]({% post_url /2019/2019-07-03-i-am-i-said-the-fool %}). This chapter deals with a sensitive topic, its consequences and any solutions. Unfortunately, the teasing and bullying of people with Asperger's is common. This is because they often fall outside the boat. The consequences of this can be very far-reaching.
 
 The solutions that are mentioned are often well-known solutions that generally work well against harassment. Things like a good school policy in this area with an anti-bullying team for example. Growing understanding about autism in general and Asperger in particular can also be very enlightening and can solve problems. Finding a social 'buddy' who helps mediate problems.
 
@@ -195,7 +195,7 @@ Things like gymnastics during the gym didn't go so well either. I also hated gym
 Striking is the advice of Attwood in this chapter for children at school to do all their work on the computer, because according to him writing is outdated in this century. When I look at my children's school, where they work on tablets, I tend to agree with him. It remains to be seen to what extent handwriting will disappear in the coming years, but it is very clear that it is declining.
 
 # Chapter 11 - Sensory problems
-And then the chapter I was very interested in and curious about beforehand. Here the problems surrounding stimulus processing are discussed. Problems with light, sound, touch and the like. I myself have written about [my incentive processing]({% post_url 2019-06-18-en-ondergevoeligheid-en-autisme %}) and I was very curious what an expert in this field has to say.
+And then the chapter I was very interested in and curious about beforehand. Here the problems surrounding stimulus processing are discussed. Problems with light, sound, touch and the like. I myself have written about [my incentive processing]({% post_url /2019/2019-06-18-en-ondergevoeligheid-en-autisme %}) and I was very curious what an expert in this field has to say.
 
 Unfortunately, the answer is virtually nothing. Undersensitivity is called sideways, and then not as something isolated. However, it is mentioned as that people sometimes respond too little to pain, for example, but this in one breath with hypersensitivity.
 
@@ -204,7 +204,7 @@ Disappointing, but understandable. Little research has been done on this side of
 # Chapter 12 - Life after school: study and occupation
 This chapter is about working and studying. It deals with matters concerning the study choice and how that study can best be done. Attwoord hereby indicates that it is important that further education is informed of the diagnosis. Not only because the student then gets more time for certain things, but can also get the support he / she needs. 
 
-About working and then [especially about applying]({% post_url 2019-06-22-en-vermeld-je-tijdens-sollicitatie-dat-je-ass-hebt %}) I wrote a piece. Attwood also indicates that it is important for the employer to know about the diagnosis, but also admits that indicating in advance (in a resume or letter of application) can be a disadvantage. Employers often only see the limitations and not the strengths of someone with Asperger. 
+About working and then [especially about applying]({% post_url /2019/2019-06-22-en-vermeld-je-tijdens-sollicitatie-dat-je-ass-hebt %}) I wrote a piece. Attwood also indicates that it is important for the employer to know about the diagnosis, but also admits that indicating in advance (in a resume or letter of application) can be a disadvantage. Employers often only see the limitations and not the strengths of someone with Asperger. 
 
 # Chapter 13 - Long-term relationships
 Relationships are discussed here. According to the book, people with Asperger often thrive, this is in line with social-emotional development. Furthermore, there is talk of the fact that people with Asperger often show their love in a more practical than emotional way.

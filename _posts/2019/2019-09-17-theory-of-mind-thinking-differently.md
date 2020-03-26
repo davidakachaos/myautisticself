@@ -10,7 +10,7 @@ image: /assets/img/thinking-tom.jpeg
 ---
 ![TOM - Thinking Differently](/assets/img/thinking-tom.jpeg){: class="ui image rounded floated right"}
 
-Theory of mind, or TOM, is the science of human thinking. How people think and how they come to certain thoughts. [In my review]({% post_url 2019-08-20-guide-asperger-syndrome-review%}) of Tony Attwood's book I already mentioned this briefly. It is the theory about how people think and how connections are made within thoughts.
+Theory of mind, or TOM, is the science of human thinking. How people think and how they come to certain thoughts. [In my review]({% post_url /2019/2019-08-20-guide-asperger-syndrome-review%}) of Tony Attwood's book I already mentioned this briefly. It is the theory about how people think and how connections are made within thoughts.
 
 There are of course differences between the TOM of a neurotypic person and that of an autistic person. These differences cause misunderstandings between the two groups. Scientists also refer to these differences as "deficiencies in the theory of mind". In my eyes this is a wrong statement. I prefer to call these "deficits" differences.
 
