@@ -11,7 +11,7 @@ No plugins required.
 import glob
 import os
 
-post_dir = "_posts/"
+post_dir = "_posts/**/"
 tag_dir = "tag/"
 cat_dir = "category/"
 default_lang = "nl"
@@ -48,15 +48,15 @@ old_tags = 0
 
 for tag_file in old_tag_files:
     t = tag_file.split("/")[-1].replace(".md", "")
-    # print(f"Found tag: {t}")
+    print(f"Found tag: {t}")
     if t not in total_tags:
-        # print("-- Tag not in current tags, removing")
+        print("-- Tag not in current tags, removing")
         os.remove(tag_file)
         for lng in extra_lang:
             for extra_tag_file in glob.glob(lng + "/" + tag_dir + t + ".md"):
                 os.remove(extra_tag_file)
     else:
-        # print('-- Tag is current, leaving there')
+        print('-- Tag is current, leaving there')
         old_tags += 1
         total_tags.remove(t)
 
@@ -67,15 +67,15 @@ old_cats = 0
 
 for cat_file in old_cat_files:
     t = cat_file.split("/")[-1].replace(".md", "")
-    # print(f"Found cat: {t}")
+    print(f"Found cat: {t}")
     if t not in total_cats:
-        # print("-- cat not in current cats, removing")
+        print("-- cat not in current cats, removing")
         os.remove(cat_file)
         for lng in extra_lang:
             for extra_cat_file in glob.glob(lng + "/" + cat_dir + t + ".md"):
                 os.remove(extra_cat_file)
     else:
-        # print('-- cat is current, leaving there')
+        print('-- cat is current, leaving there')
         old_cats += 1
         total_cats.remove(t)
 
