@@ -17,11 +17,12 @@ cat_dir = "category/"
 default_lang = "nl"
 extra_lang = ["en"]
 
-filenames = glob.glob(post_dir + "*md")
+filenames = glob.glob(post_dir + "*md", recursive=True)
 
 total_tags = []
 total_cats = []
 for filename in filenames:
+    print(f"proccessing {filename}")
     f = open(filename, "r", encoding="utf8")
     crawl = False
     for line in f:
@@ -43,9 +44,12 @@ for filename in filenames:
 total_tags = set(total_tags)
 total_cats = set(total_cats)
 
+# print(f"Tags found: {total_tags}")
+
 old_tag_files = glob.glob(tag_dir + "*.md")
 old_tags = 0
-
+# print(f"Old tag files: {old_tag_files}")
+# exit(1)
 for tag_file in old_tag_files:
     t = tag_file.split("/")[-1].replace(".md", "")
     print(f"Found tag: {t}")
@@ -67,15 +71,15 @@ old_cats = 0
 
 for cat_file in old_cat_files:
     t = cat_file.split("/")[-1].replace(".md", "")
-    print(f"Found cat: {t}")
+    # print(f"Found cat: {t}")
     if t not in total_cats:
-        print("-- cat not in current cats, removing")
+        # print("-- cat not in current cats, removing")
         os.remove(cat_file)
         for lng in extra_lang:
             for extra_cat_file in glob.glob(lng + "/" + cat_dir + t + ".md"):
                 os.remove(extra_cat_file)
     else:
-        print('-- cat is current, leaving there')
+        # print('-- cat is current, leaving there')
         old_cats += 1
         total_cats.remove(t)
 
