@@ -28,9 +28,9 @@ ref: contactpage
     <div class="header"></div>
     <p></p>
   </div>
-  <input type="hidden" name="\_subject" value="Nieuw bericht!" />
-  <input type="hidden" name="\_language" value="nl" />
-  <input type="text" name="\_gotcha" />
+  <input type="hidden" name="_subject" value="Nieuw bericht!" />
+  <input type="hidden" name="_language" value="nl" />
+  <input type="text" name="_gotcha" />
   <button class="ui button" id="my-form-button">Verstuur!</button>
   <p ></p>
 </form>

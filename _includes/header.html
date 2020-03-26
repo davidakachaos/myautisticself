@@ -57,6 +57,13 @@
                         Links
                     </a>
                     {%- endif -%}
+                    {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}{%-
+                    for post in posts -%}{%- if post.url contains "amp" -%}{%- continue -%}{%- endif -%}
+                    <a title="Change to {{ post.lang | upcase }}" id="change-to-{{ post.lang }}" href="{{ post.url }}" class="item {{ post.lang }}">&nbsp;</a>
+                    {%- endfor -%} {%- assign pages=site.pages | where:"ref", page.ref | sort:
+                    'lang' -%}{%- for page in pages -%}{%- if page.url contains "amp" -%}{%- continue -%}{%- endif -%}
+                    <a title="Change to {{ page.lang | upcase }}" id="change-to-{{ page.lang }}" href="{{ page.url }}" class="item {{ page.lang }}">&nbsp;</a>
+                    {%- endfor -%}
                     <div class="right menu">
                         <div id="head-search" class="ui category search item">
                             <div class="ui transparent icon input">
@@ -102,7 +109,8 @@
                     </div>
                 </div>
             </div>
-            <div class="right-nav"></div>
+            <div class="right-nav">
+            </div>
         </nav>
     </header>
 </div>

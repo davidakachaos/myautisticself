@@ -45,6 +45,7 @@
         {%- if page.title -%}{{ page.title | append: " | " | append: site.title
         | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
     </title>
+
     {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}{%-
     for post in posts -%}{%- if post.url contains "amp" -%}{%- continue -%}{%- endif -%}
     <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />

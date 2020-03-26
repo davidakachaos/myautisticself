@@ -25,8 +25,8 @@ ref: contactpage
     <div class="header"></div>
     <p></p>
   </div>
-  <input type="hidden" name="\_subject" value="New submission!" />
-  <input type="text" name="\_gotcha" />
+  <input type="hidden" name="_subject" value="New submission!" />
+  <input type="text" name="_gotcha" />
   <button class="ui button" id="my-form-button">Send!</button>
   <p ></p>
 </form>
