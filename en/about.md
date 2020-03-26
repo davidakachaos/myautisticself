@@ -15,7 +15,7 @@ description: My name is David Westerink. I was born in 1984 and am autistic. I a
     </div>
   </div>
   <div class="column" markdown="1">
-My name is David Westerink. I was born in 1984 and have Asperger syndrome, [nowadays just plain autism]({% post_url /2019/2019-11-25-asperger-is-also-just-autism %}). In addition, I am the father of two children, divorced and a software developer by education. My son [is in neurodiverse world]({% post_url /2019/2019-12-03-welcome-to-the-team-little-guy %}), as am I.
+My name is David Westerink. I was born in 1984 and have Asperger syndrome, [nowadays just plain autism]({% post_url /2019/2019-11-25-asperger-is-also-just-autism %}). In addition, I am the father of two children, divorced and a software developer by education. My son [is in this neurodiverse world]({% post_url /2019/2019-12-03-welcome-to-the-team-little-guy %}), just like myself.
 
 I decided to write a blog about my autism and my experiences in the "normal" world. With the aim to inform people and explain autism. With the underlying goal to make the world a better place for autistic people and to teach the world to understand us more.
 

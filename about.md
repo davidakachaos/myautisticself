@@ -15,7 +15,7 @@ description: Mijn naam is David Westerink. Ik ben geboren in 1984 en ben autisti
     </div>
   </div>
   <div class="column" markdown="1">
-Mijn naam is David Westerink. Ik ben geboren in 1984 en heb het syndroom van Asperger, [tegenwoordig gewoon autisme]({% post_url /2019/2019-11-25-asperger-is-ook-gewoon-autisme %}). Daarnaast ben ik vader van twee kinderen, gescheiden en softwareontwikkelaar van opleiding. Mijn zoon [bevind zich in neurodiverse wereld]({% post_url /2019/2019-12-03-welkom-bij-het-team-kleine-man %}), net als ik.
+Mijn naam is David Westerink. Ik ben geboren in 1984 en heb het syndroom van Asperger, [tegenwoordig gewoon autisme]({% post_url /2019/2019-11-25-asperger-is-ook-gewoon-autisme %}). Daarnaast ben ik vader van twee kinderen, gescheiden en softwareontwikkelaar van opleiding. Mijn zoon [bevind zich in de neurodiverse wereld]({% post_url /2019/2019-12-03-welkom-bij-het-team-kleine-man %}), net als ik.
 
 Ik heb besloten om een blog te schrijven over mijn autisme en mijn ervaringen in de "normale" wereld. Met als doel om mensen te informeren en uitleg te kunnen geven over autisme. Met als achterliggend doel om de wereld een betere plaats te maken voor autisten en de wereld meer begrip voor ons te leren.
 
