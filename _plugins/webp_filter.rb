@@ -19,16 +19,16 @@ module Jekyll
                 picture_webp['type'] = 'image/webp'
                 # Small bugfix for jpeg files.
                 if source.include?('.jpeg')
-                  picture_webp['srcset'] = source[0...-4] + "webp"
+                  picture_webp['data-srcset'] = source[0...-4] + "webp"
                 else
-                  picture_webp['srcset'] = source[0...-3] + "webp"
+                  picture_webp['data-srcset'] = source[0...-3] + "webp"
                 end
                 picture.add_child(picture_webp)
 
                 # Generate new <source> with original image and add it to <picture>
                 picture_orig = Nokogiri::XML::Node.new "source", doc
                 picture_orig['type'] = MIME::Types.type_for(File.extname(source).delete ?.)[0].to_s
-                picture_orig['srcset'] = source
+                picture_orig['data-srcset'] = source
                 picture.add_child(picture_orig)
 
                 # Copy and add <img> to <picture>

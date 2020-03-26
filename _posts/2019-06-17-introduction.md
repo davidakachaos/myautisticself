@@ -7,7 +7,7 @@ category: persoonlijk
 lang: en
 ref: intoductie
 description: Welcome message to my new blog
-image: assets/posts/introduction.png
+image: assets/img/posts/introduction.png
 ---
 
 Welcome to my new blog. My name is David, I'm 35 years old and have Asperger's.

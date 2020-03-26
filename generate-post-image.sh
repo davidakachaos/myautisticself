@@ -37,3 +37,4 @@ mogrify -alpha Set -draw 'image Dst_Over 0,0 0,0 ".tmp/bg.png"' .tmp/text.png
 mkdir -p assets/img/posts
 cp .tmp/text.png assets/img/posts/$slug.png
 rm -Rf .tmp
+echo assets/img/posts/$slug.png 

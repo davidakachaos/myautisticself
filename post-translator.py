@@ -22,12 +22,21 @@ def translate(to_trans):
     )
 
 
+def generate_image(title):
+    return (
+        subprocess.run(["./generate-post-image.sh", title], stdout=subprocess.PIPE,)
+        .stdout.decode("utf-8")
+        .strip(" \n")
+    )
+
+
 for filename in filenames:
     f = open(filename, "r", encoding="utf8")
     crawl = False
     current_ref = ""
     current_lang = ""
     current_title = ""
+    current_img = ""
     for line in f:
         if crawl:
             current_tags = line.strip().split()
@@ -35,6 +44,8 @@ for filename in filenames:
                 current_ref = "-".join(current_tags[1:])
             if current_tags[0] == "lang:":
                 current_lang = "-".join(current_tags[1:])
+            if current_tags[0] == "image:":
+                current_img = "-".join(current_tags[1:])
             if current_tags[0] == "title:":
                 current_title = " ".join(current_tags[1:])
                 # crawl = False
@@ -47,15 +58,20 @@ for filename in filenames:
                     seen_refs[current_ref]["langs"].extend([current_lang])
                     seen_refs[current_ref]["documents"].extend([filename])
                     seen_refs[current_ref]["titles"].extend([current_title])
+                    seen_refs[current_ref]["images"].extend([current_img])
                 else:
                     seen_refs[current_ref] = dict()
                     seen_refs[current_ref]["langs"] = [current_lang]
                     seen_refs[current_ref]["titles"] = [current_title]
+                    seen_refs[current_ref]["images"] = [current_img]
                     seen_refs[current_ref]["documents"] = [filename]
                 crawl = False
                 break
     f.close()
+    print(f"Analysed {filename}")
+
 for (ref, values) in seen_refs.items():
+    print(f"Analysing {ref}")
     if len(values["langs"]) == 1:
         print("Post needs a translated version!")
         print(values["documents"][0])
@@ -80,5 +96,17 @@ for (ref, values) in seen_refs.items():
 
         print(f"Generated a translated post: {new_file_name}")
 
+    for idx, img in enumerate(values["images"]):
+        if img == "":
+            print(f"No image found for {values['documents'][idx]}\nGenerating...")
+            title = values["titles"][idx]
+            new_image_path = generate_image(title)
 
-# print(f"Current refs: {seen_refs}")
+            filedata = ""
+            with open(values["documents"][idx], "r") as file:
+                filedata = file.readlines()
+            filedata.insert(1, f"image: {new_image_path}\n")
+            # Write the file out again
+            with open(values["documents"][idx], "w") as file:
+                file.write("".join(filedata))
+            print(f"Added image to {values['documents'][idx]}")
