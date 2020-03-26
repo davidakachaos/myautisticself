@@ -22,7 +22,7 @@ filenames = glob.glob(post_dir + "*md", recursive=True)
 total_tags = []
 total_cats = []
 for filename in filenames:
-    print(f"proccessing {filename}")
+    # print(f"proccessing {filename}")
     f = open(filename, "r", encoding="utf8")
     crawl = False
     for line in f:
@@ -52,15 +52,15 @@ old_tags = 0
 # exit(1)
 for tag_file in old_tag_files:
     t = tag_file.split("/")[-1].replace(".md", "")
-    print(f"Found tag: {t}")
+    # print(f"Found tag: {t}")
     if t not in total_tags:
-        print("-- Tag not in current tags, removing")
+        # print("-- Tag not in current tags, removing")
         os.remove(tag_file)
         for lng in extra_lang:
             for extra_tag_file in glob.glob(lng + "/" + tag_dir + t + ".md"):
                 os.remove(extra_tag_file)
     else:
-        print('-- Tag is current, leaving there')
+        # print('-- Tag is current, leaving there')
         old_tags += 1
         total_tags.remove(t)
 
