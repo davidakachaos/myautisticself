@@ -8,3 +8,5 @@ node_modules
 Gruntfile.js
 .jekyll
 .tweet-cache
+.cloudflare_key
+.cloudflare_zone

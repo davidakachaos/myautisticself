@@ -74,6 +74,8 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git push || exit 1
   git checkout source
   echo 'https://myautisticself.nl has been deployed.'
+  echo 'Clearing cache...'
+  ./clear_cache.sh
   notify-send 'https://myautisticself.nl has been deployed.'
   echo 'Sending webmentions...'
   bundle exec jekyll webmention
