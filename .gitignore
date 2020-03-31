@@ -11,3 +11,5 @@ generate-bitlys.rb
 generate-post-image.sh
 post-translator.py
 sed_posts.sh
+.cloudflare_zone
+.cloudflare_key
