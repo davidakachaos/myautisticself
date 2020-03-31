@@ -4,37 +4,36 @@ title: 'Online week of #Gaut'
 lang: en
 tags: autisme autismeweek2020 gaut
 ref: autismeweek2020-1
-description: Over de autisme week die nu online gehouden word in plaats van door het
-  land.
+description: About the autism week that is now held online instead of through the country.
 image: "/assets/img/autismeweek2020/WeekvanAutismeV4.jpg"
 date: 2020-03-31 11:35 +0200
 ---
 ![De Autisme Week 2020 is 100% online!](/assets/img/autismeweek2020/WeekvanAutismeV4.jpg){: class="ui image floated right medium"}
-Het is zo ver! De Autisme Week 2020 is nu al een paar dagen aan de gang. Helaas is het een beetje een andere week dan normaal voor de autisme week. Waar er normaal door heel het land acties worden georganiseerd en mensen samen komen om te spreken over autisme in alle facetten, moeten we nu noodgedwongen thuis blijven.
+It's so far! Autism Week 2020 has been going on for a few days now. Unfortunately it is a bit a different week than normal for autism week. Where normally actions are organized throughout the country and people come together to talk about autism in all its facets, we are now forced to stay at home.
 
-Voor de meeste autisten is dit niet het probleem, thuis zitten en weinig met mensen om gaan. Wat voor de meeste autisten wel een probleem is, is het breken van de normale structuur. Dit is probleem is een eigen post op zich en wil ik nu niet te diep op in gaan, maar het leid wel tot de activiteiten die we online zien. Mensen die uit hebben gekeken naar hun deel in de autisme week willen dat nu toch doorzetten. Dus we lassen niets af, we verplaatsen het alleen!
+For most autistic people this is not the problem, sitting at home and dealing with people very little. What is a problem for most autistic people is to break the normal structure. This is a problem in itself and I don't want to go into too much detail now, but it does lead to the activities we see online. People who have been looking forward to their part in autism week want to continue that now anyway. So we don't cancel anything, we just move it!
 
-## De Week van \#Gaut
-En daarom verplaatsen we de acties naar 100% online! En we doen ons best om online zoveel mogelijk aandacht te besteden aan deze week van #Gaut. Nu heb je al een aantal keren de hashtag #Gaut voorbij zien komen. Deze hashtag is in navolging van de internationale hashtag #OurGoldenMoment en verwijst naar de kleur goud en autisme in de naam. Zodoende komen we op de hashtag #Gaut uit.
+## The Week of \#Gaut
+And that's why we're moving the actions to 100% online! And we are doing our best to pay as much attention online as possible to this week of #Gaut. Now you've seen the #Gaut hashtag pass by a number of times. This hashtag follows the international hashtag #OurGoldenMoment and refers to the color gold and autism in the name. This brings us to the hashtag #Gaut.
 
-Deze week worden online verschillende acties en activiteiten gehouden door verschillende organisaties. Zo heeft de NVA online acties. Bijvoorbeeld afgelopen zaterdag [dat Rienke aan het gamen was](https://www.autisme.nl/2020/03/27/rienke-houdt-gamemarathon-voor-autismefonds/) voor het autismefonds, of hebben ze een verwijzing naar [een aantal bloggers over hun autisme](https://www.autisme.nl/2020/03/27/volwassenen-met-autisme-bloggen-samen/) wat ook door kan gaan.
+This week various online actions and activities will be held by different organizations. For example, the NVA has online actions. For example, last Saturday [that Rienke was gaming](https://www.autisme.nl/2020/03/27/rienke-houdt-gamemarathon-voor-autismefonds/) for the autism fund, or they have a reference to [a number of bloggers about their autism](https://www.autisme.nl/2020/03/27/volwassenen-met-autisme-bloggen-samen/) which can also go on.
 
-Ook heeft collega blogger [Gewoon Autastisch](https://gewoonautastisch.nl/) een [heel handig overzicht gemaakt van online activiteiten](https://gewoonautastisch.nl/week-van-autisme-deelnemersoverzicht/) in deze Week van #Gaut! Hier staan verschillende mensen en projecten genoemd die zeker interrestant zijn om in de gaten te houden.
+Also, fellow blogger [Gewoon Autastisch](https://gewoonautastisch.nl/) has made a [very handy overview of online activities](https://gewoonautastisch.nl/week-van-autisme-deelnemersoverzicht/) in this Week of #Gaut! Here are several people and projects mentioned that are certainly interesting to keep an eye on.
 
-## Mijn Week van \#Gaut
-Ik hoop dat ik deze week veel aan het schrijven over autisme toe kom, er meer en meer over kan uitleggen aan de mensen om mij heen. Ook wil ik zoveel mogelijk projecten van andere mensen steunen en promoten. Dus als je iets hebt waar ik bekenheid aan kan geven, [laat het me weten](/contact-opnemen.html)!
+## My Week of \#Gaut
+I hope that this week I will be able to write a lot about autism, explain more and more about it to the people around me. I also want to support and promote other people's projects as much as possible. So if you have something I can confess, [let me know](/get-in-touch.html)!
 
-## Waarom is de kleur van autisme goud? Waarom \#Gaut?
-Het chemische symbool voor goud is Au. Dit symbool is door de neurodiversiteit beweging op internet opgepakt en gedoopt naar de "Autistic Union" of de Autistische Unie. Afgekort tot Âû. Hiermee werd ook de kleur goud overgenomen als de basis kleur voor autisme.
+## Why is the colour of autism gold? Why \#Gaut?
+The chemical symbol for gold is Au. This symbol has been picked up by the neurodiversity movement on the internet and baptized to the "Autistic Union". Abbreviated to Âû. With this also the color gold was adopted as the basic color for autism. The Dutch word for gold is goud. And from that it's a small step to Gaut :wink:
 
-Mensen op Twitter en andere sociale media zijn de letters Âû gaan opnemen in hun naam om aan anderen te laten weten dat ze onderdeel uitmaken van deze unie. Hiermee proberen ze aan te geven, dat ze aan open te staan om te praten over autisme en bereid zijn om vragen te beantwoorden die mensen hebben.
+People on Twitter and other social media started including the letters Âû in their name to let others know that they are part of this union. With this they try to indicate that they are open to talk about autism and are willing to answer questions that people have.
 
-Daarom dus dat we voor de kleur goud kiezen als kleur voor deze week!
+So that's why we choose gold as the color for this week!
 
-## Deel op 2 april je Gouden Moment!
-Het lijkt me geweldig om van iedereen zijn of haar mooie kant van autisme te laten zien op de verschillende sociale media platformen. Zoals bijvoorbeeld Twitter, Instagram en Facebook. Als we dit massaal doen met de hashtag #OurGoldenMoment, #Gaut en/of #AutismeWeek2020 kunnen we mensen laten zien hoe autisme ook kan zijn. Anders dan wat er in de tekstboeken staat over ons. Je weet wel, de tekstboeken geschreven door neurotypische mensen, mensen die niet uit eerste hand autisme hebben ervaren. Dit is geen aanval op hun, maar een moment om ons te laten zien.
+## Share your Golden Moment on April 2nd!
+I think it would be great to show everyone his or her beautiful side of autism on the different social media platforms. Like Twitter, Instagram and Facebook. If we do this en masse with the hashtag #OurGoldenMoment, #Gaut and/or #AutismeWeek2020 we can show people how autism can be. Different from what is written about us in the textbooks. You know, the textbooks written by neurotypical people, people who didn't experience autism firsthand. This is not an attack on them, but a moment to show us.
 
-## Verbind met ons allemaal!
-Als je zelf deze week iets wilt delen in het kader van de autisme week, vergete dan ook zeker niet de hash tags te gebruiken; [#Gaut](https://twitter.com/search?q=%23gaut) en [#AutismeWeek2020](https://twitter.com/search?q=%23autismeweek2020)
+## Connect with all of us!
+If you want to share something with autism week this week, don't forget to use the hash tags; [#Gaut](https://twitter.com/search?q=%23gaut) and [#AutismeWeek2020](https://twitter.com/search?q=%23autismeweek2020).
 
-Misschien heb ik deze week nog wel een verrassing in petto... Wie weet :wink:
+Maybe this week I have a surprise in store for me... Who knows? Wink:
