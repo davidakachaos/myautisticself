@@ -4,8 +4,10 @@ title: 'Online week van #Gaut'
 lang: nl
 tags: autisme autismeweek2020 gaut
 ref: autismeweek2020-1
-description: Over de autisme week die nu online gehouden word in plaats van door het land.
-image: /assets/img/autismeweek2020/WeekvanAutismeV4.jpg
+description: Over de autisme week die nu online gehouden word in plaats van door het
+  land.
+image: "/assets/img/autismeweek2020/WeekvanAutismeV4.jpg"
+date: 2020-03-31 11:35 +0200
 ---
 ![De Autisme Week 2020 is 100% online!](/assets/img/autismeweek2020/WeekvanAutismeV4.jpg){: class="ui image floated right medium"}
 Het is zo ver! De Autisme Week 2020 is nu al een paar dagen aan de gang. Helaas is het een beetje een andere week dan normaal voor de autisme week. Waar er normaal door heel het land acties worden georganiseerd en mensen samen komen om te spreken over autisme in alle facetten, moeten we nu noodgedwongen thuis blijven.
