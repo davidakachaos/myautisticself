@@ -17,7 +17,7 @@ module Jekyll
       # Data van schijf inlezen in structure.
       self.read_yaml(File.join(site.source, '_layouts'), 'amp.html')
 
-      template = (Liquid::Template.parse replace_links_to_posts(remove_responsive_image(post.content)))
+      template = (Liquid::Template.parse replace_iframes(replace_links_to_posts(remove_responsive_image(post.content))))
 
       self.data['body']          = template.render!(site.site_payload, { :strict_variables => false, :strict_filters => true })
       self.data['is_a_post']     = post.respond_to?('id')
@@ -48,6 +48,15 @@ module Jekyll
           raise StandardError, "No matches for post? #{m.inspect}"
         end
         "/amp/#{matches[1]}/#{matches[2]}/#{matches[3]}"
+      }
+    end
+
+    def replace_iframes(content)
+      # <iframe src="https://anchor.fm/autcast/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+      return content.gsub(/\<iframe.+\<\/iframe>/){|m|
+        m.gsub!('<iframe ', '<iframe sandbox="allow-scripts allow-same-origin" layout="responsive" ')
+        m.gsub!('iframe', 'amp-iframe')
+        m
       }
     end
 
@@ -100,10 +109,6 @@ module Jekyll
     def generate(site)
       dir = site.config['ampdir'] || 'amp'
       thread_count = (ENV['THREADCOUNT'] || 8).to_i
-      if ENV['JEKYLL_ENV'] != 'production'
-        puts "Not generating AMP in development"
-        return
-      end
       puts "using #{thread_count} threads for processing to AMP pages"
       puts "there are #{site.posts.docs.length} articles to process"
 
@@ -127,7 +132,12 @@ module Jekyll
             post = queue.pop(true) rescue nil
             if post
               if post.respond_to?('id')
-                index = AmpPost.new(site, site.source, File.join(dir, post.id), post)
+                begin
+                  index = AmpPost.new(site, site.source, File.join(dir, post.id), post)
+                rescue
+                  puts "Error processing: #{post.inspect}"
+                  raise $!
+                end
               else
                 index = AmpPost.new(site, post.relative_path, "/#{dir}#{post.url}", post)
               end
