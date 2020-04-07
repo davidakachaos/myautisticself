@@ -9,7 +9,7 @@ Hier volgen een aantal links naar andere websites die interessant kunnen zijn vo
 
 ## Blogs
 
-- [Gewoon autastisch](https://gewoonautastisch.nl/){:target="_blank"}{:rel="noopener"}: De website van Mama Isidore over ervaringen met Autisme en haar persoonlijk verhaal
+- [Spectrum Rebel](https://spectrumrebel.com/){:target="_blank"}{:rel="noopener"}: De website van J.Q. Isidore over ervaringen met Autisme en haar persoonlijk verhaal
 - [Dit is ook autisme](https://www.ditisookautisme.nl/){:target="_blank"}{:rel="noopener"}: Persoonlijk blog van Michel over zijn kijk op zijn autisme. Een van de weinige andere mannen die blogt (in het Nederlands) die ik heb gevonden.
 - [A-typist](https://a-typist.nl/){:target="_blank"}{:rel="noopener"}: A-typist.nl is een blog door, voor en over volwassenen met autisme. Je vindt hier informatie, ervaringen, herkenning en tips voor het omgaan en leven met autisme.
 - [Roos vindt een weg](https://zeevanderrosan.wixsite.com/roosvindteenweg){:target="_blank"}{:rel="noopener"}: Persoonlijk blog van Rosan van der Zee over haar autisme.
