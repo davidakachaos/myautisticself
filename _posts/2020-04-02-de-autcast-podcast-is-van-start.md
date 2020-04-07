@@ -31,3 +31,6 @@ Uiteraard ben ik heel benieuwd naar de feedback en of er onderwerpen zijn waar w
 - Andere platformen volgen nog!
 
 Ik wens jullie heel veel luister plezier. En laat me ook vooral feedback weten :smile:
+
+### Luister hier onder meteen naar de aflevering
+{% include autcastinclude.html %}

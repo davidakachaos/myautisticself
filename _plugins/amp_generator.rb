@@ -100,7 +100,10 @@ module Jekyll
     def generate(site)
       dir = site.config['ampdir'] || 'amp'
       thread_count = (ENV['THREADCOUNT'] || 8).to_i
-
+      if ENV['JEKYLL_ENV'] != 'production'
+        puts "Not generating AMP in development"
+        return
+      end
       puts "using #{thread_count} threads for processing to AMP pages"
       puts "there are #{site.posts.docs.length} articles to process"
 
@@ -126,7 +129,6 @@ module Jekyll
               if post.respond_to?('id')
                 index = AmpPost.new(site, site.source, File.join(dir, post.id), post)
               else
-                puts "Page: #{post.inspect}"
                 index = AmpPost.new(site, post.relative_path, "/#{dir}#{post.url}", post)
               end
               index.render(site.layouts, site.site_payload)
