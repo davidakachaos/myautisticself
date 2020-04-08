@@ -161,16 +161,6 @@ module.exports = function(grunt) {
                     dest: '<%= app.dist %>/<%= app.baseurl %>/assets/img'
                 }, {
                     expand: true,
-                    cwd: './assets/img',
-                    src: '**/*.{jpg,jpeg,png,gif}',
-                    dest: './assets/img'
-                }, {
-                    expand: true,
-                    cwd: './assets/resized',
-                    src: '**/*.{jpg,jpeg,png,gif}',
-                    dest: './assets/resized'
-                }, {
-                    expand: true,
                     cwd: '<%= app.dist %>/<%= app.baseurl %>/assets/resized',
                     src: '**/*.{jpg,jpeg,png,gif}',
                     dest: '<%= app.dist %>/<%= app.baseurl %>/assets/resized'
