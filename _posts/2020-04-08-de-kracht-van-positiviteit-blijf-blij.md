@@ -17,6 +17,7 @@ Het is een wonderlijk iets, het menselijk brein. We zijn in staat om gedachtes t
 Vandaag wil ik het hebben over de kracht van positief denken en doen. In deze tijd van vele veranderingen in ons dagelijks leven en de zorgen die dit mee brengt voor de meeste van ons, is het soms moeilijk om positief te blijven. Daarbij komt ook dat het menselijk brein is geëvolueerd om negatieve ervaringen beter te onthouden dan positieve ervaringen.
 
 ## Negatief denken is onderdeel van overleven
+
 Om te begrijpen waarom we negatieve ervaringen ons beter bij blijven moeten we ver terug. Terug naar een tijd waarin we moesten vechten om te overleven. Jagen op voedsel en elke dag op zoek zijn naar onderdak. Duizenden jaren geleden hadden we al geleerd dat het beter was voor ons om samen te blijven in groepen. We kunnen dan voor elkaar zorgen, kracht in nummers. Als we alleen achter ons eten aangingen was de kans dat we het te pakken zouden krijgen een stuk lager dan wanneer we in een groep de jacht in zetten.
 
 Echter was het ook zo dat negatieve gebeurtenissen veel belangrijker waren om te overleven dan positieve dingen. Als een mens slachtoffer werd van een roofdier bijvoorbeeld, was het veel belangrijker voor ons om dit te onthouden dan het feit dat we op een bepaalde plek voedsel konden vinden. Tenslotte was het zo dat de mens die onthield dat een roofdier gevaarlijk is, meer kans had om te overleven. Ook als je wist dat bepaalde paddenstoelen bijvoorbeeld giftig waren, overleefde je een stuk langer.
@@ -24,11 +25,13 @@ Echter was het ook zo dat negatieve gebeurtenissen veel belangrijker waren om te
 Hier werd de basis gelegd voor het menselijk brein om negatieve ervaringen beter te onthouden dan positieve ervaringen. En hoewel we nu duizenden jaren verder zijn en niet langer de relatief beperkte hersencapaciteit hebben, is er aan de basis manier van denken niet veel veranderd.
 
 ## Beseffen dat positief denken moeilijk is
+
 Het is voor ons als mensen dus moeilijk om positief te blijven denken in tijden van crisis. Dit zie je om je heen gebeuren vandaag de dag. Mensen raken in paniek en doen rare dingen. Het is moeilijk om positief te blijven denken en doen. Het is een hele kunst om positieve gedachtes vast te houden en het leven uit een positief standpunt te bekijken. Het ligt niet in onze natuur om dit te doen.
 
 Dit beseffen is volgens mij een goed begin om hier aan te werken.
 
 ## Loslaten wat je niet kunt oplossen
+
 ![Let it go!](/assets/img/letitgo.jpeg){: class="ui image floated left medium"}
 Tegenwoordig heb ik geleerd om zaken los te laten als ik ze niet kan oplossen. Het is dan iets waar ik mee moet leren leven in plaats van er over te blijven piekeren. Soms zijn er zaken in mijn leven die niet leuk zijn, maar ik kan ze niet veranderen. Dus leer ik er mee leven.
 
