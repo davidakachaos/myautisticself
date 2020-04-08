@@ -2,7 +2,7 @@
 layout: post
 title: De kracht van positiviteit | Blijf blij
 lang: nl
-tags: autisme positief sociaal-gedrag
+tags: autisme positief sociaal-gedrag gedachtes crisis
 ref: blijfblijkrachtvanpositief
 description: Het is een hele kunst voor de meeste mensen om positief te blijven in
   tijden van crisis. Vaak, omdat ze in basis gedachten al negatief denken. Een manier

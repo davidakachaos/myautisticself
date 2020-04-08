@@ -2,7 +2,7 @@
 layout: post
 title: The power of positivity | Stay happy
 lang: en
-tags: autisme positief sociaal-gedrag
+tags: autisme positief sociaal-gedrag gedachtes crisis
 ref: blijfblijkrachtvanpositief
 description: It is quite an art for most people to stay positive in times of crisis. Often, because they are already thinking negatively in basic thoughts. One way to do this is to adjust your thoughts and try to bend to positive thinking.
 image: "/assets/img/springday.jpg"
