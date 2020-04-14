@@ -107,6 +107,10 @@ module Jekyll
     end
 
     def generate(site)
+      if site.config['serving']
+        puts "AMP pages not generated when running `jekyll serve`."
+        return
+      end
       dir = site.config['ampdir'] || 'amp'
       thread_count = (ENV['THREADCOUNT'] || 8).to_i
       puts "using #{thread_count} threads for processing to AMP pages"
