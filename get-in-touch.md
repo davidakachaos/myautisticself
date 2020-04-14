@@ -2,8 +2,9 @@
 layout: page
 title: Get in touch!
 lang: en
-ref: contactpage
+ref: page
 ---
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <p>Do you need someone to explain what autism actually means? Or maybe you want to know more about neurodiversity and all its different forms? It's an honour for me to be able to do something for you!</p>
 <p>Please contact me using the form below. Of course I can also be contacted via the various social media, but sometimes it is easier to contact me directly.</p>
 <p>I aim to respond to your message within a reasonable time. Thank you for taking the time to write me a message!</p>
@@ -27,6 +28,7 @@ ref: contactpage
   </div>
   <input type="hidden" name="_subject" value="New submission!" />
   <input type="text" name="_gotcha" />
+  <div class="g-recaptcha" data-sitekey="6Le3aOkUAAAAAK_vTtS6xMkOe46zsPf2j4I_p8_K"></div>
   <button class="ui button" id="my-form-button">Send!</button>
   <p ></p>
 </form>
