@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Autistic Self</title>
+    <description>{&quot;nl&quot;=&gt;&quot;Mijn blog over mezelf als autist en mijn ervaringen met autisme. Informatie en uitleg voor mensen zonder autisme, een kijk op de wereld vanuit iemand met autisme.&quot;, &quot;en&quot;=&gt;&quot;My blog about myself as an autist and my experiences with autism. Information and explanation for people without autism, a view of the world from someone with autism.&quot;}</description>
+    <link>https://myautisticself.nl/</link>
+    <language>nl</language>
+    <atom:link href="https://myautisticself.nl/sharing_feeds/facebook-nl.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 14 Apr 2020 14:01:52 +0200</pubDate>
+    <lastBuildDate>Tue, 14 Apr 2020 14:01:52 +0200</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
+    
+    
+  </channel>
+</rss>
