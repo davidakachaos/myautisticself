@@ -37,6 +37,7 @@ group :jekyll_plugins do
   gem 'jekyll-mentions'
   gem 'jekyll-webp'
   gem 'jekyll-include-cache'
+  gem 'jekyll-news-sitemap'
 end
 
 # Force WebP plugin needs this

@@ -5,3 +5,6 @@
 
 User-agent: *
 Sitemap: {{ site.url }}{{site.baseurl}}/sitemap.xml
+
+User-agent: *
+Sitemap: {{ site.url }}{{site.baseurl}}/sitemap_news.xml
