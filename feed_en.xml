@@ -5,7 +5,7 @@ lang: en
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title[page.lang] | xml_escape }}</title>
+    <title>{{ site.title | xml_escape }}</title>
     <description>{{ site.description[page.lang] | xml_escape }}</description>
     <language>{{page.lang}}</language>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
@@ -16,10 +16,11 @@ lang: en
     {%- assign posts=site.posts | where:"lang", page.lang -%}
     {%- for post in posts limit:10 -%}
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | truncatewords: 200 | xml_escape }}
-        <br />
+        <title><![CDATA[{{ post.title | xml_escape }}]]></title>
+        <description><![CDATA[{{ post.content | strip_html | truncatewords: 200 | xml_escape }}
+
         Read more: {{ post.url | prepend: site.url | xml_escape }}
+        ]]>
         </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
