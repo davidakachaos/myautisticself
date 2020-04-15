@@ -3,3 +3,6 @@
 
 User-agent: *
 Sitemap: https://myautisticself.nl/sitemap.xml
+
+User-agent: *
+Sitemap: https://myautisticself.nl/sitemap_news.xml
