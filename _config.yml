@@ -142,9 +142,9 @@ exclude:
   - tag-generator.py
   - keyword-extractor.py
   - webready-images.sh
-  - *.py
-  - *.rb
-  - *.sh
+  - "*.py"
+  - "*.rb"
+  - "*.sh"
   - Gemfile
   - Gemfile.lock
   - README.md
