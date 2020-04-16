@@ -21,6 +21,8 @@
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
     <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
     <script async custom-element="amp-web-push" src="https://cdn.ampproject.org/v0/amp-web-push-0.1.js"></script>
+    <script async custom-element="amp-facebook-like" src="https://cdn.ampproject.org/v0/amp-facebook-like-0.1.js"></script>
+    <script async custom-element="amp-addthis" src="https://cdn.ampproject.org/v0/amp-addthis-0.1.js"></script>
 
     <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -114,6 +116,8 @@
 </script>
 </amp-analytics>
 
+<amp-addthis width="320" height="92" layout="responsive" data-pub-id="davidakachaos" data-widget-id="oiei" data-widget-type="floating"></amp-addthis>
+
   {% capture header %}{% include amp_header.html %}{% endcapture %}
   {{ header | amp_images: false, 32, 32 }}
 <div class="main">
@@ -132,6 +136,14 @@
           {%- endif -%}
       </div>
       {%- include amp-share-buttons.html -%}
+      <amp-facebook-like
+        width="90"
+        height="20"
+        layout="fixed"
+        data-layout="standard"
+        data-href="https://www.facebook.com/myautisticself/"
+      >
+      </amp-facebook-like>
       <amp-ad width="100vw" height=320
            type="adsense"
            data-ad-client="ca-pub-4410316703647021"
