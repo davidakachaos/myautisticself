@@ -20,12 +20,19 @@
     </script>
     <script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
     <script async custom-element="amp-twitter" src="https://cdn.ampproject.org/v0/amp-twitter-0.1.js"></script>
+    <script async custom-element="amp-web-push" src="https://cdn.ampproject.org/v0/amp-web-push-0.1.js"></script>
 
-<link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
 
     {% include openGraph.html %}
   </head>
   <body>
+    <amp-web-push
+      layout="nodisplay"
+      helper-iframe-url="https://myautisticself.nl/amp-web-push-helper-iframe.html"
+      permission-dialog-url="https://myautisticself.nl/amp-web-push-permission-dialog.html"
+      service-worker-url="https://myautisticself.nl/sw.js"
+    ></amp-web-push>
 <amp-auto-ads type="adsense"
               data-ad-client="ca-pub-4410316703647021">
 </amp-auto-ads>
@@ -133,6 +140,29 @@
            data-full-width>
         <div overflow></div>
       </amp-ad>
+      <!-- A subscription widget -->
+      <amp-web-push-widget
+        visibility="unsubscribed"
+        layout="fixed"
+        width="250"
+        height="80"
+      >
+        <button on="tap:amp-web-push.subscribe">
+          {% if page.lang == "nl" %}Ontvang notificaties op uw apparaat{% else %}Subscribe to Notifications{% endif %}
+        </button>
+      </amp-web-push-widget>
+
+      <!-- An unsubscription widget -->
+      <amp-web-push-widget
+        visibility="subscribed"
+        layout="fixed"
+        width="250"
+        height="80"
+      >
+        <button on="tap:amp-web-push.unsubscribe">
+          {% if page.lang == "nl" %}Ontvang niet langer notificaties op uw apparaat{% else %}Unsubscribe from Notifications{% endif %}
+        </button>
+      </amp-web-push-widget>
       {% include further_reading.html %}
 
     </article>
