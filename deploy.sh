@@ -17,6 +17,8 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
 	notify-send 'Git status not clean, aborting deploy!'
 	exit 2
 fi
+echo 'Pushing changes to the source branch'
+git push
 echo 'Generating tags...'
 ./tag-generator.py
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
