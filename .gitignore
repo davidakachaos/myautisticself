@@ -10,3 +10,4 @@ Gruntfile.js
 .tweet-cache
 .cloudflare_key
 .cloudflare_zone
+.pytest_cache
