@@ -138,10 +138,11 @@ function callFB(){
   (function(d){
      var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
      js = d.createElement('script'); js.id = id; js.async = true;
+     js.defer = true; js.crossorigin = "anonymous";
      if (document.documentElement.lang == "nl") {
-      js.src = "//connect.facebook.net/nl_NL/all.js";
+      js.src = "https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v6.0&appId=482973958831772&autoLogAppEvents=1";
       }else {
-        js.src = "//connect.facebook.net/en_US/all.js";
+        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=482973958831772&autoLogAppEvents=1";
       }
      d.getElementsByTagName('head')[0].appendChild(js);
    }(document));

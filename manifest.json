@@ -1,4 +1,5 @@
 ---
+layout: none
 ---
 {%- assign prep = site.baseurl | replace: "/", "\/" | append: "\/assets\/icons" -%}
 {

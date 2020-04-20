@@ -4,6 +4,9 @@
 <html lang="{{page.lang}}">
 {%- assign site.description = site.description[page.lang] -%}
 {%- include head.html -%}
+<script type="text/javascript">
+  {%- include linkserviceworker.js -%}
+</script>
 <script type="application/ld+json">
 {
  "@context" : "http://schema.org",
@@ -60,7 +63,7 @@
 {%- endif -%}
 {% webmentions_js %}
 <!-- Facebook Pixel Code -->
-<script async charset="utf-8"  type="text/javascript">
+<script async deffer crossorigin="anonymous" charset="utf-8"  type="text/javascript">
   !function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
   n.callMethod.apply(n,arguments):n.queue.push(arguments)};
