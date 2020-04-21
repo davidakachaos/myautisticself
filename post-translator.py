@@ -37,6 +37,7 @@ for filename in filenames:
     current_lang = ""
     current_title = ""
     current_img = ""
+    sharing_found = False
     for line in f:
         if crawl:
             current_tags = line.strip().split()
@@ -48,9 +49,9 @@ for filename in filenames:
                 current_img = "-".join(current_tags[1:])
             if current_tags[0] == "title:":
                 current_title = " ".join(current_tags[1:])
-                # crawl = False
-                # break
-        if line.strip() == "---":
+            if current_tags[0] == "sharing:":
+                sharing_found = True
+        if line.strip() == "---" or sharing_found:
             if not crawl:
                 crawl = True
             else:
@@ -105,7 +106,7 @@ for (ref, values) in seen_refs.items():
             filedata = ""
             with open(values["documents"][idx], "r") as file:
                 filedata = file.readlines()
-            filedata.insert(1, f"image: {new_image_path}\n")
+            filedata = filedata.replace("image:\n", f"image: {new_image_path}\n")
             # Write the file out again
             with open(values["documents"][idx], "w") as file:
                 file.write("".join(filedata))
