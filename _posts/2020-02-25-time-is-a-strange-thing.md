@@ -7,6 +7,7 @@ ref: tijdiseenvreemdiets
 description: Time. A concept we don't dwell on. Once created and unstoppable ever since. But the experience of the passage of time is more personal than you might think.
 image: "/assets/img/time-warp.jpg"
 date: 2020-02-25 12:52 +0100
+crosspost_to_medium: true
 ---
 ![Time is relative](/assets/img/time-warp.jpg){: class="ui image floated right medium"}.
 Time is a concept we don't think much about. Time is a way of measuring how long something has been or how long it will last. As we now know, time is also relative. That means that time is not always experienced in the same way. A famous example is that of a stove; 5 seconds with your hand on a hot stove is very long, but 5 minutes to be with your loved one is too short.

@@ -7,6 +7,7 @@ ref: dekleurvanautisme
 description: As a counterpart to the blue there is gold. I'll deal with this in this post. Why is the color of autism gold? And how can we communicate that to the people around us.
 image: "/assets/img/autisticgold.jpg"
 date: 2020-03-11 11:47 +0100
+crosspost_to_medium: true
 ---
 We're in March. Next month is autism month and in the Netherlands autism week. Different things are organized for this. Many organizations try to bring autism to the attention of the public. Part of this are the different symbols and colors that are used. Many see the well-known puzzle pieces and the color blue as the color that stands for autism.
 

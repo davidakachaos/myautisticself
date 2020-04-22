@@ -7,6 +7,7 @@ ref: begriphebben2020
 description: In order to understand each other, respect each other and live with each other, basic understanding is needed. Understanding for neurodiversity, understanding for yourself, understanding for someone else and understanding of reality. That this is lacking in some people and institutions, is a subject for today.
 image: "/assets/img/understandingeachother.jpg"
 date: 2020-01-29 13:59 +0100
+crosspost_to_medium: true
 ---
 ![Understanding each other](/assets/img/understandingeachother.jpg){: class='ui image floated left medium top aligned' }
 Understanding each other is the most important thing on the way to a good society in my eyes. Having an understanding for someone else is important, but having an understanding for yourself may be even more important. During my discovery of what autism means to me and what influence it has on me, I also learned to understand myself more.

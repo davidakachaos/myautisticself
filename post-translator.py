@@ -88,7 +88,7 @@ for (ref, values) in seen_refs.items():
             filedata = file.read()
 
         # Replace the target string
-        filedata = filedata.replace("lang: nl", "lang: en")
+        filedata = filedata.replace("lang: nl", "lang: en\ncrosspost_to_medium: true")
         filedata = filedata.replace(f"title: {org_title}", f"title: {translated_title}")
 
         # Write the file out again

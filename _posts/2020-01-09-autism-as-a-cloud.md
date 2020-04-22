@@ -9,6 +9,7 @@ description: Autism Spectrum Disorder is often described as a graph or as
   a collection of levels.
 image: "/assets/img/ads-cloud-head.jpg"
 date: 2020-01-09 09:48 +0100
+crosspost_to_medium: true
 ---
 <div class="quote" markdown="1">
 > A spectrum (also called gradient) - (plural: spectra or spectrums) is a range of consecutive colours or sounds or other varieties. This term is often used in physics.

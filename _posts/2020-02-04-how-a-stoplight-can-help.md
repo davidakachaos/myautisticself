@@ -7,6 +7,7 @@ ref: stoplicht
 description: How can a traffic light help you with the interaction in your environment. A signalling plan in any form can help you with social interaction and explain behaviour to the people around you.
 image: /assets/img/stoplicht.png
 date: 2020-02-04 11:47 +0100
+crosspost_to_medium: true
 ---
 ![Traffic light](/assets/img/stoplicht.png){: class="ui image floated right medium"}
 In the past I have followed the necessary therapies to cope with my depression. One of those therapies was to make a so-called signalling plan. This is a plan in which you have to write down what you and your surroundings can notice about your state of mind. Often this is made with a traffic light. People who have been in treatment for depression themselves may already have an idea how this works.

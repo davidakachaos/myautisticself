@@ -7,6 +7,7 @@ ref: meltdownoudvsnieuw
 description: This post will deal with my meltdowns. How I used to deal with them and how I can better find my way in them now. Meltdowns are not only for children with autism, but also for adults.
 image: "/assets/img/a-blue-brain-with-lightning-bolts.jpg"
 date: 2020-01-22 12:29 +0100
+crosspost_to_medium: true
 ---
 ![Mind Melting Down](/assets/img/a-blue-brain-with-lightning-bolts.jpg){: class='ui image floated right'}
 My thoughts are running through my head and through each other. My head is full and I notice I'm scared. My body gives all the classical signals for this; my heart beats much faster, my eyes wander over everything without seeing much, my breathing is much faster than normal. For me the worst thing is that I lose my self-control, my grip on my reactions and the mask with which I filter my statements normally.

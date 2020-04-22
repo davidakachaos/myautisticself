@@ -7,6 +7,7 @@ ref: denkeninoplossingen
 description: It's become a way of life for me. Thinking in solutions and not in problems. Sometimes it's quite an art, but it makes me a lot calmer to think about things in my life.
 image: "/assets/img/creatief-denken.jpg"
 date: 2020-01-06 12:20 +0100
+crosspost_to_medium: true
 ---
 {% responsive_image path: assets/img/creatief-denken.jpg alt: "Thinking in terms of solutions" title: "Thinking in terms of solutions" class: 'ui image floated medium right' %}
 

@@ -7,6 +7,7 @@ ref: autismeiseencontstuctie
 description: New "primer" has recently been released. A kind of "The State of The Nation" about the state of scientific research on autism. Dr. Ruby Sapphire summed up the main points of this research, in which some interesting points emerged. Including that autism is a construction and not a disease!
 image: "/assets/img/deep-brain-stimulation.jpg"
 date: 2020-02-11 12:01 +0100
+crosspost_to_medium: true
 ---
 ![Brain Power](/assets/img/deep-brain-stimulation.jpg){: class="ui image medium floated right"}
 Recently, a so-called "primer" has been released in which the state of scientific research into autism is discussed. The original article can be read by anyone via [this link](https://www.ncbi.nlm.nih.gov/m/pubmed/31949163/) but is very extensive. Fortunately, Dr. Ruby Sapphire has summarized this on twitter. Dr. Sapphire is affiliated with the King's College in London and tweets regularly about the science behind autism. In this piece I want to talk about some of the points she summed up from the "primer".
