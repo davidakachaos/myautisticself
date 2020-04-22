@@ -30,6 +30,8 @@ module Jekyll
       if ENV["JEKYLL_ENV"] != "production"
         puts "Skipping crossposting to Medium! - Run in production mode to crosspost"
         return
+      else
+        puts "Crossposting to Medium"
       end
       @site = site
 

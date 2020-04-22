@@ -33,7 +33,9 @@ else
 fi
 
 echo 'Building Jekyll...'
-JEKYLL_ENV=production bundle exec jekyll build || exit 1
+export JEKYLL_ENV=production
+bundle exec jekyll build || exit 1
+export JEKYLL_ENV=development
 # Force some renames for fixing JS templating
 ./sed_posts.sh || exit 1
 # Add cache file for bitlys to git
