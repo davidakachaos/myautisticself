@@ -7,6 +7,7 @@ date: 2019-07-16 13:11 +0200
 tags: sociaal-gedrag persoonlijk pokemon-go
 description: About using Pokémon Go as an icebreaker in making social contacts. The possibilities for making new contacts and having fun.
 image: /assets/img/profiel-pokemon.png
+crosspost_to_medium: true
 ---
 ![My Pokémon Go avatar](/assets/img/profiel-pokemon.png){: class='ui image medium floated right'}
 I play Pokémon Go. Yes I am an adult and play Pokémon Go. Again after having stopped for a while. Why? Because it's a fun game. It connects people do in some way with each other. And for those who think it's a child's game; the average age of active players is around 30. At least, when I look at who shows up at so-called raids.

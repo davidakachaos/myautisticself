@@ -7,6 +7,7 @@ ref: social-antropoloog
 date: 2019-09-02 11:13 +0200
 description: A paraody of a alien (me) visiting earth
 image: /assets/img/alien-studing-earth.jpg
+crosspost_to_medium: true
 ---
 ![Sociaal Antropoloog](/assets/img/alien-studing-earth.jpg){: class="floated right ui image rounded"}
 **==== Start Log ====**

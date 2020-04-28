@@ -11,6 +11,7 @@ description: >-
   people around me.
 image: assets/img/posts/lack-of-structure.png
 date: '2019-11-12 14:20 +0100'
+crosspost_to_medium: true
 ---
 
 {% responsive_image path: assets/img/posts/lack-of-structure.png alt: "Lack of structure" title: "Lack of structure" class: 'ui image floated medium right' %}

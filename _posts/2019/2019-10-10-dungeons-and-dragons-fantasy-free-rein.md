@@ -8,6 +8,7 @@ ref: dnd-fantasie-de-vrije-loop
 description: About what makes me enjoy playing Dungeons and Dragons. What makes it a fun game? And what do I encounter?
 image: "/assets/img/dndfire.jpg"
 date: 2019-10-10 14:07 +0200
+crosspost_to_medium: true
 ---
 {% responsive_image path: assets/img/dndfire.jpg alt: "Dungeons And Dragons" title: "Dungeons and Dragons" class: 'ui image large centered' %}
 
