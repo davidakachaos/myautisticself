@@ -28,6 +28,10 @@ for filename in filenames:
     for line in f:
         if crawl:
             current_tags = line.strip().split()
+            # print(f"Testing: {current_tags}")
+            if current_tags == []:
+                # We have a special line, skip to the next line!
+                continue
             if current_tags[0] == "category:":
                 total_cats.extend(["-".join(current_tags[1:])])
             if current_tags[0] == "tags:":
