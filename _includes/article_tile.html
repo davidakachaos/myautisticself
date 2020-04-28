@@ -3,6 +3,10 @@
       <h3>
         {{ include.article.title }}
       </h3>
+      {%- if include.article.image -%}
+      <amp-img src="{{include.article.image}}" width="150px" height="150px" layout="responsive" class="ui image small" alt="{{ include.article.title }}">
+       </amp-img>
+      {%- endif -%}
       <small>
         {{ include.article.date | date_to_string }}
       </small>
