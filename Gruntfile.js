@@ -130,7 +130,7 @@ module.exports = function(grunt) {
         critical: {
             dist: {
                 options: {
-                    base: './',
+                    base: '.',
                     css: [
                         '_site/assets/css/site.css'
                     ],
@@ -142,10 +142,42 @@ module.exports = function(grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: '<%= app.dist %>/<%= app.baseurl %>',
-                    src: ['**/*.html', '!amp/**/*.html'],
-                    dest: '<%= app.dist %>/<%= app.baseurl %>'
-                }]
+                    cwd: '_site/',
+                    src: ['*.html', '!amp*', '!yandex*'],
+                    dest: '_site/'
+                },{
+                    expand: true,
+                    cwd: '_site/2019/',
+                    src: ['**/*.html'],
+                    dest: '_site/2019/'
+                },{
+                    expand: true,
+                    cwd: '_site/2020/',
+                    src: ['**/*.html'],
+                    dest: '_site/2020/'
+                },{
+                    expand: true,
+                    cwd: '_site/en/',
+                    src: ['**/*.html'],
+                    dest: '_site/en/'
+                },{
+                    expand: true,
+                    cwd: '_site/tag/',
+                    src: ['**/*.html'],
+                    dest: '_site/tag/'
+                },{
+                    expand: true,
+                    cwd: '_site/category/',
+                    src: ['**/*.html'],
+                    dest: '_site/category/'
+                }
+                // ,{
+                //     expand: true,
+                //     cwd: '<%= app.dist %>/<%= app.baseurl %>',
+                //     src: ['**/*.html', '!amp/**/*.html'],
+                //     dest: '<%= app.dist %>/<%= app.baseurl %>'
+                // }
+              ]
             }
         },
         imagemin: {
