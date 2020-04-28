@@ -159,6 +159,11 @@ function callFB(){
 
 }
 
+function loadMailChimp(){
+  window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"25d2d8c9b20b892603f68fb5e","lid":"4f8fedd4d3","uniqueMethods":true}) });
+}
+
+deferMailChimp(loadMailChimp);
 defer(updateWebmentionCounts);
 defer(showTranslation);
 defer(callFB);
