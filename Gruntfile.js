@@ -253,7 +253,8 @@ module.exports = function(grunt) {
         cssmin: {
             dist: {
                 options: {
-                    check: 'gzip'
+                    check: 'gzip',
+                    sourceMap: true,
                 }
             }
         },

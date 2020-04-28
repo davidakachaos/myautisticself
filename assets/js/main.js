@@ -29,6 +29,15 @@ function defer(method) {
     }
 }
 
+function deferMailChimp(method) {
+    if (window.dojoRequire) {
+        method();
+        console.log('Waiting for dojo to load...');
+    } else {
+        setTimeout(function() { defer(method) }, 50);
+    }
+}
+
 function updateWebmentionCounts(){
   var urls = [];
   var base;
