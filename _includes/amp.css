@@ -712,7 +712,7 @@ img.ui.bordered.image {
 }
 
 .ui.spaced.image {
-    display: inline-block!important;
+    display: inline-block;
     margin-left: .5em;
     margin-right: .5em
 }
