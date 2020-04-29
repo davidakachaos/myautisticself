@@ -32,10 +32,23 @@ function defer(method) {
 function deferMailChimp(method) {
     if (window.dojoRequire) {
         method();
-        console.log('Waiting for dojo to load...');
     } else {
-        setTimeout(function() { defer(method) }, 50);
+        setTimeout(function() { deferMailChimp(method) }, 50);
     }
+}
+
+function loadTruePush(){
+  if (window.truepush){
+    truepush.push(function(){
+      truepush.Init({
+          id: "5e96e8cf39eeb37a3a6bfa8d"
+          }, function(error){
+            if(error) console.error(error);
+          })
+    })
+  }else{
+    setTimeout(function() { loadTruePush() }, 100);
+  }
 }
 
 function updateWebmentionCounts(){
@@ -168,3 +181,4 @@ defer(updateWebmentionCounts);
 defer(showTranslation);
 defer(callFB);
 defer(subscribeFBLike);
+loadTruePush();
