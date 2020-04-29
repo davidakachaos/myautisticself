@@ -124,6 +124,7 @@ function onMessageReceivedSubscribe() {
     .then(() => {
       // IMPLEMENT: Forward the push subscription to your server here
       self.onnotificationclick();
+      truepush.subscribeUserVapid();
       broadcastReply(WorkerMessengerCommand.AMP_SUBSCRIBE, null);
     });
 }
