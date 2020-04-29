@@ -37,7 +37,7 @@ module Jekyll
 
       @settings = @site.config['jekyll-crosspost_to_medium'] || {}
       globally_enabled = if @settings.has_key? 'enabled' then @settings['enabled'] else true end
-      cache_dir = @settings['cache'] || @site.config['source'] + '/.jekyll-crosspost_to_medium'
+      cache_dir = @settings['cache'] || @site.config['source'] + '/.jekyll-cache'
       backdate = if @settings.has_key? 'backdate' then @settings['backdate'] else true end
       @crossposted_file = File.join(cache_dir, "medium_crossposted.yml")
 
