@@ -168,7 +168,7 @@ a.item.en:after {
     content: "🇬🇧";
 }
 
-a:not(.u-url):not(.u-mention):not(.item):not([href*='https://myautisticself.nl']):not([href*='https://www.buymeacoffee.com']):not([href*='https://twitter.com']):not([href^='#']):not([href^='/']):after {
+a:not(.u-url):not(.at-share-btn):not(.u-mention):not(.item):not([href*='https://myautisticself.nl']):not([href*='https://www.buymeacoffee.com']):not([href*='https://twitter.com']):not([href^='#']):not([href^='/']):after {
     font-family: 'FontAwesome';
     content: " \f08e";
 }

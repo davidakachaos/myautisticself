@@ -144,13 +144,14 @@ function subscribeFBLike(){
 function callFB(){
     window.fbAsyncInit = function() {
       FB.init({
-        appId      : '829197500840832', // App ID
+        appId      : '482973958831772', // App ID
         // channelURL : '//WWW.YOUR_DOMAIN.COM/channel.html', // Channel File
         status     : true, // check login status
         cookie     : true, // enable cookies to allow the server to access the session
         oauth      : false, // enable OAuth 2.0
         xfbml      : true,  // parse XFBML
-        autoLogAppEvents: true
+        autoLogAppEvents: true,
+        version: 'v6.0'
       });
 
     // Additional initialization code here
@@ -162,9 +163,9 @@ function callFB(){
      js = d.createElement('script'); js.id = id; js.async = true;
      js.defer = true; js.crossorigin = "anonymous";
      if (document.documentElement.lang == "nl") {
-      js.src = "https://connect.facebook.net/nl_NL/sdk.js#xfbml=1&version=v6.0&appId=482973958831772&autoLogAppEvents=1";
+      js.src = "https://connect.facebook.net/nl_NL/sdk.js";
       }else {
-        js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=482973958831772&autoLogAppEvents=1";
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
       }
      d.getElementsByTagName('head')[0].appendChild(js);
    }(document));
