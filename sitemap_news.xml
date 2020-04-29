@@ -1,1 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<url>
+<loc>https://myautisticself.nl/2020/04/zelf-diagnose-in-nederland.html</loc>
+<news:news>
+<news:publication>
+<news:name>My Autistic Self</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2020-04-29T13:16:00+02:00</news:publication_date>
+<news:title>Zelf diagnose in Nederland</news:title>
+</news:news>
+</url>
+</urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<url>
+<loc>https://myautisticself.nl/2020/04/self-diagnosis-in-the-netherlands.html</loc>
+<news:news>
+<news:publication>
+<news:name>My Autistic Self</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2020-04-29T13:16:00+02:00</news:publication_date>
+<news:title>Self diagnosis in the Netherlands</news:title>
+</news:news>
+</url>
+</urlset>
