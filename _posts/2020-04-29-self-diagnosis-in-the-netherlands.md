@@ -3,8 +3,8 @@ layout: post
 title: Self diagnosis in the Netherlands
 lang: en
 crosspost_to_medium: true
-tags: autisme diagnose
-ref: Zelf diagnose
+tags: autisme diagnose acceptatie begrip asperger
+ref: Zelfdiagnose
 description: Can you diagnose your own autism? Why would you want that? In this post, I'm trying to answer this as I see it.
 image: "/assets/img/zelfdiagnose.jpg"
 date: 2020-04-29 13:16 +0200

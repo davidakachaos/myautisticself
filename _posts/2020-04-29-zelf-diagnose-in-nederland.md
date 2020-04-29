@@ -2,8 +2,8 @@
 layout: post
 title: Zelf diagnose in Nederland
 lang: nl
-tags: autisme diagnose
-ref: Zelf diagnose
+tags: autisme diagnose acceptatie begrip asperger
+ref: Zelfdiagnose
 description: Kun je je eigen autisme diagnose stellen? Waarom zou je dat willen? In
   deze post probeer ik hierop antwoorden te geven zoals ik er tegen aan kijk.
 image: "/assets/img/zelfdiagnose.jpg"
