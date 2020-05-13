@@ -98,7 +98,9 @@ module.exports = function(grunt) {
                 ignore: ['.webp header', 'input[name="_gotcha"]', '.ui.form', '.ui.form input[type=email]', '.ui.form textarea',
                         '.ui.message', '.ui.message.error', '.ui.message.succes', '.ui.form .field>label',
                         'ui button', 'lazyload', '.no-webp header', '.ui.form input[type=text]', '.ui.message>:first-child',
-                        '.ui.message .header', '.ui.message p:last-child', '.ui.button'
+                        '.ui.message .header', '.ui.message p:last-child', '.ui.button', '.BetterTube', '.BetterTubePlayer',
+                        '.BetterTube a', '.BetterTube a:hover', '.BetterTube figcaption', '.BetterTube iframe', '.BetterTube object',
+                        '.BetterTube embed','.BetterTube video', '.BetterTube-playBtn', '.BetterTube-playBtn:hover'
                       ]
             },
             dist: {
@@ -107,7 +109,7 @@ module.exports = function(grunt) {
                 src: ['_site/**/*.html', '!yandex_f0a389ddfda6489c.html',
                         '!_site/2019/**/*.html', '!_site/2020/**/*.html', '_site/2019/08/hulpgids-asperger-syndroom-review.html',
                         '_site/2019/07/beelddenker.html', '_site/2019/10/cobwebs-in-my-head.html',
-                        '_site/2020/05/13/angst-stress-spanningen-en-autisme.html',
+                        '_site/2020/05/angst-stress-spanningen-en-autisme.html',
                         '!_site/amp/**/*.html', '!_site/tag/**/*.html',
                         '!_site/category/**/*.html', '!_site/en/**/*.html',
                         '_site/contact-opnemen.html', '_site/get-in-touch.html'
