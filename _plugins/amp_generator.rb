@@ -7,6 +7,12 @@ require 'jekyll-twitter-plugin'
 module Jekyll
   # Defines the base class of AMP posts
   class AmpPost < Page
+    attr_reader :amp
+
+    def amp
+      true
+    end
+
     def initialize(site, base, dir, post)
       @site = site
       @base = base
@@ -19,7 +25,7 @@ module Jekyll
 
       template = (Liquid::Template.parse replace_iframes(replace_links_to_posts(remove_responsive_image(post.content))))
 
-      self.data['body']          = template.render!(site.site_payload, { :strict_variables => false, :strict_filters => true })
+      self.data['body']          = template.render!(site.site_payload, { :strict_variables => false, :strict_filters => true, :registers => {amp: true} })
       self.data['is_a_post']     = post.respond_to?('id')
       self.data['lang']          = post.data['lang']
       self.data['image']         = post.data['image']
