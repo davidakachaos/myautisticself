@@ -155,6 +155,7 @@ exclude:
   - node_modules
   - gulpfile.js
   - Gruntfile.js
+  - optimize_amp_pages.sh
 
 webmentions:
   username: myautisticself.nl

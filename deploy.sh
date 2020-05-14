@@ -7,7 +7,7 @@ if branch=$(git symbolic-ref --short -q HEAD);then
     echo 'Getting latest changes...'
     git pull --rebase origin source
   else
-	echo Not on the source branch. We are on $branch so aborting!
+	  echo Not on the source branch. We are on $branch so aborting!
   	exit 1
   fi
 fi
@@ -38,6 +38,8 @@ bundle exec jekyll build || exit 1
 export JEKYLL_ENV=development
 # Force some renames for fixing JS templating
 ./sed_posts.sh || exit 1
+# Optimize AMP generated pages
+./optimize_amp_pages.sh || exit 1
 # Add cache file for bitlys to git
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git add .bitly_cache

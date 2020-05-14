@@ -31,13 +31,6 @@
     <link rel="manifest" href="/manifest.json">
   </head>
   <body>
-    <!-- <amp-web-push
-      id="amp-web-push"
-      layout="nodisplay"
-      helper-iframe-url="https://myautisticself.nl/amp-web-push-helper-iframe.html"
-      permission-dialog-url="https://myautisticself.nl/amp-web-push-permission-dialog.html"
-      service-worker-url="https://myautisticself.nl/sw.js"
-    ></amp-web-push> -->
 <amp-auto-ads type="adsense"
               data-ad-client="ca-pub-4410316703647021">
 </amp-auto-ads>
@@ -48,7 +41,7 @@
       "account": "{{site.amp_googleanalytics_id}}"
     },
     "extraUrlParams": {
-      'cd1': '${ampdocHost}'
+      "cd1": "${ampdocHost}"
     },
     "triggers": {
       "trackPageview": {
@@ -150,37 +143,6 @@
         data-href="https://www.facebook.com/myautisticself/"
       >
       </amp-facebook-like>
-      <!-- <amp-ad width="100vw" height=320
-           type="adsense"
-           data-ad-client="ca-pub-4410316703647021"
-           data-ad-slot="9683938232"
-           data-auto-format="rspv"
-           data-full-width>
-        <div overflow></div>
-      </amp-ad> -->
-      <!-- A subscription widget
-      <amp-web-push-widget
-        visibility="unsubscribed"
-        layout="fixed"
-        width="250"
-        height="80"
-      >
-        <button on="tap:amp-web-push.subscribe">
-          {% if page.lang == "nl" %}Ontvang notificaties op uw apparaat{% else %}Subscribe to Notifications{% endif %}
-        </button>
-      </amp-web-push-widget>
-
-      <!-- An unsubscription widget
-      <amp-web-push-widget
-        visibility="subscribed"
-        layout="fixed"
-        width="250"
-        height="80"
-      >
-        <button on="tap:amp-web-push.unsubscribe">
-          {% if page.lang == "nl" %}Ontvang niet langer notificaties op uw apparaat{% else %}Unsubscribe from Notifications{% endif %}
-        </button>
-      </amp-web-push-widget>-->
       {% include further_reading.html %}
 
     </article>
