@@ -31,7 +31,7 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
 else
     echo 'No new tags generated or old removed.'
 fi
-
+git gc --auto --prune
 echo 'Building Jekyll...'
 export JEKYLL_ENV=production
 bundle exec jekyll build || exit 1
@@ -77,6 +77,7 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   git add -A .
   git commit -m "Latest version of My Autistic Self - `date +'%Y-%m-%d %H:%M:%S'`"
   echo 'Pushing latest to GitHub!'
+  git gc --prune
   git push || exit 1
   git checkout source
   echo 'https://myautisticself.nl has been deployed.'
