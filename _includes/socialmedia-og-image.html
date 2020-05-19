@@ -1,9 +1,9 @@
-{%- if page.image -%}
-<meta property="og:image" content="{{site.url}}{{ page.image | replace: "/assets/img/", "/assets/resized/250/" }}" />
-<meta name="twitter:image" content="{{site.url}}{{ page.image | replace: "/assets/img/", "/assets/resized/250/" }}">
+{%- if include.image -%}
+<meta property="og:image" content="{{site.url}}{{ include.image | replace: "/assets/img/", "/assets/resized/250/" }}" />
+<meta name="twitter:image" content="{{site.url}}{{ include.image | replace: "/assets/img/", "/assets/resized/250/" }}">
 {%- else -%}
 <meta property="og:image" content="{{site.url}}/assets/img/logo.png" />
 <meta name="twitter:image" content="{{site.url}}/assets/img/logo.png">
 {%- endif -%}
-<meta name="twitter:title" content="{{page.title}} | My Autistic Self">
-<meta name="twitter:description" content="{{page.description[page.lang] | default: 'a blog about autism' | escape }}">
+<meta name="twitter:title" content="{{include.title}} | My Autistic Self">
+<meta name="twitter:description" content="{{include.description[page.lang] | default: 'a blog about autism' | escape }}">

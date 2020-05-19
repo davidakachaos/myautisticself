@@ -73,7 +73,7 @@ module Jekyll
       img_string = "![xdes](url){: class=klass}"
 
       return content.gsub(/\{\% responsive_image.+\%\}/){ |m|
-        match_pth = /path: ([a-zA-Z\/\.\-]+)/.match(m)
+        match_pth = /path: ([a-zA-Z0-9\/\.\-]+)/.match(m)
         match_alt = /alt: (["a-zA-Z\s]+)\s/.match(m)
         match_tit = /title: (["a-zA-Z\s]+)\s/.match(m)
         match_kls = /class: (['a-zA-Z\s]+)/.match(m)

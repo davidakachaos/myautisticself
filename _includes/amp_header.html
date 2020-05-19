@@ -3,40 +3,41 @@
 	    <div class="left-nav">
 	        <!-- add titles to all buttons -->
 	        <div class="ui secondary menu inverted">
-	            {%- if page.lang == "nl" -%}
-	            <a class="item" href="{{ site.baseurl }}/">
+	            {%- if include.lang == "nl" -%}
+	            <a class="item" href="/">
 	                Home
 	            </a>
-	            <a class="item" href="{{ site.baseurl }}/about.html">
+	            <a class="item" href="/about.html">
 	                Over mij
 	            </a>
-	            <a class="item" href="{{ site.baseurl }}/archive.html">
+	            <a class="item" href="/archive.html">
 	                Archief
 	            </a>
 	            <a
 	                class="item"
-	                href="{{ site.baseurl }}/links-naar-andere-websites"
+	                href="/links-naar-andere-websites"
 	            >
 	                Links
 	            </a>
 	            {%- else -%}
-	            <a class="item" href="{{ site.baseurl }}/en">
+	            <a class="item" href="/en">
 	                Home
 	            </a>
-	            <a class="item" href="{{ site.baseurl }}/en/about.html">
+	            <a class="item" href="/en/about.html">
 	                About me
 	            </a>
-	            <a class="item" href="{{ site.baseurl }}/en/archive.html">
+	            <a class="item" href="/en/archive.html">
 	                Archive
 	            </a>
 	            <a
 	                class="item"
-	                href="{{ site.baseurl }}/links-to-other-websites"
+	                href="/links-to-other-websites"
 	            >
 	                Links
 	            </a>
 	            {%- endif -%} {%- assign pages=site.pages | where:"ref",
 	            page.ref | sort: 'lang' -%} {%- for page in pages -%}
+							{%- if page.url contains "amp" -%}{%- continue -%}{%- endif -%}
 	            <a
 	                href="{{site.baseurl}}{{ page.url }}"
 	                class="item {{ page.lang }}"
@@ -44,6 +45,7 @@
 	            >
 	            {%- endfor -%} {%- assign posts=site.posts | where:"ref",
 	            page.ref | sort: 'lang' -%} {%- for post in posts -%}
+							{%- if page.url contains "amp" -%}{%- continue -%}{%- endif -%}
 	            <a
 	                href="{{site.baseurl}}{{ post.url }}"
 	                class="item {{ post.lang }}"

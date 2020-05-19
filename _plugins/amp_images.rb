@@ -79,6 +79,7 @@ module Jekyll
             image['height'] = size[1]
           rescue Exception => e
             puts 'Unable to get image dimensions for "' + src + '". For local files, build the site with \'--skip-initial-build\' for better results. [Error: ' + e.to_s + ']'
+            puts "org img: #{image['src']}"
           end
         end
       end
