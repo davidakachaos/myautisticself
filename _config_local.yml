@@ -158,7 +158,8 @@ exclude:
   - Gruntfile.js
   - optimize_amp_pages.
   - js/JekyllWebmentionIO.js
-  - .pingbacks-cache/*
+  - .pingbacks-cache
+  - ".*"
 
 webmentions:
   js:

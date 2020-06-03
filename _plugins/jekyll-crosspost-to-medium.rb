@@ -76,6 +76,16 @@ module Jekyll
                 next
               end
 
+              if post.date >  DateTime.now
+                # Ignore posts in the future
+                next
+              end
+
+              if ! post.date < DateTime.now - 1
+                puts "Waiting at least 24 before posting..."
+                next
+              end
+
               crosspost = post.data.include? 'crosspost_to_medium'
               if ! crosspost or ! post.data['crosspost_to_medium']
                 next
