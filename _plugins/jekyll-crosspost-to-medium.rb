@@ -81,7 +81,7 @@ module Jekyll
                 next
               end
 
-              if ! post.date.to_datetime < DateTime.now - 1
+              if not (post.date.to_datetime < DateTime.now - 1)
                 puts "Waiting at least 24 before posting..."
                 next
               end
