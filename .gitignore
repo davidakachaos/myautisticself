@@ -12,3 +12,4 @@ Gruntfile.js
 .cloudflare_zone
 .pytest_cache
 .jekyll-crosspost_to_medium
+.webpush_keys.yaml
