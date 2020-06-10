@@ -7,7 +7,7 @@ require 'uri'
 require 'json'
 
 cached_bitlys = SafeYAML.load_file('.bitly_cache')
-webpush_keys = SafeYAML.load_file('.webpush_keys.yaml')
+# webpush_keys = SafeYAML.load_file('.webpush_keys.yaml')
 
 def clean_out(inp)
   return inp.gsub('Success! Here is your Bitly URL: ', '').gsub(' [copied to clipboard]', '').strip
@@ -62,6 +62,7 @@ end
 
 def send_webpush(url, bitly)
   base_name = url.split('/').last.gsub('.html', '.md')
+  webpush_keys = SafeYAML.load_file('.webpush_keys.yaml')
   desc, title, lang = get_desc_title(base_name)
   if desc and title
     uri = URI.parse('https://api.webpushr.com/v1/notification/send/segment')
