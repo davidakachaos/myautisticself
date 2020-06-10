@@ -13,3 +13,4 @@ post-translator.py
 sed_posts.sh
 .cloudflare_zone
 .cloudflare_key
+.webpush_keys.yaml
