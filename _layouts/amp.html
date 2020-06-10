@@ -31,6 +31,13 @@
     <link rel="manifest" href="/manifest.json">
   </head>
   <body>
+    <amp-web-push
+     id="amp-web-push"
+     layout="nodisplay"
+     helper-iframe-url="{{site.url}}/webpushr-amp-helper.html"
+     permission-dialog-url="{{site.url}}/webpushr-amp-optin.html?public_key=BEspxevVw_WEgM3ISPh15Pd1xoobDJMvXYUTfkKaZzySKC3Xglrbmzgb6mAouqm3o_FvMalmVKmnDgsCtT8lm1s"
+     service-worker-url="{{site.url}}/webpushr-sw.js"
+  ></amp-web-push>
 <amp-auto-ads type="adsense"
               data-ad-client="ca-pub-4410316703647021">
 </amp-auto-ads>
@@ -134,6 +141,18 @@
           Thanks for reading
           {%- endif -%}
       </div>
+      <amp-web-push-widget visibility="unsubscribed" layout="fixed">
+  <button class="webpushr-amp-subscribe" on="tap:amp-web-push.subscribe" style="background-color: #4a90e2;font-size:16px; padding:10px 10px 10px 10px;vertical-align: middle;color:#ffffff;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;font-weight:500;text-transform:none;">
+    <amp-img style="display: inline-block; vertical-align: middle; padding-right: 15px;"
+             class="webpushr-amp-subscribe-icon"
+             width="24"
+             height="24"
+             layout="fixed"
+             src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDQwLjgzMiA0NDAuODMyIiBzdHlsZT0iZmlsbDojZmZmZmZmIiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxnPg0KCQk8cGF0aCBkPSJNMzgxLjQ0LDI2NS43MjhWMTYxLjc5MkMzODEuNDQsNzIuMTkyLDMwOS4yNDgsMCwyMTkuNjQ4LDBTNTguMzY4LDcyLjE5Miw1OC4zNjgsMTYxLjc5MnYxMDMuOTM2bC00MS45ODQsODIuOTQ0aDQwOC4wNjQNCgkJCUwzODEuNDQsMjY1LjcyOHoiLz4NCgk8L2c+DQo8L2c+DQo8Zz4NCgk8Zz4NCgkJPHBhdGggZD0iTTE1MS41NTIsMzcyLjczNmMwLDM3LjM3NiwzMC43Miw2OC4wOTYsNjguMDk2LDY4LjA5NmMzNy4zNzYsMCw2OC4wOTYtMzAuNzIsNjguMDk2LTY4LjA5NkgxNTEuNTUyeiIvPg0KCTwvZz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K">
+    </amp-img>
+    Subscribe to Push Notifications
+  </button>
+</amp-web-push-widget>
       {%- include amp-share-buttons.html -%}
       <amp-facebook-like
         width="90"

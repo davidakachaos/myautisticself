@@ -78,17 +78,6 @@
   src="https://www.facebook.com/tr?id=2493946240823204&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-<script type="application/javascript" src="https://sdki.truepush.com/sdk/v2.0.2/app.js" async></script>
-<!-- <script>
-// var truepush = window.truepush || [];
-// truepush.push(function(){
-//     truepush.Init({
-//         id: "5e96e8cf39eeb37a3a6bfa8d"
-//         }, function(error){
-//           if(error) console.error(error);
-//         })
-//     })
-</script> -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=davidakachaos" async></script>
 <script type="text/javascript">
       var addthis_config = {
@@ -107,4 +96,21 @@
 </script>
 <!-- start webpushr code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));webpushr('init','BEspxevVw_WEgM3ISPh15Pd1xoobDJMvXYUTfkKaZzySKC3Xglrbmzgb6mAouqm3o_FvMalmVKmnDgsCtT8lm1s');</script><!-- end webpushr code -->
 </body>
+<script>
+  function webpushrPermissionAction( permission_action ){
+    if( permission_action == 'granted'){
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Webpushr',
+        eventAction: 'Permission Accepted',
+      });
+    } else if( permission_action == 'denied'){
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'Webpushr',
+        eventAction: 'Permission Denied',
+      });
+    }
+  }
+</script>
 </html>
