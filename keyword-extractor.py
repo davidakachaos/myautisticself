@@ -5,8 +5,16 @@ from bs4 import BeautifulSoup
 import glob
 import subprocess
 import os
+import re
+from monkeylearn import MonkeyLearn
+
+ML_KEY = 'e9b0b37c5aa9abc62087f453820cc56f7fb7c39c'
 
 dutch_stop_words = {
+    "alt",
+    "jpg",
+    "png",
+    "jpeg",
     "de",
     "en",
     "van",
@@ -111,6 +119,10 @@ dutch_stop_words = {
 }
 english_stop_words = {
     "i",
+    "alt",
+    "jpg",
+    "png",
+    "jpeg",
     "me",
     "my",
     "myself",
@@ -266,9 +278,9 @@ english_stop_words = {
 }
 
 post_dir = "_posts/"
-filenames = glob.glob(post_dir + "*md")
+filenames = glob.glob(post_dir + "**/*md")
 print(f"Scanning...{len(filenames)}")
-rake = Rake(max_words=2)
+rake = Rake(max_words=2, min_chars=5)
 for filename in filenames:
     print(f"Processing {filename}")
     with open(filename, "r+", encoding="utf8") as f:
@@ -277,6 +289,8 @@ for filename in filenames:
         for line in f:
             if crawl:
                 current_tags = line.strip().split()
+                if current_tags == []:
+                    continue
                 if current_tags[0] == "keywords:":
                     found_keywords = True
                     break
@@ -293,8 +307,12 @@ for filename in filenames:
             continue
         if lang_found == "nl":
             rake.stopwords = dutch_stop_words
+            rake.language_code = "nl"
         if lang_found == "en":
             rake.stopwords = english_stop_words
+            rake.language_code = "en"
+
+        rake.stopwords.update(set(["assets", "img", "responsive"]))
         # Read the file minus the header
         f.seek(0)
         content = f.read().split("---")[-1]
@@ -302,15 +320,25 @@ for filename in filenames:
         ftmp.write(content)
         ftmp.close()
         # Convert the markdown to html and get the text
-        html = subprocess.run(["kramdown", "temp.md"], capture_output=True).stdout
+        html = subprocess.getoutput('kramdown temp.md')  # subprocess.run(["kramdown", "temp.md"], capture_output=True).stdout
         os.remove("temp.md")
-        soup = BeautifulSoup(html, features="html.parser")
+        soup = BeautifulSoup(html, features="html5lib")
         # Get keywords
-        keywords = [word for word, value in rake.apply(soup.get_text())]
-        print(f"Adding keywords: '{','.join(keywords[:5])}'\n")
-        # Rewind, and add the keywors
+        the_text = re.sub(r"\{\%.+\%\}", "", soup.get_text())
+        # print(f"{the_text}")
+        ml = MonkeyLearn(ML_KEY)
+        model_id = 'ex_YCya9nrn'
+        keywords = ml.extractors.extract(model_id, [{'text': the_text, 'external_id': 'ANY_ID'}]).body
+        # print(f"{[ item for item in keywords[0]['extractions'] ]}")
+        # print(f"{[ item['parsed_value'] for item in keywords[0]['extractions'] ]}")
+        # exit()
+        # print(f"{the_text}")
+        #keywords = [word for word, value in rake.apply(the_text)]
+        the_keywords = [ item['parsed_value'] for item in keywords[0]['extractions'] ]
+        print(f"Adding keywords: '{', '.join(the_keywords[:5])}'\n")
+        # Rewind, and add the keywords
         f.seek(0)
         lines = f.readlines()
-        lines.insert(1, f"keywords: '{','.join(keywords[:5])}'\n")
+        lines.insert(1, f"keywords: '{','.join(the_keywords[:5])}'\n")
         f.seek(0)
         f.writelines(lines)
