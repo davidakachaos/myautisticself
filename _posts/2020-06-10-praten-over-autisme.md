@@ -2,11 +2,16 @@
 layout: post
 title: Praten over autisme
 lang: nl
-tags: autisme
+tags: autisme acceptatie begrip neurodiversiteit voorlichting
 ref: pratenoverautisme
-description:
-image:
+description: Over het belang van praten over autisme. Door over autisme te praten
+  en uitleg te geven vanuit het standpunt van een autist hoop ik autisme te normaliseren
+  in de samenleving. Het uiteindelijke doel is dat autisme net zo geaccepteerd wordt
+  als sommige andere "stoornissen".
+image: "/assets/img/neurodiversity-logo-300.png"
+date: 2020-06-10 13:51 +0200
 ---
+![Neurodiversiteit logo](/assets/img/neurodiversity-logo-300.png){: class="ui image floated right medium"}
 Voor ik mijn diagnose "Syndroom van Asperger" kreeg op mijn 30-jarige leeftijd wist ik eigenlijk niets over autisme. Het was iets waar ik nooit naar gekeken had. Het lag buiten mijn interesse gebied. Dat is tegenwoordig wel anders, ik kan het zelfs wel mijn speciale interesse noemen.
 
 Heel mijn leven voor de diagnose heb ik wel geweten dat ik "anders" was dan de mensen om me heen. Ik had het gevoel een buitenaards wezen te zijn die zich moest aanpassen aan de mensen die hier op de wereld leven. Daarmee was ook mijn interesse gewekt om mensen te bestuderen. Het heeft me altijd geïntrigeerd wat mensen doet "tikken", waarom ze doen zoals ze doen. Dit eigenlijk uit zelf belang; als ik wist waarom mensen doen zoals ze doen, kan ik dat ook gaan doen. Zonder dat ik het wist was ik dus druk bezig met maskeren, me aan te passen aan neurotypische mensen om niet uit de toon te vallen.
@@ -28,6 +33,7 @@ En dit bespreken hoeft niet te zijn voor een grote groep mensen, het kan veel kl
 Het is dan wel zaak, zoals ik eerder al aanhaalde, dat we zelf comfortabel zijn met onze neurodiversiteit.
 
 ## We staan niet alleen!
+![Logo ASAN](/assets/img/asan_logo.png){: class="ui image medium floated right"}
 In de jaren voor mijn diagnose heb ik me altijd alleen gevoeld. Ik besefte me heel goed dat ik niet "normaal" was. Maar ik dacht dat ik alleen was, dat er geen mensen zoals ik bestonden. Kort gezegd; ik was alleen op de wereld.
 
 Maar dat is niet zo! We staan niet alleen. Sinds ik vorig jaar ben begonnen met schrijven over neurodiversiteit heb ik ook een hele stam aan mensen ontdekt. Allemaal zijn we bezig om te praten over neurodiversiteit en de acceptatie daarvan. Er zijn bewegingen die ons verenigen in groepen om ons een stem te geven die ons jarenlang ontzegt is door de wetenschappers. Organisaties als [ASAN](https://autisticadvocacy.org/) strijden voor acceptatie van neurodiversiteit en verenigen autisten om te strijden tegen stigma.
