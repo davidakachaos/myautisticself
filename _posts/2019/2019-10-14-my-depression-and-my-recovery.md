@@ -1,4 +1,5 @@
 ---
+keywords: 'depression,major depression,dark valley,form of feedback,great learning moment'
 layout: post
 title: My depression and my recovery
 lang: en

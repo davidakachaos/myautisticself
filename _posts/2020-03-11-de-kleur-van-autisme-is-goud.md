@@ -1,4 +1,5 @@
 ---
+keywords: 'de kleur blauw,autisme maand,mensen hebben,autistische unie,weten dat'
 layout: post
 title: De kleur van autisme is goud
 lang: nl

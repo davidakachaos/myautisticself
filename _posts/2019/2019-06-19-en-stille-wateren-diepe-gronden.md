@@ -1,4 +1,5 @@
 ---
+keywords: 'emotions,variety of situation,emotions of others,opposite of reason,characteristics of emotions'
 layout: post
 title: Still waters run deep
 tags: autisme sociaal-gedrag dit-is-autisme

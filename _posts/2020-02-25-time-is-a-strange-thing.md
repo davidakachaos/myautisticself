@@ -1,4 +1,5 @@
 ---
+keywords: 'time,appointment,pleasant conversation,people,someone'
 layout: post
 title: Time is a strange thing
 lang: en

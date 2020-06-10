@@ -1,4 +1,5 @@
 ---
+keywords: 'autism speaks,ze hebben niet,maken hebben,de campagne,bedacht door'
 layout: post
 title: 'Het probleem met #LightItUpBlue'
 lang: nl

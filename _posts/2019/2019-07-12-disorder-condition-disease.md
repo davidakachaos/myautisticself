@@ -1,4 +1,5 @@
 ---
+keywords: 'aspeger,people,way of thinking,different way,robot'
 layout: post
 title: Disorder? Condition? Disease?
 lang: en

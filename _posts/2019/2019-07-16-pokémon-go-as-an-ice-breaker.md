@@ -1,4 +1,5 @@
 ---
+keywords: 'pokémon,pokémon go,people,conversation,games'
 layout: post
 title: Pokémon Go as an ice breaker
 lang: en

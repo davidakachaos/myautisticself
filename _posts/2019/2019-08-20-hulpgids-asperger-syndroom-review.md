@@ -1,4 +1,5 @@
 ---
+keywords: 'het asperger syndroom,het boek,asperger,het hebben van,mensen met asperger'
 title: De Complete Hulpgids Asperger-syndroom - Review
 layout: post
 lang: nl

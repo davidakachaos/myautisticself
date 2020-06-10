@@ -1,4 +1,5 @@
 ---
+keywords: 'het hebben van,dat,niet waar,een laag iq,syndroom van asperger'
 layout: post
 title: Eerlijkheid en andere misvattingen
 tags: autisme dit-is-autisme

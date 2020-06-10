@@ -1,4 +1,5 @@
 ---
+keywords: 'een neurotypisch persoon,het zelfbeeld van,theory of mind,om je heen,manier van'
 layout: post
 title: Theory of Mind - Anders Denken
 lang: nl

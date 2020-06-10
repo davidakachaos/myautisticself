@@ -1,4 +1,5 @@
 ---
+keywords: 'autism,autistic people,dr. ruby sapphire,worst things,heredity'
 layout: post
 title: Autism is a construction, not a disease New scientific research
 lang: en

@@ -1,4 +1,5 @@
 ---
+keywords: 'blog,website,comments,social media,system'
 layout: post
 title: Site update; no more Disqus
 lang: en

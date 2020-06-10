@@ -1,4 +1,5 @@
 ---
+keywords: 'voor volgend jaar,dit blog,opzetten van een,mijn blog,voor ons'
 layout: post
 title: Eind van het jaar
 lang: nl

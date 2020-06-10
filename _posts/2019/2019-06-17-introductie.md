@@ -1,4 +1,5 @@
 ---
+keywords: 'bron van informatie,dit blog,worden al een,het syndroom van,dit goed komt'
 layout: post
 title: Introductie
 date: '2019-06-17 14:37 +0200'

@@ -1,4 +1,5 @@
 ---
+keywords: 'problem,solutions,fact,viable solutions,become fact'
 layout: post
 title: Thinking in terms of solutions, not problems
 lang: en

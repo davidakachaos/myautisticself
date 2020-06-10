@@ -1,4 +1,5 @@
 ---
+keywords: 'point of undersensitivity,autism,outward identification point,sense of structure,lack of incentives'
 image: assets/img/posts/undersensitivity-and-autism.png
 layout: post
 title: Undersensitivity and Autism

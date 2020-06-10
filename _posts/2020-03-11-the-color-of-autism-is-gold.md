@@ -1,4 +1,5 @@
 ---
+keywords: 'autistic people,color blue,april 2nd,autism,autism month'
 layout: post
 title: The color of autism is gold
 lang: en

@@ -1,4 +1,5 @@
 ---
+keywords: 'diagnosis,autism,official diagnosis,autistic people,worth anything'
 layout: post
 title: Self diagnosis in the Netherlands
 lang: en

@@ -1,4 +1,5 @@
 ---
+keywords: 'waarde van een,mijn besef van,maanden worden jaren,besef van tijd,verloop van tijd'
 layout: post
 title: Tijd is een vreemd iets
 lang: nl

@@ -1,4 +1,5 @@
 ---
+keywords: 'mijn,ik ben een,mijn hoofd gebeuren,dat,een vraag'
 layout: post
 title: Beelddenker
 tags: autisme dit-is-autisme

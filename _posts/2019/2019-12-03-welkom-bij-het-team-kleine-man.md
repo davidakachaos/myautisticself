@@ -1,4 +1,5 @@
 ---
+keywords: 'je,dat,nodig hebt,al een volwaardig,alles hebben gedaan'
 layout: post
 title: Welkom bij het team kleine man
 lang: nl

@@ -1,4 +1,5 @@
 ---
+keywords: 'veel bewuster van,het sociaal minium,geen geld aan,dit zijn,voor mezelf'
 layout: post
 title: 10 geldvragen aan...
 lang: nl

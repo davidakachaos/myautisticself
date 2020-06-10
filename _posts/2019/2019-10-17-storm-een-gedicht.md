@@ -1,4 +1,5 @@
 ---
+keywords: 'de storm komt,storm,de storm,naar nieuwe oorden,maar ik sta'
 layout: post
 title: Storm | Een gedicht
 lang: nl

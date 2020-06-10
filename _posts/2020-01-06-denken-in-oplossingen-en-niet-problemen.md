@@ -1,4 +1,5 @@
 ---
+keywords: 'al een probleem,dat,niet weg dat,het een feit,een probleem al'
 layout: post
 title: Denken in oplossingen en niet problemen
 lang: nl

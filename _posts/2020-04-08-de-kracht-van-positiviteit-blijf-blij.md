@@ -1,4 +1,5 @@
 ---
+keywords: 'het menselijk brein,moeilijk om positief,negatieve ervaringen beter,moet leren leven,tijden van crisis'
 layout: post
 title: De kracht van positiviteit | Blijf blij
 lang: nl

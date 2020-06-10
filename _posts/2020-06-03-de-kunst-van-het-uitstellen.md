@@ -1,4 +1,5 @@
 ---
+keywords: 'het gaat,mezelf een schop,van het probleem,niet goed gaat,kan doen'
 layout: post
 title: De kunst van het uitstellen...
 lang: nl

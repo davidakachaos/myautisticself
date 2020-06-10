@@ -1,4 +1,5 @@
 ---
+keywords: 'ook wel een,verschillende dagen,alleen ben,merk ik dat,patat of pizza'
 layout: post
 title: Vakantie modus
 lang: nl

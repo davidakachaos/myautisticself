@@ -1,4 +1,5 @@
 ---
+keywords: 'neurodiverse world,lot of experience,acceptance of neurodiversity,way of thinking,form of autism'
 layout: post
 title: Welcome to the team little guy
 lang: en

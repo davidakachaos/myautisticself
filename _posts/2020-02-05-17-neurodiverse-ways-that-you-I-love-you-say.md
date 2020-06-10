@@ -1,4 +1,5 @@
 ---
+keywords: 'self care things,links definition,big deals,insert things,links id'
 layout: post
 title: 17 ways to say “I love you” in neurodivergent
 lang: en

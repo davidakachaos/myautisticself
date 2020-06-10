@@ -1,4 +1,5 @@
 ---
+keywords: 'things,procrastination behavior,amount of time,kind of sign,plenty of time'
 layout: post
 title: The art of procrastination ...
 lang: en

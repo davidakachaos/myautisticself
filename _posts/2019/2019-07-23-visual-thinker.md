@@ -1,4 +1,5 @@
 ---
+keywords: 'many details,visual thinking,many people,visual thinker,image'
 layout: post
 title: Visual thinker
 tags: autisme dit-is-autisme

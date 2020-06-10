@@ -1,4 +1,5 @@
 ---
+keywords: 'je,mijn ogen,een diagnose,maar dat,geen enkele'
 layout: post
 title: Zelf diagnose in Nederland
 lang: nl

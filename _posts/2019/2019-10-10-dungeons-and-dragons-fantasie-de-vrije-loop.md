@@ -1,4 +1,5 @@
 ---
+keywords: 'het verhaal,voor mij al,het spelen van,verteld word door,mijn eigen fantasie'
 layout: post
 title: Dungeons and Dragons | Fantasie de vrije loop
 lang: nl

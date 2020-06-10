@@ -1,4 +1,5 @@
 ---
+keywords: 'voor mezelf,vandaag leek mij,moet vinden om,van de autcast,platformen volgen nog'
 layout: post
 title: De AutCast podcast is van start!
 lang: nl

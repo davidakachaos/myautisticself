@@ -1,4 +1,5 @@
 ---
+keywords: 'mijn terugkijk naar,gelukkig nieuwjaar wensen,vorige post ging,voor het,lezen van'
 layout: post
 title: Prettige Feestdagen en een Gelukkig Nieuwjaar!
 lang: nl

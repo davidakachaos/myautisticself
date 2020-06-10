@@ -1,4 +1,5 @@
 ---
+keywords: 'first step,high school,moment of relief,suspicion of asd,terms of results'
 layout: post
 title: I am I, said the fool
 tags: autisme kinderjaren dit-is-autisme

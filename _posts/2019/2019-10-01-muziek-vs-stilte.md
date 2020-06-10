@@ -1,4 +1,5 @@
 ---
+keywords: 'van een blog,muziek aan heb,muziek aan hebben,geluid of licht,veel'
 layout: post
 title: Muziek vs. Stilte
 lang: nl

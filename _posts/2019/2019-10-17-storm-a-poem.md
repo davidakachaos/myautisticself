@@ -1,4 +1,5 @@
 ---
+keywords: 'storm,ship,new found goal,lot of things,storm of feeling'
 layout: post
 title: Storm | A poem
 lang: en

@@ -1,4 +1,5 @@
 ---
+keywords: 'ik ben mezelf,voor mijn gevoel,mensen zijn,maar,dat'
 layout: post
 title: Mijn depressie en mijn herstel
 lang: nl

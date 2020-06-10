@@ -1,4 +1,5 @@
 ---
+keywords: 'ben al persoon,mijn ogen,ben een autist,voor mij,een persoon'
 layout: post
 title: Ik ben een autist vs Ik heb autisme
 lang: nl

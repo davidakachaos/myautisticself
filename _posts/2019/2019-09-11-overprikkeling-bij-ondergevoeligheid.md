@@ -1,4 +1,5 @@
 ---
+keywords: 'bij mij niet,voor prikkels,voor mezelf,gedragingen van mezelf,kijk naar tv'
 title: Overprikkeling bij ondergevoeligheid
 layout: post
 ref: overprik-ondergevoel

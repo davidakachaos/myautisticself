@@ -1,4 +1,5 @@
 ---
+keywords: 'het spinnen van,mijn,van mijn web,voor mijn diagnose,mijn hoofd'
 layout: post
 title: Spinnenwebben in mijn hoofd
 lang: nl

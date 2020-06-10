@@ -1,4 +1,5 @@
 ---
+keywords: 'voor jezelf,een nieuwe afspraak,je positief blijven,kun je positief,je wel kunt'
 layout: post
 title: Hoe denk je positief? | Blijf blij
 lang: nl

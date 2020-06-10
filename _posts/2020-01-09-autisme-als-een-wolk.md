@@ -1,4 +1,5 @@
 ---
+keywords: 'een rechte lijn,mijn eigen wolkje,maar het,dezelfde wolk,al een wolk'
 layout: post
 title: Autisme als een wolk
 lang: nl

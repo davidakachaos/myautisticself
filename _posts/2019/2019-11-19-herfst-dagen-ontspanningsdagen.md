@@ -1,4 +1,5 @@
 ---
+keywords: 'voor mij een,worden korter,korte dagen,niet een van,wel tegenover dat'
 layout: post
 title: 'Herfst dagen, ontspanningsdagen'
 lang: nl

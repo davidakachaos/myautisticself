@@ -1,4 +1,5 @@
 ---
+keywords: 'form of autism,view of things,people,autism,hyper focus'
 layout: post
 title: Positive autism
 lang: en

@@ -1,4 +1,5 @@
 ---
+keywords: 'hoewel het som,kant van mijn,anderen vaak overmand,lang gekost om,niet snel bij'
 layout: post
 title: Mooie kanten van mijn autisme
 lang: nl

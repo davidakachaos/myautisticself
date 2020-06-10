@@ -1,4 +1,5 @@
 ---
+keywords: 'het spel,van een gesprek,voor het spel,beginnen van een,het beginnen van'
 layout: post
 title: Pokémon Go als ijsbreker
 lang: nl

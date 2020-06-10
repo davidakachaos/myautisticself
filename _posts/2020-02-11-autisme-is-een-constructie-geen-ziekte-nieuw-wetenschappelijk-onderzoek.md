@@ -1,4 +1,5 @@
 ---
+keywords: 'dr. ruby sapphire,onderzoek naar hoe,missen bewijs al,een ziekte noemen,autisme het ergste'
 layout: post
 title: Autisme is een constructie, geen ziekte | Nieuw wetenschappelijk onderzoek
 lang: nl

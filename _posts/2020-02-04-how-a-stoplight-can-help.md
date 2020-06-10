@@ -1,4 +1,5 @@
 ---
+keywords: 'signalling plan,autistic people,traffic light,neurotypical people,pan system'
 layout: post
 title: How a traffic light and pans can help
 lang: en

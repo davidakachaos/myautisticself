@@ -1,4 +1,5 @@
 ---
+keywords: 'autism,terms neurodiversity,acceptance of autism,form of neurodiversity,pathological way'
 layout: post
 title: What is Neurodiversity?
 lang: en

@@ -1,4 +1,5 @@
 ---
+keywords: 'asperger,het een stoornis,dat,asperger een stoornis,om je heen'
 layout: post
 title: Stoornis? Aandoening? Ziekte?
 lang: nl

@@ -1,4 +1,5 @@
 ---
+keywords: 'ik,erg genoeg dat,ben niet gek,ik ben niet,eerste stap naar'
 layout: post
 title: Ik ben ik, zei de gek
 tags: autisme kinderjaren dit-is-autisme

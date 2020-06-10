@@ -1,4 +1,5 @@
 ---
+keywords: 'je ass hebt,dat je ass,al een kracht,om je ass,al je'
 layout: post
 title: Vermeld je tijdens een sollicitatie dat je ASS hebt?
 tags: autisme werk solliciteren

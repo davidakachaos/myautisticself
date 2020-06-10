@@ -1,4 +1,5 @@
 ---
+keywords: 'several day,jitse of gewoon,week of vacation,lot of energy,end of august'
 layout: post
 title: Vacantion mode
 lang: en

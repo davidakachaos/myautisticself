@@ -1,4 +1,5 @@
 ---
+keywords: 'autism week,autism,color gold,autistic people,number of blogger'
 layout: post
 title: 'Online week of #Gaut'
 lang: en

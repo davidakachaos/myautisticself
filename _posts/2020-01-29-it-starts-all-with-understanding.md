@@ -1,4 +1,5 @@
 ---
+keywords: 'autistic people,neurodiverse people,autism,acceptance of neurodiversity,neurotypical world'
 layout: post
 title: It all starts with understanding
 lang: en

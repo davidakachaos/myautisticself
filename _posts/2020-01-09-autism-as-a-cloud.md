@@ -1,4 +1,5 @@
 ---
+keywords: 'autistic person,autistic people,autism,cloud,straight line'
 layout: post
 title: Autism as a cloud
 lang: en

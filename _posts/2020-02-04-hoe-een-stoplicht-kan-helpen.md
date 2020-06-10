@@ -1,4 +1,5 @@
 ---
+keywords: 'om je heen,mensen om je,maken van een,je,kan heel helpend'
 layout: post
 title: Hoe een stoplicht en pannetjes kunnen helpen
 lang: nl

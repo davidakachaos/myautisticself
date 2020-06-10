@@ -1,4 +1,5 @@
 ---
+keywords: 'deze week van,deze week,autisme week,wel een probleem,activiteiten gehouden door'
 layout: post
 title: 'Online week van #Gaut'
 lang: nl

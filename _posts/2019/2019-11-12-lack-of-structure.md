@@ -1,4 +1,5 @@
 ---
+keywords: 'google calendar,structure,internal structure,internal clock,appointment'
 layout: post
 title: Lack of structure
 lang: en

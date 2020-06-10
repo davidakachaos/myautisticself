@@ -1,4 +1,5 @@
 ---
+keywords: 'autism,autistic people,people,problem,fundamental difference'
 layout: post
 title: Acceptance of Autism - The How and Why
 lang: en

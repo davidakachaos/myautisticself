@@ -1,4 +1,5 @@
 ---
+keywords: 'verschillende stammen,manier van communicatie,deze planeet,doorgronden van,studie van'
 layout: post
 title: Sterredatum 73135.3 Logboek Sociaal Antropoloog
 lang: nl

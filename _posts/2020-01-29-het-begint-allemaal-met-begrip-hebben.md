@@ -1,4 +1,5 @@
 ---
+keywords: 'idee hebben hoe,deze neurotypische wereld,het voor mij,begrip van anderen,wel'
 layout: post
 title: Het begint allemaal met begrip hebben
 lang: nl

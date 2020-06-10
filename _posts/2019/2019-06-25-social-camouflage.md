@@ -1,4 +1,5 @@
 ---
+keywords: 'social camouflage,amount of energy,people,camouflage,younger year'
 layout: post
 title: Social camouflage
 tags: autisme dit-is-autisme sociaal-gedrag

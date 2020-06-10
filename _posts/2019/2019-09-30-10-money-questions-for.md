@@ -1,4 +1,5 @@
 ---
+keywords: 'money,many people,financial consequences,budget management,social minium'
 layout: post
 title: 10 money questions for ...
 lang: en

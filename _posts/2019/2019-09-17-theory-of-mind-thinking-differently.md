@@ -1,4 +1,5 @@
 ---
+keywords: 'neurotypic people,neurotypic person,way of thinking,theory of mind,different tom'
 layout: post
 title: Theory of Mind - Thinking Differently
 lang: en

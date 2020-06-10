@@ -1,4 +1,5 @@
 ---
+keywords: 'next year,blog,autistic people,great deals,autism'
 layout: post
 title: End of the year
 lang: en

@@ -1,4 +1,5 @@
 ---
+keywords: 'mijn hoofd,het zou zijn,deze tijd,mijn gedachtes,zijn'
 layout: post
 title: Levenslijn
 lang: nl

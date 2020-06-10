@@ -1,4 +1,5 @@
 ---
+keywords: 'autism,people,someone,different way,enough people'
 layout: post
 title: Honesty and other misconceptions
 tags: autisme dit-is-autisme

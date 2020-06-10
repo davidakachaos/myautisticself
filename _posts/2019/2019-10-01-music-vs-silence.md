@@ -1,4 +1,5 @@
 ---
+keywords: 'music,stimulation,kind of music,style of music,type of music'
 layout: post
 title: Music vs. Silence
 lang: en

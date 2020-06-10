@@ -1,4 +1,5 @@
 ---
+keywords: 'tijdens een meltdown,het besef dat,mijn,van een meltdown,voor mij'
 layout: post
 title: Meltdown - Oud vs Nieuw gedrag
 lang: nl

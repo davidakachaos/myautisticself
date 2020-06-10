@@ -1,4 +1,5 @@
 ---
+keywords: 'autism,autistic people,beautiful side,neurotypical people,different way'
 layout: post
 title: Beautiful sides of my autism
 lang: en

@@ -1,4 +1,5 @@
 ---
+keywords: 'terms asperger,asperger,autism,different terms,hans asperger'
 layout: post
 title: Asperger is also just autism
 lang: en

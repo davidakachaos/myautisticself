@@ -1,4 +1,5 @@
 ---
+keywords: 'autism,autistic person,acceptance of neurodiversity,autisme netwerk friesland,last summer'
 layout: post
 title: The role of spokesperson
 lang: en

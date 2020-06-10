@@ -1,4 +1,5 @@
 ---
+keywords: 'het syndroom van,syndroom van asperger,terms asperger kunnen,hans asperger zijn,autisme niveau'
 layout: post
 title: Asperger is ook gewoon autisme
 lang: nl

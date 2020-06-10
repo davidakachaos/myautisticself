@@ -1,4 +1,5 @@
 ---
+keywords: 'meltdown,great learning goal,worst things,part of autism,loss of friendship'
 layout: post
 title: Meltdown - Old vs New behavior
 lang: en

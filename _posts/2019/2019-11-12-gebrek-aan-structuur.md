@@ -1,4 +1,5 @@
 ---
+keywords: 'mijn structuur,maar het,voor mij,mijn ritme,blijft een gevoelig'
 layout: post
 title: Gebrek aan structuur
 lang: nl

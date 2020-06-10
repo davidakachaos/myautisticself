@@ -1,4 +1,5 @@
 ---
+keywords: 'autistic people,autism,autism speaks,blue light,dutch facebook group'
 layout: post
 title: "The problem with #LightItUpBlue"
 lang: en

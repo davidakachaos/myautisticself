@@ -1,4 +1,5 @@
 ---
+keywords: 'spider web,cobweb,lot of energy,neurotypical person,degree of success'
 layout: post
 title: Cobwebs in my head
 lang: en

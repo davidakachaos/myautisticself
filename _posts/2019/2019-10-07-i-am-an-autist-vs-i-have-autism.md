@@ -1,4 +1,5 @@
 ---
+keywords: 'autism,free country,many autists,autism community,person'
 layout: post
 title: I am an autist vs I have autism
 lang: en

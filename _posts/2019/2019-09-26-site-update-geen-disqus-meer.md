@@ -1,4 +1,5 @@
 ---
+keywords: 'op mijn post,meestal een blog,een,mijn post,van disqus werd'
 layout: post
 title: Site update; geen Disqus meer
 lang: nl

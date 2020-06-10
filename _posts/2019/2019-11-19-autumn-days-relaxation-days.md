@@ -1,4 +1,5 @@
 ---
+keywords: 'short day,end lightning bolt,warm summer day,look of people,day'
 layout: post
 title: 'Autumn days, relaxation days'
 lang: en

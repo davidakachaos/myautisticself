@@ -1,4 +1,5 @@
 ---
+keywords: 'je,ik heb,links definition,doen,does het'
 layout: post
 title: 17 neurodiverse manieren waarmee je 'Ik hou van jou' zegt
 lang: nl
