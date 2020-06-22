@@ -90,7 +90,7 @@ end
 
 cached_bitlys.each { |url, bitly|
   if bitly == false
-    bitly = %x(bitly -u https://myautisticself.nl#{url})
+    bitly = %x(bitly -u https://myautisticself.nl#{url}?utm_source=webpush&utm_medium=webpush&utm_campaign=myautisticself)
     cached_bitlys[url] = clean_out(bitly)
     puts "Bitly for #{url} => #{cached_bitlys[url]}"
     puts "Sending push notification for new post!"
