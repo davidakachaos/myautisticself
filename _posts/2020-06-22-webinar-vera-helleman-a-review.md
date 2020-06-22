@@ -3,7 +3,7 @@ layout: post
 title: Webinar Vera Helleman - A review
 lang: en
 crosspost_to_medium: true
-tags: autisme review
+tags: autisme review acceptatie dit-is-autisme neurodiversiteit
 ref: webinarvera20200617
 description: Last week I attended the webinar "The power of autism" by Vera Helleman. The webinar was broadcasted through her own website and was about what she called "The three pillars of autism". I'm going to take this lecture today.
 image: "/assets/img/verahelleman.jpeg"

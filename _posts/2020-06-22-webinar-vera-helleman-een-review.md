@@ -2,7 +2,7 @@
 layout: post
 title: Webinar Vera Helleman - Een review
 lang: nl
-tags: autisme review
+tags: autisme review acceptatie dit-is-autisme neurodiversiteit
 ref: webinarvera20200617
 description: Vorige week woonde ik de webinar "De kracht van autisme" van Vera Helleman bij. De webinar werd via
   haar eigen website uitgezonden en ging over wat zij "De drie pijlers van autisme"
