@@ -9,7 +9,7 @@ description: Last week I attended the webinar "The power of autism" by Vera Hell
 image: "/assets/img/verahelleman.jpeg"
 date: 2020-06-22 10:37 +0200
 ---
-![Webinar "The power of autism" - Vera Helleman](/assets/img/vera-kva-webinar.jpg){: class="ui image medium floated right"}
+![Webinar The power of autism - Vera Helleman](/assets/img/vera-kva-webinar.jpg){: class="ui image medium floated right"}
 Last week, 17 June 2020, Vera Helleman gave a webinar entitled "The Power of Autism", about what she called "the three pillars of autism". Together with about 650 other people I watched this webinar. Today I will write down my thoughts about it on paper.
 
 The webinar itself can be seen on the [website of Vera Helleman herself](https://www.verahelleman.nl/autisme/) until 24 June 2020.

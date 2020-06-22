@@ -10,7 +10,7 @@ description: Vorige week woonde ik de webinar "De kracht van autisme" van Vera H
 image: "/assets/img/verahelleman.jpeg"
 date: 2020-06-22 10:37 +0200
 ---
-![Webinar "Kracht van autisme" - Vera Helleman](/assets/img/vera-kva-webinar.jpg){: class="ui image medium floated right"}
+![Webinar Kracht van autisme - Vera Helleman](/assets/img/vera-kva-webinar.jpg){: class="ui image medium floated right"}
 Vorige week, 17 juni 2020, heeft Vera Helleman een webinar gegeven getiteld "De kracht van autisme", over wat zij "de drie pijlers van autisme" noemde. Samen met ongeveer 650 andere mensen heb ik naar deze webinar gekeken. Vandaag schrijf ik hierover mijn gedachten op papier.
 
 Het webinar zelf is terug te zien op de [website van Vera Helleman zelf](https://www.verahelleman.nl/autisme/) tot 24 juni 2020.
