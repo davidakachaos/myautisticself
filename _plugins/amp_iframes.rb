@@ -11,7 +11,7 @@ module Jekyll
       div = Nokogiri::XML::Node.new('div', doc)
       frame_node = Nokogiri::XML::Node.new('amp-iframe', doc)
       frame_node['layout'] = 'responsive'
-      frame_node['sandbox'] = "allow-scripts allow-same-origin"
+      frame_node['sandbox'] = 'allow-scripts allow-same-origin'
       frame_node['width'] = w
       frame_node['height'] = h
       frame_node['frameborder'] = 0
@@ -21,19 +21,15 @@ module Jekyll
     end
 
     def amp_iframes(input)
-      puts "Checking post for iFrames..."
-      doc = Nokogiri::HTML.fragment(input);
+      puts 'Checking post for iFrames...'
+      doc = Nokogiri::HTML.fragment(input)
       doc.css('iframe').each do |frame|
-        puts "Generating iFrame?"
+        puts 'Generating iFrame?'
         src = frame['src']
         w = 292
-        if frame['width']
-          w = frame['width']
-        end
+        w = frame['width'] if frame['width']
         h = 345
-        if frame['height']
-          h = frame['height']
-        end
+        h = frame['height'] if frame['height']
 
         return create_new_frame(src, w, h, doc)
       end

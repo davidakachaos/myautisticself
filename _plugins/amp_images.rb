@@ -3,14 +3,12 @@ require 'fastimage'
 
 module Jekyll
   module AmpFilter
-
     def emoji_filtering(input)
-      begin
-        return Jekyll::Emoji.filter_with_emoji(Jekyll::Emoji.emoji_src).call(input)[:output].to_s
-      rescue
-        return input
-      end
+      Jekyll::Emoji.filter_with_emoji(Jekyll::Emoji.emoji_src).call(input)[:output].to_s
+    rescue StandardError
+      input
     end
+
     # Filter for HTML 'img' elements.
     # Converts elements to 'amp-img' and adds additional attributes
     # Parameters:
@@ -45,9 +43,7 @@ module Jekyll
       # Remove all empty noscript tags that could
       # happen from the removal above.
       doc.css('noscript').each do |ns|
-          if ns.children.count == 0
-              ns.remove
-          end
+        ns.remove if ns.children.count == 0
       end
 
       # Add width and height to img elements lacking them
@@ -56,19 +52,15 @@ module Jekyll
           image['width']  = wi
           image['height'] = he
         else
-          if image['src'].start_with?('http://', 'https://')
-            src = image['src']
-          else
-            # FastImage doesn't seem to handle local paths when used with Jekyll
-            # so let's just force the path
-            src = File.join(Dir.pwd, '_site', image['src'])
-          end
-          if src.include?('/posts')
-            src.gsub!('/posts', '')
-          end
-          if src.end_with?('/')
-            puts "Wrong URL given to a img!! => #{image.inspect}"
-          end
+          src = if image['src'].start_with?('http://', 'https://')
+                  image['src']
+                else
+                  # FastImage doesn't seem to handle local paths when used with Jekyll
+                  # so let's just force the path
+                  File.join(Dir.pwd, '_site', image['src'])
+                end
+          src.gsub!('/posts', '') if src.include?('/posts')
+          puts "Wrong URL given to a img!! => #{image.inspect}" if src.end_with?('/')
           # Jekyll generates static assets after the build process.
           # This causes problems when trying to determine the dimensions of a locally stored image.
           # For now, the only solution is to skip the build and generate the AMP files after the site has beem successfully built.
@@ -85,17 +77,17 @@ module Jekyll
       end
       # Change 'img' elements to 'amp-img', add responsive attribute when needed
       doc.css('img').each do |image|
-        image.name = "amp-img"
+        image.name = 'amp-img'
 
-        image['layout'] = "responsive" if responsive
+        image['layout'] = 'responsive' if responsive
       end
 
       # Picture elements are not accepted in amp pages, convert them to amp-img
-      #<picture>
+      # <picture>
       #   <source srcset="mdn-logo-wide.webp" type="image/webp">
       #   <source srcset="mdn-logo-wide.png" media="(min-width: 600px)">
       #   <img src="mdn-logo-narrow.png" alt="MDN">
-      #</picture>
+      # </picture>
       # Move amp-img elements inside picture elements outside of it and remove picture elements
       doc.css('picture').each do |picture|
         # Get img element from picture
@@ -116,7 +108,7 @@ module Jekyll
       # Duplicate amp-img, remove layout attribut, wrap it with noscript, and add
       # it as amp-img child
       doc.css('amp-img').each do |amp_img|
-        noscript = Nokogiri::XML::Node.new "noscript", doc
+        noscript = Nokogiri::XML::Node.new 'noscript', doc
 
         noscript_img = amp_img.dup
         noscript_img.remove_attribute('layout')

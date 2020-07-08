@@ -20,25 +20,21 @@ module Jekyll
 
     def get_new_twitter_content(link, w, h, doc)
       if link =~ /twitter\.com\/.*[status|statuses]\/(\d+)/
-        tweet_id = $1
+        tweet_id = Regexp.last_match(1)
         # puts "replacing element for tweet #{tweet_id}"
         create_tweet tweet_id, w, h, doc
       end
     end
 
     def amp_tweets(input)
-      doc = Nokogiri::HTML.fragment(input);
+      doc = Nokogiri::HTML.fragment(input)
       doc.css('.jekyll-twitter-plugin').each do |tw|
         links = tw.css('.twitter-tweet').css('a').map { |l| l['href'] }
 
         w = 292
-        if tw['data-width']
-          w = tw['data-width']
-        end
+        w = tw['data-width'] if tw['data-width']
         h = 345
-        if tw['data-height']
-          h = tw['data-height']
-        end
+        h = tw['data-height'] if tw['data-height']
 
         tw.children.remove
 
