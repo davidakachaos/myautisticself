@@ -19,7 +19,7 @@ module Jekyll
       quote = content_tag :p, quote
       block = content_tag :blockquote, "#{quote} #{add_cite}"
       div = content_tag :div, block, class: 'quote'
-      return div
+      div
     end
 
     private
@@ -33,30 +33,32 @@ module Jekyll
       link = content_tag :a, @options[:cite], href: @options[:cite_link]
       cite = content_tag :cite, link
 
-      return cite
+      cite
     end
 
-    OPTIONS_REGEX = %r!(?:\w+="[^"]*")+!.freeze
+    OPTIONS_REGEX = /(?:\w+="[^"]*")+/.freeze
 
     def parse_options(input)
       options = {}
       return options if input.empty?
+
       input.scan(OPTIONS_REGEX) do |opt|
-        key, value = opt.split("=")
+        key, value = opt.split('=')
         options[key.to_sym] = value.gsub('"', '')
       end
 
-     options
+      options
     end
 
     def content_tag(name, content_or_attributes, attributes = {})
       if content_or_attributes.is_a?(Hash)
-        content, attributes = nil, content_or_attributes
+        content = nil
+        attributes = content_or_attributes
       else
         content = content_or_attributes
       end
 
-      attributes = attributes.map { |k,v| %Q(#{k}="#{v}") }
+      attributes = attributes.map { |k, v| %(#{k}="#{v}") }
 
       if content.nil?
         "<#{[name, attributes].flatten.compact.join(' ')}/>"
