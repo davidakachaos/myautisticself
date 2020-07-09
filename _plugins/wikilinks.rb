@@ -4,7 +4,7 @@ module Jekyll
       def self.parse(text)
         inner = text[2..-3]
         name, title = inner.split('|', 2)
-        self.new(name, title)
+        new(name, title)
       end
 
       attr_accessor :name, :title
@@ -17,7 +17,7 @@ module Jekyll
 
       def title
         if @title.nil?
-          if not @match.nil?
+          if !@match.nil?
             match_title @match
           else
             @name
@@ -28,9 +28,7 @@ module Jekyll
       end
 
       def match_title(m)
-      	if not m.data.nil? and m.data.include? 'title'
-      	  m.data['title']
-      	end
+        m.data['title'] if !m.data.nil? && m.data.include?('title')
       end
 
       def url
@@ -38,7 +36,7 @@ module Jekyll
       end
 
       def has_match?
-        not @match.nil?
+        !@match.nil?
       end
 
       def match_post(posts)

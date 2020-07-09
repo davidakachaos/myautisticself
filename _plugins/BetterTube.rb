@@ -13,9 +13,9 @@ module Jekyll
 
     def initialize(tag_name, markup, tokens)
       if markup =~ /(?:(?:https?:\/\/)?(?:www.youtube.com\/(?:embed\/|watch\?v=)|youtu.be\/)?(\S+)(?:\?rel=\d)?)(?:\s+(\d+)\s(\d+))?/i
-        @ytid = $1
-        @width = $2 || "560"
-        @height = $3 || "315"
+        @ytid = Regexp.last_match(1)
+        @width = Regexp.last_match(2) || '560'
+        @height = Regexp.last_match(3) || '315'
       end
       super
     end
@@ -26,22 +26,23 @@ module Jekyll
       ouptut = super
       if @ytid
         return render_amp(context) if context.registers[:amp]
+
         id = @ytid
         w = @width
         h = @height
         intrinsic = ((h.to_f / w.to_f) * 100)
-        padding_bottom = ("%.2f" % intrinsic).to_s  + "%"
+        padding_bottom = ('%.2f' % intrinsic).to_s + '%'
 
         thumbnail = "<figure class='BetterTube' data-youtube-id='#{id}' data-player-width='#{w}' data-player-height='#{h}' id='#{id}' style='padding-bottom: #{padding_bottom}'><a class='BetterTubePlayer' href='http://www.youtube.com/watch?v=#{id}' style='background: url(http://img.youtube.com/vi/#{id}/hqdefault.jpg) 50% 50% no-repeat rgb(0, 0, 0);'>&nbsp;</a><div class='BetterTube-playBtn'></div>&nbsp;</figure>"
 
-        video = %Q{#{thumbnail}}
+        video = thumbnail.to_s
 
       else
-        "Error while processing. Try: {% youtube video_id [width height] %}"
+        'Error while processing. Try: {% youtube video_id [width height] %}'
       end
     end
 
-    def render_amp(context)
+    def render_amp(_context)
       video = "<amp-youtube data-videoid='#{@ytid}' width='358' height='204' layout='responsive'><amp-img src='https://i.ytimg.com/vi/#{@ytid}/hqdefault.jpg' placeholder layout='fill' /></amp-youtube>"
     end
   end
