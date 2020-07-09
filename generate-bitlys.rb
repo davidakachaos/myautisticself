@@ -94,7 +94,7 @@ cached_bitlys.each { |url, bitly|
     cached_bitlys[url] = clean_out(bitly)
     puts "Bitly for #{url} => #{cached_bitlys[url]}"
     puts "Sending push notification for new post!"
-    send_webpush(url, bitly)
+    send_webpush(url, cached_bitlys[url])
   end
 }
 File.open('.bitly_cache', "wb") { |f| f.puts YAML.dump(cached_bitlys) }
