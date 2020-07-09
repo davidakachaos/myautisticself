@@ -55,6 +55,7 @@ responsive_image:
   output_path_format: assets/resized/%{width}/%{basename}
   extra_images:
     - assets/img/posts/*.png
+    - assets/img/autismeweek2020/WeekvanAutismeV4.jpg
   sizes:
     - width: 80  # [Required] How wide the resized image will be.
     - width: 20

@@ -13,8 +13,63 @@
     font-display: swap;
 }
 
+/* Shameless plug, but use a font designed
+   for greater readability than just looking cool.
+   This one is designed for dyslexic readers, though
+   it can be useful to increase readability for anyone
+   else                                                 */
+
+@font-face{
+	font-family: "opendyslexic";
+	src: url('/assets/css/fonts/OpenDyslexic-Regular.otf');
+	font-style: normal;
+	font-weight: normal;
+  font-display: swap;
+}
+@font-face{
+	font-family: "opendyslexic";
+	src: url('/assets/css/fonts/OpenDyslexic-Italic.otf');
+	font-style: italic;
+	font-weight: normal;
+  font-display: swap;
+}
+@font-face{
+	font-family: "opendyslexic";
+	src: url('/assets/css/fonts/OpenDyslexic-Bold.otf');
+	font-weight: bold;
+	font-style: normal;
+  font-display: swap;
+}
+@font-face{
+	font-family: "opendyslexic";
+	src: url('/assets/css/fonts/OpenDyslexic-BoldItalic.otf');
+	font-weight: bold;
+	font-style: italic;
+  font-display: swap;
+}
+
+* {
+   font-family: "opendyslexic";
+}
+
 html, body {
     height: 100%;
+}
+/* Use an off-white background. Some users need high
+   contrast for better reading. Some need low contrast.
+   A happy medium would be off white to reduce "glare"
+   and black text. Anyone that needs a greater extreme
+   likely overrides stylesheets.
+   The text is colored dark blue to assist with "glare"
+   issues, but also to make the black symbols subtly stand
+   out.                                                  */
+body {
+	font-size: 14px;
+	line-height: 200%;
+	background: snow;
+	margin: auto 0;
+	padding: 0 100;
+	color: #1A0033;
 }
 
 img, video, iframe {
@@ -61,7 +116,7 @@ header {
 }
 
 .site-description {
-    font-family: "League Gothic", "Arial Narrow", Arial, sans-serif;
+    /* font-family: "League Gothic", "Arial Narrow", Arial, sans-serif; */
     text-align: center;
 }
 
@@ -137,9 +192,9 @@ main {
 
 /* post */
 
-.post-container {
+/* .post-container {
     font-family: "Open Sans", sans-serif;
-}
+} */
 
 .tags {
     font-size: 0.8em;
@@ -169,7 +224,7 @@ a.item.en:after {
 }
 
 a:not(.u-url):not(.BetterTubePlayer):not(.at-share-btn):not(.u-mention):not(.item):not([href*='https://myautisticself.nl']):not([href*='https://www.buymeacoffee.com']):not([href*='https://twitter.com']):not([href^='#']):not([href^='/']):after {
-    font-family: 'FontAwesome';
+    font-family: 'FontAwesome' !important;
     content: " \f08e";
 }
 
@@ -381,4 +436,12 @@ input[name="_gotcha"]{
 .BetterTube-playBtn:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'opendyslexic' !important;
+}
+
+#head-search {
+  width: 50%;
 }
