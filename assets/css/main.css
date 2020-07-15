@@ -64,11 +64,11 @@ html, body {
    issues, but also to make the black symbols subtly stand
    out.                                                  */
 body {
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 200%;
 	background: snow;
-	margin: auto 0;
-	padding: 0 100;
+	/* margin: auto 0; */
+	/* padding: 0 100; */
 	color: #1A0033;
 }
 
@@ -221,6 +221,10 @@ a.item.nl:after {
 
 a.item.en:after {
     content: "🇬🇧";
+}
+
+a.item.en, a.item.nl {
+  padding-left: 0px;
 }
 
 a:not(.u-url):not(.BetterTubePlayer):not(.at-share-btn):not(.u-mention):not(.item):not([href*='https://myautisticself.nl']):not([href*='https://www.buymeacoffee.com']):not([href*='https://twitter.com']):not([href^='#']):not([href^='/']):after {
@@ -438,9 +442,6 @@ input[name="_gotcha"]{
   opacity: 1;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'opendyslexic' !important;
-}
 
 #head-search {
   width: 50%;

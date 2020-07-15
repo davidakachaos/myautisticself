@@ -3,6 +3,11 @@
 <!DOCTYPE html>
 <html lang="{{page.lang}}">
 {%- assign site.description = site.description[page.lang] -%}
+{%- if page.lang == "en" -%}
+{%- assign fontmsg = 'Rather have a different font?' -%}
+{%- else -%}
+{%- assign fontmsg = 'Liever een ander lettertype?' -%}
+{%- endif -%}
 {%- include head.html -%}
 <script type="text/javascript">
   {%- include linkserviceworker.js -%}
@@ -24,6 +29,8 @@
     <div class="page-wrap">
         {% include_cached header.html layout=page.layout lang=page.lang %}
         <main>
+          <button class="ui button mini" type="button" onclick="switch_style('otherfont');return false;" name="theme" value="{{fontmsg}}" id="fontswitcher" style="position: absolute; right: 10%; z-index: 99;">{{fontmsg}}</button>
+          <button class="ui button mini" type="button" style="display:none; position: absolute; right: 10%; z-index: 99;" onclick="switch_style('orginal');return false;" name="theme" value="{{fontmsg}}" id="opendysfont">{{fontmsg}}</button>
           <div style="display: none;" id="lang-change-to-en" class="ui message">
             <i class="close icon"></i>
             <div class="header">
@@ -54,9 +61,10 @@
 <script async charset="utf-8" type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
 <script async charset="utf-8" type="text/javascript" src="/assets/js/vendor/semantic.min.js"></script>
 <!-- endbuild -->
+<script async charset="utf-8" type="text/javascript" src="/assets/js/JekyllWebmentionIO.js"></script>
 <script async charset="utf-8" crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script async charset="utf-8" src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script async crossorigin="anonymous" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script async crossorigin="anonymous" charset="utf-8" src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 {%- if jekyll.environment == "production" -%}
 <script async charset="utf-8" type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 {%- endif -%}

@@ -72,7 +72,6 @@ function updateWebmentionCounts(){
   });
 };
 
-
 function showTranslation(){
   var getFirstBrowserLanguage = function () {
     var nav = window.navigator,
@@ -177,9 +176,80 @@ function loadMailChimp(){
   window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"25d2d8c9b20b892603f68fb5e","lid":"4f8fedd4d3","uniqueMethods":true}) });
 }
 
+// *** TO BE CUSTOMISED ***
+
+var style_cookie_name = "style" ;
+var style_cookie_duration = 30 ;
+
+// *** END OF CUSTOMISABLE SECTION ***
+// You do not need to customise anything below this line
+
+function switch_style ( css_title )
+{
+// You may use this script on your site free of charge provided
+// you do not remove this notice or the URL below. Script from
+// https://www.thesitewizard.com/javascripts/change-style-sheets.shtml
+  var i, link_tag ;
+  for (i = 0, link_tag = document.getElementsByTagName("link") ;
+    i < link_tag.length ; i++ ) {
+    if ((link_tag[i].rel.indexOf( "stylesheet" ) != -1) &&
+      link_tag[i].title) {
+      link_tag[i].disabled = true ;
+      if (link_tag[i].title == css_title) {
+        link_tag[i].disabled = false ;
+      }
+      set_cookie( style_cookie_name, css_title,
+          style_cookie_duration, '' );
+    }
+  }
+}
+
+function set_style_from_cookie()
+{
+  var css_title = get_cookie( style_cookie_name );
+  console.log('Found style: ' + css_title);
+  if (css_title.length) {
+    switch_style( css_title );
+  }
+}
+function set_cookie ( cookie_name, cookie_value,
+    lifespan_in_days, valid_domain )
+{
+    // https://www.thesitewizard.com/javascripts/cookies.shtml
+    var domain_string = valid_domain ?
+                       ("; domain=" + valid_domain) : '' ;
+    console.log('Setting style cookie');
+    var content = cookie_name +
+                       "=" + encodeURIComponent( cookie_value ) +
+                       "; max-age=" + 60 * 60 *
+                       24 * lifespan_in_days +
+                       "; path=/" + domain_string +
+                       "; SameSite=Strict;";
+    console.log('Adding; ' + content);
+    document.cookie = content;
+    console.log(document.cookie);
+}
+function get_cookie ( cookie_name )
+{
+    // https://www.thesitewizard.com/javascripts/cookies.shtml
+	var cookie_string = document.cookie ;
+	if (cookie_string.length != 0) {
+		var cookie_array = cookie_string.split( '; ' );
+    var i, cookie_value;
+		for (i = 0 ; i < cookie_array.length ; i++) {
+			cookie_value = cookie_array[i].match ( cookie_name + '=(.*)' );
+			if (cookie_value != null) {
+				return decodeURIComponent ( cookie_value[1] ) ;
+			}
+		}
+	}
+	return '' ;
+}
+
 deferMailChimp(loadMailChimp);
 defer(updateWebmentionCounts);
 defer(showTranslation);
 defer(callFB);
 defer(subscribeFBLike);
 loadTruePush();
+set_style_from_cookie();
