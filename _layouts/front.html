@@ -8,6 +8,7 @@ layout: default
     {%- assign posts=site.posts | where:"lang", page.lang -%}
     {%- for post in posts -%}
         {%- assign counter = counter | plus: 1 -%}
+        {%- if counter < 16 -%}
         {%- if counter == 1 -%}
             <div class="eight wide column">
                 {%- include card.html -%}
@@ -23,7 +24,11 @@ layout: default
         {%- else -%}
             {%- if counter == 11 -%}
                 <div class="ui horizontal divider">
+                  {%- if page.lang == "nl" -%}
                     Oudere Posts
+                  {%- else -%}
+                    Older Posts
+                  {%- endif -%}
                 </div>
             <div class="ui link items">
             {%- endif -%}
@@ -47,6 +52,20 @@ layout: default
                     </div>
                 </div>
             </div>
+        {%- endif -%}
+        {%- else -%}
+        <div class="ui horizontal divider">
+          {%- if page.lang == "nl" -%}
+          <a class="item" href="{{ site.baseurl }}/archive.html">
+              Archief van berichten
+          </a>
+          {%- else -%}
+          <a class="item" href="{{ site.baseurl }}/en/archive.html">
+              Archive of Posts
+          </a>
+          {%- endif -%}
+        </div>
+        {% break %}
         {%- endif -%}
     {%- endfor -%}
     </div>

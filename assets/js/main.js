@@ -25,7 +25,7 @@ function defer(method) {
     if (window.jQuery) {
         method();
     } else {
-        setTimeout(function() { defer(method) }, 50);
+        setTimeout(function() { defer(method) }, 250);
     }
 }
 
@@ -33,7 +33,7 @@ function deferMailChimp(method) {
     if (window.dojoRequire) {
         method();
     } else {
-        setTimeout(function() { deferMailChimp(method) }, 50);
+        setTimeout(function() { deferMailChimp(method) }, 500);
     }
 }
 
@@ -47,7 +47,7 @@ function loadTruePush(){
           })
     })
   }else{
-    setTimeout(function() { loadTruePush() }, 100);
+    setTimeout(function() { loadTruePush() }, 300);
   }
 }
 

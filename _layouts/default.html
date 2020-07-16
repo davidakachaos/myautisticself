@@ -52,25 +52,25 @@
 
     {% include_cached footer.html lang=page.lang %}
 <!-- build:js /assets/js/scripts.min.js -->
-<script async charset="utf-8" type="text/javascript" src="/assets/js/main.js"></script>
-<script async charset="utf-8" type="text/javascript" src="/assets/js/BetterTube.js"></script>
-<script async charset="utf-8" type="text/javascript" src="/assets/js/lazysizes.min.js"></script>
-<script async charset="utf-8" type="text/javascript" src="/assets/js/ls.respimg.min.js"></script>
-<script async charset="utf-8" type="text/javascript" src="/js/JekyllWebmentionIO.js"></script>
-<script async charset="utf-8" type="text/javascript" src="/assets/js/autotrack.js" charset="utf-8"></script>
+<script defer charset="utf-8" type="text/javascript" src="/assets/js/main.js"></script>
+<script defer charset="utf-8" type="text/javascript" src="/assets/js/BetterTube.js"></script>
+<script defer charset="utf-8" type="text/javascript" src="/assets/js/lazysizes.min.js"></script>
+<script defer charset="utf-8" type="text/javascript" src="/assets/js/ls.respimg.min.js"></script>
+<script defer charset="utf-8" type="text/javascript" src="/js/JekyllWebmentionIO.js"></script>
+<script defer charset="utf-8" type="text/javascript" src="/assets/js/autotrack.js" charset="utf-8"></script>
 <script async charset="utf-8" type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
-<script async charset="utf-8" type="text/javascript" src="/assets/js/vendor/semantic.min.js"></script>
+<script defer charset="utf-8" type="text/javascript" src="/assets/js/vendor/semantic.min.js"></script>
 <!-- endbuild -->
-<script async charset="utf-8" type="text/javascript" src="/assets/js/JekyllWebmentionIO.js"></script>
-<script async charset="utf-8" crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
-<script async crossorigin="anonymous" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<script async crossorigin="anonymous" charset="utf-8" src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script defer charset="utf-8" type="text/javascript" src="/assets/js/JekyllWebmentionIO.js"></script>
+<script defer charset="utf-8" crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+<script defer crossorigin="anonymous" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script defer crossorigin="anonymous" charset="utf-8" src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
 {%- if jekyll.environment == "production" -%}
-<script async charset="utf-8" type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script defer charset="utf-8" type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 {%- endif -%}
 {% webmentions_js %}
 <!-- Facebook Pixel Code -->
-<script async deffer crossorigin="anonymous" charset="utf-8"  type="text/javascript">
+<script defer deffer crossorigin="anonymous" charset="utf-8"  type="text/javascript">
   !function(f,b,e,v,n,t,s)
   {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
   n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -86,7 +86,7 @@
   src="https://www.facebook.com/tr?id=2493946240823204&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=davidakachaos" async></script>
+<script defer type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=davidakachaos" async></script>
 <script type="text/javascript">
       var addthis_config = {
          data_ga_property: 'UA-429677-9',
@@ -102,7 +102,7 @@
          }
       };
 </script>
-<!-- start webpushr code --> <script>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));
+<!-- start webpushr code --> <script type="text/javascript" defer>(function(w,d, s, id) {if(typeof(w.webpushr)!=='undefined') return;w.webpushr=w.webpushr||function(){(w.webpushr.q=w.webpushr.q||[]).push(arguments)};var js, fjs = d.getElementsByTagName(s)[0];js = d.createElement(s); js.id = id;js.src = "https://cdn.webpushr.com/app.min.js";fjs.parentNode.appendChild(js);}(window,document, 'script', 'webpushr-jssdk'));
 webpushr('init','BEspxevVw_WEgM3ISPh15Pd1xoobDJMvXYUTfkKaZzySKC3Xglrbmzgb6mAouqm3o_FvMalmVKmnDgsCtT8lm1s');
 webpushr('attributes',{"language" : "{{page.lang}}" });
 </script><!-- end webpushr code -->
