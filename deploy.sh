@@ -55,7 +55,7 @@ if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   exit 3
 fi
 echo 'Optimizing site....'
-grunt optimize || exit 1
+grunt optimize --force || exit 1
 if [[ $(git status --porcelain | wc -l) -gt 0 ]]; then
   echo 'Adding optimized images to source...'
   git add assets
