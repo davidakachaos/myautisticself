@@ -6,9 +6,11 @@ module.exports = function(grunt) {
     // load processhtml
     grunt.loadNpmTasks('grunt-newer');
     grunt.loadNpmTasks('grunt-processhtml');
-    grunt.loadNpmTasks('grunt-usemin');
     grunt.loadNpmTasks('grunt-critical');
     grunt.loadNpmTasks('grunt-closure-compiler');
+    grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-uncss');
     // Load all Grunt tasks
     require('jit-grunt')(grunt);
 
@@ -61,32 +63,6 @@ module.exports = function(grunt) {
                 files: {
                     '_site/assets/js/scripts.min.js': ['<%= app.app %>/assets/js/*.js', '<%= app.app %>/assets/js/vendor/*.js', '<%= app.app %>/js/**/*.js'],
                 }
-            }
-        },
-        sass: {
-            server: {
-                options: {
-                    sourceMap: true
-                },
-                files: [{
-                    expand: true,
-                    cwd: '<%= app.app %>/assets/scss',
-                    src: '**/*.{scss,sass}',
-                    dest: '.tmp/<%= app.baseurl %>/css',
-                    ext: '.css'
-                }]
-            },
-            dist: {
-                options: {
-                    outputStyle: 'compressed'
-                },
-                files: [{
-                    expand: true,
-                    cwd: '<%= app.app %>/assets/scss',
-                    src: '**/*.{scss,sass}',
-                    dest: '<%= app.dist %>/<%= app.baseurl %>/assets/css',
-                    ext: '.css'
-                }]
             }
         },
         uncss: {
@@ -216,16 +192,7 @@ module.exports = function(grunt) {
             options: {
                 process: true,
             },
-            js: {
-                files: [{
-                    expand: true,
-                    cwd: '<%= app.dist %>/<%= app.baseurl %>',
-                    src: ['**/*.html', '!amp/**/*.html'],
-                    dest: '<%= app.dist %>/',
-                    ext: '.html'
-                }]
-            },
-            css: {
+            dist: {
                 files: [{
                     expand: true,
                     cwd: '<%= app.dist %>/<%= app.baseurl %>',
@@ -235,42 +202,35 @@ module.exports = function(grunt) {
                 }]
             }
         },
-        useminPrepare: {
-            options: {
-                dest: '_site',
-                root: '_site'
-            },
-            html: ['_site/**/*.html']
-        },
-        usemin: {
-            options: {
-                assetsDirs: ['_site', '_site/assets/img'],
-                flow: { steps: { js: ['concat', 'uglify'], css: ['concat', 'cssmin'] }, post: {} }
-            },
-            html: ['_site/**/*.html'],
-            css: ['_site/assets/css/**/*.css'],
-            blockReplacements: {
-              css: function (block) {
-                  return '<link rel="preload" href="' + block.dest + '" as="style" onload="this.onload=null;this.rel=\'stylesheet\'"><noscript><link rel="stylesheet" href="' + block.dest + '"></noscript>';
-              }
-            },
-        },
         // Usemin adds files to concat
-        concat: {},
+        concat: {
+          dist:{
+            files: [{
+              src: ['_site/assets/css/*.css', '_site/assets/css/vendor/*.css', '!_site/assets/css/other_font.css'],
+              dest: '_site/assets/css/site.css'
+            }]
+          }
+        },
         // Usemin adds files to uglify
         uglify: {
-            options: {
-                preserveComments: false,
-                mangle: {
-                    reserved: ['jQuery']
-                }
-            },
+          options: {
+            mangle: {
+              reserved: ['jQuery']
+            }
+          },
+          dist: {
+            files: [{
+              src: ['_site/assets/js/*.js', '!_site/assets/js/*.min.js'],
+              dest: '_site/assets/js/scripts.js'
+            }]
+          },
         },
         'closure-compiler': {
           optimize: {
             closurePath: '/usr/local/bin/closure-compiler',
+            // closurePath: '/usr/local/lib/node_modules/google-closure-compiler',
             // js: '_site/assets/js/scripts.min.js',
-            js: '.tmp/concat/assets/js/scripts.min.js',
+            js: '_site/assets/js/scripts.js',
             jsOutputFile: '_site/assets/js/scripts.min.js',
             maxBuffer: 50000,
             options: {
@@ -286,38 +246,19 @@ module.exports = function(grunt) {
         },
         // Usemin adds files to cssmin
         cssmin: {
-            dist: {
-                options: {
-                    check: 'gzip',
-                    sourceMap: true,
-                }
-            }
-        },
-        copy: {
-            dist: {
-                files: [{
-                    expand: true,
-                    dot: true,
-                    cwd: '.tmp/<%= app.baseurl %>',
-                    src: [
-                        'css/**/*',
-                        'js/**/*'
-                    ],
-                    dest: '<%= app.dist %>/<%= app.baseurl %>'
-                }]
-            }
-        },
-        buildcontrol: {
-            dist: {
-                options: {
-                    dir: '<%= app.dist %>/<%= app.baseurl %>',
-                    remote: 'git@github.com:user/repo.git',
-                    branch: 'gh-pages',
-                    commit: true,
-                    push: true,
-                    connectCommits: false
-                }
-            }
+          options: {
+              check: 'gzip',
+              sourceMap: true,
+          },
+          dist: {
+              files: [{
+                expand: true,
+                cwd: '<%= app.dist %>/<%= app.baseurl %>/assets/css',
+                src: ['*.css', '!*.min.css'],
+                dest: '<%= app.dist %>/<%= app.baseurl %>/assets/css',
+                ext: '.min.css'
+              }]
+          },
         },
         stripCssComments: {
             dist: {
@@ -372,14 +313,13 @@ module.exports = function(grunt) {
     grunt.registerTask('optimize', [
         'newer:imagemin',
         'newer:svgmin',
-        'newer:useminPrepare',
-        'newer:concat:generated',
-        'newer:cssmin:generated',
-        'newer:uglify:generated',
+        'newer:concat',
+        'newer:cssmin',
+        'uglify',
         'removeOldAssets',
-        'usemin',
         'closure-compiler:optimize',
         'uncss',
+        'newer:processhtml',
         'newer:stripCssComments',
         'newer:autoprefixer',
         'critical:dist',
@@ -388,20 +328,12 @@ module.exports = function(grunt) {
     ]);
 
     grunt.registerTask('testjs', [
-      'useminPrepare',
-      'concat:generated',
-      'cssmin:generated',
-      'uglify:generated',
+      'concat',
+      'cssmin',
+      'uglify',
       'removeOldAssets',
-      'usemin',
       'closure-compiler:optimize',
     ]);
-
-    // grunt.registerTask('deploy', [
-    //     'build',
-    //     'copy',
-    //     'buildcontrol'
-    // ]);
 
     grunt.registerTask('default', [
         'serve'
