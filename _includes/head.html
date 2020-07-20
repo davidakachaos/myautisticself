@@ -41,7 +41,9 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/mobile.css" />
     <!-- /build -->
+    <!-- build:css /assets/css/other_font.min.css -->
     <link rel="stylesheet alternate" href="/assets/css/other_font.css" title="otherfont">
+    <!-- /build -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     {% if page.path contains '_posts' %}
@@ -52,10 +54,10 @@
         type="image/png"
         href="{{site.baseurl}}/assets/img/logo.png"
     />
-    <link
+    <!-- <link
         href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap"
         rel="stylesheet"
-    />
+    /> -->
     <title>
         {%- if page.title -%}{{ page.title | append: " | " | append: site.title
         | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}

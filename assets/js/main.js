@@ -198,15 +198,15 @@ function switch_style ( css_title )
       if (link_tag[i].title == css_title) {
         link_tag[i].disabled = false ;
       }
-      set_cookie( style_cookie_name, css_title,
-          style_cookie_duration, '' );
+      set_cookie(  "style", css_title,
+          30, '' );
     }
   }
 }
 
 function set_style_from_cookie()
 {
-  var css_title = get_cookie( style_cookie_name );
+  var css_title = get_cookie(  "style" );
   console.log('Found style: ' + css_title);
   if (css_title.length) {
     switch_style( css_title );
@@ -246,10 +246,13 @@ function get_cookie ( cookie_name )
 	return '' ;
 }
 
+function r(f){/in/.test(document.readyState)?setTimeout(r,9,f):f()}
+// r(function(){/*code to run*/});
+
 deferMailChimp(loadMailChimp);
-defer(updateWebmentionCounts);
-defer(showTranslation);
-defer(callFB);
-defer(subscribeFBLike);
 loadTruePush();
-set_style_from_cookie();
+r(updateWebmentionCounts);
+r(showTranslation);
+r(callFB);
+r(subscribeFBLike);
+r(set_style_from_cookie);

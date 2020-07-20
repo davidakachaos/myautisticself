@@ -51,20 +51,20 @@
     </div>
 
     {% include_cached footer.html lang=page.lang %}
+<script async charset="utf-8" type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
 <!-- build:js /assets/js/scripts.min.js -->
 <script defer charset="utf-8" type="text/javascript" src="/assets/js/main.js"></script>
 <script defer charset="utf-8" type="text/javascript" src="/assets/js/BetterTube.js"></script>
-<script defer charset="utf-8" type="text/javascript" src="/assets/js/lazysizes.min.js"></script>
-<script defer charset="utf-8" type="text/javascript" src="/assets/js/ls.respimg.min.js"></script>
 <script defer charset="utf-8" type="text/javascript" src="/js/JekyllWebmentionIO.js"></script>
-<script defer charset="utf-8" type="text/javascript" src="/assets/js/autotrack.js" charset="utf-8"></script>
-<script async charset="utf-8" type="text/javascript" src="/assets/js/vendor/jquery.min.js"></script>
 <script defer charset="utf-8" type="text/javascript" src="/assets/js/vendor/semantic.min.js"></script>
 <!-- /build -->
 <script defer charset="utf-8" type="text/javascript" src="/assets/js/JekyllWebmentionIO.js"></script>
 <script defer charset="utf-8" crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
 <script defer crossorigin="anonymous" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 <script defer crossorigin="anonymous" charset="utf-8" src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+<script async charset="utf-8" type="text/javascript" src="/assets/js/lazysizes.min.js"></script>
+<script async charset="utf-8" type="text/javascript" src="/assets/js/ls.respimg.min.js"></script>
+<script defer charset="utf-8" type="text/javascript" src="/assets/js/autotrack.js" charset="utf-8"></script>
 {%- if jekyll.environment == "production" -%}
 <script defer charset="utf-8" type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
 {%- endif -%}
@@ -122,6 +122,13 @@ webpushr('attributes',{"language" : "{{page.lang}}" });
       });
     }
   }
+
+  // await document ready and execute functions...
+  r(updateWebmentionCounts);
+  r(showTranslation);
+  r(callFB);
+  r(subscribeFBLike);
+  r(set_style_from_cookie);
 </script>
 </body>
 </html>

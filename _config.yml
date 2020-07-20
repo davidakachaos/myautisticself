@@ -56,6 +56,8 @@ responsive_image:
   extra_images:
     - assets/img/posts/*.png
     - assets/img/autismeweek2020/WeekvanAutismeV4.jpg
+    - assets/img/profile*
+    - assets/img/logo*.png
   sizes:
     - width: 80  # [Required] How wide the resized image will be.
     - width: 20

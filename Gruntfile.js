@@ -58,10 +58,17 @@ module.exports = function(grunt) {
             dist: {
                 options:{
                   sourceMap: true,
-                  sourceMapName: '_site/assets/js/scripts.min.js'
+                  sourceMapName: '_site/assets/js/scripts.js'
                 },
                 files: {
-                    '_site/assets/js/scripts.min.js': ['<%= app.app %>/assets/js/*.js', '<%= app.app %>/assets/js/vendor/*.js', '<%= app.app %>/js/**/*.js'],
+                    '_site/assets/js/scripts.js': ['_site/assets/js/*.js',
+                      '_site/assets/js/vendor/*.js',
+                      '_site/assets/js/main.js',
+                      '!_site/assets/js/autotrack.js',
+                      '!_site/assets/js/lazysizes.min.js',
+                      '!_site/assets/js/ls.respimg.min.js',
+                      '_site/js/**/*.js'
+                    ],
                 }
             }
         },
@@ -297,10 +304,20 @@ module.exports = function(grunt) {
 
     grunt.registerTask('removeOldAssets', function(){
         grunt.file.delete('_site/assets/css/main.css');
-        grunt.file.delete('_site/assets/js/vendor');
+        grunt.file.delete('_site/assets/js/vendor/semantic.min.js');
         grunt.file.delete('_site/assets/js/main.js');
+        grunt.file.delete('_site/assets/js/modernizer-webp.js');
+        // grunt.file.delete('_site/assets/js/autotrack.js');
+        // grunt.file.delete('_site/assets/js/autotrack.js.map');
+        grunt.file.delete('_site/assets/js/autotrack.min.js');
+        grunt.file.delete('_site/assets/js/BetterTube.js');
+        grunt.file.delete('_site/assets/css/other_font.css');
         grunt.file.delete('_site/assets/css/main.css');
+        grunt.file.delete('_site/assets/css/main.min.css');
+        grunt.file.delete('_site/assets/css/main.min.css.map');
         grunt.file.delete('_site/assets/css/mobile.css');
+        grunt.file.delete('_site/assets/css/mobile.min.css');
+        grunt.file.delete('_site/assets/css/mobile.min.css.map');
         grunt.file.delete('_site/assets/css/vendor/syntax.css');
         grunt.file.delete('_site/assets/css/vendor/semantic.min.css');
     });
@@ -318,8 +335,8 @@ module.exports = function(grunt) {
         'uglify',
         'removeOldAssets',
         'closure-compiler:optimize',
-        'uncss',
         'newer:processhtml',
+        'uncss',
         'newer:stripCssComments',
         'newer:autoprefixer',
         'critical:dist',
@@ -328,11 +345,17 @@ module.exports = function(grunt) {
     ]);
 
     grunt.registerTask('testjs', [
-      'concat',
-      'cssmin',
+      'newer:imagemin',
+      'newer:svgmin',
+      'newer:concat',
+      'newer:cssmin',
       'uglify',
       'removeOldAssets',
       'closure-compiler:optimize',
+      'newer:processhtml',
+      'uncss',
+      'newer:stripCssComments',
+      'newer:autoprefixer',
     ]);
 
     grunt.registerTask('default', [
