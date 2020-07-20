@@ -189,6 +189,7 @@ function switch_style ( css_title )
 // You may use this script on your site free of charge provided
 // you do not remove this notice or the URL below. Script from
 // https://www.thesitewizard.com/javascripts/change-style-sheets.shtml
+  // console.log('Switching style -> ' + css_title);
   var i, link_tag ;
   for (i = 0, link_tag = document.getElementsByTagName("link") ;
     i < link_tag.length ; i++ ) {
@@ -198,10 +199,10 @@ function switch_style ( css_title )
       if (link_tag[i].title == css_title) {
         link_tag[i].disabled = false ;
       }
-      set_cookie(  "style", css_title,
-          30, '' );
     }
   }
+  set_cookie(  "style", css_title,
+      30, '' );
 }
 
 function set_style_from_cookie()
