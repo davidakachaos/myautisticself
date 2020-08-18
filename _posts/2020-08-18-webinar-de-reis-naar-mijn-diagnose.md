@@ -2,7 +2,7 @@
 layout: post
 title: Webinar - De reis naar mijn diagnose
 lang: nl
-tags: autisme
+tags: autisme webinar voorlichting begrip acceptatie
 ref: webinar2020self
 description: Op 26 augustus aanstaande geef ik een webinar. Deze zal gaan over mijn
   reis naar de diagnose.

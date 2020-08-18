@@ -3,7 +3,7 @@ layout: post
 title: Webinar - The journey to my diagnosis
 lang: en
 crosspost_to_medium: false
-tags: autisme
+tags: autisme webinar voorlichting begrip acceptatie
 ref: webinar2020self
 description: I'm giving a webinar on August 26th. This will be about my journey to the diagnosis.
 image: "/assets/img/webinar26aug.png"
@@ -22,7 +22,7 @@ This webinar is made possible by the [Autisme Netwerk Friesland](http://www.auti
 Completely free of charge.
 
 You can participate via this link: [Participate in Microsoft Teams meeting](https://bit.ly/349VsQn)<br />
-How does Teams work? Check the website: http://www.autismenetwerkfriesland.nl/nieuws](http://www.autismenetwerkfriesland.nl/nieuws)
+How does Teams work? Check the website: [http://www.autismenetwerkfriesland.nl/nieuws](http://www.autismenetwerkfriesland.nl/nieuws)
 
 <div title="Add to Calendar" class="addeventatc">
     Add to Calendar
