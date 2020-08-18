@@ -1,1 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<url>
+<loc>https://myautisticself.nl/2020/08/webinar-the-journey-to-my-diagnosis.html</loc>
+<news:news>
+<news:publication>
+<news:name>My Autistic Self</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2020-08-18T12:15:00+02:00</news:publication_date>
+<news:title>Webinar - The journey to my diagnosis</news:title>
+</news:news>
+</url>
+</urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<url>
+<loc>https://myautisticself.nl/2020/08/webinar-de-reis-naar-mijn-diagnose.html</loc>
+<news:news>
+<news:publication>
+<news:name>My Autistic Self</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2020-08-18T12:15:00+02:00</news:publication_date>
+<news:title>Webinar - De reis naar mijn diagnose</news:title>
+</news:news>
+</url>
+</urlset>
