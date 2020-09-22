@@ -24,7 +24,9 @@ module Jekyll
 
       template = (Liquid::Template.parse replace_iframes(replace_links_to_posts(remove_responsive_image(post.content))))
 
-      data['body']          = template.render!(site.site_payload, { strict_variables: false, strict_filters: true, registers: { amp: true } })
+      data['body']          = template.render!(site.site_payload,
+        { strict_variables: false, strict_filters: true, registers: { amp: true, site: site } }
+      )
       data['is_a_post']     = post.respond_to?('id')
       data['lang']          = post.data['lang']
       data['image']         = post.data['image']
