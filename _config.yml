@@ -122,6 +122,7 @@ defaults:
       lang: "nl"
       ref: ""
       tags: "autisme"
+      description: ""
 
 github: [metadata]
 encoding: UTF-8
