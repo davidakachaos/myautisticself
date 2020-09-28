@@ -131,12 +131,14 @@ module.exports = function(grunt) {
                     cwd: '_site/',
                     src: ['*.html', '!amp*', '!webpushr*', '!yandex*'],
                     dest: '_site/'
-                },{
-                    expand: true,
-                    cwd: '_site/2019/',
-                    src: ['**/*.html'],
-                    dest: '_site/2019/'
-                },{
+                },
+                // {
+                //     expand: true,
+                //     cwd: '_site/2019/',
+                //     src: ['**/*.html'],
+                //     dest: '_site/2019/'
+                // },
+                {
                     expand: true,
                     cwd: '_site/2020/',
                     src: ['**/*.html'],
