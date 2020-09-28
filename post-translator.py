@@ -82,6 +82,8 @@ for (ref, values) in seen_refs.items():
         org_title = values["titles"][0]
         translated_title = translate(org_title)
         new_file_name = f"_posts/{translated_filename}.md"
+        if new_file_name == values["documents"][0]:
+            new_file_name = f"_posts/{translated_filename}_en.md"
         dest = shutil.copyfile(values["documents"][0], new_file_name)
         # Read in the file
         with open(new_file_name, "r") as file:
