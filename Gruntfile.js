@@ -138,27 +138,27 @@ module.exports = function(grunt) {
                 //     src: ['**/*.html'],
                 //     dest: '_site/2019/'
                 // },
-                {
-                    expand: true,
-                    cwd: '_site/2020/',
-                    src: ['**/*.html'],
-                    dest: '_site/2020/'
-                },{
-                    expand: true,
-                    cwd: '_site/en/',
-                    src: ['**/*.html'],
-                    dest: '_site/en/'
-                },{
-                    expand: true,
-                    cwd: '_site/tag/',
-                    src: ['**/*.html'],
-                    dest: '_site/tag/'
-                },{
-                    expand: true,
-                    cwd: '_site/category/',
-                    src: ['**/*.html'],
-                    dest: '_site/category/'
-                }
+                // {
+                //     expand: true,
+                //     cwd: '_site/2020/',
+                //     src: ['**/*.html'],
+                //     dest: '_site/2020/'
+                // },{
+                //     expand: true,
+                //     cwd: '_site/en/',
+                //     src: ['**/*.html'],
+                //     dest: '_site/en/'
+                // },{
+                //     expand: true,
+                //     cwd: '_site/tag/',
+                //     src: ['**/*.html'],
+                //     dest: '_site/tag/'
+                // },{
+                //     expand: true,
+                //     cwd: '_site/category/',
+                //     src: ['**/*.html'],
+                //     dest: '_site/category/'
+                // }
                 // ,{
                 //     expand: true,
                 //     cwd: '<%= app.dist %>/<%= app.baseurl %>',
@@ -236,7 +236,7 @@ module.exports = function(grunt) {
         },
         'closure-compiler': {
           optimize: {
-            closurePath: '/usr/local/bin/closure-compiler',
+            closurePath: '/usr/local/bin/google-closure-compiler',
             // closurePath: '/usr/local/lib/node_modules/google-closure-compiler',
             // js: '_site/assets/js/scripts.min.js',
             js: '_site/assets/js/scripts.js',
@@ -282,28 +282,6 @@ module.exports = function(grunt) {
     });
 
     // Define Tasks
-    grunt.registerTask('serve', function(target) {
-        if (target === 'dist') {
-            return grunt.task.run(['build', 'connect:dist:keepalive']);
-        }
-
-        grunt.task.run([
-            'clean:server',
-            'jekyll:server',
-            'useminPrepare',
-            'concat',
-            'autoprefixer',
-            // 'uglify',
-            'connect:livereload',
-            'watch'
-        ]);
-    });
-
-    grunt.registerTask('server', function() {
-        grunt.log.warn('The `server` task has been deprecated. Use `grunt serve` to start a server.');
-        grunt.task.run(['serve']);
-    });
-
     grunt.registerTask('removeOldAssets', function(){
         grunt.file.delete('_site/assets/css/main.css');
         grunt.file.delete('_site/assets/js/vendor/semantic.min.js');
