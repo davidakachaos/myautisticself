@@ -66,6 +66,7 @@
     {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}{%-
     for post in posts -%}{%- if post.url contains "amp" -%}{%- continue -%}{%- endif -%}
     <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
+
     {%- endfor -%} {%- assign pages=site.pages | where:"ref", page.ref | sort:
     'lang' -%}{%- for page in pages -%}{%- if page.url contains "amp" -%}{%- continue -%}{%- endif -%}
     <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />

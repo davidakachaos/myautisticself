@@ -71,7 +71,7 @@ function updateWebmentionCounts(){
     });
   });
 };
-
+/*
 function showTranslation(){
   var getFirstBrowserLanguage = function () {
     var nav = window.navigator,
@@ -79,7 +79,7 @@ function showTranslation(){
     i,
     language;
 
-    /* support for HTML 5.1 "navigator.languages" */
+    /* support for HTML 5.1 "navigator.languages" /
     if (Array.isArray(nav.languages)) {
       for (i = 0; i < nav.languages.length; i++) {
         language = nav.languages[i];
@@ -89,7 +89,7 @@ function showTranslation(){
       }
     }
 
-    /* support for other well known properties in browsers */
+    /* support for other well known properties in browsers /
     for (i = 0; i < browserLanguagePropertyKeys.length; i++) {
       language = nav[browserLanguagePropertyKeys[i]];
       if (language && language.length) {
@@ -129,7 +129,7 @@ function showTranslation(){
     }
   });
 }
-
+*/
 function subscribeFBLike(){
     if(typeof FB !== "undefined"){
         FB.Event.subscribe('edge.create', function(url) {
@@ -253,7 +253,7 @@ function r(f){/in/.test(document.readyState)?setTimeout(r,9,f):f()}
 deferMailChimp(loadMailChimp);
 loadTruePush();
 r(updateWebmentionCounts);
-r(showTranslation);
+// r(showTranslation);
 r(callFB);
 r(subscribeFBLike);
 r(set_style_from_cookie);

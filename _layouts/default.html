@@ -31,7 +31,7 @@
         <main>
           <button class="ui button mini" type="button" onclick="switch_style('otherfont');return false;" name="theme" value="{{fontmsg}}" id="fontswitcher" style="position: absolute; right: 10%; z-index: 99;">{{fontmsg}}</button>
           <button class="ui button mini" type="button" style="display:none; position: absolute; right: 10%; z-index: 99;" onclick="switch_style('orginal');return false;" name="theme" value="{{fontmsg}}" id="opendysfont">{{fontmsg}}</button>
-          <div style="display: none;" id="lang-change-to-en" class="ui message">
+          <!-- <div style="display: none;" id="lang-change-to-en" class="ui message">
             <i class="close icon"></i>
             <div class="header">
               Psst...
@@ -44,7 +44,7 @@
               Psst...
             </div>
             <p>Liever deze pagina zien in het Nederlands? <a id="change-to-nl" href="">Klik hier om te bekijken :wink:</a></p>
-          </div>
+          </div> -->
 
             {{ content | forcewebp }}
         </main>
@@ -125,7 +125,7 @@ webpushr('attributes',{"language" : "{{page.lang}}" });
 
   // await document ready and execute functions...
   r(updateWebmentionCounts);
-  r(showTranslation);
+  // r(showTranslation);
   r(callFB);
   r(subscribeFBLike);
   r(set_style_from_cookie);

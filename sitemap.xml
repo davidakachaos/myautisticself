@@ -9,8 +9,11 @@ permalink: /sitemap.xml
       <url>
         <loc>{{site.url}}{{site.baseurl}}{{ post.url }}</loc>
         {%- assign versions=site.posts | where:"ref", post.ref -%}
+        <xhtml:link rel="alternate" hreflang="x-default" href="{{site.url}}{{site.baseurl}}{{ post.url }}" />
+
         {%- for version in versions -%}
           <xhtml:link rel="alternate" hreflang="{{ version.lang }}" href="{{site.url}}{{site.baseurl}}{{ version.url }}" />
+
         {%- endfor -%}
         <lastmod>{{ post.last_modified_at | date_to_xmlschema }}</lastmod>
 		{%- if post.sitemap.changefreq -%}
@@ -34,6 +37,7 @@ permalink: /sitemap.xml
     {%- else -%}
       <url>
         <loc>{{site.url}}{{site.baseurl}}{{ page.url }}</loc>
+        <xhtml:link rel="alternate" hreflang="x-default" href="{{site.url}}{{site.baseurl}}{{ page.url }}" />
         {%- assign versions=site.pages | where:"ref", page.ref -%}
         {%- for version in versions -%}
         {%- if version.url contains "amp/" -%}
