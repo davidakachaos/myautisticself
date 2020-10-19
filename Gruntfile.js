@@ -236,7 +236,7 @@ module.exports = function(grunt) {
         },
         'closure-compiler': {
           optimize: {
-            closurePath: '/usr/local/bin/google-closure-compiler',
+            closurePath: 'closure-compiler',
             // closurePath: '/usr/local/lib/node_modules/google-closure-compiler',
             // js: '_site/assets/js/scripts.min.js',
             js: '_site/assets/js/scripts.js',
@@ -244,10 +244,10 @@ module.exports = function(grunt) {
             maxBuffer: 50000,
             options: {
               compilation_level: 'SIMPLE_OPTIMIZATIONS',
-              strict_mode_input: false,
+              //strict_mode_input: false,
               create_source_map: '_site/assets/js/scripts.min.js.map',
-              language_in: 'ECMASCRIPT5',
-              language_out: 'ECMASCRIPT_2019',
+              //language_in: 'ECMASCRIPT5',
+              //language_out: 'ECMASCRIPT_2019',
               externs: "externs\jquery-1.8.js",
               jscomp_off: 'es5Strict'
             }
@@ -314,7 +314,7 @@ module.exports = function(grunt) {
         'newer:cssmin',
         'uglify',
         'removeOldAssets',
-        'closure-compiler:optimize',
+        //'closure-compiler:optimize',
         'newer:processhtml',
         'uncss',
         'newer:stripCssComments',

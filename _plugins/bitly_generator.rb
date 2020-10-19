@@ -1,4 +1,4 @@
-require 'thwait'
+# require 'thwait'
 
 # based on https://github.com/juusaw/amp-jekyll/
 module Jekyll

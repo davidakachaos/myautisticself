@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "@ampproject/toolbox-optimizer": "^2.6.0",
+    "google-closure-compiler": "^20200927.0.0",
     "lighthouse": "^6.4.1",
     "lighthouse-plugin-greenhouse": ">=0.2.0",
     "node-fetch": ">=2.6.1"

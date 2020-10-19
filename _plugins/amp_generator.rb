@@ -1,4 +1,4 @@
-require 'thwait'
+# require 'thwait'
 require 'jekyll-twitter-plugin'
 # c
 
