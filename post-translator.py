@@ -15,7 +15,8 @@ seen_refs = dict()
 def translate(to_trans):
     return (
         subprocess.run(
-            ["trans", "-b", "-s", "nl", "-t", "en", to_trans], stdout=subprocess.PIPE,
+            ["trans", "-b", "-s", "nl", "-t", "en", to_trans],
+            stdout=subprocess.PIPE,
         )
         .stdout.decode("utf-8")
         .strip(" \n")
@@ -24,7 +25,10 @@ def translate(to_trans):
 
 def generate_image(title):
     return (
-        subprocess.run(["./generate-post-image.sh", title], stdout=subprocess.PIPE,)
+        subprocess.run(
+            ["./generate-post-image.sh", title],
+            stdout=subprocess.PIPE,
+        )
         .stdout.decode("utf-8")
         .strip(" \n")
     )

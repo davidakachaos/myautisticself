@@ -8,7 +8,7 @@ import os
 import re
 from monkeylearn import MonkeyLearn
 
-ML_KEY = 'e9b0b37c5aa9abc62087f453820cc56f7fb7c39c'
+ML_KEY = "e9b0b37c5aa9abc62087f453820cc56f7fb7c39c"
 
 dutch_stop_words = {
     "alt",
@@ -320,21 +320,25 @@ for filename in filenames:
         ftmp.write(content)
         ftmp.close()
         # Convert the markdown to html and get the text
-        html = subprocess.getoutput('kramdown temp.md')  # subprocess.run(["kramdown", "temp.md"], capture_output=True).stdout
+        html = subprocess.getoutput(
+            "kramdown temp.md"
+        )  # subprocess.run(["kramdown", "temp.md"], capture_output=True).stdout
         os.remove("temp.md")
         soup = BeautifulSoup(html, features="html5lib")
         # Get keywords
         the_text = re.sub(r"\{\%.+\%\}", "", soup.get_text())
         # print(f"{the_text}")
         ml = MonkeyLearn(ML_KEY)
-        model_id = 'ex_YCya9nrn'
-        keywords = ml.extractors.extract(model_id, [{'text': the_text, 'external_id': 'ANY_ID'}]).body
+        model_id = "ex_YCya9nrn"
+        keywords = ml.extractors.extract(
+            model_id, [{"text": the_text, "external_id": "ANY_ID"}]
+        ).body
         # print(f"{[ item for item in keywords[0]['extractions'] ]}")
         # print(f"{[ item['parsed_value'] for item in keywords[0]['extractions'] ]}")
         # exit()
         # print(f"{the_text}")
-        #keywords = [word for word, value in rake.apply(the_text)]
-        the_keywords = [ item['parsed_value'] for item in keywords[0]['extractions'] ]
+        # keywords = [word for word, value in rake.apply(the_text)]
+        the_keywords = [item["parsed_value"] for item in keywords[0]["extractions"]]
         print(f"Adding keywords: '{', '.join(the_keywords[:5])}'\n")
         # Rewind, and add the keywords
         f.seek(0)
