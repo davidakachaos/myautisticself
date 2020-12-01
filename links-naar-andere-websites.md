@@ -15,7 +15,6 @@ Hier volgen een aantal links naar andere websites die interessant kunnen zijn vo
 - [Roos vindt een weg](https://zeevanderrosan.wixsite.com/roosvindteenweg){:target="_blank"}{:rel="noopener"}: Persoonlijk blog van Rosan van der Zee over haar autisme.
 - [NVA Blog lijst](https://www.autisme.nl/ervaringen/blogs-over-autisme/){:target="_blank"}{:rel="noreferrer noopener"}: Een overzicht van blogs op de website van de NVA.
 
-
 ## Andere links
 
 - [NVA - Nederlandse Vereniging voor Autisme](https://www.autisme.nl/){:target="_blank"}{:rel="noreferrer noopener"}
