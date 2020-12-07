@@ -132,7 +132,7 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: '_site/',
-                    src: ['*.html', '!amp*', '!webpushr*', '!yandex*', '!de-autcast.html', 'tag/**/*.html', '2019/**/*.html', '2020/**/*.html', 'category/*.html'],
+                    src: ['*.html', '!amp*', '!webpushr*', '!yandex*', '!de-autcast.html', 'tag/**/*.html', '!the-autcast.html', 'category/*.html'],
                     dest: '_site/'
                 },
                 // {
