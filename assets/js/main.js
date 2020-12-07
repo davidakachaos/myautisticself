@@ -71,65 +71,7 @@ function updateWebmentionCounts(){
     });
   });
 };
-/*
-function showTranslation(){
-  var getFirstBrowserLanguage = function () {
-    var nav = window.navigator,
-    browserLanguagePropertyKeys = ['language', 'browserLanguage', 'systemLanguage', 'userLanguage'],
-    i,
-    language;
 
-    /* support for HTML 5.1 "navigator.languages" /
-    if (Array.isArray(nav.languages)) {
-      for (i = 0; i < nav.languages.length; i++) {
-        language = nav.languages[i];
-        if (language && language.length) {
-          return language;
-        }
-      }
-    }
-
-    /* support for other well known properties in browsers /
-    for (i = 0; i < browserLanguagePropertyKeys.length; i++) {
-      language = nav[browserLanguagePropertyKeys[i]];
-      if (language && language.length) {
-        return language;
-      }
-    }
-
-    return null;
-  };
-
-  $('.message .close')
-    .on('click', function() {
-      $(this)
-        .closest('.message')
-        .transition('fade')
-      ;
-      var cook_name = $(this).closest('.message').attr('id').split('-').join('');
-      Cookies.set(cook_name, 'dontshow');
-    })
-  ;
-  var pref_lang = getFirstBrowserLanguage().split('-')[0];
-  $(document).ready(function(){
-    var cook_val;
-    if (document.documentElement.lang == 'nl') {
-      cook_val = Cookies.get("langchangetoen");
-    }else{
-      cook_val = Cookies.get("langchangetonl");
-    }
-    if(cook_val == 'dontshow'){
-      return;
-    }else{
-        $('#change-to-nl').attr("href", $('a.item.nl')[0].href);
-        $('#change-to-en').attr("href", $('a.item.en')[0].href);
-        if (pref_lang != document.documentElement.lang){
-          $('#lang-change-to-' + pref_lang).show();
-        }
-    }
-  });
-}
-*/
 function subscribeFBLike(){
     if(typeof FB !== "undefined"){
         FB.Event.subscribe('edge.create', function(url) {
