@@ -95,7 +95,10 @@ module.exports = function(grunt) {
                         '_site/2020/05/angst-stress-spanningen-en-autisme.html',
                         '!_site/amp/**/*.html', '!_site/tag/**/*.html',
                         '!_site/category/**/*.html', '!_site/en/**/*.html',
-                        '_site/contact-opnemen.html', '_site/get-in-touch.html'
+                        '_site/contact-opnemen.html', '_site/get-in-touch.html',
+                        '!_site/amp-web-push-helper-frame.html', '!_site/amp-web-push-permission-diaglog.html',
+                        '!_site/webpushr-amp-helper.html', '!_site/webpushr-amp-optin.html',
+                        '!_site/yandex*'
                     ],
                 dest: '_site/assets/css/site.css'
             }
@@ -129,7 +132,7 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: '_site/',
-                    src: ['*.html', '!amp*', '!webpushr*', '!yandex*'],
+                    src: ['*.html', '!amp*', '!webpushr*', '!yandex*', '!de-autcast.html'],
                     dest: '_site/'
                 },
                 // {
