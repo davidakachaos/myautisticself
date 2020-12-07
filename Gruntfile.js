@@ -132,7 +132,7 @@ module.exports = function(grunt) {
                 files: [{
                     expand: true,
                     cwd: '_site/',
-                    src: ['*.html', '!amp*', '!webpushr*', '!yandex*', '!de-autcast.html'],
+                    src: ['*.html', '!amp*', '!webpushr*', '!yandex*', '!de-autcast.html', 'tag/**/*.html', '2019/**/*.html', '2020/**/*.html', 'category/*.html'],
                     dest: '_site/'
                 },
                 // {
@@ -308,6 +308,7 @@ module.exports = function(grunt) {
     grunt.registerTask('removeTmp', function(){
         grunt.file.delete('.tmp');
         grunt.file.delete('_site/assets/js/scripts.min.js.report.txt');
+        grunt.file.delete('dist')
     })
 
     grunt.registerTask('optimize', [
