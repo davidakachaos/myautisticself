@@ -27,6 +27,7 @@ module Jekyll
     priority :low
 
     def generate(site)
+      return # For now disable this!
       if ENV['JEKYLL_ENV'] != 'production'
         puts 'Skipping crossposting to Medium! - Run in production mode to crosspost'
         return
