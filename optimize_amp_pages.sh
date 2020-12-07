@@ -9,4 +9,6 @@ do
   mv tmp_amp "$f"
   # cat $f
 done
-rm tmp_amp
+if test -f tmp_amp; then
+  rm tmp_amp
+fi
