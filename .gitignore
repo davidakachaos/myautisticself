@@ -13,3 +13,5 @@ Gruntfile.js
 .pytest_cache
 .jekyll-crosspost_to_medium
 .webpush_keys.yaml
+bin
+.bundle

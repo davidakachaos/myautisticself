@@ -1,9 +1,9 @@
 PATH
   remote: ../amp-jekyll
   specs:
-    amp-jekyll (1.0.2)
+    amp-jekyll (1.0.3)
       fastimage (>= 1.8.0)
-      jekyll (~> 4.0)
+      jekyll (>= 3.0, < 5.0)
       nokogiri (>= 1.6.0)
 
 PATH
@@ -16,7 +16,7 @@ PATH
 PATH
   remote: ../jekyll-tagging
   specs:
-    jekyll-tagging (1.1.0.alpha)
+    jekyll-tagging (1.1.0)
       nuggets
 
 PATH
@@ -29,13 +29,11 @@ PATH
       openssl (~> 2.0)
       string_inflection (~> 0.1)
       uglifier (~> 4.1)
-      webmention (~> 4.0.0)
+      webmention (~> 0.1.6)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    absolutely (4.0.0)
-      addressable (~> 2.7)
     activesupport (6.0.3.3)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
@@ -47,8 +45,6 @@ GEM
     ast (2.4.1)
     colorator (1.1.0)
     concurrent-ruby (1.1.7)
-    domain_name (0.5.20190701)
-      unf (>= 0.0.5, < 1.0.0)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -63,9 +59,6 @@ GEM
     fastimage (2.2.0)
     ffi (1.13.1)
     ffi (1.13.1-x64-mingw32)
-    ffi-compiler (1.0.1)
-      ffi (>= 1.0.0)
-      rake
     forwardable-extended (2.6.0)
     fspath (3.1.2)
     gemoji (3.0.1)
@@ -81,17 +74,9 @@ GEM
       typhoeus (~> 1.3)
       yell (~> 2.0)
     htmlbeautifier (1.3.1)
-    http (4.4.1)
-      addressable (~> 2.3)
-      http-cookie (~> 1.0)
-      http-form_data (~> 2.2)
-      http-parser (~> 1.2.0)
-    http-cookie (1.0.3)
-      domain_name (~> 0.5)
-    http-form_data (2.3.0)
-    http-parser (1.2.1)
-      ffi-compiler (>= 1.0, < 2.0)
     http_parser.rb (0.6.0)
+    httparty (0.15.7)
+      multi_xml (>= 0.5.2)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
     image_optim (0.26.5)
@@ -108,12 +93,6 @@ GEM
       image_optim (~> 0.19)
     image_size (2.1.0)
     in_threads (1.5.4)
-    indieweb-endpoints (4.0.0)
-      absolutely (~> 4.0)
-      addressable (~> 2.7)
-      http (~> 4.4)
-      link-header-parser (~> 2.0)
-      nokogiri (~> 1.10)
     jekyll (4.1.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -168,8 +147,7 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    link-header-parser (2.0.0)
-      absolutely (~> 4.0)
+    link_header (0.0.8)
     liquid (4.0.3)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -180,6 +158,7 @@ GEM
     mime-types-data (3.2020.0512)
     mini_portile2 (2.4.0)
     minitest (5.14.2)
+    multi_xml (0.6.0)
     multipart-post (2.1.1)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
@@ -198,7 +177,6 @@ GEM
     progress (3.5.2)
     public_suffix (4.0.6)
     rainbow (3.0.0)
-    rake (13.0.1)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -235,17 +213,12 @@ GEM
       tzinfo (>= 1.0.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
-    unf (0.1.4)
-      unf_ext
-    unf_ext (0.0.7.7)
-    unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
-    webmention (4.0.0)
-      absolutely (~> 4.0)
-      addressable (~> 2.7)
-      http (~> 4.4)
-      indieweb-endpoints (~> 4.0)
-      nokogiri (~> 1.10)
+    webmention (0.1.6)
+      httparty (~> 0.15.5)
+      json
+      link_header (~> 0.0.8)
+      nokogiri
     xmlrpc (0.3.0)
     yard (0.9.25)
     yell (2.2.2)
@@ -290,4 +263,4 @@ DEPENDENCIES
   yard (>= 0.9.20)
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
