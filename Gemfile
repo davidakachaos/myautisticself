@@ -27,7 +27,7 @@ group :jekyll_plugins do
   gem 'jekyll-email-protect'
   gem 'jekyll-webmention_io', path: '../jekyll-webmention_io/' #github: 'davidakachaos/jekyll-webmention_io', branch: 'upgrade_webmention'
   gem 'jekyll-redirect-from'
-  #gem 'jekyll-responsive-image' #, path: '../jekyll-responsive-image/'
+  gem 'jekyll-responsive-image' #, path: '../jekyll-responsive-image/'
   gem 'amp-jekyll', path: '../amp-jekyll/'
   gem 'jekyll-pingback', path: '../jekyll-pingback/'
   gem 'jekyll-auto-image'
