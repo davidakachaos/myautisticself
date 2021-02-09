@@ -7,7 +7,7 @@ require 'net/http'
 require 'net/https'
 require 'uri'
 require 'json'
-require htmlentities
+require 'htmlentities'
 
 def clean_out(inp)
   inp.gsub('Success! Here is your Bitly URL: ', '').gsub(' [copied to clipboard]', '').strip
@@ -57,32 +57,32 @@ def send_webpush(url, bitly)
   base_name = url.split('/').last.gsub('.html', '.md')
   webpush_keys = SafeYAML.load_file('.webpush_keys.yaml')
   desc, title, lang = get_desc_title(base_name)
-  if desc && title
-    uri = URI.parse('https://api.webpushr.com/v1/notification/send/segment')
-    header = {
-      'webpushrKey': webpush_keys['webpushrKey'],
-      'webpushrAuthToken': webpush_keys['webpushrAuthToken'],
-      'Content-Type': 'application/json'
-    }
-    coder = HTMLEntities.new
-    data = {
-      title: coder.encode(title),
-      message: coder.encode(desc),
-      target_url: bitly.to_s,
-      segment: [lang == 'nl' ? 135_401 : 135_402]
-    }
-    # Create the HTTP objects
-    https = Net::HTTP.new(uri.host, uri.port)
-    https.use_ssl = true
-    request = Net::HTTP::Post.new(uri.request_uri, header)
-    request.body = data.to_json
-    # Send the request
-    res = https.request(request)
-    if res.code != '200'
-      puts "Webpush result: #{res.code} #{res.message}: #{res.body}"
-      raise StandardError, 'Webpush failed!'
-    end
-  end
+  return unless desc && title
+
+  uri = URI.parse('https://api.webpushr.com/v1/notification/send/segment')
+  header = {
+    'webpushrKey': webpush_keys['webpushrKey'],
+    'webpushrAuthToken': webpush_keys['webpushrAuthToken'],
+    'Content-Type': 'application/json'
+  }
+  coder = HTMLEntities.new
+  data = {
+    title: coder.encode(title),
+    message: coder.encode(desc),
+    target_url: bitly.to_s,
+    segment: [lang == 'nl' ? 135_401 : 135_402]
+  }
+  # Create the HTTP objects
+  https = Net::HTTP.new(uri.host, uri.port)
+  https.use_ssl = true
+  request = Net::HTTP::Post.new(uri.request_uri, header)
+  request.body = data.to_json
+  # Send the request
+  res = https.request(request)
+  return unless res.code != '200'
+
+  puts "Webpush result: #{res.code} #{res.message}: #{res.body}"
+  raise StandardError, 'Webpush failed!'
 end
 
 cached_bitlys = SafeYAML.load_file('.bitly_cache')
