@@ -61,8 +61,8 @@ def send_webpush(url, bitly)
 
   uri = URI.parse('https://api.webpushr.com/v1/notification/send/segment')
   header = {
-    'webpushrKey': webpush_keys['webpushrKey'],
-    'webpushrAuthToken': webpush_keys['webpushrAuthToken'],
+    'webpushrKey': webpush_keys['webpushrKey'].to_s,
+    'webpushrAuthToken': webpush_keys['webpushrAuthToken'].to_s,
     'Content-Type': 'application/json'
   }
   coder = HTMLEntities.new
@@ -70,7 +70,7 @@ def send_webpush(url, bitly)
     title: coder.encode(title),
     message: coder.encode(desc),
     target_url: bitly.to_s,
-    segment: [lang == 'nl' ? 135_401 : 135_402]
+    segment: [lang == 'nl' ? '135_401' : '135_402']
   }
   # Create the HTTP objects
   https = Net::HTTP.new(uri.host, uri.port)
