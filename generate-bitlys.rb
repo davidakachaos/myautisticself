@@ -70,7 +70,7 @@ def send_webpush(url, bitly)
     title: coder.encode(title),
     message: coder.encode(desc),
     target_url: bitly.to_s,
-    segment: [lang == 'nl' ? '135_401' : '135_402']
+    segment: [lang == 'nl' ? '135401' : '135402']
   }
   # Create the HTTP objects
   https = Net::HTTP.new(uri.host, uri.port)
