@@ -7,9 +7,7 @@ require 'net/http'
 require 'net/https'
 require 'uri'
 require 'json'
-
-cached_bitlys = SafeYAML.load_file('.bitly_cache')
-# webpush_keys = SafeYAML.load_file('.webpush_keys.yaml')
+require htmlentities
 
 def clean_out(inp)
   inp.gsub('Success! Here is your Bitly URL: ', '').gsub(' [copied to clipboard]', '').strip
@@ -66,9 +64,10 @@ def send_webpush(url, bitly)
       'webpushrAuthToken': webpush_keys['webpushrAuthToken'],
       'Content-Type': 'application/json'
     }
+    coder = HTMLEntities.new
     data = {
-      title: title,
-      message: desc,
+      title: coder.encode(title),
+      message: coder.encode(desc),
       target_url: bitly.to_s,
       segment: [lang == 'nl' ? 135_401 : 135_402]
     }
@@ -79,9 +78,14 @@ def send_webpush(url, bitly)
     request.body = data.to_json
     # Send the request
     res = https.request(request)
-    puts "Webpush result: #{res.code} #{res.message}: #{res.body}"
+    if res.code != '200'
+      puts "Webpush result: #{res.code} #{res.message}: #{res.body}"
+      raise StandardError, 'Webpush failed!'
+    end
   end
 end
+
+cached_bitlys = SafeYAML.load_file('.bitly_cache')
 
 cached_bitlys.each do |url, bitly|
   next unless bitly == false
