@@ -18,32 +18,33 @@ wm-quote: Op vrijdag 2 april is het Wereld Autisme Dag. Overal op de wereld word
 wm-cite: NVA
 date: 2021-02-23 14:07 +0100
 ---
+<!-- LTeX: language=en -->
 ![Don't light up blue!](/assets/img/dontlightupblue-nva-autismefonds.png){: class="image ui floated right"}
 
-Het is bijna weer zo ver, Wereld Autisme Dag. De dag waarop veel organisaties de verscheidenheid van het spectrum vieren. De dag waarop autisten wereldwijd in de belangstelling komen te staan. Een dag die bedoeld is om diversiteit van het spectrum te vieren en mensen op het spectrum een plaats in de schijnwerpers te gunnen.
+It is almost that time again, World Autism Day. The day when many organisations celebrate the diversity of the spectrum. The day when autistic people are put in the spotlight worldwide. A day that is meant to celebrate diversity of the spectrum and to give people on the spectrum a place in the spotlight.
 
-Al [eerder op dit blog schreef ik een stuk]({% post_url 2020-02-21-het-probleem-met-lightupblue %}) over het probleem van de kleur blauw die gepromoot word door verschillende organisaties. En dit jaar zetten zowel de NVA als het AutismeFonds deze validistische traditie voort in Nederland.
+Already [earlier on this blog I wrote a piece]({% post_url /2020/2020-02-21-the-problem-with-lightupblue %}) about the problem of the colour blue being promoted by various organisations. And this year both the NVA and the AutismeFonds are continuing this ableist tradition in the Netherlands.
 
-## De kleur blauw, oorsprong en problematiek
+## The colour blue, its origins and its problems
 
-Hoewel het in eerste instantie een ludieke actie lijkt om verschillende gebouwen en objecten met de kleur blauw te verlichten in het kader van Wereld Autisme Dag, zijn er de nodige problemen. De kleur blauw is niet zo maar gekozen, deze is over komen waaien uit Amerika. In Amerika zijn er verschillende organisaties die strijden voor de rechten van autisten, hoewel ze dit niet allemaal op dezelfde manier doen. Een voorbeeld van een organisatie die opkomt voor de rechten van autisten is ASAN. Een ander is Autism Speaks.
+Although at first sight it seems like a playful action to illuminate different buildings and objects with the colour blue in the context of World Autism Day, there are some problems. The colour blue was not chosen at random, it came over from America. In America there are various organisations that fight for the rights of autistic people, although they do not all do this in the same way. An example of an organisation that stands up for the rights of autistic people is ASAN. Another is Autism Speaks.
 
 ![Burn Blue](/assets/img/lightitup.jpeg){: class="ui image floated left small"}
-Deze laatste organisatie word door vele gezien als een haatgroep. Een groep die veel problematische stellingen doet, zoals bijvoorbeeld het goedkeuren (en zelfs promoten van) martelingen, conversie "therapieën" en het monddood maken van autisten. De organisatie is in het verleden ontstaan als een beweging van ouders, therapeuten en onderzoekers. De organisatie heeft nooit geluisterd naar de mensen die ze zeggen te willen helpen. Binnen de Amerikaanse autistische gemeenschap zijn er veel verhalen van mensen die, met behulp van Autism Speaks, terecht kwamen in ABA en dergelijke kwalijke "therapie" vormen.
+This last organisation is seen by many as a hate group. A group that makes many problematic statements, such as approving (and even promoting) torture, conversion “therapies” and the silencing of autistic people. The organisation originated in the past as a movement of parents, therapists and researchers. The organisation has never listened to the people they say they want to help. Within the American autistic community there are many stories of people who, with the help of Autism Speaks, ended up in ABA and other such harmful forms of “therapy”.
 
-Tijdens de oprichting van de organisatie moest ook promotie materiaal bedacht worden. En daarbij staat al snel de kleur centraal. De kleur die men bedacht werd al snel blauw. Deze werd niet zomaar gekozen. De kleur blauw staat, in vele Westerse culturen, voor het mannelijk geslacht. En in die tijd werd gedacht dat autisme alleen bij mannen voorkwam.
+During the establishment of the organisation, promotional material also had to be thought up. And colour soon became the central theme. The colour that was thought up quickly became blue. This was not chosen at random. The colour blue stands, in many Western cultures, for the male gender. And in those days it was thought that autism only occurred in men.
 
-## De tijden zijn veranderd
+## Times have changed
 
-Sinds die tijd is er veel onderzoek geweest naar autisme. Naar het feit dat autisme niet een ziekte is. Dat autisme niet alleen voorkomt bij mannen, maar bij alle mensen. En dat autisme net zo divers is als dat de term spectrum doet vermoeden. Daarnaast zijn er vele organisaties ontstaan die wel, oprecht, strijden voor de rechten van autisten. Oude denkbeelden worden verworpen en veroordeelt. De stemmen van autisten worden meer en meer vertegenwoordigd door autisten zelf.
+Since then, there has been much research into autism. To the fact that autism is not a disease. That autism does not only occur in men, but in all people. And that autism is just as diverse as the term spectrum suggests. In addition, many organisations have arisen that do, in fact, fight for the rights of autistic people. Old ideas are rejected and condemned. The voices of autistic people are increasingly represented by autistic people themselves.
 
-Ook zien we meer en meer stemmen opgaan tegen de kleur blauw die ooit gekozen is door neurotypische mensen met weinig inzicht in het spectrum. Een voorbeeld van een dergelijke beweging is RedInstead of OurGoldenMovement. Deze bewegingen willen de kleur blauw niet meer verbinden met autisme, maar vervangen door rood en respectievelijk goud. Ze zijn begonnen door neurodivergent mensen zelf als protest tegen de negatieve kanten van de kleur blauw.
+We also see more and more voices raised against the colour blue that was once chosen by neurotypical people with little understanding of the spectrum. An example of such a movement is RedInstead or OurGoldenMovement. These movements no longer want to connect the colour blue with autism, but replace it with red and gold respectively. They were started by neurodivergent people themselves as a protest against the negative aspects of the colour blue.
 
-Hoewel deze bewegingen zijn ontstaan in het buitenland, zien we langzaam in Nederland zelfde bewegingen ontstaan. [Vorig jaar bijvoorbeeld nog op deze website]({% post_url 2020-03-11-de-kleur-van-autisme-is-goud %}), bijgevallen door acties van [anderen onder de hashtag #Gaut](https://twitter.com/search?q=%23gaut&src=typed_query).
+Although these movements originated abroad, we slowly see the same movements emerging in the Netherlands. Last year for example on this website]({% post_url /2020/2020-03-11-the-color-of-autism-is-gold %}), joined by actions of [others under the hashtag #Gaut](https://twitter.com/search?q=%23gaut&src=typed_query).
 
-## Ook dit jaar weer Gaut!
+## Gaut again this year!
 
-Laten we ook dit jaar de wereld weer #Gaut kleuren! Zoals ik al schreef zijn de tijden veranderd, en de kleur blauw in combinatie met autisme is achterhaald. Daarom dat ik [en andere](https://www.ourgoldenmoment.com/partners) oproepen om weg te doen met de kleur blauw in combinatie met autisme, en daarvoor in de plaats goud (of rood) te gebruiken!
+Let's colour the world #Gaut again this year! As I wrote, times have changed, and the colour blue in combination with autism is outdated. That's why I [and others](https://www.ourgoldenmoment.com/partners) call upon you to do away with the colour blue in combination with autism, and use gold (or red) instead!
 
-Dus kleur ik ook dit jaar op 2 april weer #Gaut en roep ik anderen op om hetzelfde te doen! Ik hoop dat we weer mooie initiatieven zien rond #OurGoldenMoment en dat er voor mensen de ruimte is om op 2 april hun verhaal te kunnen vertellen, zonder schaamte en negatieve klanken. Laten we, als neurodivergente mensen, onze feestdag terugpakken en geen steun betuigen aan hun die ons liever kwijt dan rijk zijn. Dit is onze dag, onze gouden dag.
+So this year on 2 April, I will once again colour #Gaut and call on others to do the same! I hope that we will again see beautiful initiatives around #OurGoldenMoment and that there will be space for people to be able to tell their story on 2 April, without shame and negative tones. Let us, as neurodivergent people, take back our holiday and not support those who would rather lose us. This is our day, our golden day.
 ![Gaut](/assets/img/autismeweek2020/Gaut-hashtag.jpg){: class="ui image center medium"}

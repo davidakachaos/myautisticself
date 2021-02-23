@@ -12,7 +12,7 @@ image: /assets/img/positief-blijven.jpg
 date: 2020-04-15 14:01 +0200
 ---
 ![Positief blijven denken](/assets/img/positief-blijven.jpg){: class="ui image floated right medium"}
-Naar aanleiding van terugkoppeling op mijn [vorige blogpost]({% post_url 2020-04-08-de-kracht-van-positiviteit-blijf-blij %}) schrijf ik vandaag dit bericht. Positief denken is niet het makkelijkst zoals ik al schreef. Echter zijn er enkele trucjes en tips die ik kan geven om toch positief te blijven, ook als het allemaal tegen zit.
+Naar aanleiding van terugkoppeling op mijn [vorige blogpost]({% post_url /2020/2020-04-08-de-kracht-van-positiviteit-blijf-blij %}) schrijf ik vandaag dit bericht. Positief denken is niet het makkelijkst zoals ik al schreef. Echter zijn er enkele trucjes en tips die ik kan geven om toch positief te blijven, ook als het allemaal tegen zit.
 
 ## Hoe blijf je positief als dingen niet gaan zoals je zou willen?
 

@@ -10,7 +10,7 @@ image: /assets/img/positief-blijven.jpg
 date: 2020-04-15 14:01 +0200
 ---
 ![Keep thinking positive](/assets/img/positief-blijven.jpg){: class="ui image floated right medium"}
-Following feedback on my [previous blog post]({% post_url 2020-04-08-the-strength-of-positivity-stay-happy %}) I am writing this post today. Thinking positive is not the easiest as I already wrote. However, there are a few tricks and tips I can give to stay positive, even if it's all wrong.
+Following feedback on my [previous blog post]({% post_url /2020/2020-04-08-the-strength-of-positivity-stay-happy %}) I am writing this post today. Thinking positive is not the easiest as I already wrote. However, there are a few tricks and tips I can give to stay positive, even if it's all wrong.
 
 ## How do you stay positive when things don't go the way you want them to?
 

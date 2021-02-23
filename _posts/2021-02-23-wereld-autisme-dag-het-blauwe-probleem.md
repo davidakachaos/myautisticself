@@ -21,7 +21,7 @@ date: 2021-02-23 14:07 +0100
 
 Het is bijna weer zo ver, Wereld Autisme Dag. De dag waarop veel organisaties de verscheidenheid van het spectrum vieren. De dag waarop autisten wereldwijd in de belangstelling komen te staan. Een dag die bedoeld is om diversiteit van het spectrum te vieren en mensen op het spectrum een plaats in de schijnwerpers te gunnen.
 
-Al [eerder op dit blog schreef ik een stuk]({% post_url 2020-02-21-het-probleem-met-lightupblue %}) over het probleem van de kleur blauw die gepromoot word door verschillende organisaties. En dit jaar zetten zowel de NVA als het AutismeFonds deze validistische traditie voort in Nederland.
+Al [eerder op dit blog schreef ik een stuk]({% post_url /2020/2020-02-21-het-probleem-met-lightupblue %}) over het probleem van de kleur blauw die gepromoot word door verschillende organisaties. En dit jaar zetten zowel de NVA als het AutismeFonds deze validistische traditie voort in Nederland.
 
 ## De kleur blauw, oorsprong en problematiek
 
@@ -38,7 +38,7 @@ Sinds die tijd is er veel onderzoek geweest naar autisme. Naar het feit dat auti
 
 Ook zien we meer en meer stemmen opgaan tegen de kleur blauw die ooit gekozen is door neurotypische mensen met weinig inzicht in het spectrum. Een voorbeeld van een dergelijke beweging is RedInstead of OurGoldenMovement. Deze bewegingen willen de kleur blauw niet meer verbinden met autisme, maar vervangen door rood en respectievelijk goud. Ze zijn begonnen door neurodivergent mensen zelf als protest tegen de negatieve kanten van de kleur blauw.
 
-Hoewel deze bewegingen zijn ontstaan in het buitenland, zien we langzaam in Nederland zelfde bewegingen ontstaan. [Vorig jaar bijvoorbeeld nog op deze website]({% post_url 2020-03-11-de-kleur-van-autisme-is-goud %}), bijgevallen door acties van [anderen onder de hashtag #Gaut](https://twitter.com/search?q=%23gaut&src=typed_query).
+Hoewel deze bewegingen zijn ontstaan in het buitenland, zien we langzaam in Nederland zelfde bewegingen ontstaan. [Vorig jaar bijvoorbeeld nog op deze website]({% post_url /2020/2020-03-11-de-kleur-van-autisme-is-goud %}), bijgevallen door acties van [anderen onder de hashtag #Gaut](https://twitter.com/search?q=%23gaut&src=typed_query).
 
 ## Ook dit jaar weer Gaut!
 
