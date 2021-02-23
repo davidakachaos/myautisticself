@@ -1,1 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<url>
+<loc>https://myautisticself.nl/2021/02/world-autism-day-the-blue-problem.html</loc>
+<news:news>
+<news:publication>
+<news:name>My Autistic Self</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2021-02-23T14:07:00+01:00</news:publication_date>
+<news:title>World Autism Day, the blue problem</news:title>
+</news:news>
+</url>
+</urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+<url>
+<loc>https://myautisticself.nl/2021/02/wereld-autisme-dag-het-blauwe-probleem.html</loc>
+<news:news>
+<news:publication>
+<news:name>My Autistic Self</news:name>
+<news:language>en</news:language>
+</news:publication>
+<news:publication_date>2021-02-23T14:07:00+01:00</news:publication_date>
+<news:title>Wereld Autisme Dag, het blauwe probleem</news:title>
+</news:news>
+</url>
+</urlset>
