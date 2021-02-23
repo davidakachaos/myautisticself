@@ -16,3 +16,4 @@ Gruntfile.js
 bin
 .bundle
 .bin
+.vscode
