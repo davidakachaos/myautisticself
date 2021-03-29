@@ -124,6 +124,25 @@ defaults:
       tags: "autisme"
       description: ""
 
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      layout: post
+      description:
+      image:
+      category:
+      tags: autisme
+      lang: nl
+      ref: 
+    posts:
+      layout: post
+      description:
+      image:
+      category:
+      tags:
+      lang: nl
+      ref:
+
 github: [metadata]
 encoding: UTF-8
 kramdown:
