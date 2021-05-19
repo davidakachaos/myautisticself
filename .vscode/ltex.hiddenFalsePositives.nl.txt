@@ -1,0 +1,3 @@
+{"rule":"RESPECTIEVELIJK","sentence":"^\\QDeze bewegingen willen de kleur blauw niet meer verbinden met autisme, maar vervangen door rood en respectievelijk goud.\\E$"}
+{"rule":"DE_IPV_HET","sentence":"^\\QDeze week is de week is de autisme week van 2021.\\E$"}
+{"rule":"NOU","sentence":"^\\Q\"Hoe gaat het met je?\"\nin mijn hoofd: Nou, ik ga mezelf niet van kant maken, dus prima!\\E$"}
