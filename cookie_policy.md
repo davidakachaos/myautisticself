@@ -6,7 +6,7 @@ ref: cookie_policy
 ---
 # Cookie policy
 
-This cookie policy (&quot;Policy&quot;) describes what cookies are and how Website Operator (&quot;Website Operator&quot;, &quot;we&quot;, &quot;us&quot; or &quot;our&quot;) uses them on the <a target="_blank" rel="nofollow" href="https://myautisticself.nl">myautisticself.nl</a> website and any of its products or services (collectively, &quot;Website&quot; or &quot;Services&quot;).
+This cookie policy (&quot;Policy&quot;) describes what cookies are and how Website Operator (&quot;Website Operator&quot;, &quot;we&quot;, &quot;us&quot; or &quot;our&quot;) uses them on the [myautisticself.nl](https://myautisticself.nl){: target="_blank" rel="nofollow"} website and any of its products or services (collectively, &quot;Website&quot; or &quot;Services&quot;).
 
 You should read this Policy so you can understand what type of cookies we use, the information we collect using cookies and how that information is used. It also describes the choices available to you regarding accepting or declining the use of cookies.
 
@@ -38,11 +38,11 @@ These cookies are also used for event tracking and remarketing purposes. Any dat
 
 ## What are your cookie options?
 
-If you don't like the idea of cookies or certain types of cookies, you can change your browser's settings to delete cookies that have already been set and to not accept new cookies. To learn more about how to do this or to learn more about cookies, visit <a target="_blank" href="https://www.internetcookies.org">internetcookies.org</a>
+If you don't like the idea of cookies or certain types of cookies, you can change your browser's settings to delete cookies that have already been set and to not accept new cookies. To learn more about how to do this or to learn more about cookies, visit [internetcookies.org](https://www.internetcookies.org){: target="_blank"}
 
 ## Changes and amendments
 
-We reserve the right to modify this Policy relating to the Website or Services at any time, effective upon posting of an updated version of this Policy on the Website. When we do we will revise the updated date at the bottom of this page. Continued use of the Website after any such changes shall constitute your consent to such changes. Policy was created with <a style="color:inherit" target="_blank" title="Create cookie policy" href="https://www.websitepolicies.com/cookie-policy-generator">WebsitePolicies</a>.
+We reserve the right to modify this Policy relating to the Website or Services at any time, effective upon posting of an updated version of this Policy on the Website. When we do we will revise the updated date at the bottom of this page. Continued use of the Website after any such changes shall constitute your consent to such changes. Policy was created with [WebsitePolicies](https://www.websitepolicies.com/cookie-policy-generator "Create cookie policy"){: style="color:inherit" target="_blank"}.
 
 ## Acceptance of this policy
 

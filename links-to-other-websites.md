@@ -5,6 +5,7 @@ lang: en
 ref: externals
 description: Here are some links to other websites that may be of interest to people. These websites are about autism, or are related to this.
 ---
+<!-- LTeX: language=en-GB -->
 Here are some links to other websites that may be of interest to people. These websites are about autism, or are related to this.
 
 __All links are in Dutch!__
