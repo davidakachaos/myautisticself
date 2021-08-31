@@ -16,3 +16,4 @@ sed_posts.sh
 .webpush_keys.yaml
 .bundle
 bin
+.templates
