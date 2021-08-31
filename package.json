@@ -39,11 +39,10 @@
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "@ampproject/toolbox-cli": "^2.7.1-alpha.0",
-    "@ampproject/toolbox-optimizer": "^2.7.6",
+    "@ampproject/toolbox-cli": ">=2.8.3",
+    "@ampproject/toolbox-optimizer": ">=2.8.3",
     "google-closure-compiler": "^20200927.0.0",
     "lighthouse": "^6.5.0",
-    "lighthouse-plugin-greenhouse": ">=0.2.0",
     "node-fetch": ">=2.6.1"
   }
 }
