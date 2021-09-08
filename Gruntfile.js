@@ -4,13 +4,13 @@ module.exports = function(grunt) {
     // Show elapsed time after tasks run
     require('time-grunt')(grunt);
     // load processhtml
-    grunt.loadNpmTasks('grunt-newer');
+    /* grunt.loadNpmTasks('grunt-newer');
     grunt.loadNpmTasks('grunt-processhtml');
     grunt.loadNpmTasks('grunt-critical');
     grunt.loadNpmTasks('grunt-closure-compiler');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-uncss');
+    grunt.loadNpmTasks('grunt-uncss');*/
     // Load all Grunt tasks
     require('jit-grunt')(grunt);
 

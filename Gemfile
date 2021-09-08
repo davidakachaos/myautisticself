@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -19,51 +19,52 @@ source "https://rubygems.org"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed"
+  gem 'jekyll-feed'
   # gem "github-pages"
-  gem 'jekyll-compose'
-  gem 'jekyll-seo-tag'
-  gem 'jemoji'
-  gem 'jekyll-email-protect'
-  gem 'jekyll-webmention_io', path: '../jekyll-webmention_io/' #github: 'davidakachaos/jekyll-webmention_io', branch: 'upgrade_webmention'
-  gem 'jekyll-redirect-from'
-  gem 'jekyll-responsive-image' #, path: '../jekyll-responsive-image/'
   gem 'amp-jekyll', path: '../amp-jekyll/'
-  gem 'jekyll-pingback', path: '../jekyll-pingback/'
   gem 'jekyll-auto-image'
-  gem 'jekyll-twitter-plugin'
-  gem 'jekyll-tagging', path: '../jekyll-tagging'
+  gem 'jekyll-compose'
+  gem 'jekyll-email-protect'
+  gem 'jekyll-include-cache'
   gem 'jekyll-last-modified-at'
   gem 'jekyll-mentions'
-  gem 'jekyll-webp'
-  gem 'jekyll-include-cache'
   gem 'jekyll-news-sitemap'
+  gem 'jekyll-pingback', path: '../jekyll-pingback/'
+  gem 'jekyll-redirect-from'
+  gem 'jekyll-responsive-image' # , path: '../jekyll-responsive-image/'
+  gem 'jekyll-seo-tag'
+  gem 'jekyll-tagging', path: '../jekyll-tagging'
+  gem 'jekyll-twitter-plugin'
+  gem 'jekyll-webmention_io', path: '../jekyll-webmention_io/' # github: 'davidakachaos/jekyll-webmention_io', branch: 'upgrade_webmention'
+  gem 'jekyll-webp'
+  gem 'jemoji'
 end
 
 # Force WebP plugin needs this
 gem 'mime-types', '~> 3.2.2', '>=3.0.0'
 
-gem "jekyll", "~> 4.2.0"
+gem 'jekyll', '~> 4.2.0'
+gem 'liquid-c'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+gem 'wdm', '~> 0.1.0' if Gem.win_platform?
 
 # Fix security issue
-gem "yard", ">= 0.9.20"
-gem "activesupport", ">= 4.1.11"
+gem 'activesupport', '>= 4.1.11'
+gem 'yard', '>= 0.9.20'
 
-#for amp generation
-gem 'nokogiri'
+# for amp generation
+gem 'faraday', '0.9.2'
 gem 'fastimage'
 gem 'html-proofer'
+gem 'nokogiri'
 gem 'parallel'
-gem 'faraday', '0.9.2'
 
-gem "image_optim", "~> 0.26.5"
-gem "image_optim_pack", "~> 0.6.0"
+gem 'image_optim', '~> 0.26.5'
+gem 'image_optim_pack', '~> 0.6.0'
 
 # better ruby
 gem 'rubocop'
