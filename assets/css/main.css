@@ -446,3 +446,9 @@ input[name="_gotcha"]{
 #head-search {
   width: 50%;
 }
+
+figure.image > figcaption {
+  font-size: 0.8em;
+  text-align: center;
+  font-style: italic;
+}

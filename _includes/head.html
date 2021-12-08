@@ -46,8 +46,8 @@
     <!-- /build -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    {% if page.path contains '_posts' %}
-    <link rel="amphtml" href="{{site.url}}/{{site.ampdir}}{{page.id}}">
+    {% if include.path contains '_posts' %}
+    <link rel="amphtml" href="{{site.url}}/{{site.ampdir}}{{include.id}}">
     {% endif %}
     <link
         rel="shortcut icon"
@@ -59,28 +59,28 @@
         rel="stylesheet"
     /> -->
     <title>
-        {%- if page.title -%}{{ page.title | append: " | " | append: site.title
+        {%- if include.title -%}{{ include.title | append: " | " | append: site.title
         | escape }}{%- else -%}{{ site.title | escape }}{%- endif -%}
     </title>
 
-    {%- assign posts=site.posts | where:"ref", page.ref | sort: 'lang' -%}{%-
+    {%- assign posts=site.posts | where:"ref", include.ref | sort: 'lang' -%}{%-
     for post in posts -%}{%- if post.url contains "amp" -%}{%- continue -%}{%- endif -%}
     <link rel="alternate" hreflang="{{ post.lang }}" href="{{ post.url }}" />
 
-    {%- endfor -%} {%- assign pages=site.pages | where:"ref", page.ref | sort:
-    'lang' -%}{%- for page in pages -%}{%- if page.url contains "amp" -%}{%- continue -%}{%- endif -%}
-    <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />
+    {%- endfor -%} {%- assign pages=site.pages | where:"ref", include.ref | sort:
+    'lang' -%}{%- for page in pages -%}{%- if include.url contains "amp" -%}{%- continue -%}{%- endif -%}
+    <link rel="alternate" hreflang="{{ include.lang }}" href="{{ include.url }}" />
     {%- endfor -%}
     <link
         rel="alternate"
         type="application/rss+xml"
-        title="{{ site.title[page.lang] }}"
-        href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}"
+        title="{{ site.title[include.lang] }}"
+        href="{{ site.feed[include.lang] | prepend: site.baseurl | prepend: site.url }}"
     />
     <link rel="alternate" href="https://anchor.fm/s/111ec8f8/podcast/rss" title="AutCast podcast" type="application/rss+xml">
     <meta property="og:type" content="website" />
-    {% include_cached socialmedia-og-image.html %} {%- if page.keywords -%}
-    <meta name="keywords" content="{{page.keywords}}" />
+    {% include_cached socialmedia-og-image.html %} {%- if include.keywords -%}
+    <meta name="keywords" content="{{include.keywords}}" />
     {%- endif -%} {%- include icons.html -%} {%- seo title=false -%} {%- if
     site.tags != "" -%} {%- include collecttags.html -%} {%- endif -%} {%- if
     jekyll.environment == "production" -%} {%- include googleadsense.html -%}

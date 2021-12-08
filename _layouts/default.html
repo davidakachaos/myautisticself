@@ -8,7 +8,7 @@
 {%- else -%}
 {%- assign fontmsg = 'Liever een ander lettertype?' -%}
 {%- endif -%}
-{%- include head.html -%}
+{%- include_cached head.html id=page.id title=page.title path=page.path ref=page.ref lang=page.lang keywords=page.keywords -%}
 <script type="text/javascript">
   {%- include linkserviceworker.js -%}
 </script>

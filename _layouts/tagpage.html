@@ -3,6 +3,11 @@ layout: page
 sitemap: false
 ---
 {{content}}
+
+{% capture tagfilter %}
+post.tags contains '{{page.tag}}'
+{% endcapture %}
+
 {%- assign posts=site.posts | where:"lang", page.lang -%}
 <div class="post">
 <h1>Tag: {{ page.tag }}</h1>

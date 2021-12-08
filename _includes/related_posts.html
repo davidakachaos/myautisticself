@@ -5,7 +5,7 @@
 <h3>You May Also Enjoy</h3>
 {%- endif -%}
 {%- assign maxRelated = 4 -%}
-{%- assign minCommonTags =  1 -%}
+{%- assign minCommonTags =  2 -%}
 {%- assign maxRelatedCounter = 0 -%}
 {%- assign posts=site.posts | where:"lang", page.lang -%}
 
@@ -26,7 +26,7 @@
 
     {%- if sameTagCount >= minCommonTags -%}
       <div>
-      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>&nbsp;<small style="font-weight: normal; font-style: italic;">{{post.description | truncatewords: 20}}</small></h5>
       </div>
       {%- assign maxRelatedCounter = maxRelatedCounter | plus: 1 -%}
       {%- if maxRelatedCounter >= maxRelated -%}
