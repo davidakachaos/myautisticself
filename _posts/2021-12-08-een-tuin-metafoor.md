@@ -4,7 +4,6 @@ title: Een tuin metafoor
 description: Gedachtes over mijn passie voor het werk wat ik doe. De reden waarom
   ik me hard maak voor alle planten in deze tuin die onze samenleving is.
 image: "/assets/img/Renoir_-_Landscape_at_Cagnes_(Renoir's_Garden),_ca._1914.jpg"
-category: 
 tags: autisme neurodiversiteit filosofie begrip
 lang: nl
 ref: een-tuin-metafoor

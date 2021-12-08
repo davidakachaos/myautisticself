@@ -3,10 +3,9 @@ layout: post
 title: A garden metaphor
 description: Thoughts on my passion for the work I do. The reason why I work hard for all the plants in this garden that is our society.
 image: "/assets/img/Renoir_-_Landscape_at_Cagnes_(Renoir's_Garden),_ca._1914.jpg"
-category: 
 tags: autisme neurodiversiteit filosofie begrip
 lang: en
-crosspost_to_medium: false
+crosspost_to_medium: true
 ref: een-tuin-metafoor
 date: 2021-12-08 12:17 +0100
 ---
