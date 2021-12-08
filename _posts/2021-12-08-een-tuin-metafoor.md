@@ -1,12 +1,14 @@
 ---
 layout: post
 title: Een tuin metafoor
-description: Gedachtes over mijn passie voor het werk wat ik doe. De reden waarom ik me hard maak voor alle planten in deze tuin die onze samenleving is.
-image: /assets/img/Renoir_-_Landscape_at_Cagnes_(Renoir's_Garden),_ca._1914.jpg
+description: Gedachtes over mijn passie voor het werk wat ik doe. De reden waarom
+  ik me hard maak voor alle planten in deze tuin die onze samenleving is.
+image: "/assets/img/Renoir_-_Landscape_at_Cagnes_(Renoir's_Garden),_ca._1914.jpg"
 category: 
 tags: autisme neurodiversiteit filosofie begrip
 lang: nl
 ref: een-tuin-metafoor
+date: 2021-12-08 12:17 +0100
 ---
 ![Landscape at Cagnes](/assets/img/Renoir_-_Landscape_at_Cagnes_(Renoir's_Garden),_ca._1914.jpg){: class='image ui large floated right' data-attribution='Landscape at Cagnes - Pierre-Auguste Renoir (1841–1919)'}
 Zoals ik graag doe, zat ik te praten met een vriend van me. Een gesprek wat eigenlijk over van alles ging. Hoe we dachten over de wereld, haar geschiedenis en het ontstaan van deze wereld. Het gesprek kwam op onze visie op autisme. Mijn vriend sprak de woorden die ik zelf heel lang heb geloofd; "Ik ben altijd de rare genoemd, de aparte. Dat geloof ik ook, ik moet mij aanpassen aan iedereen want ik ben raar."

@@ -68,3 +68,6 @@ gem 'image_optim_pack', '~> 0.6.0'
 
 # better ruby
 gem 'rubocop'
+
+# ignore some annoying warnings
+gem 'warning'
