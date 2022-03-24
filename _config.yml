@@ -107,11 +107,15 @@ plugins:
   - jekyll-webp
   - jekyll-include-cache
   - jekyll-news-sitemap
+  - jekyll/webpack
 
 jekyll-minifier:
   compress_javascript: false
 
 jekyll-mentions: https://twitter.com
+
+webpack:
+  cleanup_files: src
 
 defaults:
   -
@@ -242,3 +246,33 @@ webp:
   # Default transforms `image.png` to `image.webp`, while changing to true transforms `image.png` to `image.png.webp`
   append_ext: false
 ############################################################
+
+### COMMENTS
+repository               : "davidakachaos/myautisticself"
+comments:
+  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman_v2", "staticman", "utterances", "custom"
+  disqus:
+    shortname            :
+  staticman:
+    endpoint: "https://staticman-dw.herokuapp.com/v2/entry/"
+    branch: "source"
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+# reCaptcha configuration info: the exact same site key and *encrypted* secret that you used in staticman.yml
+# I personally don't think the secret needs to be included in the generated site, but the staticman API bridge uses
+# it to ensure the site configuration and bridge configuration match (but why not just compare the site key?)
+reCaptcha:
+  siteKey: 6LcfM30eAAAAAHMEWsEGmVB36fZ24nAr9B6Eh6qM
+  secret: bJGZufPapmBwKApYfauj1XOdZJZZMEHeqi26bT1ccO6jFRYME7hgWrC52xhJCT622w4pQi3qAw/E49Ek85UK00efuo2WZsiijM2yCw/UTUwxqSycAz0biV9pEg9Mu60KpzPr/gQUAAcSa5kQsuX3xOXUFznObEnZ8+LbnJV19DemRUnxKS38odKLqlzfG2pAGpJNtzC5ObB5vLeTDcu8ArlGkI1acxFNIdV7/Yb5M+Bx/hs4Q23dIalz2HDZkYwoD1BCcTBoft/pgBXWidSbsu+pT2rritrwWnYtOMkcHJKCooJqQD2js0aZmtdWphr7bu2QWmN56fH6Zs0H8gsIjw==
+
+# staticman:
+#   branch: "source"
+staticman_url: https://staticman-dw.herokuapp.com/v2/entry/davidakachaos/myautisticself/source/comments

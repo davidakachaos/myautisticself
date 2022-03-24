@@ -1,0 +1,48 @@
+{
+  "name": "myautisticself",
+  "version": "0.0.1",
+  "description": "Dependencies of My Autistic Self",
+  "author": "David Westerink",
+  "devDependencies": {
+    "bl": "^4.1.0",
+    "diff": "^5.0.0",
+    "grunt": "^1.3.0",
+    "grunt-autoprefixer": "~3.0.4",
+    "grunt-build-control": "~0.7.1",
+    "grunt-closure-compiler": "github:davidakachaos/grunt-closure-compiler#master",
+    "grunt-contrib-clean": "~2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "~2.1.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "~1.1.0",
+    "grunt-critical": "^2.0.1",
+    "grunt-filerev": "^2.3.1",
+    "grunt-jekyll": "~1.0.1",
+    "grunt-newer": "^1.3.0",
+    "grunt-processhtml": "github:davidakachaos/grunt-processhtml#master",
+    "grunt-sass": "~3.1.0",
+    "grunt-strip-css-comments": "^1.3.0",
+    "grunt-svgmin": "^6.0.1",
+    "grunt-uncss": "^0.9.1",
+    "jit-grunt": "^0.10.0",
+    "jpeg-js": "^0.4.3",
+    "lodash": "^4.17.21",
+    "node-forge": ">=0.10.0",
+    "prettier": "^2.2.1",
+    "time-grunt": "~2.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "@ampproject/toolbox-cli": ">=2.8.3",
+    "@ampproject/toolbox-optimizer": ">=2.8.3",
+    "google-closure-compiler": "^20200927.0.0",
+    "lighthouse": "^6.5.0",
+    "node-fetch": ">=2.6.1"
+  }
+}

@@ -37,6 +37,7 @@ group :jekyll_plugins do
   gem 'jekyll-twitter-plugin'
   gem 'jekyll-webmention_io', path: '../jekyll-webmention_io/' # github: 'davidakachaos/jekyll-webmention_io', branch: 'upgrade_webmention'
   gem 'jekyll-webp'
+  gem 'jekyll-webpack'
   gem 'jemoji'
 end
 
